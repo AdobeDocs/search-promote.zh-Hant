@@ -7,7 +7,7 @@ title: 關於業務規則
 topic: Rules,Site search and merchandising
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
-source-git-commit: 2dd205d3034e8397d88007a1618a121f0b6087a8
+source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
 
 ---
 
@@ -84,9 +84,9 @@ source-git-commit: 2dd205d3034e8397d88007a1618a121f0b6087a8
 
    在頁面 [!DNL Business Rules] 上，使用功 **[!UICONTROL Filter by tag]** 能來篩選符合指定標籤的規則。 1.在頁面 [!DNL Business Rule Builder] 上，設定您要使用的觸發器和動作。
 
-       **觸發器選項**    
- 
-       觸發器是執行業務規則時必須滿足的條件。 當業務規則具有多個觸發器時，您可以使用下列三種方法之一來配置觸發器的響應方式：
+   **觸發器選項**
+
+   觸發器是業務規則必須符合的條件。 當業務規則具有多個觸發器時，您可以使用下列三種方法之一來配置觸發器的響應方式：
 
    * 所有觸發器都必須為true（預設設定）的回應，如下列範例所示：
 
@@ -254,7 +254,7 @@ source-git-commit: 2dd205d3034e8397d88007a1618a121f0b6087a8
 
 1. （可選）在面 **[!UICONTROL Schedule]** 板中，執行下列任一項作業：
 
-   * 按一 **[!UICONTROL Run Indefinitely]** 下，只要符合規則的相關觸發程式，規則就會執行。 此選項為預設值。
+   * 按一 **[!UICONTROL Run Indefinitely]** 下，每當符合規則的相關觸發器時，都可執行規則。 此選項為預設值。
    * 按一 **[!UICONTROL Fixed Schedule]**&#x200B;下，然後指定規則的開始日期和時間，以及在符合其相關觸發器時執行的結束日期和時間。
 
 1. 按一下 **[!UICONTROL Save Rule]**.
