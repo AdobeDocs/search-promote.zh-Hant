@@ -7,7 +7,7 @@ title: Search&amp;Promote 15.3.1發行說明(03/24/2015)
 topic: Release Notes,Site search and merchandising
 uuid: f02da5a4-2207-4603-aa05-5cff7be16dd5
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 * 「內嵌」搜尋模式的核心搜尋結果空白，包含日文字元的搜尋結果空白。
 * Word .docx檔案的Tika轉換現在會填入屬 `title` 性。
 * 已更正管理員中錯誤的「重複橫幅」 **[!UICONTROL Banner]** 訊息。
-* Dynamic Media Classic橫幅現在不受通訊協定限制。
+* [!DNL Dynamic Media Classic] 橫幅現在不受通訊協定限制。
 * 在「 **[!UICONTROL Table Name]** 中繼資料」使用者介面中編輯使用者定義的欄位時，欄位屬性有時會隱藏，即使 **[!UICONTROL Dynamic Facets]** 已啟用帳戶亦然。
 * **[!UICONTROL Recent Searches]** 不再對非ASCII字元進行乘法編碼。
 * MDI欄位無需使用指令碼過濾即可填入。
