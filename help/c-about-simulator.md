@@ -7,7 +7,7 @@ title: 關於模擬器
 topic: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
 
 ---
 
@@ -52,28 +52,28 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>模擬分階段／即時模擬 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">模擬分階段／即時模擬</span> </p> </td> 
       <td colname="col2"> <p>在模擬即時環境或舞台環境之間切換。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>顯示／隱藏處理規則 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">顯示／隱藏處理規則</span> </p> </td> 
       <td colname="col2"> <p>顯示或隱藏所有引發的處理規則，而非僅顯示業務規則。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>更改模擬日期 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">更改模擬日期</span> </p> </td> 
       <td colname="col2"> <p>模擬指定日期的搜尋結果。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>在PC上模擬 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">在PC上模擬</span> </p> </td> 
       <td colname="col2"> <p>模擬搜尋結果，就像您使用個人電腦一樣。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>在行動裝置上模擬 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">在行動裝置上模擬</span> </p> </td> 
       <td colname="col2"> <p>模擬搜尋結果，就像您使用行動電話或平板電腦一樣。 </p> <p>當您選取此選項時，可從下列相關選項中選擇： </p> 
         <ul id="ul_2A9901418212486A8EE67A78CB99CBE4"> 
-        <li id="li_B210E954DF0D44C397718112C72C2103"> <b>裝置</b> <p>在行動電話或平板電腦上模擬搜尋結果。 </p> </li> 
-        <li id="li_90B64EAA0B57446A90CE22172E703594"> <b>解析度</b> <p>您可以根據您選取的裝置來選擇相關的解析度。 </p> </li> 
-        <li id="li_042AF9FA3FA846EDB48F7296DB361515"> <b>水準檢視</b> <p>檢視模擬搜尋結果在所選裝置上的水準顯示方式。 </p> </li> 
+        <li id="li_B210E954DF0D44C397718112C72C2103"> <b><span class="uicontrol">裝置</span></b> <p>在行動電話或平板電腦上模擬搜尋結果。 </p> </li> 
+        <li id="li_90B64EAA0B57446A90CE22172E703594"> <b><span class="uicontrol">解析度</span></b> <p>您可以根據您選取的裝置來選擇相關的解析度。 </p> </li> 
+        <li id="li_042AF9FA3FA846EDB48F7296DB361515"> <b><span class="uicontrol">水準檢視</span></b> <p>檢視模擬搜尋結果在所選裝置上的水準顯示方式。 </p> </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
