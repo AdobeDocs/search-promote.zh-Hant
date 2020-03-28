@@ -7,7 +7,7 @@ title: Search&amp;Promote 8.9.4發行說明(01/17/2013)
 topic: Release Notes,Site search and merchandising
 uuid: a9d550f6-0a23-4c71-b123-c31b997e7384
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
@@ -39,19 +39,19 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 
    請參 [閱檢視詞語報表或空搜尋詞報表……](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A).
 
-* 開啟「報表 > 空搜尋詞語報表」，選取時段，然後檢視報表。按一下報表中的一個字可開啟搜尋，然後再按一下「檢視報表」。您按下關鍵字時搜尋計數會增加兩次。現在這個問題已經修正。
+* 開 **[!UICONTROL Reports > Null Search Terms Report]**&#x200B;啟，選取時段，然後檢視報表。 按一下報表中的一個字可開啟搜尋，然後再按一下「檢視報表」。您按下關鍵字時搜尋計數會增加兩次。現在這個問題已經修正。
 
    請參 [閱檢視詞語報表或空搜尋詞報表……](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A).
 
-* 即時推進「業務規則」時，會進行效能最佳化。
+* 當您推播業務規則時，已進行效能最佳化。
 
    See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
 
-* 導覽列中的移除功能有時會失常。
+* The ability to remove in [!DNL Breadcrumbs] did not work all the time.
 
    請參 [閱Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03)。
 
-* 除非您使用「重新產生」，否則「重新排名」功能不允許任何變更的「排名規則」在搜尋結果中生效。
+* 除非您使用重新產生，否則重新排名功能不允許任何變更的排名規則在搜尋結果中生效。
 
    請參閱[關於排名規則](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397)。
 
