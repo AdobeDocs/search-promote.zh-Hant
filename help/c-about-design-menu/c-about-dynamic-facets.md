@@ -8,7 +8,7 @@ title: 關於動態Facet
 topic: Design,Site search and merchandising
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
 translation-type: tm+mt
-source-git-commit: 4270ea66ba645ad0f71c9c8b5c2a1fcc6eb02ad2
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
@@ -169,7 +169,7 @@ t_configuring_dynamic_facets.xml
 
    請務必在標 `__dynamic_facets` 記中 `gsname` 指定 `guided-facet-rail` 。 此標籤是預先定義的Facet邊欄，保留用於輸出為特定搜尋傳回的任何動態Facet。
 
-   您也可以選擇透過「規則>業務規則」，並使用下方所示的「進階規則產生器」來編輯此特殊Facet邊欄。
+   您也可以選擇編輯此特殊的Facet邊欄，方 **[!UICONTROL Rules > Business Rules]**&#x200B;式如下， **[!UICONTROL Advanced Rule Builder]** 如下所示。
 
    ![](assets/dynamicfacetrail_businessrule.png)
 
