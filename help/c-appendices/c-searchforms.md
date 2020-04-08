@@ -7,7 +7,7 @@ title: 搜尋表格
 topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
-source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
+source-git-commit: 4542702e1d2ba04c70d9f6b24bfa32e1f1c6acb5
 
 ---
 
@@ -151,7 +151,7 @@ source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col02"> <p>測試搜尋表格。 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> 測試搜尋表單 </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> 測試搜尋表單 </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,7 +286,7 @@ source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
 
 您可以檢視上述範例的整個進階搜尋表單HTML程式碼。
 
-請參閱 [進階搜尋表單HTML程式碼](../c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9)。
+請參閱 [進階搜尋表單HTML程式碼](#reference_9AAD4A46B68D4D48865508982CB86DB9)。
 
 請參 [閱設定自動完成CSS](../c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)。
 
@@ -435,7 +435,7 @@ source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
 
 用於生成高級搜索表單的HTML表單代碼，該表單顯示在「示例高級搜索表單」主題的頂部。
 
-請參 [閱範例進階搜尋表單](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A)。
+請參 [閱範例進階搜尋表單](#reference_82E1051918744EBA88A01E9E6AE42C4A)。
 
 如果您使用此代碼，請記得將 `sp_a` 值取 `sp99999999` 代為實際帳戶號碼。
 
