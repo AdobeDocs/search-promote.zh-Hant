@@ -7,14 +7,12 @@ title: 搜尋表格
 topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
 
 ---
 
 
 # 搜尋表格{#search-forms}
-
-## 搜尋表格 {#concept_915FFF20FF644830B7B3C6E00F416BCB}
 
 ## 在搜尋表單中使用系列 {#reference_5A079AEEEFB84457892EF0870D0605C3}
 
@@ -133,22 +131,22 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
    <td colname="col02"> <p>將表單新增至您網頁中所要的影格。 </p> </td> 
-   <td colname="col2"> <p> <a href="../c-appendices/c-searchforms.md#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> 將搜尋表單程式碼新增至您…… </a> </p> </td> 
+   <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> 將搜尋表單程式碼新增至您…… </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col02"> <p>為搜索結果頁設定目標框架。 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> 為搜索結果頁設定目標框架 </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> 為搜索結果頁設定目標框架 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col02"> <p>為從搜尋結果頁面建立的連結設定目標。 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> 設定從搜尋結果建立之連結的目標…… </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> 設定從搜尋結果建立之連結的目標…… </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
    <td colname="col02"> <p>編輯導覽影格頁面，防止其建立索引。 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> 編輯導覽影格頁面，以防止它們…… </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> 編輯導覽影格頁面，以防止它們…… </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
