@@ -8,7 +8,10 @@ title: 關於中繼資料選單
 topic: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 translation-type: tm+mt
-source-git-commit: cf2707d124bd3f3a864610bcf41dda5e5670fc90
+source-git-commit: e080a61e24a3809beff7c212ff3d088b2a8ad3b6
+workflow-type: tm+mt
+source-wordcount: '8064'
+ht-degree: 1%
 
 ---
 
@@ -140,7 +143,7 @@ source-git-commit: cf2707d124bd3f3a864610bcf41dda5e5670fc90
       </tr> 
       <tr> 
       <td colname="col1"> <p>垂直更新欄位 </p> </td> 
-      <td colname="col2"> <p> <p>附註: 此功能預設不會啟用。請聯絡技術支援以啟動供您使用。 啟動後，它會出現在使用者介面中。 </p> </p> <p>將標識的欄位設定為「垂直更新」欄位。 </p> <p>「垂直更新」欄位是要透過「垂直更新」程式(「索引&gt; <span class="uicontrol"> 垂直 </span> 更新」 <span class="uicontrol"> )更新的候選 </span>欄位。由於「垂直更新」的建立方式，因此無法在自由文字搜尋中搜尋這些欄位的內容。 選中此選項會導致在任何類型的索引操作期間不將此欄位的內容添加到"word"索引中。 它還在「垂直更新」操作期間啟用此欄位的更新。 </p> <p>若要進一步瞭解垂直更新，請參閱 <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> 垂直更新 </a>。 </p> </td> 
+      <td colname="col2"> <p> <p>附註: 此功能預設不會啟用。請聯絡技術支援以啟動供您使用。 啟動後，它會出現在使用者介面中。 </p> </p> <p>將標識的欄位設定為「垂直更新」欄位。 </p> <p>「垂直更新」欄位是要透過「垂直更新」程式(「索引&gt; <span class="uicontrol"> 垂直 </span> 更新」 <span class="uicontrol"> )更新的候選 </span>欄位。 由於「垂直更新」的建立方式，因此無法在自由文字搜尋中搜尋這些欄位的內容。 選中此選項會導致在任何類型的索引操作期間不將此欄位的內容添加到"word"索引中。 它還在「垂直更新」操作期間啟用此欄位的更新。 </p> <p>若要進一步瞭解垂直更新，請參閱 <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> 垂直更新 </a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>相關性 </p> </td> 
@@ -196,7 +199,7 @@ source-git-commit: cf2707d124bd3f3a864610bcf41dda5e5670fc90
       </tr> 
       <tr> 
       <td colname="col1"> <p>建立範圍說明？ </p> </td> 
-      <td colname="col2"> <p>僅當選擇「 <span class="uicontrol"> 編號」 </span> 作為「資料類型」時可用。 </p> <p>控制欄位範圍說明的自動建立，以便與「設計&gt;導覽 <span class="uicontrol"> &gt;刻面 </span> 」 <span class="uicontrol"> 搭配 </span> 使用 <span class="uicontrol"></span>。 </p> <p>請參閱 <a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" format="dita" scope="local"> 關於刻面 </a>。 </p> <p> <p>注意： 如果此欄位已勾選「 <span class="uicontrol"> 垂直更新欄 </span> 位」，則在「垂直更新」期間會更新產生的欄位範圍說明欄位。 不過，建議在「範圍欄位」中識別的欄位 <span class="uicontrol"> 也勾選「 </span> 垂直 <span class="uicontrol"> 更新欄位」 </span> 。 </p> </p> </td> 
+      <td colname="col2"> <p>僅當選擇「 <span class="uicontrol"> 編號」 </span> 作為「資料類型」時可用。 </p> <p>控制欄位範圍說明的自動建立，以便與「設計&gt;導覽 <span class="uicontrol"> &gt;刻面 </span> 」 <span class="uicontrol"> 搭配 </span> 使用 <span class="uicontrol"></span>。 </p> <p>請參閱 <a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" format="dita" scope="local"> 關於刻面 </a>。 </p> <p> <p>注意：  如果此欄位已勾選「 <span class="uicontrol"> 垂直更新欄 </span> 位」，則在「垂直更新」期間會更新產生的欄位範圍說明欄位。 不過，建議在「範圍欄位」中識別的欄位 <span class="uicontrol"> 也勾選「 </span> 垂直 <span class="uicontrol"> 更新欄位」 </span> 。 </p> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>範圍欄位 </p> </td> 
@@ -221,15 +224,15 @@ source-git-commit: cf2707d124bd3f3a864610bcf41dda5e5670fc90
       </tr> 
       <tr> 
       <td colname="col1"> <p>「小於」格式 </p> </td> 
-      <td colname="col2"> <p>僅當選中「 <span class="uicontrol"> 建立範圍說明」 </span> 並選中「範圍 <span class="uicontrol"> 欄位」項 </span> 目時可用。 </p> <p>此範本用來指定小於「範圍值」中最小值的值的範圍 <span class="uicontrol"> 說明 </span>。 最小值將用數字預留位置標籤 <span class="uicontrol"> ~N~表示 </span>。 例如: </p> <code> Less&amp;nbsp;than&amp;nbsp;~N~ </code> <p>或: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;below </code> <p>通常，值將格式化為「原樣」-即，對於「5 10 20」的「範圍值」定義和提供的值1，生成的範圍描述將只是「小於5」之類的內容。 <span class="uicontrol"></span> 如果您希望它為"4.99及以下版本"，請將 <span class="uicontrol"> Precision設 </span> 為 <span class="uicontrol"> 2，並 </span> 使用下列格式： </p> <code> ~n~&amp;nbsp;and&amp;nbsp;below </code> <p>在「 <span class="uicontrol"> 小於」格式 </span>中，小寫 <span class="uicontrol"> ~n~將導致值根據 </span><i></i><span class="uicontrol"></span> Precision設定四捨五入。 </p> <p>注意：若要依原樣在範圍說明中加入任何數值預留位置，請使用反斜線(\)首碼指定——例如。 <span class="uicontrol"> \~N~ </span> 或 <span class="uicontrol"> \~n~ </span>。 若要包含反斜線字元，請使用另一個反斜線來指定該字元，例如 <span class="uicontrol"> \\ </span>。 </p> </td> 
+      <td colname="col2"> <p>僅當選中「 <span class="uicontrol"> 建立範圍說明」 </span> 並選中「範圍 <span class="uicontrol"> 欄位」項 </span> 目時可用。 </p> <p>此範本用來指定小於「範圍值」中最小值的值的範圍 <span class="uicontrol"> 說明 </span>。 最小值將用數字預留位置標籤 <span class="uicontrol"> ~N~表示 </span>。 例如: </p> <code> Less&amp;nbsp;than&amp;nbsp;~N~ </code> <p>或: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;below </code> <p>通常，值將格式化為「原樣」-即，對於「5 10 20」的「範圍值」定義和提供的值1，生成的範圍描述將只是「小於5」之類的內容。 <span class="uicontrol"></span> 如果您希望它為"4.99及以下版本"，請將 <span class="uicontrol"> Precision設 </span> 為 <span class="uicontrol"> 2，並 </span> 使用下列格式： </p> <code> ~n~&amp;nbsp;and&amp;nbsp;below </code> <p>在「 <span class="uicontrol"> 小於」格式 </span>中，小寫 <span class="uicontrol"> ~n~將導致值根據 </span><i></i><span class="uicontrol"></span> Precision設定四捨五入。 </p> <p>注意： 若要依原樣在範圍說明中加入任何數值預留位置，請使用反斜線(\)首碼指定——例如。 <span class="uicontrol"> \~N~ </span> 或 <span class="uicontrol"> \~n~ </span>。 若要包含反斜線字元，請使用另一個反斜線來指定該字元，例如 <span class="uicontrol"> \\ </span> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>中間格式 </p> </td> 
-      <td colname="col2"> <p>僅當選中「 <span class="uicontrol"> 建立範圍說明」 </span> 並選中「範圍 <span class="uicontrol"> 欄位」項 </span> 目時可用。 </p> <p>此範本用來指定值的範圍說明，這些值介於「範圍值」中找到的最小值和最大值之 <span class="uicontrol"> 間 </span>。 對於給定範圍，低範圍值將使用數字預留位置標籤 <span class="uicontrol"> ~L~ </span>，而高範圍值將使用標籤 <span class="uicontrol"> ~H~來表示 </span>。 例如: </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>或: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>或: </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>通常，值的格式為「原樣」-即，對於「5 10 20」的「範圍值」定義和提供的值為8，生成的範圍描述將只是「5到10」之類的。 <span class="uicontrol"></span> 如果您希望它為"5到9.99"，並向下調整較高值 <i></i>，請將 <span class="uicontrol"> Precision設 </span> 置為 <span class="uicontrol"> 2 </span> ，然後使用下列格式： </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>同樣地， <span class="uicontrol"> ~ </span> L~可以被~l~ <span class="uicontrol"> ~取代，使低值值向上調整 </span> ，也根據精度 <i></i><span class="uicontrol"></span> 設定。 這表示定義如下： </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>如果 <span class="uicontrol"> 精度 </span> 值為 <span class="uicontrol"> 2，則 </span> 會建立「介於5.01和10」。 </p> <p>小寫 <span class="uicontrol"> ~l~ </span> ，使小寫值按精度設定向上捨入，小寫 <i>~h，使小寫值</i><span class="uicontrol"></span><span class="uicontrol"></span><i></i>&gt;down。 </p> <p>注意：若要依原樣在範圍說明中加入任何數值預留位置，請使用反斜線(\)首碼指定——例如。 <span class="uicontrol"> \~L~ </span> 或 <span class="uicontrol"> \~h~ </span>。 若要包含反斜線字元，請使用另一個反斜線來指定該字元，例如 <span class="uicontrol"> \\ </span>。 </p> </td> 
+      <td colname="col2"> <p>僅當選中「 <span class="uicontrol"> 建立範圍說明」 </span> 並選中「範圍 <span class="uicontrol"> 欄位」項 </span> 目時可用。 </p> <p>此範本用來指定值的範圍說明，這些值介於「範圍值」中找到的最小值和最大值之 <span class="uicontrol"> 間 </span>。 對於給定範圍，低範圍值將使用數字預留位置標籤 <span class="uicontrol"> ~L~ </span>，而高範圍值將使用標籤 <span class="uicontrol"> ~H~來表示 </span>。 例如: </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>或: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>或: </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>通常，值的格式為「原樣」-即，對於「5 10 20」的「範圍值」定義和提供的值為8，生成的範圍描述將只是「5到10」之類的。 <span class="uicontrol"></span> 如果您希望它為"5到9.99"，並向下調整較高值 <i></i>，請將 <span class="uicontrol"> Precision設 </span> 置為 <span class="uicontrol"> 2 </span> ，然後使用下列格式： </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>同樣地， <span class="uicontrol"> ~ </span> L~可以被~l~ <span class="uicontrol"> ~取代，使低值值向上調整 </span> ，也根據精度 <i></i><span class="uicontrol"></span> 設定。 這表示定義如下： </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>如果 <span class="uicontrol"> 精度 </span> 值為 <span class="uicontrol"> 2，則 </span> 會建立「介於5.01和10」。 </p> <p>小寫 <span class="uicontrol"> ~l~ </span> ，使小寫值按精度設定向上捨入，小寫 <i>~h，使小寫值</i><span class="uicontrol"></span><span class="uicontrol"></span><i></i>&gt;down。 </p> <p>注意： 若要依原樣在範圍說明中加入任何數值預留位置，請使用反斜線(\)首碼指定——例如。 <span class="uicontrol"> \~L~ </span> 或 <span class="uicontrol"> \~h~ </span>。 若要包含反斜線字元，請使用另一個反斜線來指定該字元，例如 <span class="uicontrol"> \\ </span> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>「大於」格式 </p> </td> 
-      <td colname="col2"> <p>僅當選中「 <span class="uicontrol"> 建立範圍說明」 </span> 並選中「範圍 <span class="uicontrol"> 欄位」項 </span> 目時可用。 </p> <p>此範本用於指定大於「範圍值」中最大值的值的範圍 <span class="uicontrol"> 說明 </span>。 最大值將使用數值預留位置標籤 <span class="uicontrol"> ~N~來表示 </span>。 例如: </p> <code> Greater&amp;nbsp;than&amp;nbsp;~N~ </code> <p>或: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;above </code> <p>通常，值將格式化為「原樣」-即，對於「5 10 20」的「範圍值」定義和提供的值 <span class="uicontrol"></span> 30，生成的範圍說明將只是「大於20」之類的。 如果您希望它為"20.01及更高版本"，請將 <span class="uicontrol"> Precision </span> 設 <span class="uicontrol"> 為2，並 </span> 使用下列格式： </p> <code> ~n~&amp;nbsp;and&amp;nbsp;above </code> <p>在「 <span class="uicontrol"> 大於」格式 </span>中，小寫 <span class="uicontrol"> ~n~將使值根據 </span> Precision設定四捨五入 <i></i><span class="uicontrol"></span> 。 </p> <p>注意：若要依原樣在範圍說明中加入任何數值預留位置，請使用反斜線(\)首碼指定——例如。 <span class="uicontrol"> \~N~ </span> 或 <span class="uicontrol"> \~n~ </span>。 若要包含反斜線字元，請使用另一個反斜線來指定該字元，例如 <span class="uicontrol"> \\ </span>。 </p> </td> 
+      <td colname="col2"> <p>僅當選中「 <span class="uicontrol"> 建立範圍說明」 </span> 並選中「範圍 <span class="uicontrol"> 欄位」項 </span> 目時可用。 </p> <p>此範本用於指定大於「範圍值」中最大值的值的範圍 <span class="uicontrol"> 說明 </span>。 最大值將使用數值預留位置標籤 <span class="uicontrol"> ~N~來表示 </span>。 例如: </p> <code> Greater&amp;nbsp;than&amp;nbsp;~N~ </code> <p>或: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;above </code> <p>通常，值將格式化為「原樣」-即，對於「5 10 20」的「範圍值」定義和提供的值 <span class="uicontrol"></span> 30，生成的範圍說明將只是「大於20」之類的。 如果您希望它為"20.01及更高版本"，請將 <span class="uicontrol"> Precision </span> 設 <span class="uicontrol"> 為2，並 </span> 使用下列格式： </p> <code> ~n~&amp;nbsp;and&amp;nbsp;above </code> <p>在「 <span class="uicontrol"> 大於」格式 </span>中，小寫 <span class="uicontrol"> ~n~將使值根據 </span> Precision設定四捨五入 <i></i><span class="uicontrol"></span> 。 </p> <p>注意： 若要依原樣在範圍說明中加入任何數值預留位置，請使用反斜線(\)首碼指定——例如。 <span class="uicontrol"> \~N~ </span> 或 <span class="uicontrol"> \~n~ </span>。 若要包含反斜線字元，請使用另一個反斜線來指定該字元，例如 <span class="uicontrol"> \\ </span> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>精確度 </p> </td> 
@@ -376,7 +379,7 @@ source-git-commit: cf2707d124bd3f3a864610bcf41dda5e5670fc90
 
 ## 使用試驗場注射 {#section_74939EA9E6EA4D2A92E8066B3B11CF92}
 
-您可選擇在頁 **[!UICONTROL Test]** 面上使 [!DNL Staged Injections] 用。 您可輸入測試欄位名稱（例如「title」或「body」）、原始欄位值（例如「Home Page」），以及您網站的測試URL。 結果值將顯示供參考。 測試期間不會變更目前的值。
+您可選擇在頁 **[!UICONTROL Test]** 面上使 [!DNL Staged Injections] 用。 You enter a test field name (for example, &quot;title&quot; or &quot;body&quot;), the original field value (for example, &quot;Home Page&quot;), and a test URL from your website. 結果值將顯示供參考。 測試期間不會變更目前的值。
 
 ## 使用現場注射定義 {#section_C1BBF19DE8EF4A6F8CC3ED691F3953A9}
 
@@ -407,7 +410,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> append|replace </span> </p> </td> 
-   <td colname="col2"> <p>選擇「附加」以新增注入定義的值(「Adobe:聯絡我們」或「立即開售！」 中)轉換為現有欄位的內容。 選擇「取代」，以定義的值覆寫現有欄位內容。 如果欄位目前沒有內容，則會自動新增定義的值，而不論使用哪個選項（附加或取代）。 </p> </td> 
+   <td colname="col2"> <p>選擇「附加」以新增注入定義的值(「Adobe: 聯絡我們」或「立即開售！」 中)轉換為現有欄位的內容。 選擇「取代」，以定義的值覆寫現有欄位內容。 如果欄位目前沒有內容，則會自動新增定義的值，而不論使用哪個選項（附加或取代）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 欄位 </span> </p> </td> 
@@ -423,7 +426,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       <li id="li_FD0B1CD9E6304B18B9D7F57E61015107"> <span class="codeph"> 目標 </span> </li> 
       <li id="li_400D7E3F3E9B47EFB2FF5C0D278DB573"> <span class="codeph"> 標題 </span> </li> 
       <li id="li_449BCBEE4F64424BB69F780C10F5956C"> <span class="codeph"> url </span> </li> 
-     </ul> </p> <p>每個欄位名稱都與您網站頁面上的元素相對應。 例如，如果您指定欄 <span class="codeph"> 位名 </span> 稱desc，則可以將插入定義值新增至與您網站頁面上的「中繼」標籤說明相對應的欄位。 </p> <p>如果頁面上沒有描述Meta標籤，則定義的內容會為您建立標籤。 desc植入中指 <span class="codeph"> 定 </span> 的內容會像硬式編碼中繼描述內容一樣顯示在結果頁面上。 </p> <p>您也可以使用相同的欄位名稱建立多個定義。 例如，假設您有下列注射： </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>上述範例中的所有網站頁面都會收到一個插入標題「歡迎使用我的網站」。 「/company/」資料夾中的頁面會插入新標題「我的網站：聯絡我們」，以取代上一個。 </p> <p>注意，注入按注入在「現場注入定義」( <span class="wintitle"> Field Injection Definitions)文本框中的顯示順 </span> 序應用。 如果相同欄位（本範例中的「標題」）在相同位置的頁面上定義多次，則較晚的定義優先。 </p> <p> <span class="codeph"> [regexp] </span> -可選 如果您選擇使用regexp選 <span class="codeph"> 項， </span> 則定義的URL會視為規則運算式。 </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式 </a>。 </p> <p>以下定義： </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> 「重要資訊」會插入與規則運算式^相符之所有頁面的「目標」欄 <span class="codeph"> 位。*/products/.*\.html$ </span>. </p> <p>因此，您有下列功能： </p> <p> <code> https://www.mydomain.com/products/page1.html 
+     </ul> </p> <p>每個欄位名稱都與您網站頁面上的元素相對應。 例如，如果您指定欄 <span class="codeph"> 位名 </span> 稱desc，則可以將插入定義值新增至與您網站頁面上的「中繼」標籤說明相對應的欄位。 </p> <p>如果頁面上沒有描述Meta標籤，則定義的內容會為您建立標籤。 desc植入中指 <span class="codeph"> 定 </span> 的內容會像硬式編碼中繼描述內容一樣顯示在結果頁面上。 </p> <p>您也可以使用相同的欄位名稱建立多個定義。 例如，假設您有下列注射： </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>上述範例中的所有網站頁面都會收到一個插入標題「歡迎使用我的網站」。 「/company/」資料夾中的頁面會插入新標題「我的網站： 聯絡我們」，以取代上一個。 </p> <p>注意，注入按注入在「現場注入定義」( <span class="wintitle"> Field Injection Definitions)文本框中的顯示順 </span> 序應用。 如果相同欄位（本範例中的「標題」）在相同位置的頁面上定義多次，則較晚的定義優先。 </p> <p> <span class="codeph"> [regexp] </span> -可選 如果您選擇使用regexp選 <span class="codeph"> 項， </span> 則定義的URL會視為規則運算式。 </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式 </a>。 </p> <p>以下定義： </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> 「重要資訊」會插入與規則運算式^相符之所有頁面的「目標」欄 <span class="codeph"> 位。*/products/.*\.html$ </span>. </p> <p>因此，您有下列功能： </p> <p> <code> https://www.mydomain.com/products/page1.html 
       &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p> <code> https://www.mydomain.com/product/oldstuff.html 
       &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;not&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p>在下列範例中： </p> <p> <code> append&amp;nbsp;title&amp;nbsp;regexp&amp;nbsp;^.*\.pdf$&amp;nbsp;Millennium&amp;nbsp;Science </code> </p> <p>此注入會附加"Millennium Science"至所有以"。pdf"副檔名結尾之頁面的"title"內容。 </p> </td> 
   </tr> 
@@ -488,13 +491,13 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 * 已配置並添加的已定義屬性載入器配置的名稱。
 * 已添加的每個連接器的以下資料源類型之一：
 
-   * **文字** -簡單的「平面」檔案、逗號分隔、定位點分隔或其他一致分隔格式。
-   * **動態消息** - XML動態消息。
+   * **Text** - Simple &quot;flat&quot; files, comma-delimited, tab-delimited, or other consistently delimited formats.
+   * **Feed** - XML feeds.
 
 * 是否為下次編目和索引啟用配置。
 * 資料源的地址。
 
-另請參 [閱屬性插入程式對文字和動態消息的運作方式……](../c-about-settings-menu/c-about-metadata-menu.md#section_E059A33D61EE4DB0972A37B8A35E9E16)
+See also [How the attribute injection process works for Text and Feed...](../c-about-settings-menu/c-about-metadata-menu.md#section_E059A33D61EE4DB0972A37B8A35E9E16)
 
 另請參閱 [關於配置多屬性載入器](../c-about-settings-menu/c-about-metadata-menu.md#section_4CC49C74EF294608A184E233F215ADFF)
 
@@ -519,20 +522,20 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>將下載的資料來源劃分為個別的偽檔案。 </p> </td> 
-   <td colname="col3"> <p>對於 <span class="uicontrol"> 文 </span>字，每行以新行分隔的文字都對應於個別檔案，並使用指定的分隔字元（例如逗號或制表符）進行剖析。 </p> <p>對於 <span class="uicontrol"> 動 </span>態消息，每份檔案的資料會使用下列格式的規則運算式模式擷取： </p> <p> <code class="syntax js"> &lt;${Itemtag}&gt;(.*?)&lt;/${Itemtag}&gt; </code> </p> <p>使用「屬 <span class="uicontrol"> 性載入 </span> 器添加」頁 <span class="wintitle"></span> 上的「映射」，建立資料的快取副本，然後為Crawler建立連結清單。 該資料儲存在本地快取中，並填入配置的欄位。 </p> <p>將解析的資料寫入本地快取。 </p> <p>此快取稍後會讀取，以建立Crawler所需的簡單HTML檔案。 例如， </p> <p> <code class="syntax html"> &lt;html&gt;&lt;head&gt; 
+   <td colname="col3"> <p>對於 <span class="uicontrol"> 文 </span>字，每行以新行分隔的文字都對應於個別檔案，並使用指定的分隔字元（例如逗號或制表符）進行剖析。 </p> <p>對於 <span class="uicontrol"> 動 </span>態消息，每份檔案的資料會使用下列格式的規則運算式模式擷取： </p> <p> <code class="syntax js"> &lt;${Itemtag}&gt;(.*?)&lt;/${Itemtag}&gt; </code> </p> <p>Using <span class="uicontrol"> Map </span> on the <span class="wintitle"> Attribute Loader Add </span> page, create a cached copy of the data and then create a list of links for the crawler. 該資料儲存在本地快取中，並填入配置的欄位。 </p> <p>將解析的資料寫入本地快取。 </p> <p>此快取稍後會讀取，以建立Crawler所需的簡單HTML檔案。 例如， </p> <p> <code class="syntax html"> &lt;html&gt;&lt;head&gt; 
       &lt;title&gt;{title}&lt;/title&gt; 
       &lt;meta&nbsp;name="{field}"&nbsp;content="{data}"&nbsp;/&gt; 
       ... 
       &lt;/head&gt;&lt;body&gt; 
       {body} 
-      &lt;/body&gt;&lt;/html&gt; </code> </p> <p>&lt;title&gt; <span class="codeph"> 元素 </span> 僅在映射存在於「標題」中繼資料欄位時產生。 同樣地， <span class="codeph"> &lt;body&gt;元 </span> 素只會在映射存在於「Body」中繼資料欄位時產生。 </p> <p> <b>重要</b>:不支援為預先定義的URL meta標籤指派值。 </p> <p>對於所有其他映射， <span class="codeph"> 會為 </span> 在原始文檔中找到資料的每個欄位生成&lt;meta&gt;標籤。 </p> <p>每個文檔的欄位將添加到快取中。 對於寫入到快取的每個文檔，也會生成連結，如以下示例所示： </p> <p> <code class="syntax html"> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
+      &lt;/body&gt;&lt;/html&gt; </code> </p> <p>&lt;title&gt; <span class="codeph"> 元素 </span> 僅在映射存在於「標題」中繼資料欄位時產生。 同樣地， <span class="codeph"> &lt;body&gt;元 </span> 素只會在映射存在於「Body」中繼資料欄位時產生。 </p> <p> <b>Important</b>: The assignment of values to the pre-defined URL meta tag is not supported. </p> <p>For all other mappings, <span class="codeph"> &lt;meta&gt; </span> tags are generated for each field that has data found in the original document. </p> <p>The fields for each document are added to the cache. For each document that is written to the cache, a link is also generated as in the following examples: </p> <p> <code class="syntax html"> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
       &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
-      .... </code> </p> <p>配置的映射必須有一個欄位被標識為主鍵。 此映射構成從快取中讀取資料時使用的密鑰。 </p> <p>Crawler可識別URL <span class="codeph"> 索引：方 </span> 案首碼，接著存取本機快取資料。 </p> </td> 
+      .... </code> </p> <p>The configuration's mapping must have one field identified as the Primary Key. This mapping forms the key that is used when data is fetched from the cache. </p> <p>The crawler recognizes the URL <span class="codeph"> index: </span> scheme prefix, which can then access the locally cached data. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
-   <td colname="col2"> <p>編目快取的檔案集。 </p> </td> 
-   <td colname="col3"> <p>該 <span class="codeph"> 指數：鏈 </span> 接將添加到Crawler的待處理清單中，並按正常的編目序列進行處理。 </p> </td> 
+   <td colname="col2"> <p>Crawl the cached document set. </p> </td> 
+   <td colname="col3"> <p>該 <span class="codeph"> 指數： </span> 連結將添加到Crawler的待處理清單中，並以正常的編目序列進行處理。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
@@ -562,7 +565,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
   </tr> 
   <tr> 
    <td colname="col1"> <p>資訊源 </p> </td> 
-   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也會顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有幫助，因為它描述了XML資料並標識了Itemtag。 </p> <p> <p>注意： 「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
+   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也會顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有幫助，因為它描述了XML資料並標識了Itemtag。 </p> <p> <p>注意：  「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -575,7 +578,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 屬性載入器資料會在索引操作之前載入。
 
-新增「屬性載入器」時，您可選擇使用該功 **[!UICONTROL Preview]** 能來驗證資料，就像儲存資料一樣。 它會針對設定執行測試，但不會將設定儲存至帳戶。 測試訪問已配置的資料源。 但是，它將下載快取寫入臨時位置；它與索引爬蟲所使用的主快取資料夾不衝突。
+新增「屬性載入器」時，您可選擇使用該功 **[!UICONTROL Preview]** 能來驗證資料，就像儲存資料一樣。 它會針對設定執行測試，但不會將設定儲存至帳戶。 測試訪問已配置的資料源。 但是，它將下載快取寫入臨時位置； 它與索引爬蟲所使用的主快取資料夾不衝突。
 
 預覽僅處理由 **Acct:IndexConnector-Preview-Max-Documents控制的5個文檔的預設處理**。 預覽的文檔以源格式顯示，如同向索引爬蟲顯示。 顯示畫麵類似網頁瀏覽器中的「檢視來源」功能。 您可以使用標準導覽連結，在預覽集中導覽檔案。
 
@@ -614,16 +617,16 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       <td colname="col2"> <p>資料來源。 您選擇的資料來源類型會影響「屬性載入器新增」頁面上可用的 <span class="wintitle"> 產生選 </span> 項。 您可以從下列選項中選擇： </p> <p> 
       <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
       <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> 文字 </span> <p>簡單的平面文字檔案、逗號分隔、定位點分隔或其他一致分隔格式。 每行以新行分隔的文本都對應於單個文檔，並使用指定的分隔符進行解析。 </p> <p>您可以將每個值或欄對應至由欄號引用的中繼資料欄位，從1(1)開始。 </p> </li> 
-      <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> 資訊源 </span> <p>下載包含多列資訊的主XML檔案。 </p> </li> 
+      <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> 資訊源 </span> <p>下載包含多列資訊的主要XML檔案。 </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <b>資料來源類型：文字</b> </p> </td> 
+      <td colname="col1"> <p> <b>資料來源類型： 文字</b> </p> </td> 
       <td colname="col2"> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>已啟用 </p> </td> 
-      <td colname="col2"> <p>將配置「開啟」以便使用。 或者，您可以關閉配置，以防止其被使用。 </p> <p> <b>注意</b>:會忽略停用的屬性載入器組態。 </p> </td> 
+      <td colname="col2"> <p>將配置「開啟」以便使用。 或者，您可以關閉配置，以防止其被使用。 </p> <p> <b>注意</b>: 會忽略停用的屬性載入器組態。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>主機地址 </p> </td> 
@@ -681,12 +684,12 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <b>資料來源類型：動態消息</b> </p> </td> 
+      <td colname="col1"> <p> <b>資料來源類型： 動態消息</b> </p> </td> 
       <td colname="col2"> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>已啟用 </p> </td> 
-      <td colname="col2"> <p>將配置「開啟」以便使用。 或者，您可以關閉配置，以防止其被使用。 </p> <p> <b>注意</b>:會忽略停用的屬性載入器組態。 </p> </td> 
+      <td colname="col2"> <p>將配置「開啟」以便使用。 或者，您可以關閉配置，以防止其被使用。 </p> <p> <b>注意</b>: 會忽略停用的屬性載入器組態。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>主機地址 </p> </td> 
@@ -760,7 +763,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       <td colname="col1"> <p>地圖 </p> </td> 
       <td colname="col2"> <p>可讓您使用XPath運算式指定XML元素對中繼資料的映射。 </p> <p> 
       <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
-      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> 標記 </span> <p>指定已解析XML資料的XPath表示法。 使用上述Adobe XML檔案範例，在選項Itemtag下，可使用下列語法來對應它： </p> <p> <code class="syntax xml"> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> 標記 </span> <p>指定解析的XML資料的XPath表示法。 使用上述Adobe XML檔案範例，在選項Itemtag下，可使用下列語法來對應它： </p> <p> <code class="syntax xml"> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>上述語法的轉譯如下： </p> <p> 
