@@ -7,7 +7,10 @@ title: CGI參數
 topic: Appendices,Site search and merchandising
 uuid: a5f43547-bc15-44aa-ba23-6b8b573e09d2
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: 7b883870bb16284d8070a21547cdb62cc79d7632
+workflow-type: tm+mt
+source-wordcount: '5490'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +41,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
 
 `https://search.megacorp.com?q=shoes&page=2`
 
-另外也支援第三種格式，稱為SEO格式，其中正斜線用來取代分隔符號， `/` 等號如下例所示：
+另外也支援第三種格式（稱為SEO格式），其中正斜線 `/` 用來取代分隔符號，並與下列範例中的等號相同：
 
 `https://search.megacorp.com/q/shoes/page/2`
 
@@ -57,7 +60,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
 
 ## 後端搜尋CGI參數 {#reference_582E85C3886740C98FE88CA9DF7918E8}
 
-通常客戶會與稱為引導式搜尋的表現層互動。 不過，理論上可以略過引導式搜尋層，並直接使用本頁所述的CGI參數與後端核心搜尋互動。
+通常客戶會與稱為引導式搜尋的表現層互動。 但是，理論上可以略過引導式搜尋層，並直接使用本頁所述的CGI參數與後端核心搜尋互動。
 
 您可以從下表中選擇後端搜索CGI參數：
 <table> 
@@ -173,7 +176,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
    <td colname="col1"> <p>15 </p> </td> 
    <td colname="col2"> sp_i </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> sp_i= <span class="varname"> 值 </span></span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> sp_i=值 <span class="varname"> </span> </span> </p> </td> 
    <td colname="col4"> <p>產生報表時忽略搜尋。 </p> <p>使用此查詢可屏蔽某些後端搜索，如Did You Mean生成的搜索，或管理員在成員中心生成的搜索。 由於使用者不產生這些搜尋類型，因此不會顯示在各種Adobe Search&amp;Promote報表中。 </p> <p>有效值 <span class="codeph"> 為sp_i=1 </span> 和 <span class="codeph"> sp_i=2 </span>。 </p> </td> 
   </tr> 
   <tr> 
@@ -244,7 +247,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
    <td colname="col2"> <p> </p> </td> 
    <td colname="col03"> <p>sp_pt_# </p> </td> 
    <td colname="col3"> <p> <code> sp_pt_#= <i>exact/equivalent/compatible</i> </code> </p> </td> 
-   <td colname="col4"> <p>指定要與對應的sp_q_#查詢一起應用的目 <span class="codeph"> 標匹配類 </span> 型。 "#"會以1到16之間的數字取代(例如， <span class="codeph"> sp_p_8 </span> 適用於編號的查詢 <span class="codeph"> sp_q_8 </span>)。 使用精確 <span class="codeph"> 表示 </span> 僅在與目標內容內的查詢字串完全相符的檔案中，才產生目標符合。 使用等 <span class="codeph"> 值詞 </span> 類似 <span class="codeph"> 精確，但 </span>詞的順序並不重要。 使用相容 <span class="codeph"> 性 </span> 會根據對應的 <span class="codeph"> sp_p_#參數值自動設定目標符合類型 </span> :如 <span class="codeph"> 果 </span> sp_p_#是全部或片語，則會使用精確值 <span class="codeph"> ，否則會使用 </span> 相等 <span class="codeph"></span> 值。 sp_pt_#的缺 <span class="codeph"> 省值與 </span> sp_ <span class="codeph"> pt_#相容 </span>。 </p> </td> 
+   <td colname="col4"> <p>指定要與對應的sp_q_#查詢一起應用的目 <span class="codeph"> 標匹配類 </span> 型。 "#"會以1到16之間的數字取代(例如， <span class="codeph"> sp_p_8 </span> 適用於編號的查詢 <span class="codeph"> sp_q_8 </span>)。 使用精確 <span class="codeph"> 表示 </span> 僅在與目標內容內的查詢字串完全相符的檔案中，才產生目標符合。 使用等 <span class="codeph"> 值詞 </span> 類似 <span class="codeph"> 精確，但 </span>詞的順序並不重要。 使用相容 <span class="codeph"> 性 </span> 會根據對應的 <span class="codeph"> sp_p_#參數值自動設定目標符合類型 </span> : <span class="codeph"> 如果 </span> sp_p_#是 <span class="codeph"> all或phrase，則會使用精確值，否則 </span> 會使 <span class="codeph"></span> 用等值。 sp_pt_#的缺 <span class="codeph"> 省值與 </span> sp_ <span class="codeph"> pt_#相容 </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>26 </p> </td> 
@@ -337,7 +340,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
    <td colname="col1"> <p>37 </p> </td> 
    <td colname="col2"> <p>sp_ro </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> sp_ro=字 <span class="varname"> 段 </span>: <span class="varname"> 相關性 </span></span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> sp_ro=字 <span class="varname"> 段 </span>: <span class="varname"> 相關性 </span> </span> </p> </td> 
    <td colname="col4"> <p>允許選擇性搜尋時間、每個欄位名稱、相關性控制。 參 <span class="codeph"> 數名 </span> 稱中的ro代表「相關性覆寫」。 該參數接受一或多個欄位名稱，後面接有冒號字元，後面接有0-10的相關性值。 </p> <p>例如，若要將欄位名稱"body"的關聯值設為10，當客戶執行搜尋時，參數會顯示如下： </p> <p> <span class="codeph"> sp_ro=body:10 </span> </p> <p>或者，若要在參數字串中指定多個欄位相關性覆寫，您可以使用垂直號分隔字元。 例如，若要將欄位名稱"body"和"title"的關聯值設為9，當客戶執行搜尋時，參數會顯示如下： </p> <p> <span class="codeph"> sp_ro=body:9|title:9 </span> </p> <p> <p>注意： 指定未參與相關搜尋的欄位沒有作用。 例如，如果您設定 <span class="codeph"> sp_ro=title:10 </span>，但未搜尋標題欄位名稱，則 <span class="codeph"> sp_ro </span><span class="codeph"></span> 參數無效。 換言之，使用sp_ro參數指定欄位名 <span class="codeph"> 稱並不會自 </span> 動搜尋該欄位；而只會覆寫該欄位的相關設定。 </p> </p> <p>請參 <a href="../c-about-settings-menu/c-about-metadata-menu.md#task_0A7657B63596421BB6DB3ED44F827AB3" type="task" format="dita" scope="local"> 閱編輯預定義或用戶定義的元標籤欄位 </a>。 </p> <p>請參 <a href="../c-about-rules-menu/c-about-query-cleaning-rules.md#concept_17F3CDDC3C8A4128AF092A82B777B86C" type="concept" format="dita" scope="local"> 閱關於查詢清除規 </a>則。 </p> </td> 
   </tr> 
   <tr> 
@@ -364,18 +367,17 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
    <td colname="col3"> <p> <span class="codeph"> sp_sfvl_field=字串 </span> </p> </td> 
    <td colname="col4"> <p>指定要與搜尋範本中的 <span class="codeph"> &lt;search-field-value-list&gt;標籤搭配使用 </span> 的欄位名稱。 </p> <p>您可以指定 <span class="codeph"> 多個sp_sfvl_field </span> 參數。 </p> </td> 
   </tr> 
-  <tr> 
+  <tr>
    <td colname="col1"> <p>41 </p> </td> 
    <td colname="col2"> <p> sp_sfvl_df_count </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> sp_sfvl_df_count= <span class="varname"> &lt;整數值&gt; </span></span> </p> </td> 
-   <td colname="col4"> <p> 
-     <!--NEW 2/2/2014-->請求此搜 <span class="codeph"> 尋的最 <span class="varname"> 多 </span> &lt;integer_value&gt; </span> search-field-value-list動態 <span class="codeph"></span> 刻面欄位。 </p> <p>預設值為 0。最大允許值是為指定索引定義的dynamic-facet欄位、dynamic-facet-field-count的目前數目。 小於0的整數值會視為0。 在dynamic-facet-field-count <span class="codeph"> 上方指定的整數值 </span> 會限制為 <span class="codeph"> dynamic-facet-field-count </span>。 忽略非整數值；它們被視為預設值。 </p> <p>給定切片的搜索上限為此切片的 <span class="codeph"> dynamic-facet-field-count值允許的最大sp_sfvl_df_count </span><span class="codeph"></span> 值。 合併切片結果時， <span class="codeph"> sp_sfvl_df_count的有效最大值 </span> 是所有切片上 <span class="codeph"></span> 的最大實際sp_sfvl_df_count。 </p> <p>請參 <a href="../c-about-design-menu/c-about-dynamic-facets.md#task_D17F484130E448258100BAC1EEC53F39" format="dita" scope="local"> 閱設定動態面 </a>。 </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> sp_sfvl_df_count= <span class="varname"> &lt;整數值&gt; </span> </span> </p> </td> 
+   <td colname="col4"> <p> 請求此搜 <span class="codeph"> 尋的最 <span class="varname"> 多 </span> &lt;integer_value&gt; </span> search-field-value-list動態 <span class="codeph"></span> 刻面欄位。 </p> <p>預設值為 0。最大允許值是為指定索引定義的dynamic-facet欄位、dynamic-facet-field-count的目前數目。 小於0的整數值會視為0。 在dynamic-facet-field-count <span class="codeph"> 上方指定的整數值 </span> 會限制為 <span class="codeph"> dynamic-facet-field-count </span>。 忽略非整數值；它們被視為預設值。 </p> <p>給定切片的搜索上限為此切片的 <span class="codeph"> dynamic-facet-field-count值允許的最大sp_sfvl_df_count </span><span class="codeph"></span> 值。 合併切片結果時， <span class="codeph"> sp_sfvl_df_count的有效最大值 </span> 是所有切片上 <span class="codeph"></span> 的最大實際sp_sfvl_df_count。 </p> <p>請參 <a href="../c-about-design-menu/c-about-dynamic-facets.md#task_D17F484130E448258100BAC1EEC53F39" format="dita" scope="local"> 閱設定動態面 </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>42 </p> </td> 
    <td colname="col2"> <p> sp_sfvl_df_exclude </p> </td> 
-   <td colname="col03"> <p> </p> </td> 
+   <td colname="col03"> <p> </p> </td>
    <td colname="col3"> <p> </p> <p> <span class="codeph"> sp_sfvl_df_exclude= &lt; <span class="varname"> field_name </span>&gt;[|&lt; <span class="varname"> field_name </span></span>&gt;||... </p> </td> 
    <td colname="col4"> <p> 指定要排除在此搜尋考量之外的特定動態Facet欄位清單。 </p> <p>依預設，會考慮所有動態Facet欄位。 </p> <p>請參 <a href="../c-about-design-menu/c-about-dynamic-facets.md#task_D17F484130E448258100BAC1EEC53F39" format="dita" scope="local"> 閱設定動態面 </a>。 </p> </td> 
   </tr> 
