@@ -1,6 +1,6 @@
 ---
-description: 您可以使用排名規則，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
-seo-description: 您可以使用排名規則，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
+description: 您可以使用「排名規則」，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
+seo-description: 您可以使用「排名規則」，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
 seo-title: 關於排名規則
 solution: Target
 subtopic: Ranking Rules
@@ -8,14 +8,17 @@ title: 關於排名規則
 topic: Rules,Site search and merchandising
 uuid: 21962f9a-1d9c-442f-a6c4-5f452436c640
 translation-type: tm+mt
-source-git-commit: f4f69e6bdb37fb39045f8f25cffa4bf616834e54
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+workflow-type: tm+mt
+source-wordcount: '4647'
+ht-degree: 0%
 
 ---
 
 
 # 關於排名規則{#about-ranking-rules}
 
-您可以使用排名規則，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
+您可以使用「排名規則」，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
 
 ## 使用排名規則 {#concept_F555C076759B4E81B925441CFE707397}
 
@@ -59,13 +62,11 @@ source-git-commit: f4f69e6bdb37fb39045f8f25cffa4bf616834e54
       <ol id="ol_28ABB980143948DFA79AC4360AAB7556"> 
       <li id="li_544075CFA0964C6F8FAF7941AAA9ECCC"> 在產品選單中，按一下「 <span class="uicontrol"> 設定 </span> &gt;中繼資料 <span class="uicontrol"> &gt;定 </span> 義」 <span class="uicontrol"></span>。 </li> 
       <li id="li_F237F13B89E8425080C15D3BD697652C"> 在「定義」頁面上，按一下「 <span class="uicontrol"> 新增欄位」 </span>。 </li> 
-      <li id="li_2A839874D71D45FEA661B3D3B8BE2A86"> 在「新增欄位」頁面的「欄位名稱」 <span class="uicontrol"> 文字欄 </span> 位中，輸入 
-      <userinput>
-        排名 
-      </userinput>;在「元標 <span class="uicontrol"> 記名稱」文字 </span> 欄位中，輸入 
-      <userinput>
-        排名 
-      </userinput>;在「資 <span class="uicontrol"> 料類型」 </span> 下拉式清單中，選取 <span class="uicontrol"> 排名 </span>。 保留所有其他欄位選項。 <p>請參閱後端搜 <span class="codeph"> 尋CGI參數 </span> 中的 <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> 查詢參數sp_sr </a>。 </p> </li> 
+      <li id="li_2A839874D71D45FEA661B3D3B8BE2A86"> 在「新增欄位」頁面的「欄位 <span class="uicontrol"> 名稱」 </span> 文字欄位中，輸入 <code>
+        rank 
+      </code>;在「元標 <span class="uicontrol"> 簽名稱」文 </span> 字欄位中，輸入 <code>
+        rank 
+      </code>;在「資 <span class="uicontrol"> 料類型」 </span> 下拉式清單中，選取 <span class="uicontrol"> 排名 </span>。 保留所有其他欄位選項。 <p>請參閱後端搜 <span class="codeph"> 尋CGI參數 </span> 中的 <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> 查詢參數sp_sr </a>。 </p> </li> 
       <li id="li_8E91AF4BE51A4A41ABBF9680DDE0B7CE">按一下<span class="uicontrol">「新增」</span>。 </li> 
       </ol> </p> </td> 
       </tr> 
@@ -141,7 +142,7 @@ See [Editing a ranking rule](../c-about-rules-menu/c-about-ranking-rules.md#task
 
 `regexp .* search_get_age_rank({other_field}#365#0.20)`
 
-此範例假設 `other_field` 包含日期值。 如果此欄位本身不是日期類型欄位，則會使用與預先定義的「日期」欄位相關聯的日期格式來解譯此值。 否則，將使用此欄位的日期格式。 當規則的「資料來源」識別的檔案欄位非空白，且函式的傳回值（從0到1）是指派的排名時，就會使用此值／排名項目。
+此範例假設 `other_field` 包含日期值。 如果此欄位本身不是日期類型欄位，則會使用與預先定義的「日期」欄位相關聯的日期格式來解譯此值。 否則，將使用此欄位的日期格式。 每當文檔的欄位（規則的資料源標識的欄位為非空）和函式的返回值（從0到1）是指定的排名時，都使用此值／排名條目。
 
 對於與數值欄位關聯的規則，尤其是日期欄位：
 
@@ -201,7 +202,7 @@ See [Editing a ranking rule](../c-about-rules-menu/c-about-ranking-rules.md#task
 
    請參 [閱新增排名規則群組](../c-about-rules-menu/c-about-ranking-rules.md#task_B65081B3CC9E4330A7FEE77B7BCD36C8)。
 1. 在頁面 [!DNL Define Ranking Rules] 上，按一 **[!UICONTROL Add Rule]** 下以新增「排名規則」，或新增對「規則集」的參考。
-1. 在頁面上 [!DNL Add Ranking Rule] ，設定您想要的選項。 標有星號(*)的欄位為必填欄位。
+1. 在頁面 [!DNL Add Ranking Rule] 上，設定您想要的選項。 標有星號(*)的欄位為必填欄位。
 
    您選取的「資料來源類型」會影響下拉式清單上 [!DNL Data Source Name] 的可用選項。 例如，如果您選取 **[!UICONTROL Meta Tag]** 為「資料來源類型」,「資料來源名稱」會參照網站頁面上中繼標籤的名稱。 如果您選 **[!UICONTROL Adobe Analytics Metric (Number)]**&#x200B;取，「資料來源名稱」會參照您在報表套裝中選取的其中一個Adobe Analytics量度名稱，如網站搜尋／銷售中 **[!UICONTROL Edit Adobe Analytics Metrics]** 頁面上所見。
 
@@ -245,10 +246,9 @@ See [Editing a ranking rule](../c-about-rules-menu/c-about-ranking-rules.md#task
       <li id="li_7656A2855A054DB8B64E90FE501517AA"> <span class="uicontrol"> 依順序自動排名（預設） </span> <p>根據檔案的「Adobe Analytics量度」，計算根據檔案相對位置的排名。 例如，檔案與排名最前的檔案位置愈近，其排名就愈高。 </p> </li> 
       <li id="li_1A7D60EA6965434AA6D39B215C158306"> <span class="uicontrol"> 依值自動排名 </span> <p>根據檔案的「Adobe Analytics量度」，根據檔案的相對值來計算排名。 例如，檔案值與排名最前的檔案值越接近，其排名就越高。 </p> </li> 
       <li id="li_457DE44D6ADA40619DC77220BF12318E"> <span class="uicontrol"> 自訂 </span> <p>指定自訂設定。 例如，名稱為「品牌」的「資料來源」可能包含特定產品的品牌名稱。 您可以透過列出每個品牌及其排名來指定其相對重要性。 </p> </li> 
-      </ul> </p> <p>自動排名計算傳回的排名值在0.0（最低）到1.0（最高）範圍內。 不會根據「設定&gt;中繼資料&gt;定義」下「排名」欄位所定義的範圍來調整這些欄位。 </p> <p>在下列範例中，如果特定搜尋結果的品牌資料來源與「DKNY」完全相符，則該結果的套用排名為0.5。否則，如果品牌為「Levis」，則套用的排名為0.1。「資料來源」內容必須符合設定值。 換言之，如果「資料來源」內容是「Levis Corp.」，則不符合「Levis」值。 忽略大小寫，因此"DKNY"與"dkny"和"Dkny"相符。 <code> DKNY&nbsp;0.5 Levis&nbsp;0.1 Lee&nbsp;0.2 </code> </p> <p>作為更進階的選項，您可以指定值作為規則運算式。 例如，假設您的某些網站頁面包含「Levis」品牌值，而其他網站頁面則包含「Levis jeans」品牌值。 您可以使用與關鍵字一起指定的規則運算式 
-      <userinput>
+      </ul> </p> <p>自動排名計算傳回的排名值在0.0（最低）到1.0（最高）範圍內。 不會根據「設定&gt;中繼資料&gt;定義」下「排名」欄位所定義的範圍來調整這些欄位。 </p> <p>在下列範例中，如果特定搜尋結果的品牌資料來源與「DKNY」完全相符，則該結果的套用排名為0.5。否則，如果品牌為「Levis」，則套用的排名為0.1。「資料來源」內容必須符合設定值。 換言之，如果「資料來源」內容是「Levis Corp.」，則不符合「Levis」值。 忽略大小寫，因此"DKNY"與"dkny"和"Dkny"相符。 <code> DKNY&nbsp;0.5 Levis&nbsp;0.1 Lee&nbsp;0.2 </code> </p> <p>作為更進階的選項，您可以指定值作為規則運算式。 例如，假設您的某些網站頁面包含「Levis」品牌值，而其他網站頁面則包含「Levis jeans」品牌值。 您可以使用與關鍵字一起指定的規則運算式 <code>
         regexp 
-      </userinput>。 </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式 </a>。 </p> <p>在下列範例中，包含品牌內容「Levis jeans」的搜尋結果檔案會指派0.1的排名。與標準比較一樣，規則運算式會忽略大小寫。 <code> DKNY&nbsp;0.5 regexp&nbsp;Levis.*&nbsp;0.1 Lee&nbsp;0.2 </code> </p> </td> 
+      </code>。 </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式 </a>。 </p> <p>在下列範例中，包含品牌內容「Levis jeans」的搜尋結果檔案會指派0.1的排名。與標準比較一樣，規則運算式會忽略大小寫。 <code> DKNY&nbsp;0.5 regexp&nbsp;Levis.*&nbsp;0.1 Lee&nbsp;0.2 </code> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>預設排名 </p> </td> 
@@ -266,6 +266,7 @@ See [Editing a ranking rule](../c-about-rules-menu/c-about-ranking-rules.md#task
    * `-1.0` 是&quot;最小排名（在搜尋結果中顯示較低）&quot;。
    * `0.0` 為&quot;中性排名（不變更搜尋結果順序）&quot;。
    * `1.0` 是&quot;最大排名(在搜尋結果中顯示較高。&quot;
+
    定義的排名應在每個規則的相同範圍內。 排名範圍也必須符合為「 > >」下的「排名」欄位所定義 **[!UICONTROL Settings]** 的 **[!UICONTROL Metadata]** 範圍 **[!UICONTROL Definitions]**。
 
    請參 [閱新增中繼標籤欄位](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5)。
