@@ -8,7 +8,10 @@ title: 關於「搜索」菜單
 topic: Settings,Site search and merchandising
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+workflow-type: tm+mt
+source-wordcount: '11182'
+ht-degree: 1%
 
 ---
 
@@ -55,83 +58,79 @@ c_about_searches.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用多個字詞 </p> </td> 
-   <td colname="col2"> <p>範例:   
-     <userinput>
-       我們的免費產品 
-     </userinput> </p> <p>與單字查詢相比，多字查詢可傳回更精細的結果。 </p> <p>例如， 
-     <userinput>
-       我們的免費產品 
-     </userinput> 傳回的結果比 
-     <userinput>
-       產品 
-     </userinput>。 </p> <p>請記住，即使相關結果不包含所有查詢詞，仍會傳回這些結果。 </p> </td> 
+   <td colname="col2"> <p>範例: 
+     <code>
+       our free product 
+     </code> </p> <p>與單字查詢相比，多字查詢可傳回更精細的結果。 </p> <p>例如，傳 <code>
+       our free product 
+     </code> 回比單純更相關的結果 <code>
+       product 
+     </code>。 </p> <p>請記住，即使相關結果不包含所有查詢詞，仍會傳回這些結果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用類似字詞 </p> </td> 
-   <td colname="col2"> <p>範例:   
-     <userinput>
-       安全的隱私安全 
-     </userinput> </p> <p>您在搜尋查詢中使用的字詞越相似，搜尋結果就越相關。 </p> </td> 
+   <td colname="col2"> <p>範例: 
+     <code>
+       safe secure privacy security 
+     </code> </p> <p>您在搜尋查詢中使用的字詞越相似，搜尋結果就越相關。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用適當的大寫 </p> </td> 
-   <td colname="col2"> <p>範例:   
-     <userinput>
-       搜尋範本參考 
-     </userinput> </p> <p>大寫專有名詞。 如果您使用小寫字詞，搜尋引擎會比對該字詞的任何大小寫。 </p> <p>例如，若您輸入 
-     <userinput>
-       搜尋 
-     </userinput>，則搜尋引擎會傳回包含「search」、「Search」和「SEARCH」字詞的所有檔案。 不過，如果您在 
-     <userinput>
-       搜尋 
-     </userinput>，則搜尋引擎會傳回僅包含加引號之單字的檔案。 </p> </td> 
+   <td colname="col2"> <p>範例: 
+     <code>
+       Search Template Reference 
+     </code> </p> <p>大寫專有名詞。 如果您使用小寫字詞，搜尋引擎會比對該字詞的任何大小寫。 </p> <p>例如，如果您輸入 <code>
+       search 
+     </code>，搜尋引擎會傳回包含"search"、"Search"和"SEARCH"字詞的所有檔案。 不過，如果您輸入 <code>
+       Search 
+     </code>，搜尋引擎會傳回僅包含大寫字詞的檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用引號 </p> </td> 
-   <td colname="col2"> <p>範例:   
-     <userinput>
-       "我們向你保證" 
-     </userinput> </p> <p>使用引號尋找必須彼此相鄰的字詞，例如"我們向你保證"。 若沒有周圍的引號，搜尋結果會包含"our"、"prentite"、"to"和"you"等字詞，但未必如此。 相反，這些單字可能會以任何順序出現在檔案中的任何位置。 </p> <p> 如果您對任何、所有、和短語都使用帶有選項按鈕的 <span class="uicontrol"> 高級搜索表單， </span>則您只能在選 <span class="uicontrol"> 擇任何短語時使用 </span><span class="uicontrol"></span><span class="uicontrol"></span> 引號。 如果選取所有或片 <span class="uicontrol"> 語， </span> 則 <span class="uicontrol"> 會忽略 </span> 引號。 </p> </td> 
+   <td colname="col2"> <p>範例: 
+     <code>
+       "our pledge to you" 
+     </code> </p> <p>使用引號尋找必須彼此相鄰的字詞，例如"我們向你保證"。 若沒有周圍的引號，搜尋結果會包含"our"、"prentite"、"to"和"you"等字詞，但未必如此。 相反，這些單字可能會以任何順序出現在檔案中的任何位置。 </p> <p> 如果您對任何、所有、和短語都使用帶有選項按鈕的 <span class="uicontrol"> 高級搜索表單， </span>則您只能在選 <span class="uicontrol"> 擇任何短語時使用 </span><span class="uicontrol"></span><span class="uicontrol"></span> 引號。 如果選取所有或片 <span class="uicontrol"> 語， </span> 則 <span class="uicontrol"> 會忽略 </span> 引號。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用+（加號）或-（減號） </p> </td> 
-   <td colname="col2"> <p>範例:   
-     <userinput>
-       +"範本語言" 
-     </userinput> </p> <p>使用+可指出搜尋詞或片語必須出現在搜尋結果中。 </p> <p>使用——指出搜尋詞或片語必須不在搜尋結果中。 </p> <p>您必須在引號中包含一個片語。 正如上述範例所示，加號或減號與搜尋詞之間不留空格。 </p> <p> 如果您對任何、所有、和短語都使用帶有選項按鈕的 <span class="uicontrol"> 高級搜索表單， </span>則您只能在選 <span class="uicontrol"> 擇任何短語時使用 </span><span class="uicontrol"></span><span class="uicontrol"></span> 引號。 如果選取了全部或片語，則會忽略 <span class="uicontrol"> 加號 </span> 和減 <span class="uicontrol"> 號修飾 </span> 詞。 </p> </td> 
+   <td colname="col2"> <p>範例: 
+     <code>
+       +"template language" 
+     </code> </p> <p>使用+可指出搜尋詞或片語必須出現在搜尋結果中。 </p> <p>使用——指出搜尋詞或片語必須不在搜尋結果中。 </p> <p>您必須在引號中包含一個片語。 正如上述範例所示，加號或減號與搜尋詞之間不留空格。 </p> <p> 如果您對任何、所有、和短語都使用帶有選項按鈕的 <span class="uicontrol"> 高級搜索表單， </span>則您只能在選 <span class="uicontrol"> 擇任何短語時使用 </span><span class="uicontrol"></span><span class="uicontrol"></span> 引號。 如果選取了全部或片語，則會忽略 <span class="uicontrol"> 加號 </span> 和減 <span class="uicontrol"> 號修飾 </span> 詞。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用欄位搜尋 </p> </td> 
    <td colname="col2"> <p>範例: </p> <p> 
      <ul id="ul_F7CFF7652894402E8D19D6BA49792530"> 
       <li id="li_27492EF933C5437CB2C499746EC8CF39"> 
-       <userinput>
-         標題：關於 
-       </userinput> </li> 
+       <code>
+         title:about 
+       </code> </li> 
       <li id="li_BD21505122104FD0B16A4DAD777811DA"> 
-       <userinput>
-         desc:「我們的團隊」 
-       </userinput> </li> 
+       <code>
+         desc:"Our Team" 
+       </code> </li> 
       <li id="li_8264630F8B3D46BF872EFEB1D69DB6BE"> 
-       <userinput>
-         鍵：登錄 
-       </userinput> </li> 
+       <code>
+         keys:login 
+       </code> </li> 
       <li id="li_EBB81CBFC6DA45E99A524890DCD56E9F"> 
-       <userinput>
-         主體：安全性 
-       </userinput> </li> 
+       <code>
+         body:security 
+       </code> </li> 
       <li id="li_6A852E35D6984A2C94144AB6C6D2DFA0"> 
-       <userinput>
-         alt:"立即加入" 
-       </userinput> </li> 
+       <code>
+         alt:"join now" 
+       </code> </li> 
       <li id="li_F4C5699360484D12ACD62BBFB84A7904"> 
-       <userinput>
-         url：幫助 
-       </userinput> </li> 
+       <code>
+         url:help 
+       </code> </li> 
       <li id="li_B2DBBA2239E74D98868D92B3EDEF5B51"> 
-       <userinput>
-         目標：Adobe 
-       </userinput> </li> 
+       <code>
+         target:Adobe 
+       </code> </li> 
      </ul> </p> <p>欄位搜尋可讓您針對出現在檔案特定部分的字詞建立特定搜尋。 </p> <p>您可以對內文(body:)、標題文字(title:)、alt文字(alt:)、中繼描述(desc:)、中繼關鍵字(keys:)、URL(url:)或中繼目標關鍵字(target:)執行欄位搜尋。 在欄位名稱中使用小寫，然後立即加上冒號。 冒號和搜尋詞之間沒有空格。 </p> <p>欄位搜尋後面只有一個字或片語。 片語必須包含在引號中。 </p> <p>如果您使用「進階搜尋表單」和欄位名稱的清單方塊，則只能在選取任何字詞或片語之前輸入 <span class="uicontrol"> 欄 </span> 位名稱。 如果在清單框中選擇了任何其他高級搜索表單欄位，則將忽略特定欄位名。 </p> </td> 
   </tr> 
   <tr> 
@@ -139,27 +138,24 @@ c_about_searches.xml
    <td colname="col2"> <p>範例: </p> <p> 
      <ul id="ul_D8E3867EB15641B0A6E55AD546CCB4DD"> 
       <li id="li_CB8B8FC15EB14B13BB33BB69F5206303"> 
-       <userinput>
+       <code>
          wh* 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_5350A934648C4C81BD6C0875061B426B"> 
-       <userinput>
+       <code>
          "wh* are" 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_7965A2F7186F40039D2F0736299D11B1"> 
-       <userinput>
+       <code>
          415-*-* 
-       </userinput> </li> 
-     </ul> </p> <p>萬用字元搜尋會擴充特定請求的符合數。 *字元用作萬用字元。 </p> <p>例如，搜尋 
-     <userinput>
+       </code> </li> 
+     </ul> </p> <p>萬用字元搜尋會擴充特定請求的符合數。 *字元用作萬用字元。 </p> <p>例如，搜尋 <code>
        wh* 
-     </userinput> 查找"what"、"why"、"when"、"wheber"和以"wh"開頭的任何其他單字。 搜尋*her*時，會找到"here"、"whether"、"toghere"、"gathering"和任何包含"her"的字詞。 </p> <p>您可以結合萬用字元與+和——修飾元、片語的引號，以及欄位搜尋指定符。 </p> <p>搜尋 
-     <userinput>
+     </code> 會找到單字"what"、"why"、"when"、"wheber"和以"wh"開頭的任何其他單字。 搜尋*her*時，會找到"here"、"whether"、"toghere"、"gathering"和任何包含"her"的字詞。 </p> <p>您可以結合萬用字元與+和——修飾元、片語的引號，以及欄位搜尋指定符。 </p> <p>搜尋 <code>
        +wh* -se*ch 
-     </userinput> 查找所有包含以"wh"開頭的單字且不包含以"se"開頭並以"ch"結尾的單字的頁面。 </p> <p>搜尋 
-     <userinput>
+     </code> 會尋找所有含有以"wh"開頭且不包含以"se"開頭且以"ch"結尾的單字的頁面。 </p> <p>搜尋 <code>
        "wh* are" 
-     </userinput> 尋找片語"where are"、"what are"、"why are"等。 </p> </td> 
+     </code> 會找到片語"where are"、"what are"、"why are"等。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -744,7 +740,7 @@ c_about_collections.xml
 
    請參閱 [規則運算式](../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A)。
 
-「系列」欄位中的每一行只能包含一個URL遮色片。 不過，您可以在不同的行上為相同的系列名稱指定多個URL遮色片。 下列範例包含4個不同的系列名稱和5個URL遮色片：
+「系列」欄位中的每一行只能包含一個URL遮色片。 不過，您可以為不同行上的相同系列名稱指定多個URL遮色片。 下列範例包含4個不同的系列名稱和5個URL遮色片：
 
 ```
 Company Info https://www.yoursite.com/company 
@@ -915,7 +911,7 @@ t_setting_values_in_preview.xml
 
  -->
 
-**在預覽中設定值**
+**若要在預覽中設定值**
 
 1. 在產品功能表上，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Searching]** > **[!UICONTROL Preview]**。
 1. 在頁 [!DNL Preview] 面上，設定您想要的選項。
@@ -1009,7 +1005,7 @@ c_about_feeds.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Google網站地圖 </p> </td> 
-   <td colname="col2"> <p>Google網站地圖可讓您影響Google爬蟲網站的方式。 匯集資料饋送（在此例中為網站地圖）會定期提交至Google網站地圖。 網站地圖包含可存取網際網路的URL，以及可與每個URL關聯的特定資訊，例如上次修改日期或頁面優先順序。 向谷歌提供此類資訊，可以增加搜索和索引特定頁面的頻率和機率。 在某些情況下，網站地圖會用來通告其爬蟲在正常情況下無法存取的連結清單。 </p> <p>如果您想要使用我們的動態消息功能建立Google網站地圖，請聯絡您的客戶代表。 Google已將其Google網站地圖服務公開給大眾，並在其Google網站管理員工具頁面提供檔案。 </p> <p> <b>建立Google網站地圖摘要的需求</b> </p> <p>若要建立Google網站地圖摘要，請確定您已設定Google網站地圖的Google網站主控工具帳戶。 如需設定Google網站地圖，請參閱Google網站管理員工具檔案。 </p> <p>您也需要決定如何傳送網站地圖檔案。 一般而言，網站地圖檔案來自您的網域，尤其是您網站的根目錄。 簡單的模型是讓檔案透過FTP傳送至您的伺服器。 另一個解決方案是將網站地圖檔案的要求重新導向至網站搜尋／銷售內容網路。 請洽詢您的諮詢代表，以協調和設定網站地圖饋送的傳送。 </p> </td> 
+   <td colname="col2"> <p>Google網站地圖可讓您影響Google搜尋您網站的方式。 匯集資料饋送（在此例中為網站地圖）會定期提交至Google網站地圖。 網站地圖包含可存取網際網路的URL，以及可與每個URL關聯的特定資訊，例如上次修改日期或頁面優先順序。 向谷歌提供此類資訊，可以增加搜索和索引特定頁面的頻率和機率。 在某些情況下，網站地圖會用來通告其爬蟲在正常情況下無法存取的連結清單。 </p> <p>如果您想要使用我們的動態消息功能建立Google網站地圖，請聯絡您的客戶代表。 Google已將其Google網站地圖服務公開給大眾，並在其Google網站管理員工具頁面提供檔案。 </p> <p> <b>建立Google網站地圖摘要的需求</b> </p> <p>若要建立Google網站地圖摘要，請確定您已設定Google網站地圖的Google網站主要工具帳戶。 如需設定Google網站地圖，請參閱Google網站管理員工具檔案。 </p> <p>您也需要決定如何傳送網站地圖檔案。 一般而言，網站地圖檔案來自您的網域，尤其是您網站的根目錄。 簡單的模型是讓檔案透過FTP傳送至您的伺服器。 另一個解決方案是將網站地圖檔案的要求重新導向至網站搜尋／銷售內容網路。 請洽詢您的諮詢代表，以協調和設定網站地圖饋送的傳送。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1153,7 +1149,7 @@ t_creating_a_feed.xml
         <li id="li_D1E49834BBEA42CC8C49AE7D72037C53"> <span class="uicontrol"> 標準 </span> <p>定義篩選操作。 您從下拉式清單中選擇的篩選操作會套用在第三欄中輸入的常數值。 </p> </li> 
         <li id="li_D5F0651B834F4EACAD15A2D154A0737B"> <span class="uicontrol"> 值 </span> <p>常數值。 </p> </li> 
         <li id="li_FC8F382BD20C4518BC2230D4B4954591"> <span class="uicontrol"> 動作 </span> <p>新增欄位對應列，或刪除目前反白顯示的列。 </p> </li> 
-        </ul> <p>一般饋送需要指定特殊的CGI參數。 若要系結與此動態消息關聯的特殊範本，請定義 <span class="codeph"> sp_t參 </span> 數。 將sp_t的 <span class="codeph"> 值設 </span> 置為傳輸模板檔案的名稱。 例如，如果您新增名為 <span class="codeph"> super_feed.tpl的傳輸範本檔案 </span>，則會建立自訂CGI搜尋參數 <span class="codeph"> sp_t=super_feed </span>。 在您從「元欄位」下拉列 <span class="codeph"> 表中選擇「自由表單」後，才會顯 </span> 示用於輸入sp_t <span class="uicontrol"></span><span class="wintitle"></span> 的文本框。 </p> </td> 
+        </ul> <p>一般饋送需要指定特殊的CGI參數。 若要系結與此動態消息關聯的特殊範本，請定義 <span class="codeph"> sp_t參 </span> 數。 將sp_t的 <span class="codeph"> 值設 </span> 置為傳輸模板檔案的名稱。 例如，如果您新增名為 <span class="codeph"> super_feed.tpl的傳輸範本檔案 </span>，您會建立自訂CGI搜尋參數 <span class="codeph"> sp_t=super_feed </span>。 在您從「元欄位」下拉列 <span class="codeph"> 表中選擇「自由表單」後，才會顯 </span> 示用於輸入sp_t <span class="uicontrol"></span><span class="wintitle"></span> 的文本框。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>3 </p> </td> 
@@ -1229,10 +1225,9 @@ t_creating_a_feed.xml
           <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
         <li id="li_2D9ECAFB8E8544D39B486F7BC3DCE589"> <span class="uicontrol"> 上傳方法 </span> <p>大部份的動態消息有兩種散發檔案的方式：FTP和代管內容網路。 </p> <p>提交資料饋送的建議上傳方法是 <span class="uicontrol"> FTP </span>。 Google Merchant Center會為此目的主控FTP伺服器。 請參閱Google商家中心說明，以設定此Google產品搜尋饋送的個別Google FTP帳戶。 </p> 
           <ul id="ul_BC0D8B541068407883CAC948496DBD0A"> 
-          <li id="li_DB28CA23C94A4AF09E1A0EB06DF8F40C"> <span class="uicontrol"> FTP </span> <p>網站搜尋／銷售伺服器使用被動式FTP。 </p> <p>FTP是將檔案推送至其他伺服器的唯一方式。 </p> <p> <span class="uicontrol"> FTP服務 </span> 器——指定FTP伺服器的名稱。 在本例中，它是 
-            <userinput>
+          <li id="li_DB28CA23C94A4AF09E1A0EB06DF8F40C"> <span class="uicontrol"> FTP </span> <p>網站搜尋／銷售伺服器使用被動式FTP。 </p> <p>FTP是將檔案推送至其他伺服器的唯一方式。 </p> <p> <span class="uicontrol"> FTP服務 </span> 器——指定FTP伺服器的名稱。 在這個例子中，是的 <code>
               uploads.google.com 
-            </userinput>。請勿包含通訊協定或「ftp://」之前。 </p> <p> <span class="uicontrol"> FTP使用者 </span> 名稱——指定FTP帳戶的名稱。 </p> <p> <span class="uicontrol"> FTP密 </span> 碼——指定FTP帳戶的密碼。 </p> <p> <span class="uicontrol"> FTP檔案名 </span> 稱——指定要傳輸的檔案名稱。 如果動態消息產生多個檔案，此名稱是範本，通常會在名稱結尾但在副檔名之前增加一個數字。 例如：basename.xml, basename1.xml, basename2.xml, ..., basename-Nth.xml </p> <p> <span class="uicontrol"> FTP目 </span> 錄——如果需要特定目錄路徑，請在此處輸入。 請勿將檔案名稱包含在路徑中。 </p> </li> 
+            </code>。 請勿包含通訊協定或「ftp://」之前。 </p> <p> <span class="uicontrol"> FTP使用者 </span> 名稱——指定FTP帳戶的名稱。 </p> <p> <span class="uicontrol"> FTP密 </span> 碼——指定FTP帳戶的密碼。 </p> <p> <span class="uicontrol"> FTP檔案名 </span> 稱——指定要傳輸的檔案名稱。 如果動態消息產生多個檔案，此名稱是範本，通常會在名稱結尾但在副檔名之前增加一個數字。 例如：basename.xml, basename1.xml, basename2.xml, ..., basename-Nth.xml </p> <p> <span class="uicontrol"> FTP目 </span> 錄——如果需要特定目錄路徑，請在此處輸入。 請勿將檔案名稱包含在路徑中。 </p> </li> 
           <li id="li_5990927146434DAF89273F4636D21437"> <span class="uicontrol"> 代管內容網路 </span> <p>「內容網路」是從網站搜尋／銷售的網站伺服器伺服檔案的方式。 動態消息的收件者使用HTTP請求從Web伺服器提取它。 </p> <p> 
             <!--After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. --> </p> </li> 
           </ul> </li> 
