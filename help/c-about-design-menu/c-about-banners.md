@@ -7,7 +7,10 @@ title: 關於橫幅
 topic: Design,Site search and merchandising
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
 translation-type: tm+mt
-source-git-commit: 7f1b5d94e8002992d62ec1e3dce11f9c5605fde8
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+workflow-type: tm+mt
+source-wordcount: '4810'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +53,7 @@ c_about_banners.xml
 
 使用Dynamic Media Classic中的「參數」畫面，您可以將範本的任何方面轉換為可定址的參數。 在執行此動作時，您可以變更要使用的圖層影像或範本中要使用的文字值。 參數會隨URL字串傳遞，讓您變更任何參數，以動態自訂從影像伺服器產生的回覆影像。
 
-您可以進一步瞭解如何使用Dynamic Media Classic建立範本，並為圖層上的屬性參數化，以便在橫幅中使用。
+您可以進一步瞭解如何使用Dynamic Media Classic來建立範本，並為圖層上的屬性參數化，以便在橫幅中使用。
 
 請參 [閱Dynamic Media Classic](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) (Scene7)使用指南中的範本基礎。
 
@@ -70,7 +73,7 @@ c_about_banners.xml
 
 **使用業務規則變更橫幅中的動態媒體傳統範本參數**
 
-如果您將Dynamic Media Classic資產新增為橫幅，則可 [!DNL Visual Rule Builder] 在 [!DNL Business Rules] 中將它新增至網站上的任何橫幅區域。 例如，您將橫幅新增至搜尋結果頁面，就像您新增其他橫幅一樣。 您也可以根據您的特定需求自訂Dynamic Media Classic範本中的預設參數值，以覆寫這些值。 這類功能可讓您使用不同的行銷訊息和超連結來自訂Dynamic Media Classic範本至不同的端點。
+如果您將Dynamic Media Classic資產新增為橫幅，則可 [!DNL Visual Rule Builder] 以 [!DNL Business Rules] 使用將其新增至網站上的任何橫幅區域。 例如，您將橫幅新增至搜尋結果頁面，就像您新增其他橫幅一樣。 您也可以根據您的特定需求自訂Dynamic Media Classic範本中的預設參數值，以覆寫這些值。 這類功能可讓您使用不同的行銷訊息和超連結來自訂Dynamic Media Classic範本至不同的端點。
 
 另請參 [閱新增業務規則](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)。
 
@@ -112,15 +115,13 @@ t_adding_a_new_banner.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>橫幅HTML </p> </td> 
-      <td colname="col2"> <p> 可讓您貼上與橫幅相關聯的HTML程式碼。 </p> <p>任何HTML程式碼都可接受，包括由 
-        <userinput>
+      <td colname="col2"> <p> 可讓您貼上與橫幅相關聯的HTML程式碼。 </p> <p>任何HTML程式碼都是可接受的，包括由標籤包圍的CSS程 <code>
           &lt;style&gt; 
-        </userinput> 標籤，或由 
-        <userinput>
+        </code> 式碼，或由標籤包圍的JavaScript <code>
           &lt;script&gt; 
-        </userinput> 標記。例如，下列程式碼區塊是用於「水準頂端」類型的文字橫幅：在下 <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('https://www.brough.com/blackb.gif');&nbsp; 
+        </code> 程式碼。 例如，下列程式碼區塊是用於「水準頂端」類型的文字橫幅： <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('https://www.brough.com/blackb.gif');&nbsp; 
           padding-top:&nbsp;10px;&nbsp;padding-bottom:&nbsp;10px;&nbsp;color:&nbsp;white;&nbsp;font-family:&nbsp;verdana;&nbsp; 
-          text-align:&nbsp;center;&nbsp;font-size:&nbsp;20px;"&gt;&nbsp;Sound&nbsp;Study&nbsp;ships&nbsp;free!&nbsp;&lt;/div&gt; </code>列範例中，程式碼區塊是用於完整啟動顯示影像： <code> &lt;img&amp;nbsp;src='https://geometrixx.com/images/GEOAds/geometrixx-beauty-home-01.jpg'&amp;nbsp;border="0"&amp;nbsp;/&gt; </code> </p> </td> 
+          text-align:&nbsp;center;&nbsp;font-size:&nbsp;20px;"&gt;&nbsp;Sound&nbsp;Study&nbsp;ships&nbsp;free!&nbsp;&lt;/div&gt; </code>在下列範例中，程式碼區塊是用於完整啟動顯示影像： <code> &lt;img&amp;nbsp;src='https://geometrixx.com/images/GEOAds/geometrixx-beauty-home-01.jpg'&amp;nbsp;border="0"&amp;nbsp;/&gt; </code> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>類型 </p> </td> 
@@ -402,7 +403,7 @@ t_adding_a_banner_using_adobe_scene7.xml
 
    **參數選項**
 
-   只有在您為橫幅選擇影像範本或Flash範本時，才會顯示參數選項。 實際的參數選項會視範本在Scene7 Publishing System中的建立方式及參數化而有所不同。 例如，您的範本可能包含參數化欄位，可讓您變更文字、字型樣式、價格、免運費專用代碼、橫幅中影像的大小，甚至瀏覽要使用的不同影像。
+   只有在您為橫幅選擇影像範本或Flash範本時，才會顯示參數選項。 實際的參數選項會視範本在Scene7 Publishing System中的建立方式和參數化而有所不同。 例如，您的範本可能包含參數化欄位，可讓您變更文字、字型樣式、價格、免運費專用代碼、橫幅中影像的大小，甚至瀏覽要使用的不同影像。
 
    >[!NOTE]
    >
@@ -431,7 +432,7 @@ t_adding_a_banner_using_adobe_scene7.xml
     </tbody> 
     </table>
 
-   （可選）如果您要用於橫幅的數位資產未在選取的檔案夾中使用，您可能需要上傳它。 按一 **[!UICONTROL Upload]**&#x200B;下，然後選取您想要的檔案和選項。 檔案會上傳至選取的檔案夾。
+   （可選）如果您要用於橫幅的數位資產無法在選取的檔案夾中使用，您可能需要上傳它。 按一 **[!UICONTROL Upload]**&#x200B;下，然後選取您想要的檔案和選項。 檔案會上傳至選取的檔案夾。
 
    >[!NOTE]
    >
