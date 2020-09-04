@@ -8,7 +8,10 @@ title: 關於自動完成
 topic: Design,Site search and merchandising
 uuid: 3dfdd14d-2044-4f01-a5bc-fcb2eb0d5068
 translation-type: tm+mt
-source-git-commit: 439100ab96f4b597c55b1c1ae38a5778c208e896
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+workflow-type: tm+mt
+source-wordcount: '1530'
+ht-degree: 1%
 
 ---
 
@@ -151,7 +154,7 @@ t_configuring_auto-complete_word_list.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>最大值計數 </p> </td> 
-      <td colname="col2"> <p>定義選定欄位名稱允許的欄位值的最大計數。 其中包含的頂部值也是最常被參考的。 </p> </td> 
+      <td colname="col2"> <p>定義選定欄位名稱允許的欄位值的最大計數。 其中包括也是最受參考的頂端值。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>新增這些字詞和片語 </p> </td> 
@@ -159,20 +162,15 @@ t_configuring_auto-complete_word_list.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>移除這些字詞和片語 </p> </td> 
-      <td colname="col2"> <p> 此區域中的項目不會顯示在自動完成的字詞清單中。 </p> <p> 按一 <span class="uicontrol"> 下「編 </span> 輯」以查看清單，或將字詞和片語新增至清單。 完成後，按一下「儲 <span class="uicontrol"> 存變更」 </span>。 </p> <p> 此清單中允許使用規則運算式。 若要在此清單中指定規則運算式，請以 
-        <userinput>
-          regexp 
-        </userinput> 後面接著單一空格，後面接著規則運算式。 字詞清單中與規則運算式相符的任何行都會移除。 </p> <p> <b>重要</b>:只有在先前已在其他應用程式中使用規則運算式時，才應使用規則運算式。 </p> <p>請參閱 <a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式 </a>。 </p> </td> 
+      <td colname="col2"> <p> 此區域中的項目不會顯示在自動完成的字詞清單中。 </p> <p> 按一 <span class="uicontrol"> 下「編 </span> 輯」以查看清單，或將字詞和片語新增至清單。 完成後，按一下「儲 <span class="uicontrol"> 存變更」 </span>。 </p> <p> 此清單中允許使用規則運算式。 若要在此清單中指定規則運算式，請在行的開頭加上 <code>regexp</code> 單一空格，後面接著規則運算式。 字詞清單中與規則運算式相符的任何行都會移除。 </p> <p> <b>重要</b>:只有在先前已在其他應用程式中使用規則運算式時，才應使用規則運算式。 </p> <p>請參閱 <a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式 </a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>忽略大小寫 </p> </td> 
-      <td colname="col2"> <p>自動完成單詞清單中僅按字母大寫／小寫區分的重複條目被刪除；所有字詞清單條目都強制為小寫。 </p> <p>如果您希望「自動完成」建議顯示為「首字母大寫」或「所有大寫」，請新增 
-        <userinput>
-          文本轉換：資本化； 
-        </userinput> 或  
-        <userinput>
-          文本轉換：大寫； 
-        </userinput> 自動完成CSS內容的CSS文字屬性，位於「/*樣式（結果項目*/」）下。 </p> <p>請參 <a href="c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96" type="task" format="dita" scope="local"> 閱設定自動完成CSS </a>。 </p> </td> 
+      <td colname="col2"> <p>自動完成單詞清單中僅按字母大寫／小寫區分的重複條目被刪除；所有字詞清單條目都強制為小寫。 </p> <p>如果您希望「自動完成」建議顯示為「首字母大寫」或「全部大寫」，請在「結果項目*/」的「/*樣式」下，將 <code>
+          text-transform : capitalize; 
+        </code> 或 <code>
+          text-transform : uppercase; 
+        </code> CSS文字屬性新增至「自動完成」CSS內容。 </p> <p>請參 <a href="c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96" type="task" format="dita" scope="local"> 閱設定自動完成CSS </a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>重新索引時更新 </p> </td> 
