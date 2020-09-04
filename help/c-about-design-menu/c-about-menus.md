@@ -8,7 +8,10 @@ title: 關於功能表
 topic: Design,Site search and merchandising
 uuid: 011050cd-21b6-4150-9503-18fa3f771626
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+workflow-type: tm+mt
+source-wordcount: '763'
+ht-degree: 1%
 
 ---
 
@@ -69,13 +72,13 @@ t_adding_a_new_menu.xml
       <ul id="ul_7E66ACC1DA494B20BEC3B0B2CCAB103A"> 
       <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> 排序 </span> <p>依您定義的中繼資料類型來組織您的搜尋。 </p> <p>例如，您可以定義具有下列中繼資料類型的排序功能表：三項關聯性；自訂的中繼資料欄位，例如可用性代碼；和價格。 這三個項目可分別標示為「依關聯性排序」、「依可用性排序」和「依價格排序」。 當您將此項目加入簡報範本中時，客戶可以使用此控制項來排序其搜尋結果。 </p> </li> 
       <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> 計數 </span> <p>定義要顯示的搜尋結果數。 此菜單類型映射到cgi參 <span class="varname"> 數sp_c </span>。 </p> <p>請參閱 <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> 後端搜尋CGI參數 </a>。 </p> </li> 
-      <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> 導覽 </span> <p>指定一組與功能表項目關聯的靜態URL。 通常，導覽功能表用於在搜尋結果頁面上建立頂層導覽列。 </p> <p>例如，您可以建立包含女性、男性、男孩和女孩的選單，其中選單項目會類似下列： 
-      <userinput>
-        /?q1=womens;x1=geder 
-      </userinput>、 
-      <userinput>
-        /?q1=mens;x1=geder 
-      </userinput> </p> </li> 
+      <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> 導覽 </span> <p>指定一組與功能表項目關聯的靜態URL。 通常，導覽功能表用於在搜尋結果頁面上建立頂層導覽列。 </p> <p>例如，您可以建立包含女性、男性、男孩和女孩的選單，其中選單項目會類似下列：
+      <code>
+        /?q1=womens;x1=gender 
+      </code>的 
+      <code>
+        /?q1=mens;x1=gender 
+      </code> </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
