@@ -8,7 +8,10 @@ title: 關於增量索引
 topic: Index,Site search and merchandising
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 0%
 
 ---
 
@@ -46,125 +49,113 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
     <tbody> 
       <tr> 
       <td colname="col1"> <p>新增或更新URL </p> </td> 
-      <td colname="col2"> <p>指定URL。 </p> <p>搜索自動機僅對自上次編製索引以來已更改的指定文檔進行索引。 </p> <p>此外，搜索自動機會跟蹤包含在指定文檔中的連結，並僅對已更改的文檔進行索引。 </p> <p>此欄位只能包含檔案URL，而不能像下列範例那樣包含遮色片： </p> <p> 
-        <userinput>
+      <td colname="col2"> <p>指定URL。 </p> <p>搜索自動機僅對自上次編製索引以來已更改的指定文檔進行索引。 </p> <p>此外，搜索自動機會跟蹤包含在指定文檔中的連結，並僅對已更改的文檔進行索引。 </p> <p>此欄位必須僅包含檔案URL，而非遮色片，如下列範例所示： </p> <p> 
+        <code>
           https://www.mydomain.com/products/new.html 
-        </userinput> </p> <p>您可搭配URL使用下列關鍵字： </p> <p> 
+        </code> </p> <p>您可搭配URL使用下列關鍵字： </p> <p> 
         <ul id="ul_62D1082ACBD547D092B10D72C56A3A1E"> 
           <li id="li_32C2B21DE75C4459908384CC44822F7D"> 
-          <userinput>
+          <code>
             noindex 
-          </userinput> <p>如果您不想為頁面上符合指定URL的文字建立索引，但想要遵循頁面的連結，請新增 
-            <userinput>
+          </code> <p>如果您不想為頁面上符合指定URL的文字建立索引，但想要遵循頁面的連結，請在URL後面加入，如 <code>
               noindex 
-            </userinput> 在URL後，如下列範例所示： </p> <p> 
-            <userinput>
-              https://www.mydomain.com/products/new.html索引 
-            </userinput> </p> <p>請確定您已分隔 
-            <userinput>
+            </code> 下列範例所示： </p> <p> 
+            <code>
+              https://www.mydomain.com/products/new.html noindex 
+            </code> </p> <p>請務必從URL <code>
               noindex 
-            </userinput> 從含空格的URL;逗號不是有效的分隔符號。 </p> </li> 
+            </code> 中分隔出一個空格；逗號不是有效的分隔符號。 </p> </li> 
           <li id="li_33AB62B669084BF7B976F4308715E435"> 
-          <userinput>
+          <code>
             nofollow 
-          </userinput> <p>如果您想要為頁面上符合指定URL的文字建立索引，但不想追隨頁面的連結，請新增 
-            <userinput>
+          </code> <p>如果您想要為頁面上符合指定URL的文字建立索引，但不想追隨頁面的連結，請在URL後面加入，如 <code>
               nofollow 
-            </userinput> 在URL後，如下列範例所示： </p> <p> 
-            <userinput>
-              https://www.mydomain.com/products/new.html相關資訊 
-            </userinput> </p> <p> 請確定您已分隔 
-            <userinput>
+            </code> 下列範例所示： </p> <p> 
+            <code>
+              https://www.mydomain.com/products/new.html nofollow 
+            </code> </p> <p> 請務必從URL <code>
               nofollow 
-            </userinput> 從含空格的URL;逗號不是有效的分隔符號。 </p> </li> 
+            </code> 中分隔出一個空格；逗號不是有效的分隔符號。 </p> </li> 
         </ul> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>尋找和更新URL遮色片 </p> </td> 
       <td colname="col2"> <p>指定簡單的URL遮色片——完整路徑、部分路徑或使用萬用字元或規則運算式的路徑。 </p> <p>搜索自動機僅查找自上次編製索引以來更改的所有匹配文檔和索引。 </p> <p>此外，搜索自動機會跟蹤匹配文檔中包含的連結，並僅對已更改的頁進行索引。 例如: </p> <p> 
-      <userinput>
+      <code>
         https://www.mydomain.com/products/household/*.html 
-      </userinput> </p> <p>您也可以使用規則運算式，如下列範例所示： </p> <p> 
-      <userinput>
+      </code> </p> <p>您也可以使用規則運算式，如下列範例所示： </p> <p> 
+      <code>
         regexp ^https://www\.mydomain\.com/products/household/.*\.html$ 
-      </userinput> </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式</a>。 </p> <p>您也可以使用關鍵字 
-      <userinput>
+      </code> </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式</a>。 </p> <p>您也可以使用關鍵字 <code>
         nofollow 
-      </userinput> 和 
-      <userinput>
+      </code> , <code>
         noindex 
-      </userinput> 如上述新增 <span class="uicontrol"> 或更新URL中所 </span> 述。 </p> </td> 
+      </code> 如上述「新增 <span class="uicontrol"> 或更新URL」中所 </span> 述。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>包含和排除URL遮色片 </p> </td> 
       <td colname="col2"> <p>指定簡單的包含或排除URL遮色片——完整路徑、部分路徑或使用萬用字元或規則運算式的路徑。 </p> <p>搜索自動機根據指定的掩碼類型查找和索引("include")或忽略("exclude")文檔。 </p> <p> 在為網站建立索引時，會依外觀順序遵循方向。 例如，下列遮色片清單： </p> <p> 
-      <userinput>
-        包含https://www.mydomain.com/products/household/lightbulbs*.html 
-      </userinput> </p> <p> 
-      <userinput>
-        排除https://www.mydomain.com/products/ 
-      </userinput> </p> <p>索引頁 
-      <userinput>
-        燈泡1.html 
-      </userinput> 和 
-      <userinput>
-        燈泡2.html 
-      </userinput>。但是，它不會為列在產品目錄下的任何其他頁面建立索引。 </p> <p>首先出現的URL遮色片一律優先於稍後出現在清單中的URL遮色片。 此外，如果搜索自動機遇到與包含蒙版和排除蒙版匹配的文檔，則首先列出的蒙版優先。 </p> <p>您也可以使用關鍵字 
-      <userinput>
+      <code>
+        include https://www.mydomain.com/products/household/lightbulbs*.html 
+      </code> </p> <p> 
+      <code>
+        exclude https://www.mydomain.com/products/ 
+      </code> </p> <p>索引頁 <code>
+        lightbulbs1.html 
+      </code> 和 <code>
+        lightbulbs2.html 
+      </code>。 但是，它不會為列在產品目錄下的任何其他頁面建立索引。 </p> <p>首先出現的URL遮色片一律優先於稍後出現在清單中的URL遮色片。 此外，如果搜索自動機遇到與包含蒙版和排除蒙版匹配的文檔，則首先列出的蒙版優先。 </p> <p>您也可以使用關鍵字 <code>
         nofollow 
-      </userinput> 和 
-      <userinput>
+      </code> , <code>
         noindex 
-      </userinput> 如上述新增 <span class="uicontrol"> 或更新URL中所 </span> 述。 </p> <p>請參閱 <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> 關於URL遮色片</a>。 </p> </td> 
+      </code> 如上述「新增 <span class="uicontrol"> 或更新URL」中所 </span> 述。 </p> <p>請參閱 <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> 關於URL遮色片</a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>包含和排除日期遮色片 </p> </td> 
       <td colname="col2"> <p>指定簡單的包含或排除日期遮色片——完整路徑、部分路徑或使用萬用字元或規則運算式的路徑。 </p> <p>搜索自動機根據URL和文檔日期查找和索引（「包含」）或忽略（「排除」）文檔。 </p> <p>您可以使用下列日期遮色片類型： </p> <p> 
       <ul id="ul_8958ED54C8EF405AA259236595ED3ABA"> 
       <li id="li_0A7841767E004F088CA6FA42E99B9F32"> 
-      <userinput>
-        包含天數NNN 
-      </userinput> <p>搜索自動機為所有與指定的URL掩碼匹配且為NNN天或更舊的文檔編製索引。 </p> <p>您可以使用下列一個或多個關鍵字跟隨URL遮色片： 
+      <code>
+        include-days NNN 
+      </code> <p>搜索自動機為所有與指定的URL掩碼匹配且為NNN天或更舊的文檔編製索引。 </p> <p>您可以使用下列一個或多個關鍵字跟隨URL遮色片： 
         <ul id="ul_22A38D5F38B344ABB02B16EB1865813B"> 
         <li id="li_B89CC37DC2A1428185E86FFCB9DDB193">nofollow </li> 
         <li id="li_C2579B3A338D4AF987C3F518806734B0">noindex </li> 
         <li id="li_0527BF7103F34B83AC3E684069B899F7">server-date </li> 
         </ul> </p> <p>例如，以下遮色片包含/archive/support檔案夾中0天或更舊的所有檔案： </p> <p> 
-        <userinput>
-          include days 0 https://www.mydomain.com/archive/support/ 
-        </userinput> </p> </li> 
+        <code>
+          include-days 0 https://www.mydomain.com/archive/support/ 
+        </code> </p> </li> 
       <li id="li_7663ABED40DD4E159F746E4F92BB6407"> 
-      <userinput>
+      <code>
         include-date YYYY-MM-DD 
-      </userinput> <p>搜索自動機為所有與指定的URL蒙版匹配且舊版或舊版YYYY-MM-DD日期相同的文檔編製索引。 </p> <p>您可以使用下列一個或多個關鍵字跟隨URL遮色片： </p> <p> 
+      </code> <p>搜索自動機為所有與指定的URL蒙版匹配且舊版或舊版YYYY-MM-DD日期相同的文檔編製索引。 </p> <p>您可以使用下列一個或多個關鍵字跟隨URL遮色片： </p> <p> 
         <ul id="ul_57BF37A413BB4A4D962863DACE56F395"> 
         <li id="li_88CAB9AB583B4754A5C53478BD1108FF">nofollow </li> 
         <li id="li_999E1CD34FDE4A1B9C332B4AA8C2887D">noindex </li> 
         <li id="li_05646FACF3524D2A9E201A23770E357F"> server-date </li> 
         </ul> </p> <p>下列遮色片範例包含日期為2011年7月25日或之前的/archive/檔案夾中的所有檔案： </p> <p> 
-        <userinput>
+        <code>
           include-date 2011-07-25 https://www.mydomain.com/archive/ 
-        </userinput> </p> </li> 
+        </code> </p> </li> 
       <li id="li_172692DEDA8744B3AA492701D24C2D80"> 
-      <userinput>
+      <code>
         exclude-days NNN 
-      </userinput> <p>停用所有符合指定URL遮色片且為NNN天數或更舊之檔案的索引。 </p> <p>或者，您可以依關鍵字追蹤URL遮色片 
-        <userinput>
+      </code> <p>停用所有符合指定URL遮色片且為NNN天數或更舊之檔案的索引。 </p> <p>或者，您可以依關鍵字追蹤URL遮色片 <code>
           server-date 
-        </userinput>。 </p> <p>下列遮色片範例會從索引中排除所有90天以上的PDF檔案： </p> <p> 
-        <userinput>
+        </code>。 </p> <p>下列遮色片範例會從索引中排除所有90天以上的PDF檔案： </p> <p> 
+        <code>
           exclude-days 90 *.pdf 
-        </userinput> </p> </li> 
+        </code> </p> </li> 
       <li id="li_26078517744D4AECBE1351008926CBAE"> 
-      <userinput>
+      <code>
         exclude-date YYYY-MM-DD 
-      </userinput> <p>停用符合指定URL遮色片且舊版或舊版日期YYYY-MM-DD之所有檔案的索引。 </p> <p>或者，您可以依關鍵字追蹤URL遮色片 
-        <userinput>
+      </code> <p>停用符合指定URL遮色片且舊版或舊版日期YYYY-MM-DD之所有檔案的索引。 </p> <p>或者，您可以依關鍵字追蹤URL遮色片 <code>
           server-date 
-        </userinput>。 </p> <p>下列遮色片範例會排除日期為2004年4月23日或之前的/archive/檔案夾中的所有檔案： </p> <p> 
-        <userinput>
+        </code>。 </p> <p>下列遮色片範例會排除日期為2004年4月23日或之前的/archive/檔案夾中的所有檔案： </p> <p> 
+        <code>
           exclude-date 2004-04-23 https://www.mydomain.com/archive/ 
-        </userinput> </p> </li> 
+        </code> </p> </li> 
       </ul> </p> <p>請參閱 <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_F4F1F58A646F4A86B8650EC46FDCEF66" type="concept" format="dita" scope="local"> 關於日期遮色片</a>。 </p> </td> 
       </tr> 
       <tr> 
@@ -174,12 +165,12 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
       <tr> 
       <td colname="col1"> <p>尋找和刪除URL遮色片 </p> </td> 
       <td colname="col2"> <p>指定簡單的URL遮色片——完整路徑、部分路徑或使用萬用字元或規則運算式的遮色片。 </p> <p>如果指定的URL遮色片與搜尋索引中的頁面相符，搜尋自動機會在新增或更新任何其他頁面之前，先刪除頁面。 例如: </p> <p> 
-      <userinput>
+      <code>
         https://www.mydomain.com/products/1998/household/* 
-      </userinput> </p> <p>您也可以使用規則運算式，如下列範例所示： </p> <p> 
-      <userinput>
-        regexp ^https://www\.mydomain\.com/products/199[567]/。*$ 
-      </userinput> </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式</a>。 </p> </td> 
+      </code> </p> <p>您也可以使用規則運算式，如下列範例所示： </p> <p> 
+      <code>
+        regexp ^https://www\.mydomain\.com/products/199[567]/.*$ 
+      </code> </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
