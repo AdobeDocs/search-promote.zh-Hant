@@ -7,7 +7,10 @@ title: 範本
 topic: Appendices,Site search and merchandising
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: ca4156f80d7dbb85d2d56b6caf7c0f560299d86e
+workflow-type: tm+mt
+source-wordcount: '15139'
+ht-degree: 2%
 
 ---
 
@@ -81,13 +84,13 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-results [gsname="searchname"]&gt;&lt;/guided-results&gt; </span> </p> </td> 
+     <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-results [gsname="searchname"&gt;&gt;&lt;/guided-results&gt; </span> </p> </td> 
    <td colname="col2"> <p>引導結果標籤定義結果循環的邊界。 通過指定 <span class="codeph"> gsname屬性，可以訪問任何結 </span> 果集。 如果未 <span class="codeph"> 提供 </span> gsname，則會顯示預設搜尋結果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-result-link [gsname="fieldname"] [attr="value"+&gt;&lt;/guided-result-link&gt; </span> </p> </td> 
+     <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-result-link [gsname="fieldname"] [attr="value"+&gt;&lt;/guided-result-link] </span> </p> </td> 
    <td colname="col2"> <p>若要建立指定結果的連結，請使 <span class="codeph"> 用guided-result-link標 </span> 記。 定義 <span class="codeph"> gsname屬 </span> 性後，您就可以使用索引中的欄位，而非參照"search-url"的標準"loc"標籤。 任何其他屬性（例如類別和目標）也可以傳遞，這些屬性會輸出到產生的錨點標籤中。 </p> </td> 
   </tr> 
   <tr> 
@@ -142,7 +145,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
   <tr> 
    <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p> 
-     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-results-lower [gsname="searchname"/&gt; </span> </p> </td> 
+     <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-results-lower [gsname="searchname"]/&gt; </span> </p> </td> 
    <td colname="col2"> <p>返回指定結果集的頁面上較低結果的結果編號。 未指定 <span class="codeph"> gsname時，假 </span> 設預設搜索。 </p> </td> 
   </tr> 
   <tr> 
@@ -222,7 +225,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
   <tr> 
    <td colname="col01"> <p>18 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW for S&P 8.17.0 release in October 2014--> <span class="codeph"> &lt;guided-trace [gsname="searchname"]/&gt; </span> </p> </td> 
+     <!--NEW for S&P 8.17.0 release in October 2014--> <span class="codeph"> &lt;guided-trace [gsname="searchname"/&gt; </span> </p> </td> 
    <td colname="col2"> <p>將追蹤資料中找到的追蹤資訊，輸出給定搜尋的傳輸範本所輸出JSON資料的一般區段。 </p> <p>如果未提供搜尋名稱，則 <span class="codeph"> 會假 </span> 設為預設。 </p> </td> 
   </tr> 
   <tr> 
@@ -288,7 +291,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Updated to match current search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet gsname=" <span class="varname"> facetname </span>" height=" 60px <span class="varname"> " width=" </span>120px <span class="varname"></span>"&gt;&lt;/guided-facet&gt; </span> </p> </td> 
+     <!--Updated to match current search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet gsname=" <span class="varname"> facetname </span>" height=" <span class="varname"> 60px </span>" width=" 120px <span class="varname"></span>"&gt;&lt;/guided-facet&gt; </span> </p> </td> 
    <td colname="col2"> <p>使用引 <span class="codeph"> 導Facet標 </span> 記來定義所有Facet標籤都與特定Facet相關的區域。 此標籤也是布林標籤，如果Facet中沒有值，則會隱藏所有內容。 在這種情況下，沒有輸出刻面值的點)。 </p> <p>高度和寬度屬性是可選的，尺寸以像素(px)指定。 「視覺化規則產生器」(VRB)會使用這兩個屬性，並在Facet隱藏時，將虛線方塊顯示為互動預留位置。 </p> <p> 當顯示名稱位於Facet中且Facet已隱藏時，名稱也會隱藏。 但是，如果名稱位於Facet外，則只有區域標籤或引導-if-facet-visible標籤包住它時，才 <span class="codeph"></span><span class="codeph"></span> 能隱藏名稱。 </p> </td> 
   </tr> 
   <tr> 
@@ -330,7 +333,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>7 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW, brought in from search-eng version, 1/31/13--> <span class="codeph"> &lt;guided-if[-not]-facet-single [gsname="facetname"]&gt;&lt;/guided-if[-not]-facet-single&gt; </span> </p> </td> 
+     <!--NEW, brought in from search-eng version, 1/31/13--> <span class="codeph"> &lt;guided-if[-not]-facet-single [gsname="facetname"]&gt;&lt;/guided-if[-not]-facet-single </span> </p> </td> 
    <td colname="col2"> <p>當只有一個Facet值時，此條件標籤為true。 當Facet無法調整結果時，使用標籤來變更其顯示。 </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;name="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-single&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facet&nbsp;is&nbsp;not&nbsp;refinable. 
@@ -381,7 +384,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>12 </p> </td> 
    <td colname="col1"> <p> 
-     <!--NEW, brought in from search-eng version, 1/31/13--> <span class="codeph"> &lt;guided-facet-value-link [attr="value"]+&gt;&lt;/guided-facet-value-link&gt; </span> </p> </td> 
+     <!--NEW, brought in from search-eng version, 1/31/13--> <span class="codeph"> &lt;guided-facet-value-link [attr="value"]+&gt;&lt;/guided-facet-value-link </span> </p> </td> 
    <td colname="col2"> <p>在Facet值字串周圍建立連結，讓網站訪客按一下。 會自動產生路徑，以依目前的Facet值縮小結果。 它支援將任何屬性直接傳遞至錨點標籤。 </p> <p> <code class="syntax html"> &lt;guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-value-link&nbsp;class="facetlink"&gt;&lt;guided-facet-value&nbsp;/&gt;&lt;/guided-facet-value-link&gt; 
       &lt;/guided-facet-values&gt; </code> </p> </td> 
@@ -429,7 +432,8 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   </tr> 
   <tr> 
    <td colname="col01"> <p>16 </p> </td> 
-   <td colname="col1"> <p> <varname></varname> </p> </td> 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-long [gsname="facetname"]&gt; 
+      &lt;guided-else-facet-long&gt;&lt;/guided-if-facet-long&gt; </code> </p> </td> 
    <td colname="col2"> <p>當Facet值數量超過設定中定義的長度臨界值時，此條件標籤為true。 當清單過長時，使用它可將Facet顯示為不同的使用者介面元素（例如截斷的清單或捲動方塊）。 </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-long&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="long_facet"&gt; 
@@ -466,7 +470,8 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   </tr> 
   <tr> 
    <td colname="col01"> <p>18 </p> </td> 
-   <td colname="col1"> <p> <varname></varname> </p> </td> 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-single [gsname="facetname"]&gt; 
+      &lt;guided-else-facet-single&gt;&lt;/guided-if-facet-single&gt; </code> </p> </td> 
    <td colname="col2"> <p>當只有一個Facet值時，此條件標籤為true。 當Facet無法調整結果時，它可用來變更Facet的顯示。 </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-single&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facet&nbsp;is&nbsp;not&nbsp;refinable. 
@@ -481,7 +486,8 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   </tr> 
   <tr> 
    <td colname="col01"> <p>19 </p> </td> 
-   <td colname="col1"> <p> <varname></varname> </p> </td> 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-has-values [gsname="facetname"]&gt; 
+      &lt;guided-else-facet-has-values&gt;&lt;/guided-if-facet-has-values&gt; </code> </p> </td> 
    <td colname="col2"> <p>此條件可讓您檢查指定的Facet是否有任何值。 您可使用它來顯示另一個Facet，而非空的Facet。 </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +574,8 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   </tr> 
   <tr> 
    <td colname="col01"> <p>32 </p> </td> 
-   <td colname="col1"> <p> <varname></varname> </p> </td> 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-value-matches facetname="facetname" value="value"&gt;&lt;guided-else-facet-value-matches&gt; 
+      &lt;/guided-if-facet-value-matches&gt; </code> </p> </td> 
    <td colname="col2"> <p>當指定Facet有選取或單一值「值」時，有條件地顯示HTML。 這組標籤通常用於根據在其他Facet中選取的值來顯示Facet。 </p> </td> 
   </tr> 
   <tr> 
@@ -578,7 +585,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   </tr> 
   <tr> 
    <td colname="col01"> <p>34 </p> </td> 
-   <td colname="col1"> <p> <varname></varname>
+   <td colname="col1"> <p> 
 
     &amp;lt;/guided-if-facet[-not]-visible&amp;gt;&lt;/code> &lt;/p> &lt;/td>
 <td colname="col2"> <p>此標籤所包住的內容會根據Facet的可見性狀態而隱藏或顯示。 如果業務規則直接隱藏或揭示Facet，則Facet內的任何內容都會隱藏或揭示。 這些標籤不必包住Facet。 </p> <p> 此標籤的常見用途是當名稱位於Facet外時隱藏顯示名稱。 將此標籤包住顯示名稱，會在Facet隱藏時使名稱消失。 </p> <p>此標籤會取代區域，而且其許多效能優點與使用區域相同。 </p> </td> 
@@ -627,7 +634,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-beadcrumb-label /&gt; </span> </p> </td> 
+     <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-breadcrumb-label /&gt; </span> </p> </td> 
    <td colname="col2"> <p>標籤標籤會輸出階層連結值的標籤，其中詳述選取要產生該階層連結項目的階層連結值。 它僅用於引導式網站導 <span class="codeph"> 覽路徑標示區 </span> 塊。 </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-breadcrumb-label/&gt;:&nbsp;&lt;guided-breadcrumb-value/&gt; 
@@ -685,7 +692,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-option [attr="value"]+ /&gt; </span> </p> </td> 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-option [attr="value"+ /&gt; </span> </p> </td> 
    <td colname="col2"> <p>通常，選單會顯示在範本的選取控制項中。 此標籤可讓建立選取控制項變得更簡單，因為它會產生HTML，以產生選取控制項的選項。 </p> <p>例如，下列程式碼區塊： </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sort"&nbsp;onchange="gcGo(this);"&gt; 
       &lt;guided-menu&nbsp;gsname="sort"&gt; 
       &lt;guided-menu-item-option/&gt; 
@@ -754,7 +761,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-page-link gsname="first|prev|next|last|viewall|viewpages" [attr="value"+&gt;&lt;guided-page-link&gt; </span> </p> </td> 
+     <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-page-link gsname="first|prev|next|last|viewall|viewpages" [attr="value"+&gt;&lt;/guided-page-link&gt; </span> </p> </td> 
    <td colname="col2"> <p>建立第一個、上一個、下一個或最後一頁的連結。 它也可以建立連結，以檢視單一頁面上的所有頁面。 </p> </td> 
   </tr> 
   <tr> 
@@ -957,7 +964,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> 
-     <!--Matches search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-seccument-link [attr="value"]+&gt;&lt;/guided-seccument-link&gt; </span> </p> </td> 
+     <!--Matches search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-seccument-link [attr="value"+&gt;&lt;/guided-seccument-link&gt; </span> </p> </td> 
    <td colname="col2"> <p>建立指向指定建議的連結。 </p> </td> 
   </tr> 
   <tr> 
@@ -1107,7 +1114,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-zone gsname="zone area"&gt; &lt;guided-else-zone&gt; &lt;guided-if-zone&gt; </span> </p> </td> 
-   <td colname="col2"> <p>這組標籤可啟用當前是否顯示區域的測試。 當頁面上的其他位置有您只想在顯示區域時顯示的內容時，此功能就很實用。 </p> </td> 
+   <td colname="col2"> <p>這組標籤可啟用當前是否顯示區域的測試。 當頁面上的其他位置有您只想在顯示區域時顯示的內容時，此功能很實用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1251,7 +1258,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-include gsfile="filename" /&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 可讓您包含其他範本檔案。 此功能表示您可以使用子範本做為模組來建立多個範本。 </p> <p>在下列範例中，包含 <span class="filepath"> 了階層 </span> 連結 <span class="filepath"> 和 </span> 刻面檔案： </p> <p> <code class="syntax html"> &lt;guided-include&nbsp;gsfile='breadcrumbs.tmpl'&nbsp;/&gt; 
+   <td colname="col2"> <p> 可讓您包含其他範本檔案。 此功能表示您可以使用子範本做為模組來建立多個範本。 </p> <p>在下列範例中，會 <span class="filepath"> 包含網 </span> 路導 <span class="filepath"> 覽路徑 </span> 和刻面檔案： </p> <p> <code class="syntax html"> &lt;guided-include&nbsp;gsfile='breadcrumbs.tmpl'&nbsp;/&gt; 
       &lt;guided-include&nbsp;gsfile='facets.tmpl'&nbsp;/&gt; </code> </p> <p>不支援動態包含。 換言之， <span class="codeph"> gsfile不 </span> 能是變數。 </p> </td> 
   </tr> 
   <tr> 
@@ -1632,8 +1639,8 @@ r_search_template_tags.xml
   </tr> 
   <tr> 
    <td colname="col01"> <p>11 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field name="field-name" length="XX" length="text" date-format="date-format-string" gmt="yes/no" language="0/2/language-id" encoding="html/javascript/json/perl/url/none"引號="yes/no" unies=" mules=" miles/mes/mes/kies/kies/kies/kies/kies=" ses/kires/kres=" ses/" separes=" </span> </p> </td> 
-   <td colname="col2"> <p>此進階標籤會顯示目前結果的中繼資料欄位(url、標題、desc、keys、target、body、alt、date、charset，以及名稱屬性中指定之「選項 <span class="uicontrol"> &gt; </span> Metadata <span class="uicontrol"> &gt;定義」下定義的語言或欄位) </span><span class="codeph"></span> 內容。 例如: </p> <p> <span class="codeph"> &lt;search-display-field name="title" length="70" none="no title"&gt; </span> </p> <p>輸出搜尋結果的頁面標題。 如果指定 <span class="codeph"> 了 </span> 可選的none屬性，則僅當沒有與欄位關聯的內容時，其值才會顯示在結果頁上。 </p> <p>只有 <span class="codeph"> 指定欄位的內容類型為date-format時，日 </span>期、 <span class="codeph"> gmt和語言屬性才 </span><span class="codeph"></span><span class="codeph"></span>相關。 </p> <p>日期 <span class="codeph"> 格式屬 </span> 性採用UNIX樣式的日期格式字串，如 <span class="codeph"> %A、%B %d、%Y </span> （2016年7月25日星期一）。 <span class="codeph"> gmt </span> 預設 <span class="codeph"> 為 </span> yes，並控制日期字串的時間部分是以GMT( <span class="codeph"> yes </span>)或帳戶的時區( <span class="codeph"> no </span>)輸出。 </p> <p>請參閱 <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> 日期格式字串</a>。 </p> <p>語言 <span class="codeph"> 屬 </span> 性控制輸出日期字串的語言和地區設定慣例。 <span class="codeph"> 0 </span> （預設值）表示「使用帳戶語言」。 <span class="codeph"> 2 </span> 意指「使用檔案語言」。 語 <span class="codeph"> 言 </span> 值 <span class="codeph"> 1保留 </span> 供將來使用)。 任何其 <span class="codeph"> 他語 </span> 言值都會解讀為特定語言識別碼，例如 <span class="codeph"> en_US </span> 代表「英文（美國）」。 </p> <p>請參閱 <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> 語言識別碼</a>。 </p> <p>選用的 <span class="codeph"> length屬 </span> 性可用來限制顯示的字串長度，預設值為80個字元。 </p> <p>可選的 <span class="codeph"> 編 </span> 碼屬性控制輸出是否為HTML編碼、JavaScript編碼、Perl編碼、URL編碼或未編碼，以便在結果頁面上輸出。 編碼的預設 <span class="codeph"> 值 </span> 為 <span class="codeph"> html </span>。 通常，您不需要指定編碼屬性。 </p> <p>可選的 <span class="codeph"> 引號屬 </span> 性控制單個項輸出是否用雙引號(或單引號，如果 <span class="codeph"> encoding=perl </span>)。 引號的預 <span class="codeph"> 設值 </span> 為 <span class="codeph"> no </span>。 </p> <p>選用的逗 <span class="codeph"> 號屬 </span> 性會控制個別輸出的項目是否以逗號分隔。 逗號的預 <span class="codeph"> 設值 </span> 為 <span class="codeph"> yes </span>。 非清 <span class="codeph"> 單類 </span> 型欄位會忽略逗號屬性。 </p> <p>可選單 <span class="codeph"> 位屬 </span> 性控制應用於鄰近搜索輸出欄位的距離單位。 單位的預設值 <span class="codeph"> 由與 </span> 給定鄰近搜索輸出欄位相關聯的位置類型欄位的「預設單位」設定確定。 </p> <p>請參 <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> 閱關於鄰近搜尋</a>。 </p> <p>可選的 <span class="codeph"> 分隔符 </span> 屬性定義在清單類型欄位的輸出值之間插入的單字元或分隔符。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field name="field-name" length="XX" length="text" date-format="date-format-string" gmt="yes/no" language="0/2/language-id" encoding="html/javascript/json/perl/url/none"引號="yes/no" unies=" mules=" miles/mes/mes/kies/kes/kies/kies=" mes/kies/kies/kres=" ses/kies/kries=" ses/" ses/" ses=" </span> </p> </td> 
+   <td colname="col2"> <p>此進階標籤會顯示目前結果的中繼資料欄位(url、標題、desc、keys、target、body、alt、date、charset，以及名稱屬性中指定之「選項 <span class="uicontrol"> &gt; </span> Metadata <span class="uicontrol"> &gt;定義」下定義的語言或欄位) </span><span class="codeph"></span> 內容。 例如: </p> <p> <span class="codeph"> &lt;search-display-field name="title" length="70" none="no title"&gt; </span> </p> <p>輸出搜尋結果的頁面標題。 如果指定 <span class="codeph"> 了 </span> 可選的none屬性，則僅當沒有與欄位關聯的內容時，其值才會顯示在結果頁上。 </p> <p>只有 <span class="codeph"> 指定欄位的內容類型為日期格式， </span>「日期」、 <span class="codeph"> 「 gmt」和「語言」屬性才 </span><span class="codeph"></span><span class="codeph"></span>相關。 </p> <p>日期 <span class="codeph"> 格式屬 </span> 性採用UNIX樣式的日期格式字串，如 <span class="codeph"> %A、%B %d、%Y </span> （2016年7月25日星期一）。 <span class="codeph"> gmt </span> 預設 <span class="codeph"> 為 </span> yes，並控制日期字串的時間部分是以GMT( <span class="codeph"> yes </span>)或帳戶的時區( <span class="codeph"> no </span>)輸出。 </p> <p>請參閱 <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> 日期格式字串</a>。 </p> <p>語言 <span class="codeph"> 屬 </span> 性控制輸出日期字串的語言和地區設定慣例。 <span class="codeph"> 0 </span> （預設值）表示「使用帳戶語言」。 <span class="codeph"> 2 </span> 意指「使用檔案語言」。 語 <span class="codeph"> 言 </span> 值 <span class="codeph"> 1保留 </span> 供將來使用)。 任何其 <span class="codeph"> 他語 </span> 言值都會解讀為特定語言識別碼，例如 <span class="codeph"> en_US </span> 代表「英文（美國）」。 </p> <p>請參閱 <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> 語言識別碼</a>。 </p> <p>選用的 <span class="codeph"> length屬 </span> 性可用來限制顯示的字串長度，預設值為80個字元。 </p> <p>可選的 <span class="codeph"> 編 </span> 碼屬性控制輸出是否為HTML編碼、JavaScript編碼、Perl編碼、URL編碼或未編碼，以便在結果頁面上輸出。 編碼的預設 <span class="codeph"> 值 </span> 為 <span class="codeph"> html </span>。 通常，您不需要指定編碼屬性。 </p> <p>可選的 <span class="codeph"> 引號屬 </span> 性控制單個項輸出是否用雙引號(或單引號，如果 <span class="codeph"> encoding=perl </span>)。 引號的預 <span class="codeph"> 設值 </span> 為 <span class="codeph"> no </span>。 </p> <p>選用的逗 <span class="codeph"> 號屬 </span> 性會控制個別輸出的項目是否以逗號分隔。 逗號的預 <span class="codeph"> 設值 </span> 為 <span class="codeph"> yes </span>。 非清 <span class="codeph"> 單類 </span> 型欄位會忽略逗號屬性。 </p> <p>可選單 <span class="codeph"> 位屬 </span> 性控制應用於鄰近搜索輸出欄位的距離單位。 單位的預設值 <span class="codeph"> 由與 </span> 給定鄰近搜索輸出欄位相關聯的位置類型欄位的「預設單位」設定確定。 </p> <p>請參 <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> 閱關於鄰近搜尋</a>。 </p> <p>可選的 <span class="codeph"> 分隔符 </span> 屬性定義在清單類型欄位的輸出值之間插入的單字元或分隔符。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>12 </p> </td> 
@@ -1643,12 +1650,12 @@ r_search_template_tags.xml
   <tr> 
    <td colname="col01"> <p>13 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field-value date-format="date-format-string" gmt="yes/no" language="0/language-id" encoding="html/javascript/json/url/none"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>此標籤會輸出目前 <span class="uicontrol"> &lt;search-display-field-values&gt;循環迭代的中繼資料欄位值(url、title、desc、keys、target、body、alt、date、charset和語言或欄位，這些欄位定義在「選項」( </span> Options)&gt; <span class="uicontrol"> 「中繼資料 </span> &gt; <span class="uicontrol"> 定義」(Metadata </span><span class="codeph"></span> &gt; Definitions)下。 此標籤僅在 <span class="codeph"> &lt;search-display-field-values&gt;回圈內有 </span> 效。 僅當 <span class="codeph"> &lt;search-display- </span>language&gt;附加的&lt;search-field-values&gt;標籤中指定的欄位名的內容類型為日期- <span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>display-language時，日期格式、格林尼治屬性和格林尼治屬性才相關。 日期 <span class="codeph"> 屬性採 </span> 用UNIX樣式日期格式字串，如 <span class="codeph"> "%A, </span>%B <span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>%d Format "（2016年7月25日星期一）。 預設 <span class="codeph"> 為「是」 </span> 屬性，並控制日期字串的時間部分是以GMT（是）輸出，還是以帳戶的時區( <span class="codeph"> 無)輸出 </span><span class="codeph"></span><span class="codeph"></span>。 </p> <p>語言 <span class="codeph"> 屬 </span> 性控制輸出日期字串的語言和地區設定慣例。 <span class="codeph"> 0 </span> （預設值）表示「使用帳戶語言」。 任何其 <span class="codeph"> 他語 </span> 言值都會解讀為特定語言識別碼，例如 <span class="codeph"> en_US </span> 代表「英文（美國）」。 </p> <p>可選的 <span class="codeph"> 編 </span> 碼屬性控制輸出是否為HTML編碼、JavaScript編碼、Perl編碼、URL編碼或未編碼，以便在結果頁面上輸出。 編碼的預設 <span class="codeph"> 值 </span> 為 <span class="codeph"> html </span>。 通常，您不需要指定編碼屬性。 </p> </td> 
+   <td colname="col2"> <p>此標籤會輸出目前 <span class="uicontrol"> &lt;search-display-field-values&gt;循環迭代的中繼資料欄位值(url、title、desc、keys、target、body、alt、date、charset和語言或欄位，這些欄位定義在「選項」( </span> Options)&gt; <span class="uicontrol"> 「中繼資料 </span> &gt; <span class="uicontrol"> 定義」(Metadata </span>&gt; <span class="codeph"></span> Definitions)中。 此標籤僅在 <span class="codeph"> &lt;search-display-field-values&gt;回圈內有 </span> 效。 僅當 <span class="codeph"> &lt;search-display- </span>language&gt;附加的&lt;search-field-values&gt;標籤中指定的欄位名的內容類型為日期- <span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>display-language時，日期格式、格林尼治屬性和格林尼治屬性才相關。 日期 <span class="codeph"> 屬性採 </span> 用UNIX樣式日期格式字串，如 <span class="codeph"> "%A, </span>%B <span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>%d Format "（2016年7月25日星期一）。 預設 <span class="codeph"> 為「是」 </span> 屬性，並控制日期字串的時間部分是以GMT（是）輸出，還是以帳戶的時區( <span class="codeph"> 無)輸出 </span><span class="codeph"></span><span class="codeph"></span>。 </p> <p>語言 <span class="codeph"> 屬 </span> 性控制輸出日期字串的語言和地區設定慣例。 <span class="codeph"> 0 </span> （預設值）表示「使用帳戶語言」。 任何其 <span class="codeph"> 他語 </span> 言值都會解讀為特定語言識別碼，例如 <span class="codeph"> en_US </span> 代表「英文（美國）」。 </p> <p>可選的 <span class="codeph"> 編 </span> 碼屬性控制輸出是否為HTML編碼、JavaScript編碼、Perl編碼、URL編碼或未編碼，以便在結果頁面上輸出。 編碼的預設 <span class="codeph"> 值 </span> 為 <span class="codeph"> html </span>。 通常，您不需要指定編碼屬性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>14 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-display-field-value-count name="field-name"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>輸出在使用name屬性指定之中繼資料欄位(url、title、desc、keys、target、body、alt、date、charset和語言或欄位，以及在 <span class="uicontrol"> Options </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"></span>Definitions下定義的值總數。 此標籤可顯示在結果循環中的任何位置。 </p> </td> 
+   <td colname="col2"> <p>輸出在使用name屬性指定之中繼資料欄位(url、title、desc、keys、target、body、alt、date、charset和語言或欄位，以及 <span class="uicontrol"> 「選項」 </span> &gt; <span class="uicontrol"> 「中繼資料 </span> &gt; <span class="uicontrol"> 定義」 </span>)的目前結果中的值總數。 此標籤可顯示在結果循環中的任何位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>15 </p> </td> 
@@ -1800,7 +1807,7 @@ r_search_template_tags.xml
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-inner&gt;...&lt;/search-if-inner&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-inner&gt;...&lt;/search-if-not-inner&gt; </span> </p> </td> 
-   <td colname="col2"> <p>如果目前的結果不是頁面上的第一個或最後一個結果(在 <span class="codeph"> &lt;search-results&gt; </span>)，或不是第一個或最後一個欄位值(在 <span class="codeph"></span>&lt;search-field-values&gt;內使用)，這些標籤會包含它們之間的文字。 標籤的not版本會測試結果是第一個還是最後一個。 </p> </td> 
+   <td colname="col2"> <p>如果目前的結果不是頁面上的第一個或最後一個結果(在 <span class="codeph"> &lt;search-results&gt; </span>)，或不是第一個或最後一個欄位值(在 <span class="codeph"></span>&lt;search-field-values&gt;中使用)，這些標籤會包含它們之間的文字。 標籤的not版本會測試結果是第一個還是最後一個。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
@@ -1926,7 +1933,7 @@ r_search_template_tags.xml
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list name="field-name" quotes="yes/no"逗號="yes/no" data="values/counts/results" separator="X" sortby="none/values/counts/results" max-items="XX" date-format-string" gmt=" gmt="yes/"ye/nage/no" languag=" yes/ys/languguage/javaguguge/javasuge/javaguage-id=" enage=" enage/javascript=" enage/javasugunage-id=" enco=" enagucasugunage/javagugucasinage-id=" enco="json/perl/url/none"&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list name="field-name" quotes="yes/no"逗號="yes/no" data="values/counts/results" separator="X" sortby="none/values/counts/results" max-items="XX" date-format-string" gmt=" gmt="yes/"ye/nage/no" languag=" yes/ys/languguage/javaguguage-inage=" enage/javace/javasuge/javasuguguguage-id=" enage-inage-inage=" enage=" enagucas=" enco=" htm/javascript/javascript/javascript/javascript/javascript/e" enaguanage/e/e="json/perl/url/none"&gt; </span> </p> </td> 
    <td colname="col2"> <p>此標籤顯示整個結果集中唯一欄位值、值計數或結果計數的清單。 </p> <p>此標籤僅產生由搜索查詢中 <span class="codeph"> sp_sfvl_field </span> CGI參數指定的欄位的輸出。 可選的"quotes"屬性控制個別項目輸出是否用雙引號（或單引號，如果encoding=perl）括住。 「引號」的預設值為「yes」。 選用的「逗號」屬性可控制個別輸出項目是否以逗號分隔。 「逗號」的預設值為「是」。 可選的"data"屬性控制每個唯一欄位值是輸出(data="values")、每個唯一欄位值的總計數是輸出(data="counts")，還是輸出包含每個唯一值(data="results")的結果數。 「data」的預設值為「values」。 對於非清單類型欄位，data="counts"和data="results"是等同的。 分隔符屬性定義要在輸出值之間插入的單個字元或分隔符。 選用的「sortby」屬性控制輸出順序；sortby="none"意指無特定順序， sortby="values"意指依欄位值排序（依欄位的排序屬性以遞增或遞減順序排序）, sortby="counts"意指依欄位值計數的遞減順序排序，而sortby="results"意指依含每個值之結果數的遞減順序排序。 </p> <p>請注意，sortby="counts"和sortby="results"對於非清單類型欄位是等效的。 選用的「最大項目」屬性會限制要輸出的項目數。 「最大項目」的預設值為-1，這表示「輸出所有項目」。 </p> <p>最大項目的絕對限制為100。 「日期格式」、「gmt」和「語言」屬性只有在指定欄位的內容類型為「日期」時才相關。 「date-format」屬性採用UNIX樣式的日期格式字串，如「%A, %B %d, %Y」（對於「2016年7月25日星期一」）。 "gmt"預設為"yes"，並控制日期字串的時間部分應以GMT("yes")或帳戶的時區("no")輸出。 </p> <p>請參閱 <a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> 日期格式字串</a>。 </p> <p>「語言」屬性控制輸出日期字串的語言和地區設定慣例。 "0"（預設值）表示「使用帳戶語言」。 任何其他「語言」值都會解讀為特定語言識別碼，例如，「en_US」意指「英文（美國）」。 可選的「encoding」屬性控制輸出字串字元是否為HTML編碼、JavaScript編碼、Perl編碼、URL編碼或未編碼，以便在結果頁面上輸出。 「encoding」的預設值為「html」。 </p> <p>請參閱 <a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> 語言識別碼</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -1963,7 +1970,7 @@ r_search_template_tags.xml
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-values name="field-name" sortby="none/values/counts/results" max-items="XX"&gt;...&lt;/search-field-values&gt; </span> </p> </td> 
-   <td colname="col2"> <p>此標籤會建立一個循環，用於枚舉整個結果集中特定欄位的欄位值和相關資料。 請勿將此標籤巢狀內嵌在另 <span class="codeph"> 一個&lt;search-field-values&gt;標籤 </span> 中。 "name"屬性指定包含要枚舉的值的欄位的名稱。 可選的"sortby"屬性控制枚舉順序："none"表示沒有特定順序，"values"表示依欄位值排序（依欄位的排序屬性以遞增或遞減順序排序）,sortby="counts"表示依欄位值計數的遞減順序排序，sortby="results"表示依含每個值之結果數的遞減順序排序。 </p> <p>請注意，sortby="counts"和sortby="results"對於非清單類型欄位是等效的。. 可選的「最大項目」屬性將迭代次數限制為給定值。 「最大項目」的預設值為-1，這表示「枚舉所有值」。 </p> </td> 
+   <td colname="col2"> <p>此標籤會建立一個循環，用於枚舉整個結果集中特定欄位的欄位值和相關資料。 請勿將此標籤巢狀內嵌在另 <span class="codeph"> 一個&lt;search-field-values&gt;標籤 </span> 中。 "name"屬性指定包含要枚舉的值的欄位的名稱。 可選的"sortby"屬性控制枚舉順序：「無」意指無特定順序，「值」意指依欄位值排序（依欄位的「排序」屬性以遞增或遞減順序排序）,sortby="counts"意指依欄位值計數的遞減順序排序，而sortby="results"意指依包含每個值之結果數的遞減順序排序。 </p> <p>請注意，sortby="counts"和sortby="results"對於非清單類型欄位是等效的。. 可選的「最大項目」屬性將迭代次數限制為給定值。 「最大項目」的預設值為-1，這表示「枚舉所有值」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
@@ -2648,7 +2655,7 @@ Sempless提供方便使用的「您是指？」 服務，以建議替代搜尋�
 
 可以指定特定字元集名稱，如中 `charset="charset-name"`。 For example, `charset="iso-8859-1"` or `charset="Shift-JIS"`.
 
-標 `<search-html-meta-charset>` 記為選用。 如果您移除它，瀏覽器會採用下列 `content-type`預設值： `content="text/html; charset=ISO-8859-1"`。 您也可以選擇將標籤取 `<search-html-meta-charset>` 代為您自己的 `http-equiv` 標籤。
+標 `<search-html-meta-charset>` 記為選用。 如果您移除它，瀏覽器會採用下列 `content-type`預設值： `content="text/html; charset=ISO-8859-1"`. 您也可以選擇將標籤取 `<search-html-meta-charset>` 代為您自己的 `http-equiv` 標籤。
 
 ## 在XML模板中指定字元集 {#section_17DC31CDCC104F5F8081466B41A96E9D}
 
@@ -2664,7 +2671,7 @@ Sempless提供方便使用的「您是指？」 服務，以建議替代搜尋�
 
 請參 [閱設定您的個人使用者資訊](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6)。
 
-如果指 `charset="1"` 定，則實際值 `charset-name` 是 `sp_f` CGI參數的值。 如果搜 `sp_f` 尋未提交CGI參數，則實際值為 `charset-name``<search-content-type-header>` （若已指定）在標籤中設定的值，或是（在帳戶設定中設定）。
+如果指 `charset="1"` 定，則實際值 `charset-name` 是 `sp_f` CGI參數的值。 如果搜 `sp_f` 尋未提交CGI參數，則實際值為 `charset-name``<search-content-type-header>` （若已指定）在標籤中設定的值，或是在帳戶設定中設定的值。
 
 如果需要，可以指定特定的字元集名 `charset="charset-name"`稱，如中。 例如, `charset="iso-8859-1" or charset="Shift-JIS"`。
 
