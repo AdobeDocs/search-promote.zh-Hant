@@ -1,15 +1,19 @@
 ---
 cloud: experience-cloud
 product: Search&amp;Promote
-archtype: end-user
-user-guide: Search&amp;Promote
+audience: end-user
+user-guide-title: Search&amp;Promote Guide
+breadcrumb-title: Search&amp;Promote Guide
 translation-type: tm+mt
-source-git-commit: d51f7db6830155a8efde096a0676281a6e1332d7
+source-git-commit: 8a42d1ee5260adbb88e483a38b107bd76b89a452
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 10%
 
 ---
 
 
-# 搜尋與促銷使用指南 {#using}
+# 搜尋與促銷指南 {#using}
 
 + [Search&amp;Promote檔案總覽](sp-home.md)
 + Release notes {#release-notes}
