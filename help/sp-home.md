@@ -1,18 +1,21 @@
 ---
-title: Search&amp;Promote技術文檔
-seo-title: Search&amp;Promote技術文檔和自助
+title: Adobe Search&amp;Promote技術檔案
+seo-title: Adobe Search&amp;Promote技術檔案與自助
 description: Adobe Search&amp;Promote的技術檔案和自助資料
 seo-description: Adobe Search&amp;Promote的技術檔案、發行說明和自助資料
 solution: Target
 topic: Site search and merchandising
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 translation-type: tm+mt
-source-git-commit: 6db3874ded5ef7a7a4d40fba222007090120cd08
+source-git-commit: dcbee1a3092f46db8f19e0b14f55cafac5fdbc13
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 17%
 
 ---
 
 
-# Search&amp;Promote檔案{#search-promote-documentation}
+# Adobe Search&amp;Promote指南 {#search-promote-documentation}
 
 ## News and announcements {#topic_02625547D07F411DBAC9593FCBD4741B}
 
