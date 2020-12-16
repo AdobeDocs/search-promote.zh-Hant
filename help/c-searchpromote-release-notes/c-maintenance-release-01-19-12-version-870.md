@@ -8,23 +8,26 @@ topic: Release Notes,Site search and merchandising
 uuid: b640a215-1e2f-4cda-9e02-c3db04326cca
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 2%
 
 ---
 
 
-# Search&amp;Promote 8.7 Release Notes (01/19/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.7發行說明(01/19/2012){#search-promote-release-notes}
 
-## New features {#section_CF3326C0E4FD4179A8009FB76D514304}
+## 新功能{#section_CF3326C0E4FD4179A8009FB76D514304}
 
-* Access [!DNL Adobe Scene7] assets from within [!DNL Search&Promote].
-* Configure [!DNL Adobe Scene7] banner parameters from within [!DNL Search&Promote].
+* 從[!DNL Search&Promote]存取[!DNL Adobe Scene7]資產。
+* 在[!DNL Search&Promote]中配置[!DNL Adobe Scene7]橫幅參數。
 
-* Apply [!DNL Adobe Scene7] banners to business rules.
+* 將[!DNL Adobe Scene7]橫幅套用至業務規則。
 
-## Software fixes {#section_435CB082D0E249B8BEE56B6B7837F451}
+## 軟體修正{#section_435CB082D0E249B8BEE56B6B7837F451}
 
 * 大幅提升您的意思是回應時間。
-* 更正計算錯誤 [!DNL Adobe Analytics] 的量度值。
+* 更正計算錯誤的[!DNL Adobe Analytics]量度值。
 * 搜尋時間效能改進——最佳化查詢清除、搜尋前和搜尋後規則的評估。
 * 過時的urlblocker服務會拖慢URL進入點驗證。
 * JSON剖析器無法剖析格式錯誤的UTF-8字元結果。
