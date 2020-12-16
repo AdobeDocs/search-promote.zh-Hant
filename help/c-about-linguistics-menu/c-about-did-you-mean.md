@@ -8,17 +8,20 @@ topic: Linguistics,Site search and merchandising
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 2%
 
 ---
 
 
-# About Did You Mean{#about-did-you-mean}
+# 關於你是說{#about-did-you-mean}
 
 您可以設定「您的意思是」，讓客戶在嘗試失敗的搜尋時獲得有效搜尋詞的建議。 建議是透過尋找拼字並輸入導致有效搜尋之搜尋詞的修正來形成。
 
-## Configuring是指 {#task_B539D6A0043547EFB1CA19B67E762371}
+## 設定您是指{#task_B539D6A0043547EFB1CA19B67E762371}
 
-您可以自訂當客 [!DNL site search/merchandising] 戶的查詢傳回無或最少的搜尋結果時，如何提出搜尋建議。
+當客戶的查詢傳回無或最小搜尋結果時，您可以量身打造[!DNL site search/merchandising]的搜尋建議方式。
 
 <!-- 
 
@@ -28,12 +31,12 @@ t_configuring_did_you_mean.xml
 
 **若要設定您是指**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Linguistics]** > **[!UICONTROL Did You Mean]**。
-1. 在頁面 [!DNL Did You Mean] 上，在「從建議 **** 移除這些字詞」文字欄位中，輸入空格或行分隔的字詞以篩選不想要的建議。
+1. 在產品功能表上，按一下「**[!UICONTROL Linguistics]** > **[!UICONTROL Did You Mean]**」。
+1. 在[!DNL Did You Mean]頁面的&#x200B;**「從建議中移除這些字詞」文字欄位中，輸入空格或行分隔字詞以篩選不想要的建議。**
 
    這些是您的搜尋索引中不顯示為建議替代搜尋詞的字詞。 您可以透過使用規則運算式來排除任何與模式相符的字詞。 否則，只會移除確切的字詞。
 
-1. 設定 **您想要的** 「您是指」選項。
+1. 設定您想要的&#x200B;**Did You Mean**&#x200B;選項。
 
    <!-- 
    
@@ -51,7 +54,7 @@ t_configuring_did_you_mean.xml
     <tbody> 
       <tr> 
       <td colname="col1"> <p>建議演算法 </p> </td> 
-      <td colname="col2"> <p>調整軟體找到建議的距離。 如果使用者犯了一個字母錯誤，所有演算法都會提出相同的建議。 原因是只要進行一次編輯，就能得到有效的建議，而所有演算法都會尋找接近原始的字詞。 但是，當原始搜尋詞與索引中的現有詞語不類似時，「深度」和「不良拼字 <b>者建議演算法</b><b></b> 」會繼續搜尋可能的建議。 如果客戶嘗試難以輸入的正確名稱，而且他們發出聲音，則此方案很實用。 不過，如果您只想要顯示類似的建議，則可以選擇「快速 <b>」演算法</b> 。 </p> </td> 
+      <td colname="col2"> <p>調整軟體找到建議的距離。 如果使用者犯了一個字母錯誤，所有演算法都會提出相同的建議。 原因是只要進行一次編輯，就能得到有效的建議，而所有演算法都會尋找接近原始的字詞。 但當原始搜尋詞與索引中的現有詞語不類似時，<b>Deep</b>和<b>Bad Spellers</b>建議演算法會繼續搜尋可能的建議。 如果客戶嘗試難以輸入的正確名稱，而且他們發出聲音，則此方案很實用。 但是，如果您只想顯示類似的建議，則可以選擇<b>Quick</b>演算法。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>要顯示的建議預設計數 </p> </td> 
@@ -71,15 +74,15 @@ t_configuring_did_you_mean.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>因結果不佳而建議 </p> </td> 
-      <td colname="col2"> <p>如果客戶搜尋的詞語產生少於10個結果，搜尋引擎會檢查其是否有可產生超過100個結果的建議。 如果有，您可以使用下列標籤向使用者指出，雖然使用者有結果，但他們可能想要搜尋其他項目： </p> <p> <code>&nbsp;&lt;guided-if-suggestion-low-results&gt; &nbsp;&nbsp;You&nbsp;have&nbsp;a&nbsp;low&nbsp;result&nbsp;count&nbsp;for&nbsp;&lt;Search&nbsp;for&nbsp;guided-param&nbsp;gsname="q"&gt;.&nbsp;&nbsp;Did&nbsp;you&nbsp;mean:&nbsp;&lt;guided-suggestion&gt;&lt;guided-suggestion-link&gt;&lt;guided-suggestion&nbsp;/&gt;&lt;/guided-suggestion-link&gt;&lt;guided-if-not-last&gt;,&nbsp;&lt;/guided-if-not-last&gt;&lt;/guided-suggestions&gt;&nbsp;&lt;/guided-if-suggestion-low-results&gt;</code> </p> <p> 在上述案例中，建議數量由「預設」計數中指定的值控制，以 <span class="uicontrol"> 便顯示建議</span>。 低和高閾值可由以下選項進行配置。 </p> </td> 
+      <td colname="col2"> <p>如果客戶搜尋的詞語產生少於10個結果，搜尋引擎會檢查其是否有可產生超過100個結果的建議。 如果有，您可以使用下列標籤向使用者指出，雖然使用者有結果，但他們可能想要搜尋其他項目： </p> <p> <code>&nbsp;&lt;guided-if-suggestion-low-results&gt; &nbsp;&nbsp;You&nbsp;have&nbsp;a&nbsp;low&nbsp;result&nbsp;count&nbsp;for&nbsp;&lt;Search&nbsp;for&nbsp;guided-param&nbsp;gsname="q"&gt;.&nbsp;&nbsp;Did&nbsp;you&nbsp;mean:&nbsp;&lt;guided-suggestion&gt;&lt;guided-suggestion-link&gt;&lt;guided-suggestion&nbsp;/&gt;&lt;/guided-suggestion-link&gt;&lt;guided-if-not-last&gt;,&nbsp;&lt;/guided-if-not-last&gt;&lt;/guided-suggestions&gt;&nbsp;&lt;/guided-if-suggestion-low-results&gt;</code> </p> <p> 在上述案例中，建議數量由<span class="uicontrol">預設建議計數中指定的值控制，以顯示</span>。 低和高閾值可由以下選項進行配置。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>在初始結果少於 </p> </td> 
-      <td colname="col2"> <p>控制系統開始提供建議時的結果數。 </p> <p>只有在您勾選「因結果低而 <span class="uicontrol"> 建議」時，才會顯示此選項</span>。 </p> <p>預設值為 10。 </p> </td> 
+      <td colname="col2"> <p>控制系統開始提供建議時的結果數。 </p> <p>只有當您勾選<span class="uicontrol"> 「由於結果低而建議」時，才會顯示此選項。</span> </p> <p>預設值為 10。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>建議至少必須產生這麼多結果 </p> </td> 
-      <td colname="col2"> <p>依據主要搜尋結果計數篩選因結果低而提出的建議。 </p> <p>只有在您勾選「因結果低而 <span class="uicontrol"> 建議」時，才會顯示此選項</span>。 </p> <p>預設值為 100。 </p> </td> 
+      <td colname="col2"> <p>依據主要搜尋結果計數篩選因結果低而提出的建議。 </p> <p>只有當您勾選<span class="uicontrol"> 「由於結果低而建議」時，才會顯示此選項。</span> </p> <p>預設值為 100。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -87,15 +90,15 @@ t_configuring_did_you_mean.xml
 1. 按一下&#x200B;**「儲存變更」**。
 1. （可選）執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
