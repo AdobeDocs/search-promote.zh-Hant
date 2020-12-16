@@ -8,19 +8,22 @@ topic: Release Notes,Site search and merchandising
 uuid: 3fabf7b2-4a27-4f0a-862a-52f701a0631d
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 34%
 
 ---
 
 
-# Search&amp;Promote 8.7.1 Release Notes (02/23/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.7.1發行說明(02/23/2012){#search-promote-release-notes}
 
-## New features {#section_CF3326C0E4FD4179A8009FB76D514304}
+## 新功能{#section_CF3326C0E4FD4179A8009FB76D514304}
 
-* Access [!DNL Scene7] assets from within [!DNL Search&Promote].
-* Configure [!DNL Scene7] banner parameters from within [!DNL Search&Promote].
-* Apply [!DNL Scene7] banners to business rules.
+* 從[!DNL Search&Promote]存取[!DNL Scene7]資產。
+* 在[!DNL Search&Promote]中配置[!DNL Scene7]橫幅參數。
+* 將[!DNL Scene7]橫幅套用至業務規則。
 
-See also [About Banners](../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA)
+另請參閱[關於橫幅](../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA)
 
 ## 產品增強 {#section_6646341ABC6D428A97F567EDD7090898}
 
