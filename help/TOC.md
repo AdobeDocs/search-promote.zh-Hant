@@ -10,15 +10,15 @@ translation-type: tm+mt
 source-git-commit: 4f1daa8f4737e0e1f2693aa96ab067e552f51a0f
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 
-# Adobe Search and Promote Guide {#using}
+# Adobe搜尋與促銷指南{#using}
 
 + [Search&amp;Promote檔案總覽](sp-home.md)
-+ Release notes {#release-notes}
++ 發行說明{#release-notes}
    + [Search&amp;Promote 18.1.1發行說明(02/13/2018)](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
    + [Search&amp;Promote 17.11.1發行說明(10/31/2017)](c-searchpromote-release-notes/c-rn-10-31-17-version-1711.md)
    + [Search&amp;Promote 15.3.1發行說明(03/24/2015)](c-searchpromote-release-notes/c-rn-03-19-15-version-153.md)
@@ -47,7 +47,7 @@ ht-degree: 10%
 + [Search&amp;Promote快速入門](c-getting-started.md)
 + [首頁](c-about-home.md)
 + [使用歷史記錄](t-using-the-history-option.md)
-+ 設計搜尋 {#design}
++ 設計搜索{#design}
    + [刻面](c-about-design-menu/c-about-facets.md)
    + [Facet 軌](c-about-design-menu/c-about-facet-rails.md)
    + [動態Facet](c-about-design-menu/c-about-dynamic-facets.md)
@@ -58,14 +58,14 @@ ht-degree: 10%
    + [範本](c-about-design-menu/c-about-templates.md)
    + [橫幅廣告](c-about-design-menu/c-about-banners.md)
    + [自動完成](c-about-auto-complete.md)
-+ 套用搜尋規則 {#rules}
++ 應用搜索規則{#rules}
    + [查詢清除規則](c-about-rules-menu/c-about-query-cleaning-rules.md)
    + [直接點擊](c-about-rules-menu/c-about-direct-hits.md)
    + [搜尋前規則](c-about-rules-menu/c-about-pre-search-rules.md)
    + [搜尋後規則](c-about-rules-menu/c-about-post-search-rules.md)
    + [業務規則](c-about-rules-menu/c-about-business-rules.md)
    + [排名規則](c-about-rules-menu/c-about-ranking-rules.md)
-+ 使用搜尋語言學 {#linguistics}
++ 使用搜尋語言學{#linguistics}
    + [字典](c-about-linguistics-menu/c-about-dictionaries.md)
    + [字詞和語言](c-about-linguistics-menu/c-about-words-and-language.md)
    + [您的意思是](c-about-linguistics-menu/c-about-did-you-mean.md)
@@ -74,11 +74,11 @@ ht-degree: 10%
    + [常見片語](c-about-linguistics-menu/c-about-common-phrases.md)
 + [模擬器](c-about-simulator.md)
 + [測試](c-about-staging.md)
-+ 產生搜尋報表 {#reports}
++ 生成搜索報告{#reports}
    + [使用搜尋報表](c-about-reports-menu/c-about-reports-menu.md)
    + [資料檢視](c-about-reports-menu/c-about-data-views.md)
    + [警報](c-about-reports-menu/c-about-alerts.md)
-+ 建立內容索引 {#index}
++ 為內容{#index}編製索引
    + [完整索引](c-about-index-menu/c-about-full-index.md)
    + [增量索引](c-about-index-menu/c-about-incremental-index.md)
    + [原稿索引](c-about-index-menu/c-about-scripted-index.md)
@@ -87,7 +87,7 @@ ht-degree: 10%
    + [用於索引的遠程控制](c-about-index-menu/c-about-remote-control-for-indexing.md)
    + [索引回滾](c-about-index-menu/c-about-rollback-for-indexes.md)
    + [垂直更新](c-about-index-menu/c-about-vertical-updates.md)
-+ Configuring settings {#settings}
++ 配置設定{#settings}
    + [編目](c-about-settings-menu/c-about-crawling-menu.md)
    + [正在搜尋](c-about-settings-menu/c-about-searching-menu.md)
    + [中繼資料](c-about-settings-menu/c-about-metadata-menu.md)
@@ -99,7 +99,7 @@ ht-degree: 10%
    + [帳戶選項](c-about-settings-menu/c-about-account-options-menu.md)
    + [使用者](c-about-settings-menu/c-about-users-menu.md)
 + [使用Search&amp;Promote帳戶](c-about-accounts-menu.md)
-+ 附錄 {#appendices}
++ 附錄{#appendices}
    + [日期格式](c-appendices/r-date-formats.md)
    + [規則運算式](c-appendices/r-regular-expressions.md)
    + [鄰近搜尋](c-appendices/r-about-proximity-search.md)
