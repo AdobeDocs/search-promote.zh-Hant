@@ -8,6 +8,9 @@ topic: Reports,Site search and merchandising
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
 translation-type: tm+mt
 source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
 
 「警報」頁面提供一個集中位置，可檢視和管理與您的帳戶有關的所有警報。
 
-## 使用警報 {#concept_B731210A050A4AB1A7F4C809AA8B5355}
+## 使用警報{#concept_B731210A050A4AB1A7F4C809AA8B5355}
 
 生成各種警報，將其發送到一個或多個電子郵件地址。 「警報」頁面上的篩選器和其他控制項可協助您一次管理多個警報。
 
@@ -30,23 +33,23 @@ source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
 
 選取一或多個篩選按鈕以顯示這些警報層級，或取消選取這些按鈕以篩選掉這些項目。 若要依日期篩選，請選取MM/DD/YYYY格式的開始日期、結束日期或兩者。 在「傳送至」或「主旨」欄位中輸入文字，以尋找符合您輸入文字的警報。
 
-## 查看警報 {#task_65DED222B5734DCE9320D6015AE7759D}
+## 查看警報{#task_65DED222B5734DCE9320D6015AE7759D}
 
 「警報」頁面提供一個集中位置，可檢視和管理與您的帳戶有關的所有警報。
 
 **要查看警報**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Reports]** > **[!UICONTROL Alerts]**。
-1. 在「警報」頁面的區 **[!UICONTROL Filter By: Level]** 域中，選擇或取消選擇您要查看或隱藏的警報。
+1. 在產品功能表上，按一下「**[!UICONTROL Reports]** > **[!UICONTROL Alerts]**」。
+1. 在「警報」頁面的&#x200B;**[!UICONTROL Filter By: Level]**&#x200B;區域中，選擇或取消選擇您要查看或隱藏的警報。
 1. 在表格中，按一下警報即可檢視。
 1. （可選）執行下列任一項作業：
 
-   * 要按日期篩選警報，請在文本 [!DNL Start Date] 欄位、文本字 [!DNL End Date] 段或兩者中，以MM/DD/YYYY格式輸入日期。
+   * 要按日期篩選警報，請在[!DNL Start Date]文本欄位、[!DNL End Date]文本欄位或兩者中，以MM/DD/YYYY格式輸入日期。
 
-   * 在文字 [!DNL Sent To] 欄位、文字欄位或兩者 [!DNL Subject] 皆輸入字詞或片語，以尋找符合您輸入之文字的警報。
+   * 在[!DNL Sent To]文字欄位、[!DNL Subject]文字欄位或兩者中，輸入字詞或片語以尋找符合您輸入之文字的警報。
 
-   * 要刪除一個或多個警報，請在左欄中檢查要刪除的警報，然後按一下刪 **除選定警報**。
+   * 要刪除一個或多個警報，請在左欄中檢查要刪除的警報，然後按一下&#x200B;**刪除選定警報**。
    * 要選擇所有顯示的警報，請選擇左列頂部的複選框。
 
-      如果要選擇所有匹配的警報，而不是它們的單頁，請在右側的下拉清單中選擇 **[!UICONTROL All Alerts]**，然後選擇列頂部的複選框。
+      如果要選擇所有匹配的警報，而不是它們的單頁，請在右側的下拉清單中選擇&#x200B;**[!UICONTROL All Alerts]** ，然後選擇列頂部的複選框。
 
