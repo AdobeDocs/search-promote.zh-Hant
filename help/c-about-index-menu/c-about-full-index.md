@@ -9,6 +9,9 @@ topic: Index,Site search and merchandising
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
 translation-type: tm+mt
 source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+workflow-type: tm+mt
+source-wordcount: '795'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
 
 您可以使用「完整索引」為分段或即時網站的所有頁面建立索引。 索引功能可協助您的客戶在執行搜尋時，更輕鬆地找到他們所尋找的項目或所需項目。
 
-## 使用完整索引 {#concept_C69BD21863FD4856B49326F35DB570D3}
+## 使用完整索引{#concept_C69BD21863FD4856B49326F35DB570D3}
 
 當生成完整索引時，會顯示狀態資訊，如索引過程中的開始時間、用時和錯誤。 此外，還會顯示有關上一個索引狀態的資訊。
 
@@ -27,13 +30,13 @@ source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
 
 雖然新的索引是針對即時網站建立，但客戶仍可使用您的最後一個索引繼續搜尋您的網站。 此外，還會顯示有關上一個索引狀態的資訊。
 
-## 設定即時網站的完整索引排程 {#task_6760F3256D004A228B38968DF15421F0}
+## 設定即時網站{#task_6760F3256D004A228B38968DF15421F0}的完整索引排程
 
 您可以指定要搜尋網站並更新索引的時間和日期。
 
 您選取的時間會根據「帳戶設定」中設定的時區為本機時間。
 
-請參 [閱設定帳戶設定](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)。
+請參閱[設定您的帳戶設定](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)。
 
 Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計畫的索引時間內關閉，則索引過程將失敗。 請確定您選取了一天中的某個時間，您的Web伺服器才可用。
 
@@ -41,12 +44,12 @@ Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計�
 
 **若要設定即時網站的完整索引排程**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Live Schedule]**。
-1. 在下拉 **[!UICONTROL Time]** 式清單中，選取您要開始建立完整索引的小時數。
+1. 在產品功能表上，按一下「**[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Live Schedule]**」。
+1. 在&#x200B;**[!UICONTROL Time]**&#x200B;下拉式清單中，選取您要開始建立完整索引的小時數。
 1. 選擇要運行完整索引的一天或多天。
 1. 按一下 **[!UICONTROL Save Changes]**.
 
-## 執行即時或分段網站的完整索引 {#task_F7FE04D8A1654A7787FCCA31B45EB42D}
+## 執行即時或分段網站的完整索引{#task_F7FE04D8A1654A7787FCCA31B45EB42D}
 
 您可以使用「完整索引」為分段或即時網站的所有頁面建立索引。 索引功能可協助您的客戶在執行搜尋時，更輕鬆地找到他們所尋找的項目或所需項目。
 
@@ -54,9 +57,9 @@ Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計�
 
 1. 在產品功能表上，執行下列其中一項作業：
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Live Index]**.
+   * 按一下&#x200B;**[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Live Index]**。
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Staged Index]**.
+   * 按一下&#x200B;**[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Staged Index]**。
 
 1. 設定所需的索引選項。
 
@@ -95,9 +98,9 @@ Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計�
     </table>
 
 1. 按一下 **[!UICONTROL Full Index Now]**.
-1. （可選）如果發生索引錯誤，請按一 **[!UICONTROL View Errors]** 下以檢視相關的記錄檔。
+1. （可選）如果發生索引錯誤，請按一下&#x200B;**[!UICONTROL View Errors]**&#x200B;以查看相關日誌。
 
-## 檢視即時或分段網站的完整索引記錄 {#task_02E5E944C56B4EB19CC1FF321F3221B8}
+## 檢視即時或分段網站{#task_02E5E944C56B4EB19CC1FF321F3221B8}的完整索引記錄
 
 當即時完整索引或分段完整索引完成時，您可以檢視其相關記錄檔，以疑難排解發生的任何錯誤。
 
@@ -107,13 +110,13 @@ Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計�
 
 1. 在產品功能表上，執行下列其中一項作業：
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Live Log]**.
+   * 按一下&#x200B;**[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Live Log]**。
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Staged Log]**.
+   * 按一下&#x200B;**[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Staged Log]**。
 
 1. 在記錄頁的上方或下方，執行下列任一作業：
 
-   * 使用導覽選 **[!UICONTROL First]**&#x200B;項、 **[!UICONTROL Prev]**、 **[!UICONTROL Next]**&#x200B;或 **[!UICONTROL Last]**&#x200B;在日誌 **[!UICONTROL Go to line]** 中移動。
+   * 使用導覽選項&#x200B;**[!UICONTROL First]**、**[!UICONTROL Prev]**、**[!UICONTROL Next]**、**[!UICONTROL Last]**&#x200B;或&#x200B;**[!UICONTROL Go to line]**&#x200B;在日誌中移動。
 
-   * 使用顯示選 **[!UICONTROL Errors only]**&#x200B;項 **[!UICONTROL Wrap line]**&#x200B;或 **[!UICONTROL Show]** 調整您所看到的內容。
+   * 使用顯示選項&#x200B;**[!UICONTROL Errors only]**、**[!UICONTROL Wrap line]**&#x200B;或&#x200B;**[!UICONTROL Show]**&#x200B;來調整您所看到的內容。
 
