@@ -8,11 +8,14 @@ topic: Release Notes,Site search and merchandising
 uuid: 161d678a-6393-4adb-a47a-e28e108acc31
 translation-type: tm+mt
 source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 7%
 
 ---
 
 
-# Search&amp;Promote 8.10.1 Release Notes (07/18/2013){#search-promote-release-notes}
+# Search&amp;Promote 8.10.1發行說明(07/18/2013){#search-promote-release-notes}
 
 <table> 
  <thead> 
@@ -37,17 +40,17 @@ source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 * **[!DNL Business Rules]** -新增指派多個排程至業務規則的能力。
 
-   See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
+   請參閱[關於業務規則](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD)。
 
-* **引導式搜尋** -已修正停用回傳至XML剖析器的問題。
+* **引導搜尋** -修正停用回傳至XML剖析器的問題。
 * **封存、壓縮和解壓縮檔案** -新增下列封存、壓縮和解壓縮檔案類型的下載和擷取資訊功能：.zip/tar/tar.gz/tar.bz2/gzip/bzip2
 * **遙控索引** -新增重新產生遙控索引動作的能力。
 
-   請參 [閱關於遠程控制索引](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F)。
+   請參閱[關於索引的遠程控制](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F)。
 
-   另請參 [閱關於重新產生索引](../c-about-index-menu/c-about-regenerate-index.md#concept_6CBE6B8D18EF47D293091CBA542245FA)。
+   另請參閱[關於重新生成索引](../c-about-index-menu/c-about-regenerate-index.md#concept_6CBE6B8D18EF47D293091CBA542245FA)。
 
-* **Facet邊欄** -新增對多Facet邊欄的支援。
+* **Facet欄** -新增對多Facet欄的支援。
 
    請參閱[關於 Facet 軌](../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB)。
 
