@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可以使用「增量索引」來為即時或分段網站的「片段」建立索引，例如經常變更的頁面集合。
 
-## 使用增量索引 {#concept_A7770F0552D14C47B3DDB65DB78FFFEE}
+## 使用增量索引{#concept_A7770F0552D14C47B3DDB65DB78FFFEE}
 
 增量索引只需數秒即可執行，對於需要數小時才能完成索引的大型網站非常有用。
 
@@ -30,14 +30,14 @@ ht-degree: 0%
 
 當您為即時網站建立新的增量索引時，客戶可以繼續使用您的上次增量索引來搜尋您的網站。
 
-## 配置分段網站的增量索引 {#task_46A367B0786C4C90BFFA5D3F95FD86C0}
+## 配置分段網站{#task_46A367B0786C4C90BFFA5D3F95FD86C0}的增量索引
 
 您可以指定網站URL和URL遮色片，以設定要加入增量「索引」的網站頁面。
 
 **若要設定分段網站的增量索引**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Configuration]**。
-1. 在頁面 **[!UICONTROL Incremental Index Configuration]** 上，使用各種欄位來指定您要索引的頁面。
+1. 在產品功能表上，按一下「**[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Configuration]**」。
+1. 在&#x200B;**[!UICONTROL Incremental Index Configuration]**&#x200B;頁面上，使用各種欄位來指定您要索引的頁面。
 
    <table> 
     <thead> 
@@ -57,25 +57,29 @@ ht-degree: 0%
           <li id="li_32C2B21DE75C4459908384CC44822F7D"> 
           <code>
             noindex 
-          </code> <p>如果您不想為頁面上符合指定URL的文字建立索引，但想要遵循頁面的連結，請在URL後面加入，如 <code>
+          </code> <p>如果您不想為頁面上符合指定URL的文字建立索引，但想要遵循頁面的連結，請新增 
+            <code>
               noindex 
-            </code> 下列範例所示： </p> <p> 
+            </code>在URL後面，如下例所示： </p> <p> 
             <code>
               https://www.mydomain.com/products/new.html noindex 
-            </code> </p> <p>請務必從URL <code>
+            </code> </p> <p>請確定您已分隔 
+            <code>
               noindex 
-            </code> 中分隔出一個空格；逗號不是有效的分隔符號。 </p> </li> 
+            </code>（從含空格的URL）;逗號不是有效的分隔符號。 </p> </li> 
           <li id="li_33AB62B669084BF7B976F4308715E435"> 
           <code>
             nofollow 
-          </code> <p>如果您想要為頁面上符合指定URL的文字建立索引，但不想追隨頁面的連結，請在URL後面加入，如 <code>
+          </code> <p>如果您想要為頁面上符合指定URL的文字建立索引，但不想追隨頁面的連結，請新增 
+            <code>
               nofollow 
-            </code> 下列範例所示： </p> <p> 
+            </code>在URL後面，如下例所示： </p> <p> 
             <code>
               https://www.mydomain.com/products/new.html nofollow 
-            </code> </p> <p> 請務必從URL <code>
+            </code> </p> <p> 請確定您已分隔 
+            <code>
               nofollow 
-            </code> 中分隔出一個空格；逗號不是有效的分隔符號。 </p> </li> 
+            </code>（從含空格的URL）;逗號不是有效的分隔符號。 </p> </li> 
         </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -86,11 +90,13 @@ ht-degree: 0%
       </code> </p> <p>您也可以使用規則運算式，如下列範例所示： </p> <p> 
       <code>
         regexp ^https://www\.mydomain\.com/products/household/.*\.html$ 
-      </code> </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式</a>。 </p> <p>您也可以使用關鍵字 <code>
+      </code> </p> <p>請參閱<a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local">規則運算式</a>。 </p> <p>您也可以使用關鍵字 
+      <code>
         nofollow 
-      </code> , <code>
+      </code>和 
+      <code>
         noindex 
-      </code> 如上述「新增 <span class="uicontrol"> 或更新URL」中所 </span> 述。 </p> </td> 
+      </code>，如上文<span class="uicontrol">新增或更新URL </span>所述。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>包含和排除URL遮色片 </p> </td> 
@@ -100,15 +106,19 @@ ht-degree: 0%
       </code> </p> <p> 
       <code>
         exclude https://www.mydomain.com/products/ 
-      </code> </p> <p>索引頁 <code>
+      </code> </p> <p>索引頁 
+      <code>
         lightbulbs1.html 
-      </code> 和 <code>
+      </code>和 
+      <code>
         lightbulbs2.html 
-      </code>。 但是，它不會為列在產品目錄下的任何其他頁面建立索引。 </p> <p>首先出現的URL遮色片一律優先於稍後出現在清單中的URL遮色片。 此外，如果搜索自動機遇到與包含蒙版和排除蒙版匹配的文檔，則首先列出的蒙版優先。 </p> <p>您也可以使用關鍵字 <code>
+      </code>。 但是，它不會為列在產品目錄下的任何其他頁面建立索引。 </p> <p>首先出現的URL遮色片一律優先於稍後出現在清單中的URL遮色片。 此外，如果搜索自動機遇到與包含蒙版和排除蒙版匹配的文檔，則首先列出的蒙版優先。 </p> <p>您也可以使用關鍵字 
+      <code>
         nofollow 
-      </code> , <code>
+      </code>和 
+      <code>
         noindex 
-      </code> 如上述「新增 <span class="uicontrol"> 或更新URL」中所 </span> 述。 </p> <p>請參閱 <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> 關於URL遮色片</a>。 </p> </td> 
+      </code>，如上文<span class="uicontrol">新增或更新URL </span>所述。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local">關於URL遮色片</a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>包含和排除日期遮色片 </p> </td> 
@@ -141,7 +151,8 @@ ht-degree: 0%
       <li id="li_172692DEDA8744B3AA492701D24C2D80"> 
       <code>
         exclude-days NNN 
-      </code> <p>停用所有符合指定URL遮色片且為NNN天數或更舊之檔案的索引。 </p> <p>或者，您可以依關鍵字追蹤URL遮色片 <code>
+      </code> <p>停用所有符合指定URL遮色片且為NNN天數或更舊之檔案的索引。 </p> <p>或者，您可以依關鍵字追蹤URL遮色片 
+        <code>
           server-date 
         </code>。 </p> <p>下列遮色片範例會從索引中排除所有90天以上的PDF檔案： </p> <p> 
         <code>
@@ -150,13 +161,14 @@ ht-degree: 0%
       <li id="li_26078517744D4AECBE1351008926CBAE"> 
       <code>
         exclude-date YYYY-MM-DD 
-      </code> <p>停用符合指定URL遮色片且舊版或舊版日期YYYY-MM-DD之所有檔案的索引。 </p> <p>或者，您可以依關鍵字追蹤URL遮色片 <code>
+      </code> <p>停用符合指定URL遮色片且舊版或舊版日期YYYY-MM-DD之所有檔案的索引。 </p> <p>或者，您可以依關鍵字追蹤URL遮色片 
+        <code>
           server-date 
         </code>。 </p> <p>下列遮色片範例會排除日期為2004年4月23日或之前的/archive/檔案夾中的所有檔案： </p> <p> 
         <code>
           exclude-date 2004-04-23 https://www.mydomain.com/archive/ 
         </code> </p> </li> 
-      </ul> </p> <p>請參閱 <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_F4F1F58A646F4A86B8650EC46FDCEF66" type="concept" format="dita" scope="local"> 關於日期遮色片</a>。 </p> </td> 
+      </ul> </p> <p>請參閱<a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_F4F1F58A646F4A86B8650EC46FDCEF66" type="concept" format="dita" scope="local">關於日期遮色片</a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>刪除URL </p> </td> 
@@ -170,7 +182,7 @@ ht-degree: 0%
       </code> </p> <p>您也可以使用規則運算式，如下列範例所示： </p> <p> 
       <code>
         regexp ^https://www\.mydomain\.com/products/199[567]/.*$ 
-      </code> </p> <p>請參閱 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 規則運算式</a>。 </p> </td> 
+      </code> </p> <p>請參閱<a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local">規則運算式</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -178,25 +190,25 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL Save Changes]**.
 1. （可選）執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 設定即時網站的遞增索引排程 {#task_2A46BA189ECC4317A9D5C6E99A336F33}
+## 設定即時網站{#task_2A46BA189ECC4317A9D5C6E99A336F33}的增量索引計畫
 
 您可以選擇增量索引頻率和用於搜索和更新增量索引的基本時間。
 
 您選取的時間會根據「帳戶設定」中設定的時區為本機時間。
 
-請參 [閱設定帳戶設定](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)。
+請參閱[設定您的帳戶設定](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)。
 
 Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計畫的索引時間內關閉，則索引過程將失敗。 請確定您選取了一天中的某個時間，您的Web伺服器才可用。
 
@@ -204,12 +216,12 @@ Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計�
 
 **若要設定即時網站的遞增索引排程**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Schedule]**。
-1. 在「頁面中」 **[!UICONTROL Incremental Index Schedule]** 的下拉式清 **[!UICONTROL Incrementally Index]** 單中，選取索引頻率（以小時或分鐘為單位）。
-1. 在下拉 **[!UICONTROL Base Time]** 式清單中，選取要重新產生新增索引的開始時間。
+1. 在產品功能表上，按一下「**[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Schedule]**」。
+1. 在&#x200B;**[!UICONTROL Incremental Index Schedule]**&#x200B;頁面的&#x200B;**[!UICONTROL Incrementally Index]**&#x200B;下拉式清單中，選取以小時或分鐘為單位的索引頻率。
+1. 在&#x200B;**[!UICONTROL Base Time]**&#x200B;下拉式清單中，選取要重新產生新增索引的開始時間。
 1. 按一下 **[!UICONTROL Save Changes]**.
 
-## 執行即時或分段網站的遞增索引 {#task_9BFB6157F3884B2FAECB7E0E9CA318CB}
+## 執行即時或分段網站的遞增索引{#task_9BFB6157F3884B2FAECB7E0E9CA318CB}
 
 您可以使用「增量索引」來為即時或分段網站的「片段」建立索引，例如經常變更的頁面集合。
 
@@ -217,14 +229,14 @@ Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計�
 
 1. 在產品功能表上，執行下列其中一項作業：
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Index]**.
+   * 按一下&#x200B;**[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Index]**。
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Staged Index]**.
+   * 按一下&#x200B;**[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Staged Index]**。
 
 1. 按一下 **[!UICONTROL Incremental Index Now]**.
-1. （可選）如果發生索引錯誤，請按一 **[!UICONTROL View Errors]** 下以檢視相關的記錄檔。
+1. （可選）如果發生索引錯誤，請按一下&#x200B;**[!UICONTROL View Errors]**&#x200B;以查看相關日誌。
 
-## 檢視即時或分段網站的增量索引記錄 {#task_E668E1F1240C476DAA1CA783DC728232}
+## 檢視即時或分段網站{#task_E668E1F1240C476DAA1CA783DC728232}的增量索引記錄
 
 當活動增量索引或分段增量索引完成時，您可以查看其關聯日誌以排除任何發生的錯誤。
 
@@ -235,13 +247,13 @@ Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計�
 
 1. 在產品功能表上，執行下列其中一項作業：
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Log]**.
+   * 按一下&#x200B;**[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Log]**。
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Staged Log]**.
+   * 按一下&#x200B;**[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Staged Log]**。
 
 1. 在記錄頁的上方或下方，執行下列任一作業：
 
-   * 使用導覽選 **[!UICONTROL First]**&#x200B;項、 **[!UICONTROL Prev]**、 **[!UICONTROL Next]**&#x200B;或 **[!UICONTROL Last]**&#x200B;在日誌 **[!UICONTROL Go to line]** 中移動。
+   * 使用導覽選項&#x200B;**[!UICONTROL First]**、**[!UICONTROL Prev]**、**[!UICONTROL Next]**、**[!UICONTROL Last]**&#x200B;或&#x200B;**[!UICONTROL Go to line]**&#x200B;在日誌中移動。
 
-   * 使用顯示選 **[!UICONTROL Errors only]**&#x200B;項 **[!UICONTROL Wrap line]**&#x200B;或 **[!UICONTROL Show]** 調整您所看到的內容。
+   * 使用顯示選項&#x200B;**[!UICONTROL Errors only]**、**[!UICONTROL Wrap line]**&#x200B;或&#x200B;**[!UICONTROL Show]**&#x200B;來調整您所看到的內容。
 
