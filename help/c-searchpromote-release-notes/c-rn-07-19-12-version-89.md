@@ -8,11 +8,14 @@ topic: Release Notes,Site search and merchandising
 uuid: 3853c75d-19ed-4e36-9e81-dcbffe5f5b0c
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 59%
 
 ---
 
 
-# Search&amp;Promote 8.9 Release Notes (07/19/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.9發行說明(07/19/2012){#search-promote-release-notes}
 
 **新功能**
 
@@ -26,7 +29,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 **修正和增強功能**
 
 * 已新增支援依據業務規則而變更排序選項。
-* In the Help system `<search-description>` tag shows the body instead when the meta tag for the description has empty content.
+* 在「說明」系統`<search-description>`標籤中，當描述的meta標籤包含空內容時，會改為顯示內文。
 * 已新增功能，可以針對結果，追蹤經由基於結果之動作而新增的適用表格點擊。
 * 新增透過POST提交查詢參數的支援
 * 在編目時，有時候可以略過最終 mirror_account 操作。
