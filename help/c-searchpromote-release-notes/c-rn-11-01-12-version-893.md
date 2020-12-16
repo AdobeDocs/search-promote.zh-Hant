@@ -8,13 +8,16 @@ topic: Release Notes,Site search and merchandising
 uuid: 7bc7bcb6-f47f-4e05-94e5-a22a13a187b7
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 81%
 
 ---
 
 
-# Search&amp;Promote 8.9.3 Release Notes (11/01/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.9.3發行說明(11/01/2012){#search-promote-release-notes}
 
-## Search&amp;Promote 8.9.3 Release Notes (11/01/2012) {#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
+## Search&amp;Promote 8.9.3發行說明(11/01/2012){#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
 
 <table> 
  <thead> 
@@ -52,10 +55,10 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 
 **修正**
 
-* Business rules worked inconsistently when there was a [!DNL Stage] index.
+* 當有[!DNL Stage]索引時，業務規則的運作不一致。
 * 自動排名規則現在套用至罐裝著陸頁面。
 
-   請參閱新增排名規則 [中的選項表](../c-about-rules-menu/c-about-ranking-rules.md#task_A132789FD4E5423DAD090DCDA7311E8A)。
+   請參閱[新增排名規則](../c-about-rules-menu/c-about-ranking-rules.md#task_A132789FD4E5423DAD090DCDA7311E8A)中的選項表。
 
 * [!DNL promosearch.cgi] 不是退回促銷。
 
