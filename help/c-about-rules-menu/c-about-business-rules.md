@@ -8,6 +8,9 @@ topic: Rules,Site search and merchandising
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
 source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
+workflow-type: tm+mt
+source-wordcount: '3127'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
 
 您可以使用「業務規則」來商品化您的搜尋。
 
-## 使用業務規則 {#concept_2A93D76216754D3D8412CDEA00BD26BD}
+## 使用業務規則{#concept_2A93D76216754D3D8412CDEA00BD26BD}
 
 例如，您可以設定橫幅的出現時間、結果的顯示順序。 您也可以設定Facet中項目的位置，以及指定搜尋使用的範本。 這些規則按照定義的順序運行；規則的訂單編號越高，在流程中執行的時間越晚，超過了先前的規則。 您可以拖放規則來變更其順序，或在規則順序文字方塊中輸入新數字以重新排序。
 
@@ -53,15 +56,15 @@ source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
  </tbody> 
 </table>
 
-您核准業務規則並將其推送至即時，以便在您的即時環境中執行。 目前，您只能將所有規 *則推* 送至現場。 不過，您可以變更規則的狀態，以控制在您的即時環境中執行和不執行的規則。
+您核准業務規則並將其推送至即時，以便在您的即時環境中執行。 目前，您只能推送&#x200B;*all*&#x200B;規則。 不過，您可以變更規則的狀態，以控制在您的即時環境中執行和不執行的規則。
 
 依預設，規則會在符合其相關觸發程式時執行。 不過，您可以選擇性地排程規則，以針對特定日期和時間範圍執行。
 
 此外，依預設，規則會在所有商店符合其關聯觸發器時執行。 如果您希望規則僅適用於某些商店，則可使用「商店」面板來選取規則套用至的一或多個商店。
 
-## 新增業務規則 {#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7}
+## 添加新業務規則{#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7}
 
-您可以使用 [!DNL Visual Rule Builder] 或新 [!DNL Advanced Rule Builder] 增可量身打造客戶搜尋體驗的業務規則。
+您可以使用[!DNL Visual Rule Builder]或[!DNL Advanced Rule Builder]來新增可量身打造客戶搜尋體驗的業務規則。
 
 **若要新增業務規則**
 
@@ -69,20 +72,20 @@ source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
 
 1. 進行以下一項操作: 
 
-   * 在產品功能表上，按一下 **[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**。 在頁面上 [!DNL Business Rules] ，按一下 **[!UICONTROL Add New Rule]**。
+   * 在產品功能表上，按一下「**[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**」。 在[!DNL Business Rules]頁面上，按一下&#x200B;**[!UICONTROL Add New Rule]**。
 
-   * 在產品選單上，按一下 **[!UICONTROL Simulator]**。 在頁 **[!UICONTROL Simulator for Today]** 面上，按 **[!UICONTROL Add New Rule]** 一下下拉式功 **[!UICONTROL Options]** 能表右側。
+   * 在產品功能表上，按一下&#x200B;**[!UICONTROL Simulator]**。 在&#x200B;**[!UICONTROL Simulator for Today]**&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Options]**&#x200B;下拉式功能表右側的&#x200B;**[!UICONTROL Add New Rule]**。
 
-      如果 **[!UICONTROL Add New Rule]** 頁面上未顯示選項，請在下拉式功 **[!UICONTROL Options]** 能表中按一下 **[!UICONTROL Simulate Staged]**。
+      如果頁面上未顯示&#x200B;**[!UICONTROL Add New Rule]**&#x200B;選項，請在&#x200B;**[!UICONTROL Options]**&#x200B;下拉式功能表中按一下&#x200B;**[!UICONTROL Simulate Staged]**。
 
       ![](assets/Simulator.png)
 
-1. 在文字 **[!UICONTROL Name]** 欄位中，輸入業務規則的新名稱。
+1. 在&#x200B;**[!UICONTROL Name]**&#x200B;文字欄位中，輸入業務規則的新名稱。
 
-   請勿按 **[!UICONTROL Save Rule]** 一下。
-1. （可選）如果您管理大量業務規則，則可以使用特定標籤來標籤業務規則。 在欄位 **[!UICONTROL Tags]** 中，輸入一或多個標籤標籤，使用逗號、標籤或輸入作為分隔字元。
+   還請勿按滑鼠&#x200B;**[!UICONTROL Save Rule]**。
+1. （可選）如果您管理大量業務規則，則可以使用特定標籤來標籤業務規則。 在&#x200B;**[!UICONTROL Tags]**&#x200B;欄位中，輸入一或多個標籤標籤，使用逗號、標籤或Enter作為分隔字元。
 
-   在頁面 [!DNL Business Rules] 上，使用功 **[!UICONTROL Filter by tag]** 能來篩選符合指定標籤的規則。 1.在頁面 [!DNL Business Rule Builder] 上，設定您要使用的觸發器和動作。
+   在[!DNL Business Rules]頁面上，使用&#x200B;**[!UICONTROL Filter by tag]**&#x200B;功能來篩選符合指定標籤的規則。 1.在[!DNL Business Rule Builder]頁面上，設定您要使用的觸發器和動作。
 
    **觸發器選項**
 
@@ -96,7 +99,7 @@ source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
 
       `if a OR b OR c then ...`
 
-   * 指定觸發器自訂組合的回應。 也就是說，您會將個別觸發器或「條件」與運算子 `AND` 和運算子 `OR` 結合。
+   * 指定觸發器自訂組合的回應。 也就是說，您可結合個別觸發器或&quot;conditions&quot;與`AND`運算子和`OR`運算子。
 
       您也可以依下列範例新增左括弧和右括弧組合，以變更評估優先順序：
 
@@ -104,7 +107,7 @@ source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
 
       >[!NOTE]
       >
-      >如果您在自訂 `AND` 業務規 `OR` 則集中結合運算子和運算子，請確定您已適當指定括弧，以確保以正確順序評估觸發器。
+      >如果您在自訂業務規則集中結合`AND`運算子與`OR`運算子，請確定您已適當指定括弧，以確保以正確順序評估觸發器。
 
       預設情況下，無法啟用自定義觸發器組合的這一特定功能。 請聯絡技術支援以啟用此功能供您使用。
    <table> 
@@ -188,15 +191,15 @@ source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
       </tr> 
       <tr> 
       <td colname="col1"> <p>新增橫幅命令 </p> </td> 
-      <td colname="col2"> <p>僅適用於Adobe Dynamic Media Classic範本。 </p> <p>可讓您變更橫幅範本中使用的預設參數。 </p> <p>請參閱「使用Adobe Dynamic Media Classic <a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita"> 新增橫幅」中的選項表 </a>。 </p> <p>另請參 <a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local"> 閱「使用Adobe Dynamic Media Classic編輯橫幅」 </a>。 </p> </td> 
+      <td colname="col2"> <p>僅適用於Adobe Dynamic Media Classic範本。 </p> <p>可讓您變更橫幅範本中使用的預設參數。 </p> <p>請參閱「使用Adobe Dynamic Media Classic <a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita">新增橫幅」中的選項表。</a> </p> <p>另請參閱<a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local">使用Adobe Dynamic Media Classic </a>編輯橫幅。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>移除橫幅 </p> </td> 
-      <td colname="col2"> <p> 從選取的橫幅區域移除橫幅；除非有設定橫幅的其他規則，否則不會顯示橫幅，而覆寫此規則。 </p> <p>當您在網頁檢視區中以滑鼠右鍵按一下橫幅時，就可使用此選項。 </p> </td> 
+      <td colname="col2"> <p> 從選取的橫幅區域移除橫幅；除非有設定橫幅的其他規則，否則不會顯示橫幅，並覆寫此規則。 </p> <p>當您在網頁檢視區中以滑鼠右鍵按一下橫幅時，就可使用此選項。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>推播Facet項目 </p> </td> 
-      <td colname="col2"> <p> 將Facet中的項目推入選取的位置。 </p> </td> 
+      <td colname="col2"> <p> 將Facet中的項目推送至選取的位置。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>刪除區域 </p> </td> 
@@ -227,148 +230,148 @@ source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
 
    根據規則產生器面板的作用中（展開），您也可以執行下列動作來設定觸發器和動作。
 
-   * 展開面 **[!UICONTROL Triggers]** 板時——在「業務規則產生器」頁面的簡報範本區域中，以滑鼠右鍵按一下任何搜尋結果或搜尋Facet，然後按一下 **[!UICONTROL Add "result present" trigger]**。
+   * 展開&#x200B;**[!UICONTROL Triggers]**&#x200B;面板時——在「業務規則產生器」頁面的演示模板區域中，按一下右鍵任何搜索結果或搜索面，然後按一下&#x200B;**[!UICONTROL Add "result present" trigger]**。
 
       在「觸發器」面板中，按一下觸發器左側的「X」，將其從觸發器清單中移除。
 
-   * 展開面 **[!UICONTROL Actions]** 板時——在「業務規則產生器」頁面的呈現範本區域，以滑鼠右鍵按一下搜尋結果。 按一 **[!UICONTROL Add Result]**&#x200B;下、 **[!UICONTROL Remove Result]**、或 **[!UICONTROL Push to bottom]**(其中 **[!UICONTROL Push to #`<n>`]**`<n>` 是數字)。
+   * 展開&#x200B;**[!UICONTROL Actions]**&#x200B;面板時——在「業務規則產生器」頁面的呈現範本區域，以滑鼠右鍵按一下搜尋結果。 按一下&#x200B;**[!UICONTROL Add Result]**、**[!UICONTROL Remove Result]**、**[!UICONTROL Push to bottom]**&#x200B;或&#x200B;**[!UICONTROL Push to #`<n>`]**（其中`<n>`是數字）。
 
 
-1. （可選）在任何「業務規則產生器」面 [!DNL Triggers]板( [!DNL Actions]、 [!DNL Schedule]或)中，執行下列任一項作業：
+1. （可選）在任何「業務規則產生器」面板（[!DNL Triggers]、[!DNL Actions]或[!DNL Schedule]）中，執行下列任一項作業：
 
-   * 在「業務規則產生器」頁面區域的簡報範本區域中，以滑鼠右鍵按一下橫幅，然後按一下 **[!UICONTROL Select different banner]**。 在頁面 **[!UICONTROL Pick Banner]** 上，按一 **[!UICONTROL Pick this banner]** 下橫幅縮圖下方，將其新增至簡報範本。 只有符合簡報範本上原始橫幅大小和區域的橫幅可供您選擇。
+   * 在「業務規則產生器」頁面區域的簡報範本區域中，以滑鼠右鍵按一下橫幅，然後按一下&#x200B;**[!UICONTROL Select different banner]**。 在&#x200B;**[!UICONTROL Pick Banner]**&#x200B;頁面上，按一下橫幅縮圖下方的&#x200B;**[!UICONTROL Pick this banner]**，將它新增至您的簡報範本。 只有符合簡報範本上原始橫幅大小和區域的橫幅可供您選擇。
 
-      新增橫幅動作會新增至面 [!DNL Actions] 板。
+      新增橫幅動作會新增至[!DNL Actions]面板。
 
-   * 在頁面的簡報範本區 [!DNL Business Rule Builder] 域中，以滑鼠右鍵按一下您要變更其參數的Adobe Dynamic Media Classic範本橫幅，然後按一下 **[!UICONTROL Add banner commands]**。 在對話 [!DNL Change Parameters] 方塊中，設定您要的參數選項。
+   * 在[!DNL Business Rule Builder]頁面的簡報範本區域中，以滑鼠右鍵按一下您要變更其參數的Adobe Dynamic Media Classic範本橫幅，然後按一下&#x200B;**[!UICONTROL Add banner commands]**。 在[!DNL Change Parameters]對話方塊中，設定您想要的參數選項。
 
-      請參閱「使用Adobe Dynamic Media Classic [新增橫幅」中的選項表](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)。
+      請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)新增橫幅中的選項表。
 
       按一下 **[!UICONTROL Save]**.
 
-      參數變更會新增至面 [!DNL Actions] 板。
+      參數更改將添加到[!DNL Actions]面板。
 
-      另請參 [閱「使用Adobe Dynamic Media Classic編輯橫幅」](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)。
+      另請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)編輯橫幅。
 
-   * 在「業務規則產生器」頁面的簡報範本區域中，以滑鼠右鍵按一下您要從頁面刪除的橫幅，然後按一下 **[!UICONTROL Remove banner]**。 移除橫幅動作會新增至「動作」面板。
+   * 在「業務規則產生器」頁面的簡報範本區域中，以滑鼠右鍵按一下要從頁面刪除的橫幅，然後按一下&#x200B;**[!UICONTROL Remove banner]**。 移除橫幅動作會新增至「動作」面板。
 
-1. （可選）在面 **[!UICONTROL Schedule]** 板中，執行下列任一項作業：
+1. （可選）在&#x200B;**[!UICONTROL Schedule]**&#x200B;面板中，執行下列其中一項作業：
 
-   * 按一 **[!UICONTROL Run Indefinitely]** 下，每當符合規則的相關觸發器時，都可執行規則。 此選項為預設值。
-   * 按一 **[!UICONTROL Fixed Schedule]**&#x200B;下，然後指定規則的開始日期和時間，以及在符合其相關觸發器時執行的結束日期和時間。
+   * 按一下&#x200B;**[!UICONTROL Run Indefinitely]**，在符合規則的相關觸發器時，讓規則執行。 此選項為預設值。
+   * 按一下&#x200B;**[!UICONTROL Fixed Schedule]**，然後指定規則的開始日期和時間，以及規則在符合其相關觸發器時執行的結束日期和時間。
 
 1. 按一下 **[!UICONTROL Save Rule]**.
-1. （可選）在頁 [!DNL Business Rules] 面上，執行下列其中一項作業：
+1. （可選）在[!DNL Business Rules]頁面上，執行下列其中一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 編輯業務規則 {#task_375CFA75D1D94D9E92A35DE1228E5087}
+## 編輯業務規則{#task_375CFA75D1D94D9E92A35DE1228E5087}
 
 您可以使用「視覺化規則產生器」或「進階規則產生器」來編輯已新增的業務規則。
 
 **要編輯新業務規則**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**。
-1. 在頁面 [!DNL Business Rules] 上，執行下列其中一項作業：
+1. 在產品功能表上，按一下「**[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**」。
+1. 在[!DNL Business Rules]頁面上，執行下列其中一項作業：
 
-   * 在欄下 [!DNL Name] ，按一下您要變更之業務規則的名稱。
+   * 在[!DNL Name]欄下，按一下您要變更之業務規則的名稱。
 
-      業務規則會在「 > >」中指定的預設介面 **[!UICONTROL Settings]** 中 **[!UICONTROL My Profile]** 開啟 **[!UICONTROL My Preferences]**。
+      業務規則在&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL My Preferences]**&#x200B;中指定的預設介面中開啟。
 
-   * 在下拉式清單中，按一下或，在您要編輯的業務規則名稱旁 **[!UICONTROL Edit in advanced mode]** 邊 **[!UICONTROL Edit in visual mode]**。
+   * 在下拉式清單中，按一下您要編輯的業務規則名稱旁邊的&#x200B;**[!UICONTROL Edit in advanced mode]**&#x200B;或&#x200B;**[!UICONTROL Edit in visual mode]**。
 
-1. 在文字 [!DNL Name] 欄位中，輸入業務規則的新名稱。
+1. 在[!DNL Name]文字欄位中，輸入業務規則的新名稱。
 
-   請勿按 **[!UICONTROL Save Rule]** 一下。 1.在頁面 [!DNL Business Rule Builder] 上，設定您要使用的觸發器和動作。
+   還請勿按滑鼠&#x200B;**[!UICONTROL Save Rule]**。 1.在[!DNL Business Rule Builder]頁面上，設定您要使用的觸發器和動作。
 
-   請參閱「新增業務規 [則」下的選項表](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)。
-1. （選用）在任 **[!UICONTROL Business Rule Builder]** 何面板( [!DNL Triggers]、 [!DNL Actions]或 [!DNL Schedule]執行下列任一項作業：
+   請參閱[添加新業務規則](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)下的選項表。
+1. （可選）在任何&#x200B;**[!UICONTROL Business Rule Builder]**&#x200B;面板（[!DNL Triggers]、[!DNL Actions]或[!DNL Schedule]）中，執行下列任一操作：
 
-   * 在頁面的簡報範本區 [!DNL Business Rule Builder] 域中，以滑鼠右鍵按一下橫幅，然後按一下 **[!UICONTROL Select different banner]**。 在中， [!DNL Pick Banner page]按一下 **[!UICONTROL Pick this banner]** 橫幅縮圖下方，將其新增至簡報範本。 只有符合簡報範本上原始橫幅大小和區域的橫幅可供您選擇。
+   * 在[!DNL Business Rule Builder]頁面的簡報範本區域中，以滑鼠右鍵按一下橫幅，然後按一下&#x200B;**[!UICONTROL Select different banner]**。 在[!DNL Pick Banner page]上，按一下橫幅縮圖下方的&#x200B;**[!UICONTROL Pick this banner]**，將它新增至您的簡報範本。 只有符合簡報範本上原始橫幅大小和區域的橫幅可供您選擇。
 
-      新增橫幅動作會新增至面 [!DNL Actions] 板。
+      新增橫幅動作會新增至[!DNL Actions]面板。
 
-   * 在頁面的簡報範本區 [!DNL Business Rule Builder] 域中，以滑鼠右鍵按一下您要變更其參數的Adobe Dynamic Media Classic範本橫幅，然後按一下 **[!UICONTROL Add banner commands]**。 在對話 [!DNL Change Parameters] 方塊中，設定您要的參數選項。
+   * 在[!DNL Business Rule Builder]頁面的簡報範本區域中，以滑鼠右鍵按一下您要變更其參數的Adobe Dynamic Media Classic範本橫幅，然後按一下&#x200B;**[!UICONTROL Add banner commands]**。 在[!DNL Change Parameters]對話方塊中，設定您想要的參數選項。
 
-      請參閱「使用Adobe Dynamic Media Classic [新增橫幅」中的選項表](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)。
+      請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)新增橫幅中的選項表。
 
       按一下 **[!UICONTROL Save]**.
 
-      參數變更會新增至面 [!DNL Actions] 板。
+      參數更改將添加到[!DNL Actions]面板。
 
-      另請參 [閱「使用Adobe Dynamic Media Classic編輯橫幅」](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)。
+      另請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)編輯橫幅。
 
-   * 在頁面的簡報範本區 [!DNL Business Rule Builder] 域中，以滑鼠右鍵按一下您要從頁面刪除的橫幅，然後按一下 **[!UICONTROL Remove banner]**。 移除橫幅動作會新增至面 [!DNL Actions] 板。
+   * 在[!DNL Business Rule Builder]頁面的簡報範本區域中，以滑鼠右鍵按一下要從頁面刪除的橫幅，然後按一下&#x200B;**[!UICONTROL Remove banner]**。 移除橫幅動作會新增至[!DNL Actions]面板。
 
-1. （可選）在面 [!DNL Schedule] 板中，執行下列任一項作業：
+1. （可選）在[!DNL Schedule]面板中，執行下列其中一項作業：
 
-   * 按一 **[!UICONTROL Run Indefinitely]** 下，每當符合規則的相關觸發器時，都可執行規則。 此選項為預設值。
-   * 按一 **[!UICONTROL Fixed Schedule]**&#x200B;下，然後指定規則的開始日期和時間，以及在符合其相關觸發器時執行的結束日期和時間。
+   * 按一下&#x200B;**[!UICONTROL Run Indefinitely]**，在符合規則的相關觸發器時，讓規則執行。 此選項為預設值。
+   * 按一下&#x200B;**[!UICONTROL Fixed Schedule]**，然後指定規則的開始日期和時間，以及規則在符合其相關觸發器時執行的結束日期和時間。
 
 1. 按一下 **[!UICONTROL Save Rule]**.
 
-   頁 [!DNL Business Rule Builder] 面關閉，您會返回頁 **[!UICONTROL Business Rule]** 面。 您的規則會出現在表格中。 按一下 **[!UICONTROL Modified]** 欄標題，依編輯日期排序規則。 1.（可選）執行下列任一項作業：
+   [!DNL Business Rule Builder]頁面關閉，您會返回至&#x200B;**[!UICONTROL Business Rule]**&#x200B;頁面。 您的規則會出現在表格中。 按一下&#x200B;**[!UICONTROL Modified]**&#x200B;欄標題，依編輯日期排序規則。 1.（可選）執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 複製業務規則 {#task_89F1879C71A54EE9B7454439302C03EC}
+## 複製業務規則{#task_89F1879C71A54EE9B7454439302C03EC}
 
 您可以複製現有業務規則，作為要建立的新業務規則的基礎。
 
 **要複製業務規則**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**。
-1. 在頁 **[!UICONTROL Business Rules]** 面上，在您要複製之業務規則名稱旁的下拉式清單中，按一下 **[!UICONTROL Copy rule]**。
+1. 在產品功能表上，按一下「**[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**」。
+1. 在&#x200B;**[!UICONTROL Business Rules]**&#x200B;頁面中，在您要複製的業務規則名稱旁邊的下拉清單中，按一下&#x200B;**[!UICONTROL Copy rule]**。
 1. 照常編輯複製的業務規則。
 
-   See [Editing a business rule](../c-about-rules-menu/c-about-business-rules.md#task_375CFA75D1D94D9E92A35DE1228E5087).
+   請參閱[編輯業務規則](../c-about-rules-menu/c-about-business-rules.md#task_375CFA75D1D94D9E92A35DE1228E5087)。
 
-## 批准業務規則 {#task_BD569D18BF664272B8692294C162E2C1}
+## 批准業務規則{#task_BD569D18BF664272B8692294C162E2C1}
 
 您可以激活狀態為「WIP（在製品）」或暫停的業務規則。
 
 **要批准業務規則**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Rule]** > **[!UICONTROL Business Rules]**。
-1. 在頁 [!DNL Business Rules] 面上，使用業務規則表列中的 [!DNL Status] 狀態列標題，對狀態為或的規則進行 **[!UICONTROL WIP]** 排序 **[!UICONTROL suspended]**。
+1. 在產品功能表上，按一下「**[!UICONTROL Rule]** > **[!UICONTROL Business Rules]**」。
+1. 在[!DNL Business Rules]頁面上，使用業務規則表[!DNL Status]列中的狀態列標題，對狀態為&#x200B;**[!UICONTROL WIP]**&#x200B;或&#x200B;**[!UICONTROL suspended]**&#x200B;的規則進行排序。
 
-   使用表格左側的核取方塊欄標題，可檢查目前顯示在頁面上的所有規則，或僅檢查狀態為或的 **[!UICONTROL WIP]** 規則 **[!UICONTROL suspended]**。 1.在頁面頂部附近的菜單欄上，按一下 **[!UICONTROL Approve]**。
-1. 在對話 **[!UICONTROL Confirm Action]** 方塊中，按一下 **[!UICONTROL OK]**。
+   使用表格左側的核取方塊欄標題，檢查目前顯示在頁面上的所有規則，或僅檢查狀態為&#x200B;**[!UICONTROL WIP]**&#x200B;或&#x200B;**[!UICONTROL suspended]**&#x200B;的規則。 1.在頁面頂部附近的菜單欄上，按一下&#x200B;**[!UICONTROL Approve]**。
+1. 在&#x200B;**[!UICONTROL Confirm Action]**&#x200B;對話框中，按一下&#x200B;**[!UICONTROL OK]**。
 1. （可選）執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 暫停業務規則 {#task_364E1FFB905141C08E306C8F1794A20E}
+## 暫停業務規則{#task_364E1FFB905141C08E306C8F1794A20E}
 
 您可以暫停狀態為「WIP（在製品）」或已批准的業務規則。
 
@@ -376,61 +379,61 @@ source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
 
 **暫停業務規則**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Rule]** > **[!UICONTROL Business Rules]**。
-1. 在頁 [!DNL Business Rules] 面上，使用業務規則表的「狀態」列中的狀態，在表的最左側列中，檢查狀態為或的 **[!UICONTROL WIP]**&#x200B;規則 **[!UICONTROL approved]**。
-1. 在頁面頂部附近的菜單欄上，按一下 **[!UICONTROL Suspend]**。
-1. 在對話 **[!UICONTROL Confirm Action]** 方塊中，按一下 **[!UICONTROL OK]**。
+1. 在產品功能表上，按一下「**[!UICONTROL Rule]** > **[!UICONTROL Business Rules]**」。
+1. 在[!DNL Business Rules]頁面上，使用業務規則表的「狀態」列中的狀態，在表的最左側列中檢查狀態為&#x200B;**[!UICONTROL WIP]**&#x200B;或&#x200B;**[!UICONTROL approved]**&#x200B;的規則。
+1. 在頁面頂部附近的菜單欄上，按一下&#x200B;**[!UICONTROL Suspend]**。
+1. 在&#x200B;**[!UICONTROL Confirm Action]**&#x200B;對話框中，按一下&#x200B;**[!UICONTROL OK]**。
 1. （可選）執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 繼續業務規則 {#task_E67D678C765B436EA2A3D6ADD7A49ABA}
+## 恢復業務規則{#task_E67D678C765B436EA2A3D6ADD7A49ABA}
 
 您可以繼續業務規則以重新啟用暫停的規則。 在您恢復業務規則後，其狀態將設定為WIP（在製品）。
 
 **要繼續業務規則**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Rule]** > **[!UICONTROL Business Rules]**。
-1. 在頁 [!DNL Business Rules] 面上，使用業務規則表的「狀態」列中的狀態，在表的最左側列中檢查狀態為的規則 **[!UICONTROL suspended]**。
-1. 在頁面頂部附近的菜單欄上，按一下 **[!UICONTROL Resume]**。
-1. 在對話 [!DNL Confirm Action] 方塊中，按一下 **[!UICONTROL OK]**。
+1. 在產品功能表上，按一下「**[!UICONTROL Rule]** > **[!UICONTROL Business Rules]**」。
+1. 在[!DNL Business Rules]頁面上，使用業務規則表的「狀態」列中的狀態，在表的最左側列中檢查狀態為&#x200B;**[!UICONTROL suspended]**&#x200B;的規則。
+1. 在頁面頂部附近的菜單欄上，按一下&#x200B;**[!UICONTROL Resume]**。
+1. 在[!DNL Confirm Action]對話框中，按一下&#x200B;**[!UICONTROL OK]**。
 1. （可選）執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 變更業務規則的執行順序 {#task_FE3B1C17307F49B49050C2EC5A063991}
+## 更改業務規則運行{#task_FE3B1C17307F49B49050C2EC5A063991}的順序
 
 您可以重新排序業務規則，以變更它們在簡報範本上執行的順序。
 
-業務規則按照定義的順序運行；規則的訂單編號越高，在流程中執行的時間越晚，超過了先前的規則。 您可以在頁面上表格的「順序」欄中輸入新編號，以重新排序 [!DNL Business Rules] 規則。 您也可以對規則使用拖放功能來變更其執行順序。
+業務規則按照定義的順序運行；規則的訂單編號越高，在流程中執行的時間越晚，超過了先前的規則。 通過在[!DNL Business Rules]頁面的表的「順序」列中輸入新編號，可以重新排序規則。 您也可以對規則使用拖放功能來變更其執行順序。
 
 **要更改業務規則運行的順序，請執行以下操作：**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Rule]** > **[!UICONTROL Business Rules]**。
-1. 在頁 [!DNL Business Rules] 面上，在表格中執行下列任一項作業：
+1. 在產品功能表上，按一下「**[!UICONTROL Rule]** > **[!UICONTROL Business Rules]**」。
+1. 在[!DNL Business Rules]頁面的表格中，執行下列任一項作業：
 
-   * 按一下 **[!UICONTROL Order]** 欄標題，以遞增或遞減順序排序規則。
-   * 在欄 **[!UICONTROL Order]** 中，在業務規則名稱左側的文字欄位中，輸入您要執行規則的訂單編號。
+   * 按一下&#x200B;**[!UICONTROL Order]**&#x200B;欄標題，以遞增或遞減順序排序規則。
+   * 在&#x200B;**[!UICONTROL Order]**&#x200B;欄中，在業務規則名稱左側的文字欄位中，輸入您要執行規則的訂單編號。
    * 將表格列拖放至您要執行規則的位置。 所有訂單編號都會更新，以反映規則執行的新順序。
 
 1. 按一下 **[!UICONTROL Save Changes]**.
@@ -438,42 +441,42 @@ source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
    您的業務規則現在會依您指定的順序執行。 例外情況是，如果指定了重新導向業務規則。 如果和當觸發或點擊重新導向業務規則時，業務規則處理會停止以允許重新導向。
 1. （可選）執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 刪除業務規則 {#task_AE37B42412044541BCC6D46CF8793DFF}
+## 刪除業務規則{#task_AE37B42412044541BCC6D46CF8793DFF}
 
 您可以使用「批量活動」下拉菜單刪除狀態為WIP、暫停或批准的業務規則。
 
 **要刪除業務規則**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**。
-1. 在頁面 [!DNL Business Rules] 上，執行下列其中一項作業：
+1. 在產品功能表上，按一下「**[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**」。
+1. 在[!DNL Business Rules]頁面上，執行下列其中一項作業：
 
    * 使用核取方塊欄標題來檢查頁面上目前顯示的所有規則。
    * 根據表的「狀態」列中的狀態，僅檢查要刪除的業務規則。
 
-1. 在下拉 [!DNL Bulk Actions] 式清單中，按一下 **[!UICONTROL Delete]**。
-1. 在對話 [!DNL Confirm Action] 方塊中，按一下 **[!UICONTROL OK]**。
+1. 在[!DNL Bulk Actions]下拉式清單中，按一下&#x200B;**[!UICONTROL Delete]**。
+1. 在[!DNL Confirm Action]對話框中，按一下&#x200B;**[!UICONTROL OK]**。
 1. （可選）執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
