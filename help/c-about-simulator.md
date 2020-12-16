@@ -8,6 +8,9 @@ topic: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
 source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -16,24 +19,24 @@ source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
 
 使用模擬器，查看如果您要推送目前已上傳的所有內容，搜尋結果會是什麼樣。
 
-## 關於模擬器 {#concept_020AA6751E32421A96A3455508364C7E}
+## 關於模擬器{#concept_020AA6751E32421A96A3455508364C7E}
 
 使用模擬器，查看如果您要推送目前已上傳的所有內容，搜尋結果會是什麼樣。
 
 您也可以模擬目前的即時搜尋，以進行比較。 模擬器有內建除錯程式，可顯示特定搜尋要觸發哪些業務規則。 如果您取消勾選任何相關規則，模擬器會重新模擬您網站的搜尋，就像該規則不存在一樣。 規則從最高優先順序到最低優先順序，優先順序越高，優先順序越低。
 
-另請參 [閱新增業務規則](c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)。
+另請參閱[添加新業務規則](c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)。
 
-## 使用模擬器 {#task_739E14F61F8D47B196515F815E3F3BD9}
+## 使用模擬器{#task_739E14F61F8D47B196515F815E3F3BD9}
 
 如果您要推送目前已上傳的所有內容，您可以使用模擬器來查看您的搜尋結果。
 
-請參 [閱新增業務規則](c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)。
+請參閱[添加新業務規則](c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)。
 
 **若要使用模擬器**
 
-1. 在產品選單上，按一下 **[!UICONTROL Simulator]**。
-1. 在下拉 **[!UICONTROL Options]** 式清單中，選取您要執行的選項。
+1. 在產品功能表上，按一下&#x200B;**[!UICONTROL Simulator]**。
+1. 在&#x200B;**[!UICONTROL Options]**&#x200B;下拉式清單中，選取您要執行的選項。
 
    <!-- 
    
