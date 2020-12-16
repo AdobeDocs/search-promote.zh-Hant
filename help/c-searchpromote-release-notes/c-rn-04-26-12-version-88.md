@@ -8,11 +8,14 @@ topic: Release Notes,Site search and merchandising
 uuid: ddb9f1af-92a4-4f85-be8f-a36f34d31add
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 70%
 
 ---
 
 
-# Search&amp;Promote 8.8 Release Notes (04/26/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.8發行說明(04/26/2012){#search-promote-release-notes}
 
 **新功能**
 
@@ -24,7 +27,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
    在所有Adobe Search&amp;Promote網頁上實作Adobe使用者介面。
 * 與Adobe登入入口網站更緊密整合
 
-   Adobe Search&amp;Promote客戶可獨家使用Adobe登入入口網站。 Current [!DNL Adobe Publish], Adobe SiteSearch, and Atomz customers will continue to use the legacy login.
+   Adobe Search&amp;Promote客戶可獨家使用Adobe登入入口網站。 目前的[!DNL Adobe Publish]、Adobe SiteSearch和Atomz客戶將繼續使用舊版登入。
 * 新形態分析，支援中文和日文
 
    索引和搜尋時間套用了形態分析，以便支援中文和日文。
