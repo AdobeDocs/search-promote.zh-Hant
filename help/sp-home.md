@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: dcbee1a3092f46db8f19e0b14f55cafac5fdbc13
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
 
-# Adobe Search&amp;Promote指南 {#search-promote-documentation}
+# Adobe Search&amp;Promote 指南 {#search-promote-documentation}
 
-## News and announcements {#topic_02625547D07F411DBAC9593FCBD4741B}
+## 新聞和公告{#topic_02625547D07F411DBAC9593FCBD4741B}
 
 * Adobe Marketing Cloud發行說明——包含所有Marketing Cloud解決方案中的新功能、修正和已知問題。 功能發行於春季和秋季進行，維護發行則每月進行。
 
-   **提早存取**:註冊 [Adobe優先產品更新](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) ，在每個版本發行前一週收到Adobe Marketing Cloud發行說明。
+   **提早存取**:註冊「 [Adobe優先產品更新」,](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) 在每個版本發行前一週收到Adobe Marketing Cloud發行說明。
 
 * 最新的Adobe Search&amp;Promote發行說明：
 
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 [瞭解和設計Adobe Search&amp;Promote中的索引連接器饋送](https://marketing.adobe.com/resources/help/en_US/snp/index_connector_feeds.pdf)
 
-## Other information {#topic_34A00195904D4AE7AE982D3746F693AA}
+## 其他資訊{#topic_34A00195904D4AE7AE982D3746F693AA}
 
 [Adobe Search&amp;Promote網站](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html)
 
