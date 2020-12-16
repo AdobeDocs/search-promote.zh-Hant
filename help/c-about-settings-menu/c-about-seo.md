@@ -9,6 +9,9 @@ topic: Settings,Site search and merchandising
 uuid: 5c5d64f5-fe79-4489-85c6-399d1437f2c4
 translation-type: tm+mt
 source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+workflow-type: tm+mt
+source-wordcount: '1226'
+ht-degree: 1%
 
 ---
 
@@ -27,13 +30,13 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
 
 人們最常用的SEO頁面元素是頁面標題，以及「關鍵字」和「說明」中繼標籤。 您可以定義這三個頁面元素的設定。 此外，您可以針對三種頁面類型分別定義這三種設定：搜尋結果頁、瀏覽頁和項目詳細資訊頁。
 
-當您儲存或預覽SEO設定時，會產生小部分搜尋（傳輸）範本，您可將這些範本加入其他搜尋範本及範本標 `<search-include>` 記中。 例如，您可以將「搜尋結果頁面標題」欄位包含在另一個範本中，其中包含下列項目：
+當您儲存或預覽SEO設定時，會產生搜尋（傳輸）範本的小區段，您可使用`<search-include>`範本標籤加入其他搜尋範本中。 例如，您可以將「搜尋結果頁面標題」欄位包含在另一個範本中，其中包含下列項目：
 
 ```
 <search-include file="seo/seo_search_title.tpl" />
 ```
 
-SEO欄位標籤屬性 `file` 的九個 `<search-include>` 可能值如下：
+SEO欄位的`<search-include>`標籤`file`屬性的9個可能值如下：
 
 * `seo/seo_search_title.tpl`
 * `seo/seo_search_description.tpl`
@@ -47,9 +50,9 @@ SEO欄位標籤屬性 `file` 的九個 `<search-include>` 可能值如下：
 
 若要在簡報範本中使用SEO欄位，請完成數個步驟。
 
-首先，您可 `<search-include>` 如上所述，在元素中將所需欄位加入XML搜尋范 `<general>` 本。
+首先，如上所述，您使用`<search-include>`在`<general>`元素中將所需欄位包含在XML搜尋範本中。
 
-然後，使用 `<search-include>` 和標 `<general-field>` 記來包 `</general-field>` 圍每個標籤，提供屬性中的欄 `name` 位名稱，如下例所示：
+然後，將每個`<search-include>`標籤包圍為`<general-field>`和`</general-field>`標籤，並提供`name`屬性中的欄位名稱，如下例所示：
 
 ```
 <general> 
@@ -59,7 +62,7 @@ SEO欄位標籤屬性 `file` 的九個 `<search-include>` 可能值如下：
 </general>
 ```
 
-然後，在簡報範本中，您可以 `<guided-general-field>` 使用標籤，在您需要的任何地方插入命名欄位，如下列範例：
+然後，在簡報範本中，您可以使用`<guided-general-field>`標籤，在您需要的任何地方插入命名欄位，如下列範例所示：
 
 ```
 <title><guided-general-field gsname="default" field="seo_search_title"></title> 
@@ -67,7 +70,7 @@ SEO欄位標籤屬性 `file` 的九個 `<search-include>` 可能值如下：
 <meta name="keywords" content="<guided-general-field gsname="default" field="seo_search_keywords">"/>
 ```
 
-請注意，使用屬 `gsname` 性來指定「預設」搜尋。
+請注意，使用`gsname`屬性來指定「預設」搜尋。
 
 總之，您可以定義可在網頁中使用的9個不同SEO欄位。 其中包括：
 
@@ -77,22 +80,22 @@ SEO欄位標籤屬性 `file` 的九個 `<search-include>` 可能值如下：
 
 所有9個欄位皆以類似設定定義。 事實上，這9個欄位的名稱（例如「搜尋結果頁面」中的「標題」欄位）只是您使用這些欄位的建議。 您可以在簡報範本和搜尋範本中，在任何內容中使用任何欄位。
 
-另請參閱 [關於模板](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5)。
+另請參閱[關於模板](../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5)。
 
-另請參閱 [簡報範本標籤](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)。
+另請參閱[演示模板標籤](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)。
 
-另請參閱 [搜尋範本標籤](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4)。
+另請參閱[搜索模板標籤](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4)。
 
-另請參 [閱設定搜尋結果字詞清單](../c-about-settings-menu/c-about-seo.md#task_A459A3734EC04042BA52C81184251DD4)。
+另請參閱[設定搜尋結果字詞清單](../c-about-settings-menu/c-about-seo.md#task_A459A3734EC04042BA52C81184251DD4)。
 
-## 設定搜尋結果字詞清單 {#task_A459A3734EC04042BA52C81184251DD4}
+## 配置搜索結果單詞清單{#task_A459A3734EC04042BA52C81184251DD4}
 
 您可以設定搜尋結果字詞和片語的清單，這些字詞和片語包含在頁面標題、說明和關鍵字中。
 
 **若要設定搜尋結果字詞清單**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Settings]** > **[!UICONTROL SEO]** > **[!UICONTROL Search Result Pages]**。
-1. 在頁 [!DNL SEO Browse Pages Word List] 面上，在各自的 [!DNL Title]、 [!DNL Description]和群組中，設 [!DNL Keywords] 定您想要的選項。
+1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL SEO]** > **[!UICONTROL Search Result Pages]**」。
+1. 在[!DNL SEO Browse Pages Word List]頁面上，在各自的[!DNL Title]、[!DNL Description]和[!DNL Keywords]群組中，設定您想要的選項。
 
    <table> 
     <thead> 
@@ -103,7 +106,7 @@ SEO欄位標籤屬性 `file` 的九個 `<search-include>` 可能值如下：
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>標題|說明|關鍵字開頭為 </p> </td> 
+      <td colname="col1"> <p>標題 |說明 |關鍵字開頭為 </p> </td> 
       <td colname="col2"> <p>您要在字詞清單前面顯示的文字。 </p> <p>例如，您可能希望「關鍵字」清單以「品牌」開頭。 </p> </td> 
       </tr> 
       <tr> 
@@ -120,110 +123,110 @@ SEO欄位標籤屬性 `file` 的九個 `<search-include>` 可能值如下：
       </tr> 
       <tr> 
       <td colname="col1"> <p>新增這些字詞和片語 </p> </td> 
-      <td colname="col2"> <p>列出您要新增至搜尋結果頁面標題、瀏覽頁標題或項目詳細資料頁面標題的字詞。 </p> <p>按一 <b>下「編輯</b> 」，將字詞新增至清單。 </p> <p>您可以每行新增一個字詞或片語。 完成後，按一下「 <b>儲存變更</b>」，然後關閉頁面以返回主要SEO頁面。 </p> </td> 
+      <td colname="col2"> <p>列出您要新增至搜尋結果頁面標題、瀏覽頁標題或項目詳細資料頁面標題的字詞。 </p> <p>按一下<b>編輯</b>將單詞添加到清單中。 </p> <p>您可以每行新增一個字詞或片語。 完成後，按一下<b>保存更改</b>，然後關閉頁面以返回主SEO頁。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>移除這些字詞和片語（包含的欄位值除外） </p> </td> 
-      <td colname="col2"> <p>列出要從搜尋結果頁面標題、瀏覽頁標題或項目詳細資訊頁面標題中移除的字詞。 </p> <p>按一 <b>下「編輯</b> 」，將字詞新增至移除清單。 </p> <p>您可以每行新增一個字詞或片語。 完成後，按一下「 <b>儲存變更</b>」，然後關閉頁面以返回主要SEO頁面。 </p> </td> 
+      <td colname="col2"> <p>列出要從搜尋結果頁面標題、瀏覽頁標題或項目詳細資訊頁面標題中移除的字詞。 </p> <p>按一下<b>編輯</b>將單詞添加到刪除清單中。 </p> <p>您可以每行新增一個字詞或片語。 完成後，按一下<b>保存更改</b>，然後關閉頁面以返回主SEO頁。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. （可選）按一 **下「預覽範例輸出** 」，預覽您所設定之SEO欄位的產生值。
+1. （可選）按一下「預覽範例輸出」**，預覽您所設定之SEO欄位的產生值。**
 
-   請參 [閱預覽您設定的SEO中繼標籤](../c-about-settings-menu/c-about-seo.md#task_3F97949E193C4F92A104AD117FE49621)。
+   請參閱[預覽您設定的SEO中繼標籤](../c-about-settings-menu/c-about-seo.md#task_3F97949E193C4F92A104AD117FE49621)。
 1. 按一下&#x200B;**「儲存變更」**。
 1. （可選）如果要預覽結果，請重建分段網站索引。
 
-   請參 [閱配置分段網站的增量索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
-1. （可選）在頁 [!DNL SEO Search Results Word List] 面上，執行下列任一項作業：
+   請參閱[設定分段網站的遞增索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
+1. （可選）在[!DNL SEO Search Results Word List]頁面上，執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 設定瀏覽頁字詞清單 {#task_D7A1D765A92A4D6C94E672B3A86ECB5A}
+## 配置瀏覽頁單詞清單{#task_D7A1D765A92A4D6C94E672B3A86ECB5A}
 
 您可以設定包含在頁面標題、說明和關鍵字中的瀏覽頁字詞和片語清單。
 
 **若要設定瀏覽頁字詞清單**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Settings]** > **[!UICONTROL SEO]** > **[!UICONTROL Browse Pages]**。
-1. 在頁 [!DNL SEO Browse Pages Word List] 面上，在各自的 [!DNL Title]、 [!DNL Description]和群組中，設 [!DNL Keywords] 定您想要的選項。
+1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL SEO]** > **[!UICONTROL Browse Pages]**」。
+1. 在[!DNL SEO Browse Pages Word List]頁面上，在各自的[!DNL Title]、[!DNL Description]和[!DNL Keywords]群組中，設定您想要的選項。
 
-   請參閱「設定搜尋結 [果字詞清單」下的選項表](../c-about-settings-menu/c-about-seo.md#task_A459A3734EC04042BA52C81184251DD4)。
-1. （可選）按一 **下「預覽範例輸出** 」，預覽您所設定之SEO欄位的產生值。
+   請參閱[設定搜尋結果字詞清單](../c-about-settings-menu/c-about-seo.md#task_A459A3734EC04042BA52C81184251DD4)下的選項表。
+1. （可選）按一下「預覽範例輸出」**，預覽您所設定之SEO欄位的產生值。**
 
-   請參 [閱預覽您設定的SEO中繼標籤](../c-about-settings-menu/c-about-seo.md#task_3F97949E193C4F92A104AD117FE49621)。
+   請參閱[預覽您設定的SEO中繼標籤](../c-about-settings-menu/c-about-seo.md#task_3F97949E193C4F92A104AD117FE49621)。
 1. 按一下&#x200B;**「儲存變更」**。
 1. （可選）如果要預覽結果，請重建分段網站索引。
 
-   請參 [閱配置分段網站的增量索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
-1. （可選）在頁 [!DNL SEO Browse Pages Word List] 面上，執行下列任一項作業：
+   請參閱[設定分段網站的遞增索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
+1. （可選）在[!DNL SEO Browse Pages Word List]頁面上，執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 設定項目詳細資訊字詞清單 {#task_761538C519B34164BE189F13C39B2495}
+## 配置項目詳細資訊字詞清單{#task_761538C519B34164BE189F13C39B2495}
 
 您可以設定頁面標題、說明和關鍵字中包含的項目詳細資料字詞和片語清單。
 
 **要配置項目詳細資訊單字清單**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Settings]** > **[!UICONTROL SEO]** > **[!UICONTROL Item Detail Pages]**。
-1. 在頁 [!DNL SEO Item Detail Word List] 面上，在各自的 [!DNL Title]、 [!DNL Description]和群組中，設 [!DNL Keywords] 定您想要的選項。
+1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL SEO]** > **[!UICONTROL Item Detail Pages]**」。
+1. 在[!DNL SEO Item Detail Word List]頁面上，在各自的[!DNL Title]、[!DNL Description]和[!DNL Keywords]群組中，設定您想要的選項。
 
-   請參閱「設定搜尋結 [果字詞清單」下的選項表](../c-about-settings-menu/c-about-seo.md#task_A459A3734EC04042BA52C81184251DD4)。
-1. （可選）按一 **下「預覽範例輸出** 」，預覽您所設定之SEO欄位的產生值。
+   請參閱[設定搜尋結果字詞清單](../c-about-settings-menu/c-about-seo.md#task_A459A3734EC04042BA52C81184251DD4)下的選項表。
+1. （可選）按一下「預覽範例輸出」**，預覽您所設定之SEO欄位的產生值。**
 
-   請參 [閱預覽您設定的SEO中繼標籤](../c-about-settings-menu/c-about-seo.md#task_3F97949E193C4F92A104AD117FE49621)。
+   請參閱[預覽您設定的SEO中繼標籤](../c-about-settings-menu/c-about-seo.md#task_3F97949E193C4F92A104AD117FE49621)。
 1. 按一下&#x200B;**「儲存變更」**。
 1. （可選）如果要預覽結果，請重建分段網站索引。
 
-   請參 [閱配置分段網站的增量索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
-1. （可選）在頁 [!DNL SEO Item Detail Word List] 面上，執行下列任一項作業：
+   請參閱[設定分段網站的遞增索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
+1. （可選）在[!DNL SEO Item Detail Word List]頁面上，執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 預覽您設定的SEO中繼標籤 {#task_3F97949E193C4F92A104AD117FE49621}
+## 預覽您設定的{#task_3F97949E193C4F92A104AD117FE49621} SEO中繼標籤
 
-您可以預覽您設定的SEO欄位的產生值，以查看在何處插入的項目。
+您可以預覽您設定的SEO欄位的產生值，以查看您使用這些欄位的插入內容。
 
 SEO欄位可包含欄位值，因此搜尋結果可能取決於您指定的搜尋查詢。
 
 **若要預覽您設定的SEO中繼標籤**
 
-1. 在產品功能表上，按一下 **[!UICONTROL Settings]** > **[!UICONTROL SEO]** > **[!UICONTROL Search Result Pages]**。
-1. 在SEO頁面上，按一下「預 **覽範例輸出」**。
-1. 在頁 [!DNL SEO Preview] 面的欄位中， [!DNL Enter sample query] 輸入您要搜尋的查詢詞。
+1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL SEO]** > **[!UICONTROL Search Result Pages]**」。
+1. 在SEO頁面上，按一下「預覽範例輸出」**。**
+1. 在[!DNL SEO Preview]頁面的[!DNL Enter sample query]欄位中，輸入您要搜尋的查詢詞。
 1. 按一下&#x200B;**搜尋**。
 
    產生的「標題」、「說明」和「關鍵字」欄位會根據您剛輸入的搜尋查詢，顯示插入頁面的內容。
-1. 按一 **下** 「關閉」以返回主要SEO頁面。
+1. 按一下&#x200B;**關閉**&#x200B;返回主SEO頁。
