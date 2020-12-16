@@ -8,6 +8,9 @@ topic: Appendices,Site search and merchandising
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
 translation-type: tm+mt
 source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+workflow-type: tm+mt
+source-wordcount: '6298'
+ht-degree: 2%
 
 ---
 
@@ -16,23 +19,23 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
 
 您可以自訂任何文字格式的輸出，包括XML或JSON。
 
-## 使用引導式搜尋輸出 {#concept_2A1BA3AD413848A1AC2A3ABC4FFE481F}
+## 使用引導搜索輸出{#concept_2A1BA3AD413848A1AC2A3ABC4FFE481F}
 
 可自訂輸出格式，以支援設計程式中所做的Faceting、排序和其他實作特定決策。 如有需要，您可以自行調整格式，以簡化客戶前端的開發。
 
-整個輸出都包含在標 `<result>` 簽中，而大部分的動態資料都包含在標 `<![CDATA[ ]]>` 簽中。 此類組織可讓結果包含HTML和其他非XML實體。
+整個輸出包含在`<result>`標籤中，而大部分的動態資料都包含在`<![CDATA[ ]]>`標籤中。 此類組織可讓結果包含HTML和其他非XML實體。
 
 當提供其他頁面的連結時，會以相對URL的形式呈現。 此結果也包含傳遞以產生所需結果的查詢字串參數。
 
-## 瞭解引導式搜尋實作 {#section_95483980930C4325BAB50A40BD47245A}
+## 瞭解引導式搜尋實作{#section_95483980930C4325BAB50A40BD47245A}
 
-當您開始實施引導式搜尋時，請記 [!DNL Adobe Search&Promote] 住對業務層負責。 也就是說，在任何特定時間，客戶都可看到哪些結果和刻面，這個邏輯是圍繞著這些邏輯的。
+當您開始進行引導式搜尋實作時，請記住[!DNL Adobe Search&Promote]負責業務層。 也就是說，在任何特定時間，客戶都可看到哪些結果和刻面，這個邏輯是圍繞著這些邏輯的。
 
 當您實作分析結果並以HTML格式顯示結果的Web應用程式前端時，請將功能限制為僅顯示。 換言之，您用來建立表現層的任何伺服器端邏輯，除非有必要，否則不會決定要向客戶展示什麼。 如果前端指令碼正在變更搜尋結果，業務規則將無法如預期般運作。
 
-[!DNL Adobe Search&Promote] 透過URL參數，維護所選搜尋調整選項的使用者狀態。 所有 `<link>` 節點都包含客戶選擇的相關參數。 這些參數可包括階層連結、分頁、排序和Facet選擇。 如果適用 `<undolink>` ，會傳回節點，讓客戶「退出」選擇。 刻面和階層連結提供這些類型的連結。
+[!DNL Adobe Search&Promote] 透過URL參數，維護所選搜尋調整選項的使用者狀態。所有`<link>`節點都包含客戶選擇的相關參數。 這些參數可包括階層連結、分頁、排序和Facet選擇。 如果適用，會傳回`<undolink>`節點，讓客戶「退出」選擇。 刻面和階層連結提供這些類型的連結。
 
-## 使用搜索伺服器 {#section_8DBEACDECD714E59BDED6315E6041B8D}
+## 使用搜索伺服器{#section_8DBEACDECD714E59BDED6315E6041B8D}
 
 您可使用類似REST的API來執行搜尋並接收結果。 最常用於結果的格式為XML或JSON。
 
@@ -45,21 +48,21 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
 
 搜索請求由基本URI和一組CGI參數或鍵值對組成，這些參數或鍵值對指示對與基本URI關聯的帳戶進行所需搜索。
 
-支援三種格式的CGI參數。 預設情況下，您的帳戶配置為使用分號( `;`)分隔CGI參數，如下例所示：
+支援三種格式的CGI參數。 預設情況下，您的帳戶配置為使用分號(`;`)分隔CGI參數，如下例所示：
 
 * `https://search.megacorp.com?q=shoes ;page=2`
 
-如果您願意，您可以讓帳戶管理員設定您的帳戶，使用&amp;符號( `&`)來分隔CGI參數，如下列範例所示：
+如果您願意，您可以讓帳戶管理員設定您的帳戶，使用&amp;符號(`&`)來分隔CGI參數，如下列範例所示：
 
 * `https://search.megacorp.com?q=shoes &page=2`
 
-另外也支援另一種格式，稱為SEO格式，其中使用正斜線( `/`)取代分隔符號，並使用等號來產生「乾淨」連結，如下列範例所示：
+另外也支援另一種稱為SEO格式的格式，其中使用正斜線(`/`)來取代分隔符號，並使用等號來產生&quot;clean&quot;連結，如下列範例所示：
 
 * `https://search.megacorp.com/q/shoes/page/2`
 
 只要使用SEO格式傳送請求，所有輸出連結都會以相同格式傳回。
 
-## 搜尋查詢參數 {#section_7ADA5E130E3040C9BE85D0D68EDD3223}
+## 搜索查詢參數{#section_7ADA5E130E3040C9BE85D0D68EDD3223}
 
 下表說明您可使用的標準「現成」搜尋查詢參數。 處理規則和業務規則可以根據使用者定義的查詢參數建立，以實作與您公司相關的自訂商業邏輯。 您可與諮詢團隊合作，以取得這些參數的相關檔案。
 
@@ -74,80 +77,80 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> q </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> q=字串 </span> </p> </td> 
-   <td colname="col3"> <p> 指定搜索的查詢字串。 此參數會對應至 <span class="codeph"> sp_q後端 </span> 搜尋參數。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> q=字串  </span> </p> </td> 
+   <td colname="col3"> <p> 指定搜索的查詢字串。 此參數映射至<span class="codeph"> sp_q </span>後端搜尋參數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> q# </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> q#=字串 </span> </p> </td> 
-   <td colname="col3"> <p>編號 <span class="codeph"> q </span> 和 <span class="codeph"> x參數可完成面 </span> 對或在指定欄位內搜尋。 </p> <p>q參 <span class="codeph"> 數 </span> 會將您在Facet中搜尋的詞定義為對應的編號 <span class="codeph"> x參數 </span> 表示。 例如，如果您有兩個刻面，其名稱為size和color，則可能有類似下列的項目： </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color </span> </p> <p>此參數會對應 <span class="codeph"> 至sp_q_exact_#後端搜 </span> 尋參數。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> q#=字串  </span> </p> </td> 
+   <td colname="col3"> <p>編號<span class="codeph"> q </span>和<span class="codeph"> x </span>參數可完成臉部設定，或在指定欄位內搜尋。 </p> <p><span class="codeph"> q </span>參數將您在Facet中搜索的術語定義為相應編號的<span class="codeph"> x </span>參數。 例如，如果您有兩個刻面，其名稱為size和color，則可能有類似下列的項目： </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>此參數會映射至<span class="codeph"> sp_q_exact_# </span>後端搜尋參數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x# </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> x#=字串 </span> </p> </td> 
-   <td colname="col3"> <p> 編號 <span class="codeph"> q </span> 和 <span class="codeph"> x參數可完成面 </span> 對或在指定欄位內搜尋。 </p> <p>q參 <span class="codeph"> 數 </span> 會將您在Facet中搜尋的詞定義為對應的編號 <span class="codeph"> x參數 </span> 表示。 例如，如果您有兩個刻面，其名稱為size和color，則可能有類似下列的項目： </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color </span> </p> <p>此參數會映射 <span class="codeph"> 至sp_x_#後端搜 </span> 尋參數。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> x#=字串  </span> </p> </td> 
+   <td colname="col3"> <p> 編號<span class="codeph"> q </span>和<span class="codeph"> x </span>參數可完成臉部設定，或在指定欄位內搜尋。 </p> <p><span class="codeph"> q </span>參數將您在Facet中搜索的術語定義為相應編號的<span class="codeph"> x </span>參數。 例如，如果您有兩個刻面，其名稱為size和color，則可能有類似下列的項目： </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>此參數映射至<span class="codeph"> sp_x_# </span>後端搜尋參數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 集合 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> collection=字串 </span> </p> </td> 
-   <td colname="col3"> <p> 指定要用於搜尋的系列。 此參數會映射至 <span class="codeph"> sp_k後端 </span> 搜尋參數。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> collection=字串  </span> </p> </td> 
+   <td colname="col3"> <p> 指定要用於搜尋的系列。 此參數映射至<span class="codeph"> sp_k </span>後端搜尋參數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 計數 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> count=數字 </span> </p> </td> 
-   <td colname="col3"> <p> 指定顯示的結果總計。 預設值定義在「設 <span class="uicontrol"> 定 </span> &gt;搜尋 <span class="uicontrol"> &gt;搜 </span> 尋」 <span class="uicontrol"></span>中。 此參數會對應至 <span class="codeph"> sp_c後端 </span> 搜尋參數。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 計數  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> count=數字  </span> </p> </td> 
+   <td colname="col3"> <p> 指定顯示的結果總計。 預設定義於<span class="uicontrol">設定</span> &gt; <span class="uicontrol">搜索</span> &gt; <span class="uicontrol">搜索</span>。 此參數映射至<span class="codeph"> sp_c </span>後端搜尋參數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> page </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 頁=數字 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 頁=數字  </span> </p> </td> 
    <td colname="col3"> <p> 指定返回的結果頁。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 排名 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 排名=欄位 </span> </p> </td> 
-   <td colname="col3"> <p> 指定用於靜態排名的排名欄位。 欄位必須是關聯性大於0的「排名」類型欄位。 此參數會映射 <span class="codeph"> 至sp_sr後 </span> 端參數。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 排名  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 排名=欄位  </span> </p> </td> 
+   <td colname="col3"> <p> 指定用於靜態排名的排名欄位。 欄位必須是關聯性大於0的「排名」類型欄位。 此參數映射至<span class="codeph"> sp_sr </span>後端參數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gs_store </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> gs_store=字串 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gs_store  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> gs_store=字串  </span> </p> </td> 
    <td colname="col3"> <p> 指定要搜索的儲存。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 排序 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 排序=數字 </span> </p> </td> 
-   <td colname="col3"> <p> 指定排序順序。 「0」是預設值，並依關聯分數排序；「1」按日期排序；"-1"不排序。 </p> <p>使用者可以指定sp_s參數值的 <span class="codeph"> 欄位名 </span> 稱。 例如， <span class="codeph"> sp_s=title會根據 </span> 標題欄位中包含的值對結果排序。 當欄位名用於sp_s參數的值時， <span class="codeph"> 結果將按該字 </span> 段排序，然後按相關性子排序。 </p> <p>若要啟用此功能，請執行下列動作： </p> 
+   <td colname="col1"> <p> <span class="codeph"> 排序  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 排序=數字  </span> </p> </td> 
+   <td colname="col3"> <p> 指定排序順序。 「0」是預設值，並依關聯分數排序；「1」按日期排序；"-1"不排序。 </p> <p>用戶可以為<span class="codeph"> sp_s </span>參數的值指定欄位名。 例如，<span class="codeph"> sp_s=title </span>會根據標題欄位中包含的值對結果排序。 當欄位名稱用於<span class="codeph"> sp_s </span>參數的值時，結果將按該欄位排序，然後按相關性進行子排序。 </p> <p>若要啟用此功能，請執行下列動作： </p> 
     <ol id="ol_3894F81EA7BF4827A84DE8662111ABEF"> 
-     <li id="li_C040C0B88F174A4885E1A8E721FD032A">在產品選單中，按一下「 <span class="uicontrol"> 設定 </span> &gt;中繼資料 <span class="uicontrol"> &gt;定 </span> 義」 <span class="uicontrol"></span>。 </li> 
-     <li id="li_2E83C3A46D1B4BF991EABAD9D3E52B7D">在「階 <span class="wintitle"> 段定 </span> 義」頁面上，執行下列任一項作業： 
+     <li id="li_C040C0B88F174A4885E1A8E721FD032A">在產品功能表上，按一下「設定<span class="uicontrol"> </span> &gt; <span class="uicontrol">中繼資料</span> &gt; <span class="uicontrol">定義</span>」。 </li> 
+     <li id="li_2E83C3A46D1B4BF991EABAD9D3E52B7D">在<span class="wintitle"> 「分段定義</span>」頁面上，執行下列任一操作： 
       <ul id="ul_8018FEE10E0A4C96A74F84A897080580"> 
-       <li id="li_E9A7CE43E2734F4D9522A1283CA111FB">Click <span class="uicontrol"> Add New Field </span>. </li> 
-       <li id="li_9D2434A321924FBD874569CA9AD2EEF7">按一 <span class="uicontrol"> 下特 </span> 定欄位名稱的編輯。 </li> 
+       <li id="li_E9A7CE43E2734F4D9522A1283CA111FB">按一下「<span class="uicontrol">添加新欄位</span>」。 </li> 
+       <li id="li_9D2434A321924FBD874569CA9AD2EEF7">按一下<span class="uicontrol">編輯</span>以查看特定欄位名。 </li> 
       </ul> </li> 
-     <li id="li_90D5E3F4AC0A4A6189934A5589F69903">在「排 <span class="wintitle"> 序」 </span> 下拉式清單中，按一下「遞增」或「遞減」 <span class="uicontrol"></span><span class="uicontrol"></span>。 <p>此參數會對應至 <span class="codeph"> sp_s後端 </span> 搜尋參數。 </p> </li> 
+     <li id="li_90D5E3F4AC0A4A6189934A5589F69903">在<span class="wintitle">排序</span>下拉式清單中，按一下「遞增<span class="uicontrol">」或「遞減</span>」。<span class="uicontrol"></span> </span><p>此參數映射至<span class="codeph"> sp_s </span>後端搜尋參數。 </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 與您的系統整合 {#section_91261B19A44A4E579B3FC9FAB9AD3665}
+## 與系統{#section_91261B19A44A4E579B3FC9FAB9AD3665}整合
 
 以下是與系統整合的建議。
 
 * 與搜尋伺服器通訊。
 
-   您可以使用http GET請 [!DNL Adobe Search&Promote] 求與Web伺服器通訊。 您的伺服器會產生這些要求，或在用戶端執行Ajax要求。
-* 保存搜索歷史記錄。
+   您可以使用http GET請求與[!DNL Adobe Search&Promote]網頁伺服器通訊。 您的伺服器會產生這些要求，或在用戶端執行Ajax要求。
+* 儲存搜尋歷史記錄。
 
 [!DNL Adobe Search&Promote] 是無狀態，其中整個狀態在http請求中傳遞。
 * 剖析傳回的結果。
 
-   建議您使用以SAX為基礎的XML剖析器來剖析XML回應。 如果您要產生Ajax請求，請 [!DNL Adobe Search&Promote] 設定為傳回這些請求的JSON回應，以便更輕鬆地剖析回應。
+   建議您使用以SAX為基礎的XML剖析器來剖析XML回應。 如果您要產生Ajax請求，請設定[!DNL Adobe Search&Promote]以傳回這些請求的JSON回應，讓解析回應變得更輕鬆。
 
-## 引導式搜尋JSON輸出 {#reference_EB8182A564DE4374BB84158F2AABEF74}
+## 引導式搜尋JSON輸出{#reference_EB8182A564DE4374BB84158F2AABEF74}
 
 說明標準JSON回應輸出的表格。
 
-另請參閱 [引導式搜尋JSON輸出](../c-appendices/c-guidedsearchoutput.md#reference_EB8182A564DE4374BB84158F2AABEF74)。
+另請參閱[引導式搜尋JSON輸出](../c-appendices/c-guidedsearchoutput.md#reference_EB8182A564DE4374BB84158F2AABEF74)。
 
 您可以檢閱JSON回應，以取得下列項目：
 
@@ -199,9 +202,9 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
  </tbody> 
 </table>
 
-## 階層連結 {#section_A7DB0F1DA9ED4CBCAE18395122F3E01E}
+## 階層連結{#section_A7DB0F1DA9ED4CBCAE18395122F3E01E}
 
-在下列範例中，每次客戶透過Facet進一步縮小範圍時，選取範圍就會新增至階層連結。 每個項目都表示為 `<breadcrumb-item>`。
+在下列範例中，每次客戶透過Facet進一步縮小範圍時，選取範圍就會新增至階層連結。 每個項目都表示為`<breadcrumb-item>`。
 
 範例:  
 
@@ -237,13 +240,13 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
  </tbody> 
 </table>
 
-## 刻面 {#section_65932C95931743A1BFAF1DF16D7E6D92}
+## Facets {#section_65932C95931743A1BFAF1DF16D7E6D92}
 
 刻面是細化選項，可讓客戶篩選結果。 Facet通常用於分類、價格範圍、顏色選擇和其他屬性調整。 索引中的中繼資料是推動Facet的因素。
 
 當客戶在分類中向下移動時，通常會隱藏或顯示分類Facet。 最高級別的分類（類別）稱為第1層。 當客戶按一下第1層選項時，會出現第2層（子類別）調整選項，而第1層選項會消失。 當客戶按一下第2層選項時，會出現第3層（子子類別）調整選項，而第2層選項會消失。 如上所述，這些選項會隱藏並顯示——您的Web應用程式不會受到這些選項的影響。
 
-每個Facet都包含在標 `<facet-item>` 記中。 在下列範例中，它顯示一個Facet，可讓客戶依「holiday」調整搜尋結果。
+每個Facet都包含在`<facet-item>`標籤中。 在下列範例中，它顯示一個Facet，可讓客戶依「holiday」調整搜尋結果。
 
 範例:  
 
@@ -354,7 +357,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
  </tbody> 
 </table>
 
-## 頁首和查詢 {#section_1D57062259CA46E0B4F598FA4EB37065}
+## 標題和查詢{#section_1D57062259CA46E0B4F598FA4EB37065}
 
 範例:  
 
@@ -401,7 +404,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
  </tbody> 
 </table>
 
-## 編頁 {#section_504E7AB570BD49AF9839530DC438EE96}
+## 編頁{#section_504E7AB570BD49AF9839530DC438EE96}
 
 範例:  
 
@@ -456,17 +459,17 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
    <td colname="col2"> <p> 包含結果集中最後一頁的相對連結，除非客戶正在查看最後一頁。 在這種情況下，它是空的。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x" </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x"&gt;</span> </p> </td> 
    <td colname="col2"> <p> 包含特定頁碼的相對連結。 顯示十個連續的頁碼。 在第1頁，是第1-10頁。 在結果集結尾（在本例中為39）時，會是第30-39頁。 例如，在結果集的中心（第15頁），它應該是第11-20頁。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt;  </span> </p> </td> 
    <td colname="col2"> <p> 套用為屬性至目前選取的頁面。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 最近搜尋 {#section_525816A0355C48F8970D89B8FC3F1FFF}
+## 最近搜索{#section_525816A0355C48F8970D89B8FC3F1FFF}
 
 「最近搜尋」是以Cookie為基礎的功能，只有在您將Cookie資訊中繼至伺服器時才能運作。
 
@@ -647,7 +650,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 搜尋表單 {#section_434DA13EA295474C99FFE9F14801CD0E}
+## 搜尋表單{#section_434DA13EA295474C99FFE9F14801CD0E}
 
 範例:  
 
@@ -685,7 +688,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;include-tnt-mbox&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 可選. 當JSON中顯示值1時，表示您的帳戶已連結至 <span class="keyword"></span> Test&amp;Target，且至少有一個業務規則位於A:B測試中。 </p> </td> 
+   <td colname="col2"> <p> 可選. 當JSON中顯示值1時，它表示您的帳戶已連結至<span class="keyword"> Test&amp;Target </span>，且至少有一個業務規則位於A:B測試中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;autocomplete&gt; </span> </p> </td> 
@@ -710,9 +713,9 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 排序 {#section_558853CD376F4D71BACF211D53085D55}
+## 排序{#section_558853CD376F4D71BACF211D53085D55}
 
-下列範例顯示三選項排序功能表的資料。 功能表可讓客戶依相關性、標題或評分來排序。 目前選取的項目包含屬性&quot;selected=true&quot;。 &quot;. 始終提供關聯選項，允許客戶返回原始顯示的預設搜索結果。
+下列範例顯示三選項排序功能表的資料。 功能表可讓客戶依相關性、標題或評分來排序。 目前選取的項目包含屬性&quot;selected=true&quot;。 」。 始終提供關聯選項，允許客戶返回原始顯示的預設搜索結果。
 
 範例:  
 
@@ -750,11 +753,11 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 表示此選項的"sort"查詢字串參數值。 如果使用&lt;link&gt;值，則 <span class="codeph"> 不需 </span> 要此標籤。 </p> </td> 
+   <td colname="col2"> <p> 表示此選項的"sort"查詢字串參數值。 如果使用<span class="codeph"> &lt;link&gt; </span>值，則不需要此標籤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 對於未選取的選項， <span class="codeph"> &lt;link&gt;參 </span> 數包含返回相同結果集的相對連結，按新排序參數排序。 此欄位對於當前選擇的排序選項為空。 </p> </td> 
+   <td colname="col2"> <p> 對於未選定的選項，<span class="codeph"> &lt;link&gt; </span>參數包含返回相同結果集的相對連結，按新排序參數排序。 此欄位對於當前選擇的排序選項為空。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -791,7 +794,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 區域 {#section_AE53A498B440465EAF2286F2AE87D548}
+## 區域{#section_AE53A498B440465EAF2286F2AE87D548}
 
 範例:  
 
@@ -821,13 +824,13 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
    <td colname="col2"> <p> 區域的名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;顯示&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;display&gt; </span> </p> </td> 
    <td colname="col2"> <p> 1或0表示區域是否顯示。 實際區域內容可以是網頁或搜尋結果中的靜態區域，例如最暢銷商品或相關產品。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 引導式搜尋XML輸出 {#reference_D93E859A277643068B10AE7A61C973EA}
+## 引導式搜尋XML輸出{#reference_D93E859A277643068B10AE7A61C973EA}
 
 描述標準XML回應輸出的表格。
 
@@ -881,9 +884,9 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 階層連結 {#section_E48A71B0EBDB4EDDA7587009AD865488}
+## 階層連結{#section_E48A71B0EBDB4EDDA7587009AD865488}
 
-在下列範例中，每次客戶透過Facet進一步縮小範圍時，選取範圍就會新增至階層連結。 每個項目都表示為 `<breadcrumb-item>`。
+在下列範例中，每次客戶透過Facet進一步縮小範圍時，選取範圍就會新增至階層連結。 每個項目都表示為`<breadcrumb-item>`。
 
 範例:  
 
@@ -919,13 +922,13 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 刻面 {#section_5CEB1F966C004FFEA3CF675638966E25}
+## Facets {#section_5CEB1F966C004FFEA3CF675638966E25}
 
 刻面是細化選項，可讓客戶篩選結果。 Facet通常用於分類、價格範圍、顏色選擇和其他屬性調整。 索引中的中繼資料是推動Facet的因素。
 
 當客戶在分類中向下移動時，通常會隱藏或顯示分類Facet。 最高級別的分類（類別）稱為第1層。 當客戶按一下第1層選項時，會出現第2層（子類別）調整選項，而第1層選項會消失。 當客戶按一下第2層選項時，會出現第3層（子子類別）調整選項，而第2層選項會消失。 如上所述，這些選項會隱藏並顯示——您的Web應用程式不會受到這些選項的影響。
 
-每個Facet都包含在標 `<facet-item>` 記中。 在下列範例中，它顯示一個Facet，可讓客戶依「holiday」調整搜尋結果。
+每個Facet都包含在`<facet-item>`標籤中。 在下列範例中，它顯示一個Facet，可讓客戶依「holiday」調整搜尋結果。
 
 範例:  
 
@@ -1036,7 +1039,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 頁首和查詢 {#section_802835E19BCB48239C6770A1B72DFFF8}
+## 標題和查詢{#section_802835E19BCB48239C6770A1B72DFFF8}
 
 範例:  
 
@@ -1084,7 +1087,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 編頁 {#section_72DB86DDE1284B1EA295CFFBC16A3150}
+## 編頁{#section_72DB86DDE1284B1EA295CFFBC16A3150}
 
 範例:  
 
@@ -1139,17 +1142,17 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
    <td colname="col2"> <p> 包含結果集中最後一頁的相對連結，除非客戶正在查看最後一頁。 在這種情況下，它是空的。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x" </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x"&gt;</span> </p> </td> 
    <td colname="col2"> <p> 包含特定頁碼的相對連結。 顯示十個連續的頁碼。 在第1頁，是第1-10頁。 在結果集結尾（在本例中為39）時，會是第30-39頁。 例如，在結果集的中心（第15頁），它應該是第11-20頁。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt;  </span> </p> </td> 
    <td colname="col2"> <p> 套用為屬性至目前選取的頁面。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 最近搜尋 {#section_BCA2DDD17F264CF6BA11634E1A514E28}
+## 最近搜索{#section_BCA2DDD17F264CF6BA11634E1A514E28}
 
 「最近搜尋」是以Cookie為基礎的功能，只有在您將Cookie資訊中繼至伺服器時才能運作。
 
@@ -1330,7 +1333,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 搜尋表單 {#section_F92D8C3D37174A10A4E26CAFF3F3DF89}
+## 搜尋表單{#section_F92D8C3D37174A10A4E26CAFF3F3DF89}
 
 範例:  
 
@@ -1368,7 +1371,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;include-tnt-mbox&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 可選. 在XML中顯示值1時，表示您的帳戶已連結至 <span class="keyword"></span> Test&amp;Target，且至少有一個業務規則位於A:B測試中。 </p> </td> 
+   <td colname="col2"> <p> 可選. 當XML中顯示1時，它表示您的帳戶已連結至<span class="keyword"> Test&amp;Target </span>，且至少有一個業務規則位於A:B測試中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;autocomplete&gt; </span> </p> </td> 
@@ -1393,9 +1396,9 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 排序 {#section_32DC50A103BF491BA3665A5CADCCAADE}
+## 排序{#section_32DC50A103BF491BA3665A5CADCCAADE}
 
-下列範例顯示三選項排序功能表的資料。 功能表可讓客戶依相關性、標題或評分來排序。 目前選取的項目包含屬性&quot;selected=true&quot;。 &quot;. 始終提供關聯選項，允許客戶返回原始顯示的預設搜索結果。
+下列範例顯示三選項排序功能表的資料。 功能表可讓客戶依相關性、標題或評分來排序。 目前選取的項目包含屬性&quot;selected=true&quot;。 」。 始終提供關聯選項，允許客戶返回原始顯示的預設搜索結果。
 
 範例:  
 
@@ -1433,11 +1436,11 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 表示此選項的"sort"查詢字串參數值。 如果使用&lt;link&gt;值，則 <span class="codeph"> 不需 </span> 要此標籤。 </p> </td> 
+   <td colname="col2"> <p> 表示此選項的"sort"查詢字串參數值。 如果使用<span class="codeph"> &lt;link&gt; </span>值，則不需要此標籤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;link&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 對於未選取的選項， <span class="codeph"> &lt;link&gt;參 </span> 數包含返回相同結果集的相對連結，按新排序參數排序。 此欄位對於當前選擇的排序選項為空。 </p> </td> 
+   <td colname="col2"> <p> 對於未選定的選項，<span class="codeph"> &lt;link&gt; </span>參數包含返回相同結果集的相對連結，按新排序參數排序。 此欄位對於當前選擇的排序選項為空。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1474,7 +1477,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 區域 {#section_15D8AA585F3246799968BA88EE2C9FC2}
+## 區域{#section_15D8AA585F3246799968BA88EE2C9FC2}
 
 範例:  
 
@@ -1504,13 +1507,13 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
    <td colname="col2"> <p> 區域的名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;顯示&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;display&gt; </span> </p> </td> 
    <td colname="col2"> <p> 1或0表示區域是否顯示。 實際區域內容可以是網頁或搜尋結果中的靜態區域，例如最暢銷商品或相關產品。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Adobe Experience Manager的引導式搜尋XML輸出 {#reference_DBE13C606C3A4BB185DE53F88D0D3048}
+## Adobe Experience Manager {#reference_DBE13C606C3A4BB185DE53F88D0D3048}的引導式搜尋XML輸出
 
 說明AEM(Adobe Experience Manager)標準XML回應輸出的表格。
 
@@ -1584,9 +1587,9 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
 
 ## 網站導覽路徑標示 {#section_49EA7043FBE44315A79A4E738BE30114}
 
-支援多個網站導覽路徑。 您可以在> **[!UICONTROL Design]** >中定義階層連結及其對應行 **[!UICONTROL Navigation]****[!UICONTROL Breadcrumbs]**&#x200B;為。 此外，您還需要為您定義的每個階層連結指定唯一的名稱。 瀏覽路徑標示XML節點會重複您所有定義的瀏覽路徑標示。 建議您在搜尋結果中只顯示一個網站導覽路徑標示。
+支援多個網站導覽路徑。 您可以在&#x200B;**[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]**&#x200B;中定義瀏覽路徑標示及其對應行為。 此外，您還需要為您定義的每個階層連結指定唯一的名稱。 瀏覽路徑標示XML節點會重複您所有定義的瀏覽路徑標示。 建議您在搜尋結果中只顯示一個網站導覽路徑標示。
 
-在下列範例中，每次客戶透過Facet進一步縮小範圍時，選取範圍就會新增至階層連結。 每個項目都表示為 `<breadcrumb-item>`。
+在下列範例中，每次客戶透過Facet進一步縮小範圍時，選取範圍就會新增至階層連結。 每個項目都表示為`<breadcrumb-item>`。
 
 階層連結節點範例：
 
@@ -1655,7 +1658,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 自訂欄位 {#section_38DD31AFE5DD4263A63644AFF484E0F4}
+## 自訂欄位{#section_38DD31AFE5DD4263A63644AFF484E0F4}
 
 自訂欄位是具有全域內容之變數的雜項集合。 它通常用於傳遞在搜尋結果頁面中繼資料中設定的搜尋引擎最佳化變數。
 
@@ -1690,13 +1693,13 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## 刻面 {#section_BE98990E3DD748A1BD4E0CA322314B79}
+## Facets {#section_BE98990E3DD748A1BD4E0CA322314B79}
 
 刻面是細化選項，可讓客戶篩選結果。 Facet通常用於分類、價格範圍、顏色選擇和其他屬性調整。 Facet建立在索引中的中繼資料之上。
 
 當客戶在分類中向下移動時，通常會隱藏或顯示分類Facet。 最高級別的分類（類別）稱為第1層。 當客戶按一下第1層選項時，會出現第2層（子類別）調整選項，而第1層選項會消失。 當客戶按一下第2層選項時，會出現第3層（子子類別）調整選項，而第2層選項會消失。 如上所述，這些選項被隱藏和顯示；您的Web應用程式不會影響它們。
 
-每個Facet都包含在標 `<facet-item>` 記中。 在下列範例中，它顯示一個Facet，可讓客戶依「假日」調整搜尋結果。
+每個Facet都包含在`<facet-item>`標籤中。 在下列範例中，它顯示一個Facet，可讓客戶依「假日」調整搜尋結果。
 
 Facet區塊範例：
 
@@ -1814,7 +1817,7 @@ Facet區塊範例：
   <tr> 
    <td colname="col1"> <p>還原連結 </p> </td> 
    <td colname="col2"> <p>fact </p> </td> 
-   <td colname="col3"> <p> 僅在選取Facet時顯示。 還原連結會還原整個Facet。 例如，當它是多選Facet時，它會取消選取Facet的所有選取選項。 </p> </td> 
+   <td colname="col3"> <p> 僅在選取Facet時顯示。 還原連結會還原整個Facet。 例如，當它是多選Facet時，它會取消選取該Facet的所有選取選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>facet-value </p> </td> 
@@ -1857,13 +1860,13 @@ Facet區塊範例：
 xml version="1.0" encoding="utf-8" standalone="yes" 
 ```
 
-## 功能表與排序 {#section_A34CBB645DBF4C70A12A5B7E81211295}
+## 菜單和排序{#section_A34CBB645DBF4C70A12A5B7E81211295}
 
 支援排序結果的功能表，並變更每頁要傳回的結果數。 它也支援導覽功能表，對於使用「搜尋為導覽」非常有用。 帳戶可以定義多個相同類型的功能表，並使用其任何功能表進行簡報。
 
 菜單節點示例：
 
-下列範例顯示三選項排序選單和導覽選單的資料。 排序功能表可讓客戶依相關性、標題或評分來排序。 目前選取的項目包含屬性&quot;selected=true&quot;。 &quot;. 始終提供關聯選項，允許客戶返回原始顯示的預設搜索結果。
+下列範例顯示三選項排序選單和導覽選單的資料。 排序功能表可讓客戶依相關性、標題或評分來排序。 目前選取的項目包含屬性&quot;selected=true&quot;。 」。 始終提供關聯選項，允許客戶返回原始顯示的預設搜索結果。
 
 ```xml
 <menus> 
@@ -1948,17 +1951,17 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>功能表 </p> </td> 
    <td colname="col2"> <p>菜單 </p> </td> 
-   <td colname="col3"> <p>功能表的單一例項(與「設計&gt;導覽&gt;功能表」中 <span class="uicontrol"> 定義的功 </span> 能表 <span class="uicontrol"> 相 </span><span class="uicontrol"></span>對應)。 </p> </td> 
+   <td colname="col3"> <p>功能表的單一例項（與<span class="uicontrol">設計</span> &gt; <span class="uicontrol">導覽</span> &gt; <span class="uicontrol">功能表</span>中定義的功能表相對應）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>name </p> </td> 
+   <td colname="col1"> <p>名稱 </p> </td> 
    <td colname="col2"> <p>功能表 </p> </td> 
    <td colname="col3"> <p>功能表名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>項目 </p> </td> 
    <td colname="col2"> <p>功能表 </p> </td> 
-   <td colname="col3"> <p>定義功能表中的每個項目。 如果當前選擇了給定菜單項，則選定的可選屬性將設定為true。 </p> </td> 
+   <td colname="col3"> <p>定義功能表中的每個項目。 如果目前選取了指定的功能表項目，則選取的選用屬性會設為true。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>標籤 </p> </td> 
@@ -1966,7 +1969,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
    <td colname="col3"> <p>功能表項目的客戶對應文字。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>value </p> </td> 
+   <td colname="col1"> <p>值 </p> </td> 
    <td colname="col2"> <p>項目 </p> </td> 
    <td colname="col3"> <p>表示功能表項目的值（功能表也設定的查詢參數值）。 如果使用&lt;link&gt;值，則不需要此標籤。 </p> </td> 
   </tr> 
@@ -1978,7 +1981,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
  </tbody> 
 </table>
 
-## 編頁 {#section_E52F81C6A6EB4B8F996157B657EC540F}
+## 編頁{#section_E52F81C6A6EB4B8F996157B657EC540F}
 
 結果集會分割成多個頁面。 通常，客戶在單一頁面上顯示10 - 20個結果。 後續結果會顯示在下一頁。 分頁XML可讓您建立一組導覽連結，讓客戶可以逐頁瀏覽結果集。 有四個可用的導覽連結：第一、最後、下一個和上一個。 每種連結類型都可讓客戶快速瀏覽頁面，以便輕鬆地檢閱和調整所要的內容。
 
@@ -2063,28 +2066,28 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   </tr> 
   <tr> 
    <td colname="col1"> <p>user-query </p> </td> 
-   <td colname="col2"> <p>query </p> </td> 
-   <td colname="col3"> <p> 搜尋的關鍵字。 如果 <span class="uicontrol"> 您的意思 </span> 是因為原始詞語沒有產生任何結果而自動搜尋建議詞語，則會反映在搜尋的新關鍵字中（請參閱建議節點以取得原始關鍵字）。 </p> </td> 
+   <td colname="col2"> <p>查詢 </p> </td> 
+   <td colname="col3"> <p> 搜尋的關鍵字。 如果「您的意思是<span class="uicontrol">」由於原始詞語未產生結果而自動搜尋建議詞語，則會反映在搜尋的新關鍵字中（請參閱建議節點以取得原始關鍵字）。</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>低結果 </p> </td> 
-   <td colname="col2"> <p>query </p> </td> 
+   <td colname="col2"> <p>查詢 </p> </td> 
    <td colname="col3"> <p> 此頁面上第一個結果的項目編號。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>上限結果 </p> </td> 
-   <td colname="col2"> <p>query </p> </td> 
+   <td colname="col2"> <p>查詢 </p> </td> 
    <td colname="col3"> <p> 此頁面上最後一個結果的項目編號。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>總結果 </p> </td> 
-   <td colname="col2"> <p>query </p> </td> 
+   <td colname="col2"> <p>查詢 </p> </td> 
    <td colname="col3"> <p> 符合使用者查詢的結果總數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 最近搜尋 {#section_17F942F6EC07456DABED7A483AC08446}
+## 最近搜索{#section_17F942F6EC07456DABED7A483AC08446}
 
 「最近搜尋」是以Cookie為基礎的功能，只有在您將Cookie資訊中繼至網站搜尋／銷售伺服器時才能運作。
 
@@ -2211,7 +2214,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
    <td colname="col3"> <p>傳入的搜尋可觸發多個搜尋。 每個結果集都包含所執行的特定命名搜索的結果。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>name </p> </td> 
+   <td colname="col1"> <p>名稱 </p> </td> 
    <td colname="col2"> <p>結果集 </p> </td> 
    <td colname="col3"> <p>結果集所屬的搜索的名稱。 </p> </td> 
   </tr> 
@@ -2228,7 +2231,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
  </tbody> 
 </table>
 
-## 搜尋表單 {#section_9E4B99D4FEDC49629F6C7E866F3A7493}
+## 搜尋表單{#section_9E4B99D4FEDC49629F6C7E866F3A7493}
 
 搜尋表單包含在結果集中，讓客戶動態建立其搜尋表單。 此步驟為可選步驟。 大部分客戶都有固定的搜尋表單。 不過，它確實允許客戶根據至少有一個執行A:B測試的業務規則，判斷搜尋表單是否需要Test&amp;Target mbox。 同樣地，它可讓客戶自動取用最新的自動完成CSS和JavaScript。
 
@@ -2302,7 +2305,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
 
 ## 建議 {#section_2899FACB9AD84F60B3687C1B4EF09E15}
 
-客戶可以以 **[!UICONTROL Did You Mean]** 三種方式配置功能：因無結果而建議、在沒有結果時自動搜尋第一個建議，或因低結果而建議（建議結果計數較高）。 所有建議都會產生結果。
+客戶可以通過三種方式配置&#x200B;**[!UICONTROL Did You Mean]**&#x200B;功能：因無結果而建議、在沒有結果時自動搜尋第一個建議，或因低結果而建議（建議結果計數較高）。 所有建議都會產生結果。
 
 此建議節點包含可產生成功查詢的詞語。 連結也會傳回，讓客戶可以跳至新查詢。
 
@@ -2369,7 +2372,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>建議——低結果 </p> </td> 
    <td colname="col2"> <p>建議 </p> </td> 
-   <td colname="col3"> <p>如果存在，則指出網站搜尋／銷售是否因為目前的搜尋詞產生低結果而提出建議，而建議產生高得多的結果。 這兩個臨界值可在「您的意思 <span class="uicontrol"> 」中設定 </span>。 </p> </td> 
+   <td colname="col3"> <p>如果存在，則指出網站搜尋／銷售是否因為目前的搜尋詞產生低結果而提出建議，而建議產生高得多的結果。 這兩個臨界值可在<span class="uicontrol"> Did You Mean </span>中設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>建議項目 </p> </td> 
@@ -2416,7 +2419,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
  </tbody> 
 </table>
 
-## 區域 {#section_26C4A947E7B1474A8E37D86D9579B93E}
+## 區域{#section_26C4A947E7B1474A8E37D86D9579B93E}
 
 區域是頁面中可由業務規則開啟或關閉的部分。 區域可包含任何內容，包括但不限於Facet、搜尋、階層連結、靜態內容。 客戶網頁上的區域應與網站搜尋／銷售對應至相同的區域。
 
@@ -2451,7 +2454,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
    <td colname="col3"> <p> 單個區域節點。 您可以有多個區域節點。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>name </p> </td> 
+   <td colname="col1"> <p>名稱 </p> </td> 
    <td colname="col2"> <p>區域 </p> </td> 
    <td colname="col3"> <p>區域的名稱。 </p> </td> 
   </tr> 
@@ -2470,7 +2473,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
 * [輸出範例](../c-appendices/c-guidedsearchoutput.md#section_515C000A18B847D59097D0A9CCC02636)
 * [範例簡報範本](../c-appendices/c-guidedsearchoutput.md#section_AD42571DFB88491AA7F0FDF0929EBE97)
 
-## 輸出範例 {#section_515C000A18B847D59097D0A9CCC02636}
+## 輸出示例{#section_515C000A18B847D59097D0A9CCC02636}
 
 在虛構網站Geometrixx上*搜尋的輸出範例。
 
@@ -2824,7 +2827,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
 </customer-results> 
 ```
 
-## 範例簡報範本 {#section_AD42571DFB88491AA7F0FDF0929EBE97}
+## 演示模板示例{#section_AD42571DFB88491AA7F0FDF0929EBE97}
 
 以下是用於產生上述範例輸出的範例簡報範本。
 
