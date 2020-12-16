@@ -9,11 +9,14 @@ topic: Design,Site search and merchandising
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 2%
 
 ---
 
 
-# 設定最近搜尋{#configuring-recent-searches}
+# 配置最近搜索{#configuring-recent-searches}
 
 「最近搜尋」是以Cookie為基礎的系統，可讓您使用簡報範本來顯示客戶最近的搜尋記錄。
 
@@ -21,12 +24,12 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 
 請參閱簡報範本標籤參考主題，進一步瞭解各種標籤，可用來在簡報範本上顯示最近的搜尋。
 
-請參閱 [簡報範本標籤](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)。
+請參閱[簡報範本標籤](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)。
 
 **若要設定最近的搜尋**
 
-1. 在程式選單中，按一下 **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Recent Searches]**。
-1. 在頁 [!DNL Recent Searches] 面上，設定您想要的選項。
+1. 在程式菜單中，按一下&#x200B;**[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Recent Searches]**。
+1. 在[!DNL Recent Searches]頁面上，設定您想要的選項。
 
    <!-- 
    
@@ -59,15 +62,15 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 
 1. （可選）執行下列任一項作業：
 
-   * 按一 **[!UICONTROL History]** 下以回復您所做的任何變更。
+   * 按一下&#x200B;**[!UICONTROL History]**&#x200B;以回復您所做的任何變更。
 
-      請參 [閱使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
+      請參閱[使用歷史記錄選項](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)。
 
    * 按一下 **[!UICONTROL Live]**.
 
-      請參 [閱檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
 
    * 按一下 **[!UICONTROL Push Live]**.
 
-      請參 [閱「即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)」。
+      請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
