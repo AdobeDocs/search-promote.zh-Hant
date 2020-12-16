@@ -8,6 +8,9 @@ topic: Linguistics,Site search and merchandising
 uuid: dfe18004-b8fd-4889-b01c-72a3b0c82b9c
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 
 您可以覆蓋搜索查詢結果的擴展。
 
-## 使用查詢擴展覆蓋 {#concept_6895B469B0E044299E93361BFA06B554}
+## 使用查詢擴展覆蓋{#concept_6895B469B0E044299E93361BFA06B554}
 
-當您設定查詢擴增覆寫時，會建立一組「規則」。 每個規則基本上都會說，「在搜尋時不要 `<this>` 擴 `<that>` 展到」，其中是簡單的文字字詞或片語， `<this>``<that>` 是文字字詞或片語或分類。
+當您設定查詢擴增覆寫時，會建立一組「規則」。 每個規則基本上都說，「在搜尋時不要將`<this>`展開為`<that>`」，其中`<this>`是簡單的文字字詞或片語，而`<that>`是文字字詞或片語，或是分類。
 
 >[!NOTE]
 >
@@ -54,7 +57,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 
 如果您新增具有複製舊定義之「不展開」值的新規則，新定義的「詞語」會新增至原始定義。
 
-## 配置查詢擴展覆蓋 {#task_A087354A509D4997BA275186C224160E}
+## 配置查詢擴展覆蓋{#task_A087354A509D4997BA275186C224160E}
 
 在Search&amp;Promote中定義和新增查詢擴增覆蓋。
 
@@ -69,12 +72,12 @@ t_configuring_query_expansion_overrides.xml
 
 **要配置查詢擴展覆蓋，請執行以下操作：**
 
-1. 在Search&amp;Promote中，按一下「 **設定** >使 **用者** >檢 **視角色**」。
-1. 在「查看角色」(View Roles)頁面的表的「操作」(Actions)列中，按一下「語言學」(Lingastics)菜單中要授予其訪問查詢擴展覆蓋權限的角色右側的「編輯」( **Edit** )。
+1. 在Search&amp;Promote中，按一下「設定&#x200B;**** > **使用者** > **檢視角色**」。
+1. 在「查看角色」頁的表的「操作」列中，按一下要授予其「語言學」菜單上查詢擴展覆蓋訪問權限的角色右側的&#x200B;**編輯**。
 1. 在「編輯角色」頁面上，展開「語言學」樹。
-1. 選中 **查詢擴展覆蓋**，然後按一下 **保存更改**。
-1. 按一 **下「語言** >查 **詢展開覆蓋」**。
-1. 按一下 **添加查詢擴展覆蓋**。
+1. 選中&#x200B;**查詢擴展覆蓋** ，然後按一下&#x200B;**保存更改**。
+1. 按一下「**語言學** > **查詢擴展覆蓋**」。
+1. 按一下&#x200B;**添加查詢擴展覆蓋**。
 1. 在「查詢擴展覆蓋添加」頁中，設定所需的選項。
 
    <!-- 
@@ -97,30 +100,30 @@ t_configuring_query_expansion_overrides.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>類型 </p> </td> 
-      <td colname="col2"> <p>選擇「 <b>文字</b> 」以指定特定的字詞或片語配對。 或者，選取分類以指定「不展開」字詞或片語不會透過選取的分類轉換。 </p> </td> 
+      <td colname="col2"> <p>選擇<b>Text</b>以指定特定的字詞或片語配對。 或者，選取分類以指定「不展開」字詞或片語不會透過選取的分類轉換。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>術語 </p> </td> 
-      <td colname="col2"> <p>僅當選擇「文本」( <b>Text</b> )作為「類型」(Type)時才可用。 指定要從搜索展開中排除的字或片語。 </p> </td> 
+      <td colname="col2"> <p>僅當選擇<b>Text</b>作為「類型」時才可用。 指定要從搜索展開中排除的字或片語。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Action </p> </td> 
-      <td colname="col2"> <p> 按一 <b>下</b> +或 <b></b> -分別將「詞語」新增或刪除至定義。 </p> </td> 
+      <td colname="col2"> <p> 按一下<b>+</b>或<b>-</b>，分別新增或刪除「詞語」至定義。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. 完成後，按一下「新 **增」**。
+1. 完成後，按一下&#x200B;**添加**。
 
    在「查詢擴展覆蓋定義」頁中，您可以編輯或刪除已添加的定義。
-1. 若要預覽新增結果，請按一下藍 **色方塊中的重新產生分段網站索引** ，以快速重建分段網站索引。
+1. 若要預覽新增結果，請按一下藍色方塊中的&#x200B;**重新產生分段網站索引**，以快速重建分段網站索引。
 1. （可選）執行下列任一項作業：
 
-   * 按一下「 **即時**」。
+   * 按一下&#x200B;**Live**。
 
-      請參閱 [檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)
+      請參閱[檢視即時設定](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)
 
-   * 按一 **下「即時推播**」。
+   * 按一下「推送即時」。****
 
-      請參 [閱即時推送舞台設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)
+      請參閱[即時推送階段設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)
 
