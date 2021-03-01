@@ -2,49 +2,49 @@
 cloud: experience-cloud
 product: adobe search and promote
 solution: Search & Promote
-type: Documentation
+type: 文件
 audience: end-user
-user-guide-title: Adobe Search&amp;Promote指南
-breadcrumb-title: Adobe Search&amp;Promote指南
+user-guide-title: AdobeSearch&amp;Promote Guide
+breadcrumb-title: AdobeSearch&amp;Promote Guide
 translation-type: tm+mt
 source-git-commit: 4f1daa8f4737e0e1f2693aa96ab067e552f51a0f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 9%
 
 ---
 
 
-# Adobe搜尋與促銷指南{#using}
+# Adobe搜索和升級指南{#using}
 
-+ [Search&amp;Promote檔案總覽](sp-home.md)
++ [Search&amp;Promote檔案概觀](sp-home.md)
 + 發行說明{#release-notes}
-   + [Search&amp;Promote 18.1.1發行說明(02/13/2018)](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
-   + [Search&amp;Promote 17.11.1發行說明(10/31/2017)](c-searchpromote-release-notes/c-rn-10-31-17-version-1711.md)
-   + [Search&amp;Promote 15.3.1發行說明(03/24/2015)](c-searchpromote-release-notes/c-rn-03-19-15-version-153.md)
-   + [Search&amp;Promote 15.1.1發行說明(01/15/2015)](c-searchpromote-release-notes/c-rn-01-15-15-version-151.md)
-   + [Search&amp;Promote 8.17.0發行說明(10/30/2014)](c-searchpromote-release-notes/c-rn-10-30-14-version-817.md)
-   + [Search&amp;Promote 8.16.0發行說明(9/18/2014)](c-searchpromote-release-notes/c-rn-09-18-14-version-816.md)
-   + [Search&amp;Promote 8.15.0發行說明(06/19/2014)](c-searchpromote-release-notes/c-rn-06-19-14-version-815.md)
-   + [Search&amp;Promote 8.14.0發行說明(05/22/2014)](c-searchpromote-release-notes/c-rn-05-22-14-version-814.md)
-   + [Search&amp;Promote 8.13.0發行說明(04/16/2014)](c-searchpromote-release-notes/c-rn-04-16-14-version-813.md)
-   + [Search&amp;Promote 8.12.0發行說明(01/16/2014)](c-searchpromote-release-notes/c-rn-01-16-14-version-812.md)
-   + [Search&amp;Promote 8.11.0發行說明(10/29/2013)](c-searchpromote-release-notes/c-rn-10-17-13-version-811.md)
-   + [Search&amp;Promote 8.10.1發行說明(07/18/2013)](c-searchpromote-release-notes/c-rn-07-18-13-version-810.md)
-   + [Search&amp;Promote 8.9.8發行說明(05/23/2013)](c-searchpromote-release-notes/c-rn-05-23-13-version-898.md)
-   + [Search&amp;Promote 8.9.6發行說明(03/21/2013)](c-searchpromote-release-notes/c-rn-03-21-13-version-896.md)
-   + [Search&amp;Promote 8.9.5發行說明(02/21/2013)](c-searchpromote-release-notes/c-rn-02-21-13-version-895.md)
-   + [Search&amp;Promote 8.9.4發行說明(01/17/2013)](c-searchpromote-release-notes/c-rn-01-17-13-version-894.md)
-   + [Search&amp;Promote 8.9.3發行說明(11/01/2012)](c-searchpromote-release-notes/c-rn-11-01-12-version-893.md)
-   + [Search&amp;Promote 8.9.2發行說明(09/13/2012)](c-searchpromote-release-notes/c-rn-09-13-12-version-892.md)
-   + [Search&amp;Promote 8.9.1發行說明(08/16/2012)](c-searchpromote-release-notes/c-rn-08-16-12-version-891.md)
-   + [Search&amp;Promote 8.9發行說明(07/19/2012)](c-searchpromote-release-notes/c-rn-07-19-12-version-89.md)
-   + [Search&amp;Promote 8.8.1發行說明](c-searchpromote-release-notes/c-rn-05-31-12-version-881.md)
-   + [Search&amp;Promote 8.8發行說明](c-searchpromote-release-notes/c-rn-04-26-12-version-88.md)
-   + [Search&amp;Promote 8.7.2發行說明](c-searchpromote-release-notes/c-maintenance-release-03-29-12-version-872.md)
-   + [Search&amp;Promote 8.7.1發行說明](c-searchpromote-release-notes/c-maintenance-release-02-23-12-version-871.md)
-   + [Search&amp;Promote 8.7發行說明](c-searchpromote-release-notes/c-maintenance-release-01-19-12-version-870.md)
-+ [Search&amp;Promote快速入門](c-getting-started.md)
+   + [Search&amp;Promote18.1.1發行說明(2018/02/13)](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
+   + [Search&amp;Promote17.11.1發行說明(10/31/2017)](c-searchpromote-release-notes/c-rn-10-31-17-version-1711.md)
+   + [Search&amp;Promote15.3.1發行說明(03/24/2015)](c-searchpromote-release-notes/c-rn-03-19-15-version-153.md)
+   + [Search&amp;Promote15.1.1發行說明(2015/01/15)](c-searchpromote-release-notes/c-rn-01-15-15-version-151.md)
+   + [Search&amp;Promote8.17.0發行說明(10/30/2014)](c-searchpromote-release-notes/c-rn-10-30-14-version-817.md)
+   + [Search&amp;Promote8.16.0發行說明(2014/9/18)](c-searchpromote-release-notes/c-rn-09-18-14-version-816.md)
+   + [Search&amp;Promote8.15.0發行說明(06/19/2014)](c-searchpromote-release-notes/c-rn-06-19-14-version-815.md)
+   + [Search&amp;Promote8.14.0發行說明(05/22/2014)](c-searchpromote-release-notes/c-rn-05-22-14-version-814.md)
+   + [Search&amp;Promote8.13.0發行說明(04/16/2014)](c-searchpromote-release-notes/c-rn-04-16-14-version-813.md)
+   + [Search&amp;Promote8.12.0發行說明(01/16/2014)](c-searchpromote-release-notes/c-rn-01-16-14-version-812.md)
+   + [Search&amp;Promote8.11.0發行說明(2013/10/29)](c-searchpromote-release-notes/c-rn-10-17-13-version-811.md)
+   + [Search&amp;Promote8.10.1發行說明(2013/07/18)](c-searchpromote-release-notes/c-rn-07-18-13-version-810.md)
+   + [Search&amp;Promote8.9.8發行說明(2013/05/23)](c-searchpromote-release-notes/c-rn-05-23-13-version-898.md)
+   + [Search&amp;Promote8.9.6發行說明(2013/03/21)](c-searchpromote-release-notes/c-rn-03-21-13-version-896.md)
+   + [Search&amp;Promote8.9.5發行說明(2013/02/21)](c-searchpromote-release-notes/c-rn-02-21-13-version-895.md)
+   + [Search&amp;Promote8.9.4發行說明(2013/01/17)](c-searchpromote-release-notes/c-rn-01-17-13-version-894.md)
+   + [Search&amp;Promote8.9.3發行說明(2012/11/01)](c-searchpromote-release-notes/c-rn-11-01-12-version-893.md)
+   + [Search&amp;Promote8.9.2發行說明(2012/09/13)](c-searchpromote-release-notes/c-rn-09-13-12-version-892.md)
+   + [Search&amp;Promote8.9.1發行說明(2012/08/16)](c-searchpromote-release-notes/c-rn-08-16-12-version-891.md)
+   + [Search&amp;Promote8.9發行說明(2012/07/19)](c-searchpromote-release-notes/c-rn-07-19-12-version-89.md)
+   + [Search&amp;Promote8.8.1發行說明](c-searchpromote-release-notes/c-rn-05-31-12-version-881.md)
+   + [Search&amp;Promote8.8發行說明](c-searchpromote-release-notes/c-rn-04-26-12-version-88.md)
+   + [Search&amp;Promote8.7.2發行說明](c-searchpromote-release-notes/c-maintenance-release-03-29-12-version-872.md)
+   + [Search&amp;Promote8.7.1發行說明](c-searchpromote-release-notes/c-maintenance-release-02-23-12-version-871.md)
+   + [Search&amp;Promote8.7發行說明](c-searchpromote-release-notes/c-maintenance-release-01-19-12-version-870.md)
++ [開始使用Search&amp;Promote](c-getting-started.md)
 + [首頁](c-about-home.md)
 + [使用歷史記錄](t-using-the-history-option.md)
 + 設計搜索{#design}
