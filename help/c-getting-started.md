@@ -1,15 +1,13 @@
 ---
-description: 如果您是Search&Promote的新手，並且是動態導覽，請從這裡開始，以開始使用您的帳戶。 您將學習如何為網站建立索引，並自訂搜尋結果的外觀和感覺。
-seo-description: 如果您是Search&Promote的新手，並且是動態導覽，請從這裡開始，以開始使用您的帳戶。 您將學習如何為網站建立索引，並自訂搜尋結果的外觀和感覺。
-seo-title: 快速入門
+description: 如果您是新手Search&Promote和動態導覽，請從這裡開始，開始使用您的帳戶。 您將學習如何為網站建立索引，並自訂搜尋結果的外觀和感覺。
 solution: Target
 title: 快速入門
-topic: Getting Started,Site search and merchandising
+topic: 快速入門、網站搜尋與銷售
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
