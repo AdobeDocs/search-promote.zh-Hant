@@ -1,15 +1,13 @@
 ---
 description: 您可以使用「業務規則」來商品化您的搜尋。
-seo-description: 您可以使用「業務規則」來商品化您的搜尋。
-seo-title: 關於業務規則
 solution: Target
 title: 關於業務規則
-topic: Rules,Site search and merchandising
+topic: 規則、網站搜尋與銷售
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
-source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3127'
+source-wordcount: '3120'
 ht-degree: 1%
 
 ---
@@ -191,11 +189,11 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>新增橫幅命令 </p> </td> 
-      <td colname="col2"> <p>僅適用於Adobe Dynamic Media Classic範本。 </p> <p>可讓您變更橫幅範本中使用的預設參數。 </p> <p>請參閱「使用Adobe Dynamic Media Classic <a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita">新增橫幅」中的選項表。</a> </p> <p>另請參閱<a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local">使用Adobe Dynamic Media Classic </a>編輯橫幅。 </p> </td> 
+      <td colname="col2"> <p>僅適用於AdobeDynamic Media經典模板。 </p> <p>可讓您變更橫幅範本中使用的預設參數。 </p> <p>請參閱<a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita">使用Dynamic Media經典</a>Adobe添加橫幅中的選項表。 </p> <p>另請參閱<a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local">使用AdobeDynamic Media經典</a>編輯橫幅。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>移除橫幅 </p> </td> 
-      <td colname="col2"> <p> 從選取的橫幅區域移除橫幅；除非有設定橫幅的其他規則，否則不會顯示橫幅，並覆寫此規則。 </p> <p>當您在網頁檢視區中以滑鼠右鍵按一下橫幅時，就可使用此選項。 </p> </td> 
+      <td colname="col2"> <p> 從選取的橫幅區域移除橫幅；除非有設定橫幅的其他規則，否則不會顯示橫幅，而覆寫此規則。 </p> <p>當您在網頁檢視區中以滑鼠右鍵按一下橫幅時，就可使用此選項。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>推播Facet項目 </p> </td> 
@@ -239,19 +237,19 @@ ht-degree: 1%
 
 1. （可選）在任何「業務規則產生器」面板（[!DNL Triggers]、[!DNL Actions]或[!DNL Schedule]）中，執行下列任一項作業：
 
-   * 在「業務規則產生器」頁面區域的簡報範本區域中，以滑鼠右鍵按一下橫幅，然後按一下&#x200B;**[!UICONTROL Select different banner]**。 在&#x200B;**[!UICONTROL Pick Banner]**&#x200B;頁面上，按一下橫幅縮圖下方的&#x200B;**[!UICONTROL Pick this banner]**，將它新增至您的簡報範本。 只有符合簡報範本上原始橫幅大小和區域的橫幅可供您選擇。
+   * 在「業務規則產生器」頁面區域的簡報範本區域中，以滑鼠右鍵按一下橫幅，然後按一下&#x200B;**[!UICONTROL Select different banner]**。 在&#x200B;**[!UICONTROL Pick Banner]**&#x200B;頁面上，按一下橫幅縮圖下方的&#x200B;**[!UICONTROL Pick this banner]**，將其新增至您的簡報範本。 只有符合簡報範本上原始橫幅大小和區域的橫幅可供您選擇。
 
       新增橫幅動作會新增至[!DNL Actions]面板。
 
-   * 在[!DNL Business Rule Builder]頁面的簡報範本區域中，以滑鼠右鍵按一下您要變更其參數的Adobe Dynamic Media Classic範本橫幅，然後按一下&#x200B;**[!UICONTROL Add banner commands]**。 在[!DNL Change Parameters]對話方塊中，設定您想要的參數選項。
+   * 在[!DNL Business Rule Builder]頁面的演示模板區域中，按一下右鍵要更改其參數的AdobeDynamic Media經典模板橫幅，然後按一下&#x200B;**[!UICONTROL Add banner commands]**。 在[!DNL Change Parameters]對話方塊中，設定您想要的參數選項。
 
-      請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)新增橫幅中的選項表。
+      請參閱[使用Dynamic Media·經典Adobe添加橫幅中的選項表。](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)
 
       按一下 **[!UICONTROL Save]**.
 
       參數更改將添加到[!DNL Actions]面板。
 
-      另請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)編輯橫幅。
+      另請參閱[使用AdobeDynamic Media經典編輯橫幅。](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
 
    * 在「業務規則產生器」頁面的簡報範本區域中，以滑鼠右鍵按一下要從頁面刪除的橫幅，然後按一下&#x200B;**[!UICONTROL Remove banner]**。 移除橫幅動作會新增至「動作」面板。
 
@@ -301,15 +299,15 @@ ht-degree: 1%
 
       新增橫幅動作會新增至[!DNL Actions]面板。
 
-   * 在[!DNL Business Rule Builder]頁面的簡報範本區域中，以滑鼠右鍵按一下您要變更其參數的Adobe Dynamic Media Classic範本橫幅，然後按一下&#x200B;**[!UICONTROL Add banner commands]**。 在[!DNL Change Parameters]對話方塊中，設定您想要的參數選項。
+   * 在[!DNL Business Rule Builder]頁面的演示模板區域中，按一下右鍵要更改其參數的AdobeDynamic Media經典模板橫幅，然後按一下&#x200B;**[!UICONTROL Add banner commands]**。 在[!DNL Change Parameters]對話方塊中，設定您想要的參數選項。
 
-      請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)新增橫幅中的選項表。
+      請參閱[使用Dynamic Media·經典Adobe添加橫幅中的選項表。](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)
 
       按一下 **[!UICONTROL Save]**.
 
       參數更改將添加到[!DNL Actions]面板。
 
-      另請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)編輯橫幅。
+      另請參閱[使用AdobeDynamic Media經典編輯橫幅。](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
 
    * 在[!DNL Business Rule Builder]頁面的簡報範本區域中，以滑鼠右鍵按一下要從頁面刪除的橫幅，然後按一下&#x200B;**[!UICONTROL Remove banner]**。 移除橫幅動作會新增至[!DNL Actions]面板。
 
