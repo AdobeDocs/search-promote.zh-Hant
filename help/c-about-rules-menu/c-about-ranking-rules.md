@@ -1,16 +1,14 @@
 ---
-description: 您可以使用「排名規則」，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
-seo-description: 您可以使用「排名規則」，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
-seo-title: 關於排名規則
+description: 您可以使用排名規則，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
 solution: Target
 subtopic: Ranking Rules
 title: 關於排名規則
-topic: Rules,Site search and merchandising
+topic: 規則、網站搜尋與銷售
 uuid: 21962f9a-1d9c-442f-a6c4-5f452436c640
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4647'
+source-wordcount: '4621'
 ht-degree: 0%
 
 ---
@@ -18,13 +16,13 @@ ht-degree: 0%
 
 # 關於排名規則{#about-ranking-rules}
 
-您可以使用「排名規則」，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
+您可以使用排名規則，根據包含的中繼標籤內容和相關的Adobe Analytics量度，控制客戶搜尋結果的相對位置或排名。
 
 ## 使用排名規則{#concept_F555C076759B4E81B925441CFE707397}
 
-您可以定義排名規則，以根據每份檔案的內容，影響檔案在搜尋結果中的相對位置。 您可以根據中繼標籤內容、Adobe Analytics量度（如果您的帳戶已設定為可與Adobe Analytics搭配使用）或Adobe Analytics HBX量度（如果您的帳戶設定為可與Adobe Analytics HBX搭配使用）來建立排名規則。
+您可以定義排名規則，以根據每份檔案的內容，影響檔案在搜尋結果中的相對位置。 您可以根據中繼標籤內容、Adobe Analytics量度(如果您的帳戶設定為搭配Adobe Analytics使用)或Adobe Analytics量度(如果您的帳HBX戶設定為搭配Adobe Analytics使用HBX)來建立排名規則。
 
-您可以設定包含具有所需特性（例如特定品牌名稱或價格）的中繼標籤的網頁，或具有所需Adobe Analytics關鍵績效指標（例如獨特檢視器）的網頁，以獲得比不具備所需特性的網頁更高的排名。 新增或編輯排名規則，然後重新建立網站索引，即可輕鬆更新「喜好」特性。
+您可以設定包含具有所需特性的中繼標籤的網頁（例如特定品牌名稱或價格），或具有所需Adobe Analytics關鍵績效指標（例如獨特檢視器）的網頁，以獲得比不具備所需特性的網頁更高的排名。 新增或編輯排名規則，然後重新建立網站索引，即可輕鬆更新「喜好」特性。
 
 如果您定義了多個類型為「排名」的中繼標籤，則可建立個別規則集合，以用於計算各種排名欄位。 您可以新增排名規則群組，然後將其指派給其中一個已定義的排名欄位。 規則群組通常包含一或多個規則定義，但也可參照其他規則群組，因此您可以建立一或多個常用規則群組，在計算多個排名時共用這些規則群組。
 
@@ -61,7 +59,7 @@ ht-degree: 0%
       <td colname="col2"> <p> 
       <ol id="ol_28ABB980143948DFA79AC4360AAB7556"> 
       <li id="li_544075CFA0964C6F8FAF7941AAA9ECCC"> 在產品功能表上，按一下「設定<span class="uicontrol"> </span> &gt; <span class="uicontrol">中繼資料</span> &gt; <span class="uicontrol">定義</span>」。 </li> 
-      <li id="li_F237F13B89E8425080C15D3BD697652C"> 在「定義」頁面上，按一下「添加新欄位」 <span class="uicontrol">。</span> </li> 
+      <li id="li_F237F13B89E8425080C15D3BD697652C"> 在「定義」頁面上，按一下「添加新欄位」 </span>。<span class="uicontrol"> </span></li> 
       <li id="li_2A839874D71D45FEA661B3D3B8BE2A86"> 在「添加欄位」頁的「<span class="uicontrol">欄位名</span>」文本欄位中，鍵入 
       <code>
         rank 
@@ -79,7 +77,7 @@ ht-degree: 0%
       <li id="li_8DF5D8F924B24ECBBD2D93C76C69D00C"> 請確定您已在網站搜尋／銷售中設定Adobe Analytics驗證。 <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_8AA93F6273B747F9B4DE9E8DFBCBDC42" type="task" format="dita" scope="local">設定Adobe Analytics量度驗證</a>。 </p> </li> 
       <li id="li_CF7DD073FC5A432DADBD282AA8BB9920"> 選取並新增可用的報表套裝。 <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0" type="task" format="dita" scope="local">新增Adobe Analytics報表套裝</a>。 </p> </li> 
       <li id="li_9A63448577D04E028DF211D8715F943A"> 設定您要用於建立新排名規則的Adobe Analytics量度清單。 <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">編輯報表套裝</a>的Adobe Analytics量度。 </p> </li> 
-      <li id="li_1ACA3611D9B44AC394604CD89209C966"> 載入您網站頁面的初始Adobe Analytics量度。 <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181" type="task" format="dita" scope="local">載入Adobe Analytics資料</a>。 </p> </li> 
+      <li id="li_1ACA3611D9B44AC394604CD89209C966"> 載入網站頁面的初始Adobe Analytics量度。 <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181" type="task" format="dita" scope="local">載入Adobe Analytics資料</a>。 </p> </li> 
       </ol> </p> </td> 
       </tr> 
     </tbody> 
@@ -206,7 +204,7 @@ ht-degree: 0%
 1. 在[!DNL Define Ranking Rules]頁面上，按一下&#x200B;**[!UICONTROL Add Rule]**&#x200B;以新增排名規則，或新增對規則集的參考。
 1. 在[!DNL Add Ranking Rule]頁面上，設定您想要的選項。 標有星號(*)的欄位為必填欄位。
 
-   您選擇的「資料來源類型」會影響[!DNL Data Source Name]下拉式清單上可用的選項。 例如，如果您選取&#x200B;**[!UICONTROL Meta Tag]**&#x200B;作為「資料來源類型」,「資料來源名稱」會參照網站頁面上的中繼標籤名稱。 如果您選取&#x200B;**[!UICONTROL Adobe Analytics Metric (Number)]**,「資料來源名稱」會參照您在報表套裝中選取的其中一個Adobe Analytics量度名稱，如網站搜尋／銷售的&#x200B;**[!UICONTROL Edit Adobe Analytics Metrics]**&#x200B;頁面中所示。
+   您選擇的「資料來源類型」會影響[!DNL Data Source Name]下拉式清單上可用的選項。 例如，如果您選取&#x200B;**[!UICONTROL Meta Tag]**&#x200B;作為「資料來源類型」,「資料來源名稱」會參照網站頁面上的中繼標籤名稱。 如果您選取&#x200B;**[!UICONTROL Adobe Analytics Metric (Number)]**,「資料來源名稱」會參照您在報表套裝中選取的其中一個Adobe Analytics度量名稱，如網站搜尋／銷售中的&#x200B;**[!UICONTROL Edit Adobe Analytics Metrics]**&#x200B;頁面所示。
 
    請參閱[編輯報表套裝的Adobe Analytics量度](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664)。
 
@@ -223,12 +221,12 @@ ht-degree: 0%
       <td colname="col2"> <p>判斷用來輸入此排名規則的資料來源特性。 </p> <p>您可從中選擇的資料來源類型包括： 
       <ul id="ul_B0A97BF0E314495985F44A642C86918D"> 
       <li id="li_4D8BDE32853540809AE78FF5FF5677A1"> <span class="uicontrol"> Meta標籤  </span> <p> 此規則以數值資料或儲存在您網站頁面上之命名中繼標籤中的文字資料為基礎。 </p> </li> 
-      <li id="li_4976C31D67254C7F81D554EC49DDBB40"> <span class="uicontrol"> Adobe Analytics量度（數字）  </span> <p>此規則以與您的網站頁面關聯的數值Adobe Analytics量度為基礎。 </p> </li> 
+      <li id="li_4976C31D67254C7F81D554EC49DDBB40"> <span class="uicontrol"> Adobe Analytics量度（數字）  </span> <p>此規則以與您網站頁面關聯的數值Adobe Analytics度量為基礎。 </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>資料來源名稱 </p> </td> 
-      <td colname="col2"> <p>如果您選擇<span class="uicontrol">中繼標籤</span>作為資料來源類型，這是網站頁面內找到的中繼標籤名稱。 下拉式選單中的名稱來自已定義中繼資料值的清單，這些值是在「設定&gt;中繼資料&gt;定義」中設定的。 </p> <p>請參閱<a scope="local" href="../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5" type="task" format="dita">新增中繼標籤欄位</a>。 </p> <p>如果您選擇「Adobe Analytics量度（數字）」作為「資料來源類型」，則此為Adobe Analytics量度的名稱。 下拉式選單中的名稱來自已定義的可用Adobe Analytics量度清單，這些量度是在「設定&gt; Adobe Analytics &gt;量度&gt;編輯」中設定的。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">編輯報表套裝</a>的Adobe Analytics量度。 </p> <p>如果您選取的Adobe Analytics量度名稱尚未在「<span class="uicontrol">設定</span> &gt; <span class="uicontrol">中繼資料</span> &gt; <span class="uicontrol">定義</span>」中定義，則會顯示文字欄位和「新增」按鈕。 輸入中繼資料欄位名稱（中繼資料欄位名稱不能超過20個字元），然後按一下「新增<span class="uicontrol">」。</span> </p> <p>當頁面與多個Adobe Analytics索引鍵（例如顯示多個產品的產品頁面）一起出現時，「組合配置」會指定如何處理與該頁面相關聯的多個Adobe Analytics量度值。 選擇以下選項之一： </p> <p> 
+      <td colname="col2"> <p>如果您選擇<span class="uicontrol">中繼標籤</span>作為資料來源類型，這是網站頁面內找到的中繼標籤名稱。 下拉式選單中的名稱來自已定義中繼資料值的清單，這些值是在「設定&gt;中繼資料&gt;定義」中設定的。 </p> <p>請參閱<a scope="local" href="../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5" type="task" format="dita">新增中繼標籤欄位</a>。 </p> <p>如果您選擇「Adobe Analytics量度（數字）」作為「資料來源類型」，則此為「Adobe Analytics量度」的名稱。 下拉式選單中的名稱來自已定義的可用Adobe Analytics量度清單，這些量度是在「設定&gt;Adobe Analytics&gt;量度&gt;編輯」中設定。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">編輯報表套裝</a>的Adobe Analytics量度。 </p> <p>如果您在「<span class="uicontrol">設定</span> &gt; <span class="uicontrol">中繼資料</span> &gt; <span class="uicontrol">定義</span>」中尚未定義您選取的Adobe Analytics度量名稱，則會顯示文字欄位和「新增」按鈕。 輸入中繼資料欄位名稱（中繼資料欄位名稱不能超過20個字元），然後按一下「新增<span class="uicontrol">」。</span> </p> <p>當頁面與多個Adobe Analytics鍵（例如顯示多個產品的產品頁面）一起出現時，「組合方案」會指定如何處理與該頁面相關聯的多個Adobe Analytics度量值。 選擇以下選項之一： </p> <p> 
       <ul id="ul_D6E51748BB3949048A37C1895F2C0A58"> 
       <li id="li_04F00F382A264C96A519B0D975E25E94"> <span class="uicontrol"> 總計 </span> <p>傳回量度值的總和。 </p> </li> 
       <li id="li_FA44219B663F4CC197BD3A094EB84396"> <span class="uicontrol"> 平均 </span> <p>傳回值的平均值（總和除以值數）。 </p> </li> 
@@ -243,9 +241,9 @@ ht-degree: 0%
       </tr> 
       <tr> 
       <td colname="col1"> <p>值／排名 </p> </td> 
-      <td colname="col2"> <p>由其中一個內建的排名函式或可能的資料來源內容以及所需的排名組成。 </p> <p>如果您選擇<span class="uicontrol"> Adobe Analytics量度（數字）</span>做為「資料來源類型」，則會顯示包含下列選項的下拉式清單： 
+      <td colname="col2"> <p>由其中一個內建的排名函式或可能的資料來源內容以及所需的排名組成。 </p> <p>如果您選擇<span class="uicontrol">Adobe Analytics度量（數字）</span>作為資料源類型，則會顯示一個包含以下選項的下拉清單： 
       <ul id="ul_104906B6AA8547BAB6979AA37C4FAB90"> 
-      <li id="li_7656A2855A054DB8B64E90FE501517AA"> <span class="uicontrol"> 依順序自動排名（預設）  </span> <p>根據檔案的「Adobe Analytics量度」，計算根據檔案相對位置的排名。 例如，檔案與排名最前的檔案位置愈近，其排名就愈高。 </p> </li> 
+      <li id="li_7656A2855A054DB8B64E90FE501517AA"> <span class="uicontrol"> 依順序自動排名（預設）  </span> <p>根據檔案的「Adobe Analytics度量」，計算根據檔案相對位置的排名。 例如，檔案與排名最前的檔案位置愈近，其排名就愈高。 </p> </li> 
       <li id="li_1A7D60EA6965434AA6D39B215C158306"> <span class="uicontrol"> 依值自動排名  </span> <p>根據檔案的「Adobe Analytics量度」，根據檔案的相對值來計算排名。 例如，檔案值與排名最前的檔案值越接近，其排名就越高。 </p> </li> 
       <li id="li_457DE44D6ADA40619DC77220BF12318E"> <span class="uicontrol"> 自訂 </span> <p>指定自訂設定。 例如，名稱為「品牌」的「資料來源」可能包含特定產品的品牌名稱。 您可以透過列出每個品牌及其排名來指定其相對重要性。 </p> </li> 
       </ul> </p> <p>自動排名計算傳回的排名值在0.0（最低）到1.0（最高）範圍內。 不會根據「設定&gt;中繼資料&gt;定義」下「排名」欄位所定義的範圍來調整這些欄位。 </p> <p>在下列範例中，如果特定搜尋結果的品牌資料來源與「DKNY」完全相符，則該結果的套用排名為0.5。否則，如果品牌為「Levis」，則套用的排名為0.1。「資料來源」內容必須符合設定值。 換言之，如果「資料來源」內容是「Levis Corp.」，則不符合「Levis」值。 忽略大小寫，因此"DKNY"與"dkny"和"Dkny"相符。<code> DKNY&nbsp;0.5 Levis&nbsp;0.1 Lee&nbsp;0.2 </code> </p> <p>作為更進階的選項，您可以指定值作為規則運算式。 例如，假設您的某些網站頁面包含「Levis」品牌值，而其他網站頁面則包含「Levis jeans」品牌值。 您可以使用與關鍵字一起指定的規則運算式 
