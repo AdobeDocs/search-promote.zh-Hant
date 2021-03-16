@@ -1,21 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.9發行說明(07/19/2012)
+description: Search&amp;Promote 8.9發行說明。
 solution: Target
 title: Search&amp;Promote 8.9發行說明(07/19/2012)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: 3853c75d-19ed-4e36-9e81-dcbffe5f5b0c
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 59%
+source-wordcount: '287'
+ht-degree: 57%
 
 ---
 
 
-# Search&amp;Promote 8.9發行說明(07/19/2012){#search-promote-release-notes}
+# Search&amp;Promote8.9發行說明(07/19/2012){#search-promote-release-notes}
 
 **新功能**
 
@@ -31,11 +29,11 @@ ht-degree: 59%
 * 已新增支援依據業務規則而變更排序選項。
 * 在「說明」系統`<search-description>`標籤中，當描述的meta標籤包含空內容時，會改為顯示內文。
 * 已新增功能，可以針對結果，追蹤經由基於結果之動作而新增的適用表格點擊。
-* 新增透過POST提交查詢參數的支援
+* 新增支援透過POST提交查詢參數
 * 在編目時，有時候可以略過最終 mirror_account 操作。
-* Adobe Analytics URL不包含CGI引數和Search&amp;Promote程式碼，Adobe Analytics會從URL金鑰中類似地移除CGI引數。
+* Adobe AnalyticsURL不包含CGI引數和Adobe Analytics查找所需的Search&amp;Promote代碼，以便從URL鍵中類似地刪除CGI引數。
 * 重寫規則推送至現時後，在使用者介面中會間斷消失。
-* 設定為因低結果而提供建議之「您的意思是」設定的Search&amp;Promote帳戶可能會產生間歇性結果。
+* 具有「您是指」設定的Search&amp;Promote帳戶若因結果低而設定為建議，可能會產生間歇性結果。
 * 重寫規則測試輸出沒有分行符號。
 * 「搜尋 URL 規則」頁面和「編目清單儲存 URL 規則」頁面指向錯誤的歷史頁面。
 * 點按某些橫幅廣告上的「編輯」不會顯示「編輯」頁面。
