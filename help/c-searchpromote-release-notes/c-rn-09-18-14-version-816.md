@@ -1,23 +1,21 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.16.0發行說明(9/18/2014)
+description: Search&amp;Promote 8.16.0發行說明。
 solution: Target
 title: Search&amp;Promote 8.16.0發行說明(9/18/2014)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: 0a59858b-213b-40d6-aea1-d085c4d6d2fa
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 40%
+source-wordcount: '338'
+ht-degree: 39%
 
 ---
 
 
-# Search&amp;Promote 8.16.0發行說明(9/18/2014){#search-promote-release-notes}
+# Search&amp;Promote8.16.0發行說明(9/18/2014){#search-promote-release-notes}
 
-## Search&amp;Promote 8.16.0發行說明(9/18/2014){#topic_5BECD3F66C684987828F6AE65E62DA29}
+## Search&amp;Promote8.16.0發行說明(9/18/2014){#topic_5BECD3F66C684987828F6AE65E62DA29}
 
 ## 新功能{#section_2A10EF6B40FC4F2CB2381FFA9FFA64BD}
 
