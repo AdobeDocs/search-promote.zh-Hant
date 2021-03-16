@@ -1,15 +1,13 @@
 ---
 description: 您可以使用橫幅來管理您網站上的橫幅廣告。
-seo-description: 您可以使用橫幅來管理您網站上的橫幅廣告。
-seo-title: 關於橫幅
 solution: Target
 title: 關於橫幅
-topic: Design,Site search and merchandising
+topic: 設計、網站搜尋與銷售
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4810'
+source-wordcount: '4801'
 ht-degree: 1%
 
 ---
@@ -29,51 +27,51 @@ c_about_banners.xml
 
 您可使用兩種方法將橫幅廣告新增至網站。
 
-第一種方法是透過Target、Search&amp;Promote新增橫幅。 橫幅是HTML程式碼片段，客戶在搜尋您的網站時會顯示。 您的橫幅可以包含GIF、JPEG或PNG格式的文字或影像，或兩者的組合。 您可以從預設大小中選擇，或定義您自己的自訂尺寸以符合您的頁面。 您用來顯示橫幅的HTML程式碼也可以指定要使用的字型樣式和邊框等項目。 此新增橫幅的方法提供基本功能，而且不需要其他軟體。
+第一種方法是透過Target新增橫幅，Search&amp;Promote。 橫幅是HTML程式碼片段，客戶在搜尋您的網站時會顯示。 您的橫幅可以包含GIF、JPEG或PNG格式的文字或影像，或兩者的組合。 您可以從預設大小中選擇，或定義您自己的自訂尺寸以符合您的頁面。 您用來顯示橫幅的HTML程式碼也可以指定要使用的字型樣式和邊框等項目。 此新增橫幅的方法提供基本功能，而且不需要其他軟體。
 
-第二種方法是使用動態媒體管理與發佈服務Adobe Dynamic Media Classic。 有效的Adobe Dynamic Media Classic帳戶可讓您使用Dynamic Media Classic，直接管理橫幅內容，並將其傳送至Target、Search&amp;Promote。 在網站搜尋／銷售中，您可設定Dynamic Media Classic帳戶的存取權。 然後，您開啟Dynamic Media Classic媒體瀏覽器，並選取要當做橫幅的動態媒體資產。
-
->[!NOTE]
->
->在您將動態媒體資產當做網站搜尋／銷售中的橫幅使用之前，會先在Scene7 Publishing System中上傳並準備發佈這些資產。 您可以從網站搜尋／銷售中上傳資產，並讓資產自動準備好供Scene7 Publishing System發佈。 或者，您可以從Scene7 Publishing System上傳和發佈資產。
-
-## 橫幅與Adobe Scene7 Publishing System {#section_D4D7ADEA6A6348E68EDA138E184FE579}的整合
-
-您可在網站搜尋／銷售中使用Dynamic Media Classic資產類型做為橫幅，包括影像、動態橫幅和範本，例如影像範本或Flash範本。
-
-範本是動態建立和可定址的圖層影像檔案，例如Adobe Photoshop®等影像編輯應用程式中的圖層檔案。 與靜態影像檔案不同，範本可以包含參數。 透過參數，您可以自訂變數的影像屬性和影像內容。
+第二種方法是使用動態媒體管理與發佈服務AdobeDynamic Media經典。 有效的AdobeDynamic Media經典帳戶可讓您使用Dynamic Media經典，直接管理橫幅內容並傳送至Target,Search&amp;Promote。 在網站搜尋／銷售中，您可設定對Dynamic Media經典帳戶的存取權。 然後，您開啟Dynamic Media經典媒體瀏覽器，並挑選您要當做橫幅的動態媒體資產。
 
 >[!NOTE]
 >
->您也可以使用Scene7 Publishing System中的「範本發佈」，以及Adobe Illustrator和Adobe InDesign的檔案，從版面設計建立範本。
+>在您將動態媒體資產當做網站搜尋／銷售中的橫幅使用之前，會先在Scene7出版系統中上傳並準備發佈這些資產。 您可以從網站搜尋／銷售中上傳資產，並讓資產自動準備好供Scene7出版系統發佈。 或者，您可以從Scene7出版系統上傳和發佈資產。
 
-請參閱Dynamic Media Classic(Scene7)使用指南中的[範本發佈](https://help.adobe.com/en_US/scene7/using/WSFBFBAD30-2694-4b18-B7CE-894F9FC5CDDF.html)。
+## 橫幅與Adobe Scene7出版系統{#section_D4D7ADEA6A6348E68EDA138E184FE579}的整合
 
-範本可以包含任意數量的影像圖層和文字圖層。 您可以將包含圖層（例如圖層PSD檔案）的靜態檔案轉換為範本，或在Dynamic Media Classic中建立範本。 您可以使用上傳至Scene7 Publishing System的字型，在範本中建立文字圖層。 將文字新增至範本後，您可以變更其對齊方式、字型、字型大小和顏色來設定其格式。
+您可以在網站搜尋／銷售中使用Dynamic Media經典資產類型做為橫幅，包括影像、動態橫幅和範本，例如影像範本或Flash範本。
 
-使用Dynamic Media Classic中的「參數」畫面，您可以將範本的任何方面轉換為可定址的參數。 在執行此動作時，您可以變更要使用的圖層影像或範本中要使用的文字值。 參數會隨URL字串傳遞，讓您變更任何參數，以動態自訂從影像伺服器產生的回覆影像。
+範本是動態建立和可定址的分層影像檔案，例如影像編輯應用程式(例如Adobe Photoshop®)中的分層檔案。 與靜態影像檔案不同，範本可以包含參數。 透過參數，您可以自訂變數的影像屬性和影像內容。
 
-您可以進一步瞭解如何使用Dynamic Media Classic來建立範本，並為圖層上的屬性參數化，以便在橫幅中使用。
+>[!NOTE]
+>
+>您也可以使用Scene7出版系統的範本出版，以及Adobe Illustrator和Adobe InDesign的檔案，從版面設計建立範本。
 
-請參閱Dynamic Media Classic(Scene7)使用指南中的[範本基礎](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html)。
+請參閱《Dynamic Media經典(Scene7)使用手冊》中的[模板發佈](https://help.adobe.com/en_US/scene7/using/WSFBFBAD30-2694-4b18-B7CE-894F9FC5CDDF.html)。
+
+範本可以包含任意數量的影像圖層和文字圖層。 您可以將包含圖層（例如圖層PSD檔案）的靜態檔案轉換為範本，或在Dynamic Media經典中建立範本。 您可以使用上傳至Scene7出版系統的字型，在範本中建立文字圖層。 將文字新增至範本後，您可以變更其對齊方式、字型、字型大小和顏色來設定其格式。
+
+使用Dynamic Media經典中的「參數」畫面，您可以將範本的任何方面轉換為可定址的參數。 在執行此動作時，您可以變更要使用的圖層影像或範本中要使用的文字值。 參數會隨URL字串傳遞，讓您變更任何參數，以動態自訂從影像伺服器產生的回覆影像。
+
+您可以進一步瞭解如何使用Dynamic Media經典來建立範本，並為圖層上的屬性參數化，以便在橫幅中使用。
+
+請參閱《Dynamic Media經典(Scene7)使用手冊》中的[模板基礎](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html)。
 
 **上傳和發佈資產**
 
-您必須先在Dynamic Media Classic中上傳和發佈資產，才能在網站搜尋／銷售中將資產用於橫幅。 此先決條件也包含影像範本或Flash範本使用的任何資產。 使用您的Dynamic Media Classic帳戶來上傳和發佈數位資產。 或者，您可以使用網站搜尋／銷售來上傳數位資產，然後讓Dynamic Media Classic根據您的上傳設定自動為您發佈。 如果您嘗試挑選尚未上傳和發佈的資產，使用者介面會通知您，並提供在繼續之前上傳該資產的選項。
+您必須先在Dynamic Media經典中上傳和發佈資產，才能在網站搜尋／銷售中將資產用於橫幅。 此先決條件也包含影像範本或Flash範本使用的任何資產。 使用您的Dynamic Media經典帳戶上傳及發佈數位資產。 或者，您可以使用網站搜尋／銷售來上傳數位資產，然後讓Dynamic Media經典自動根據您的上傳設定為您發佈。 如果您嘗試挑選尚未上傳和發佈的資產，使用者介面會通知您，並提供在繼續之前上傳該資產的選項。
 
-您可以進一步瞭解如何使用Scene7 Publishing System上傳和發佈數位資產。
+您可以進一步瞭解如何使用Scene7出版系統上傳和發佈數位資產。
 
-請參閱Dynamic Media Classic(Scene7)使用指南中的[上傳及發佈資產](https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html)。
+請參閱《Dynamic Media經典(Scene7)使用手冊》中的[上傳和發佈資產](https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html)。
 
 >[!NOTE]
 >
->若要在Dynamic Media Classic資產檢視器中使用上傳功能，請確定您使用的Dynamic Media Classic帳戶已設定「SPS公司管理員」角色。
+>若要在Dynamic Media經典資產檢視器中使用上傳功能，請確定您使用的Dynamic Media經典帳戶已設定「SPS公司管理員」角色。
 
-請參閱Dynamic Media Classic(Scene7)使用指南中的[管理設定](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html)。
+請參閱《Dynamic Media經典(Scene7)使用手冊》中的[管理設定](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html)。
 
-**使用業務規則變更橫幅中的動態媒體傳統範本參數**
+**使用業務規則更改橫幅中的Dynamic Media經典模板參數**
 
-如果您將Dynamic Media Classic資產新增為橫幅，則可使用[!DNL Business Rules]中的[!DNL Visual Rule Builder]將其新增至網站上的任何橫幅區域。 例如，您將橫幅新增至搜尋結果頁面，就像您新增其他橫幅一樣。 您也可以根據您的特定需求自訂Dynamic Media Classic範本中的預設參數值，以覆寫這些值。 這類功能可讓您使用不同的行銷訊息和超連結來自訂Dynamic Media Classic範本至不同的端點。
+如果您將Dynamic Media Classic資產新增為橫幅，則可使用[!DNL Business Rules]中的[!DNL Visual Rule Builder]將其新增至網站上的任何橫幅區域。 例如，您將橫幅新增至搜尋結果頁面，就像您新增其他橫幅一樣。 您也可以根據您的特定需求，自訂Dynamic Media經典範本中的預設參數值，以覆寫這些值。 這類功能可讓您使用不同的行銷訊息和超連結來自訂Dynamic Media經典範本，以至不同的端點。
 
 另請參閱[添加新業務規則](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)。
 
@@ -89,11 +87,11 @@ t_adding_a_new_banner.xml
 
  -->
 
-如果您有有效的Adobe Dynamic Media Classic帳戶，則可透過Scene7 Publishing System新增橫幅廣告。
+如果您有有效的AdobeDynamic Media經典帳戶，可以透過Scene7出版系統新增橫幅廣告。
 
-請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)新增橫幅。
+請參閱[使用AdobeDynamic Media經典添加橫幅。](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)
 
-請參閱[設定對Adobe Dynamic Media Classic帳戶的存取權](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D)。
+請參閱[配置對AdobeDynamic Media經典帳戶的訪問](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D)。
 
 **若要新增橫幅**
 
@@ -167,9 +165,9 @@ t_editing_a_banner.xml
 
  -->
 
-如果您使用網站搜尋／銷售新增橫幅，您也可以使用Adobe Dynamic Media Classic編輯橫幅。
+如果您使用網站搜尋／銷售新增橫幅，您也可以使用AdobeDynamic Media經典編輯橫幅。
 
-另請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)編輯橫幅。
+另請參閱[使用AdobeDynamic Media經典編輯橫幅。](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
 
 **若要編輯橫幅**
 
@@ -195,9 +193,9 @@ t_editing_a_banner.xml
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 使用Adobe Dynamic Media Classic {#task_AD1E0C00A9E04B1FA819EB93288786B3}新增橫幅
+## 使用AdobeDynamic Media經典{#task_AD1E0C00A9E04B1FA819EB93288786B3}添加橫幅
 
-您可以使用[!DNL Banners]來管理網站上的橫幅廣告。 當您使用Adobe Dynamic Media Classic新增橫幅時，可以從已上傳至Scene7 Publishing System的任何數位資產中選擇。
+您可以使用[!DNL Banners]來管理網站上的橫幅廣告。 當您使用Adobe「Dynamic Media經典」新增橫幅時，可以從您已上傳至「Scene7出版系統」的任何數位資產中選擇。
 
 <!-- 
 
@@ -205,11 +203,11 @@ t_adding_a_banner_using_adobe_scene7.xml
 
  -->
 
-若要使用Adobe Dynamic Media Classic新增橫幅，請確定您已設定有效Dynamic Media Classic帳戶的存取權。
+要使用AdobeDynamic Media經典添加橫幅，請確定您已配置了對有效Dynamic Media經典帳戶的訪問權。
 
-請參閱[設定對Adobe Dynamic Media Classic帳戶的存取權](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D)。
+請參閱[配置對AdobeDynamic Media經典帳戶的訪問](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D)。
 
-**若要使用Adobe Dynamic Media Classic新增橫幅**
+**使用AdobeDynamic Media經典添加橫幅**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Design]** > **[!UICONTROL Banners.]**」
 1. 在[!DNL Banners]頁面的&#x200B;**[!UICONTROL Add Banner]**&#x200B;下拉式清單中，按一下&#x200B;**[!UICONTROL Adobe Scene7]**。
@@ -223,7 +221,7 @@ t_adding_a_banner_using_adobe_scene7.xml
    >
    >當您在[!DNL Change Parameters]對話方塊中編輯橫幅時，資產導覽選項不會顯示。
 
-   請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)編輯橫幅。
+   請參閱[使用AdobeDynamic Media經典編輯橫幅。](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
 
    **資產導覽選項**
 
@@ -237,7 +235,7 @@ t_adding_a_banner_using_adobe_scene7.xml
     <tbody> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/S7_folders.png"> </p> </td> 
-      <td colname="col2"> <p>可讓您從下拉式清單中選取您特定公司的Dynamic Media Classic帳戶，並瀏覽該帳戶中的數位資產資料夾。 </p> <p>選擇資料夾時，<span class="wintitle"> 「選擇資產</span>」對話框的右窗格會顯示該資料夾中包含的所有可用數字資產。 </p> </td> 
+      <td colname="col2"> <p>可讓您從下拉式清單中選取您特定公司的Dynamic Media經典帳戶，並瀏覽該帳戶中的數位資產資料夾。 </p> <p>選擇資料夾時，<span class="wintitle"> 「選擇資產</span>」對話框的右窗格會顯示該資料夾中包含的所有可用數字資產。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_folderhistory.png"> </p> </td> 
@@ -257,7 +255,7 @@ t_adding_a_banner_using_adobe_scene7.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_upload.png"> </p> </td> 
-      <td colname="col2"> <p>開啟「上傳<span class="wintitle"></span>」對話方塊，您可從案頭或外部伺服器上傳選取的數位資產，以便將它當做橫幅使用。 </p> <p>上傳資產後，Scene7 Publishing System會自動為您排程發佈工作。 </p> <p>請參閱「使用Adobe Dynamic Media Classic <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local">新增橫幅」中的選項表。</a> </p> <p>您可以進一步瞭解如何使用Scene7 Publishing System上傳和發佈數位資產。 </p> <p>請參閱Scene7 Publishing System使用指南中的<a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html">上傳和發佈資產</a>。 </p> </td> 
+      <td colname="col2"> <p>開啟「上傳<span class="wintitle"></span>」對話方塊，您可從案頭或外部伺服器上傳選取的數位資產，以便將它當做橫幅使用。 </p> <p>上傳資產後，會在Scene7出版系統中自動為您排程發佈工作。 </p> <p>請參閱<a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local">使用Dynamic Media經典</a>Adobe添加橫幅中的選項表。 </p> <p>您可以進一步瞭解如何使用Scene7出版系統上傳和發佈數位資產。 </p> <p>請參閱《Scene7出版系統使用指南》中的<a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html">上傳及發佈資產</a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_searchfield.png"> </p> </td> 
@@ -269,7 +267,7 @@ t_adding_a_banner_using_adobe_scene7.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_Kindfilter.png"> </p> </td> 
-      <td colname="col2"> <p>調整顯示的數位資產清單，只顯示特定類型（例如Flash、影像、範本或任何）的數位資產。 </p> <p>按一下<img src="assets/s7_deletefilter.png">，從搜尋中刪除篩選。 </p> </td> 
+      <td colname="col2"> <p>調整顯示的數位資產清單，僅依特定類型(例如Flash、影像、範本或任何)顯示數位資產。 </p> <p>按一下<img src="assets/s7_deletefilter.png">，從搜尋中刪除篩選。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_datefilter.png"> </p> </td> 
@@ -284,7 +282,7 @@ t_adding_a_banner_using_adobe_scene7.xml
 
    **屬性選項**
 
-   如果您選擇Flash範本、影像範本或影像，就會顯示「屬性」選項。 視您選擇的數位資產而定，並非所有選項都可供使用。
+   如果您選擇Flash範本、影像範本或影像，則會顯示「屬性」選項。 視您選擇的數位資產而定，並非所有選項都可供使用。
 
    <table> 
     <thead> 
@@ -307,19 +305,19 @@ t_adding_a_banner_using_adobe_scene7.xml
         <li id="li_4EDDFD7C8AB04677BEC20EFC9AEBBF1F">png-alpha </li> 
         <li id="li_4FCB03C29AE647ACBAF5105016DF7579">gif </li> 
         <li id="li_B884BD7DFF1845FAA9C58EF09B888A77">gif-alpha </li> 
-        </ul> <p>這個選項不適用於Flash範本。 </p> </td> 
+        </ul> <p>此選項不適用於Flash模板。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>品質 </p> </td> 
-      <td colname="col2"> <p>控制JPEG或GIF格式影像的壓縮等級。 此設定會影響檔案大小和影像品質。 質量等級為1-100。 </p> <p>當您向左或向右拖曳滑桿時，預覽視窗中的影像會更新，以反映品質的變更。 </p> <p>這個選項不適用於Flash範本。 </p> </td> 
+      <td colname="col2"> <p>控制JPEG或GIF格式影像的壓縮等級。 此設定會影響檔案大小和影像品質。 質量等級為1-100。 </p> <p>當您向左或向右拖曳滑桿時，預覽視窗中的影像會更新，以反映品質的變更。 </p> <p>此選項不適用於Flash模板。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>寬度 </p> </td> 
-      <td colname="col2"> <p>指定數位資產的寬度（以像素為單位）。 此維度是造訪您網站的客戶檢視資產的寬度。 </p> <p>這個選項不適用於Flash範本。 </p> </td> 
+      <td colname="col2"> <p>指定數位資產的寬度（以像素為單位）。 此維度是造訪您網站的客戶檢視資產的寬度。 </p> <p>此選項不適用於Flash模板。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>高度 </p> </td> 
-      <td colname="col2"> <p>指定數位資產的高度（以像素為單位）。 此維度是造訪您網站的客戶檢視資產的高度。 </p> <p>這個選項不適用於Flash範本。 </p> </td> 
+      <td colname="col2"> <p>指定數位資產的高度（以像素為單位）。 此維度是造訪您網站的客戶檢視資產的高度。 </p> <p>此選項不適用於Flash模板。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -405,7 +403,7 @@ t_adding_a_banner_using_adobe_scene7.xml
 
    **參數選項**
 
-   只有在您為橫幅選擇影像範本或Flash範本時，才會顯示參數選項。 實際的參數選項會視範本在Scene7 Publishing System中的建立方式和參數化而有所不同。 例如，您的範本可能包含參數化欄位，可讓您變更文字、字型樣式、價格、免運費專用代碼、橫幅中影像的大小，甚至瀏覽要使用的不同影像。
+   只有在您為橫幅選擇影像範本或Flash範本時，才會顯示參數選項。 實際的參數選項會依範本在Scene7出版系統中的建立和參數化方式而有所不同。 例如，您的範本可能包含參數化欄位，可讓您變更文字、字型樣式、價格、免運費專用代碼、橫幅中影像的大小，甚至瀏覽要使用的不同影像。
 
    >[!NOTE]
    >
@@ -417,7 +415,7 @@ t_adding_a_banner_using_adobe_scene7.xml
 
    **切換圖層可見度選項**
 
-   只有在您為橫幅選擇Flash範本時，才會套用「切換圖層可見度」選項。
+   只有在您為橫幅選擇Flash範本時，才會套用「切換圖層可見性」選項。
 
    <table> 
     <thead> 
@@ -438,9 +436,9 @@ t_adding_a_banner_using_adobe_scene7.xml
 
    >[!NOTE]
    >
-   >如果您想要在Scene7資產檢視器中使用上傳功能，請確定您使用的Scene7帳戶已設定「SPS公司管理員」角色。
+   >如果您想在Scene7資產檢視器中使用上傳功能，請確定您使用的Scene7帳戶已設定「SPS公司管理員」角色。
 
-   請參閱Scene7 Publishing System使用指南中的[管理設定](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html)。
+   請參閱《Scene7出版系統使用指南》中的[管理設定](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html)。
 
    **基本選項**
 
@@ -469,11 +467,11 @@ t_adding_a_banner_using_adobe_scene7.xml
 
    **進階選項**
 
-   當您上傳PostScript(EPS)或Illustrator(AI)影像檔時，可以以各種方式設定檔案格式。 您可以點陣化檔案、將檔案轉換為FXG以進行範本發佈、維持透明背景、選擇解析度，以及選擇色域。
+   當您上傳PostScript(EPS)或Illustrator(AI)影像檔時，可以以多種方式格式化檔案。 您可以點陣化檔案、將檔案轉換為FXG以進行範本發佈、維持透明背景、選擇解析度，以及選擇色域。
 
-   PSD（Photoshop檔案檔案）最常用於Dynamic Media Classic建立範本。 上傳PSD檔案時，您可以自動從檔案建立Dynamic Media Classic範本（選取&#x200B;**[!UICONTROL Create Template]**&#x200B;選項）。
+   PSD(Photoshop檔案檔)最常用於Dynamic Media經典中建立模板。 上傳PSD檔案時，可以從檔案自動建立Dynamic Media經典範本（選取&#x200B;**[!UICONTROL Create Template]**&#x200B;選項）。
 
-   如果您使用Scene7 Publishing System建立範本，就會從PSD檔案建立多個含圖層的影像；它會為每個圖層建立一個影像。
+   Scene7出版系統(Motix Publishing System)會從PSD檔案建立多張影像，若您使用檔案建立範本，則會使用圖層；它會為每個圖層建立一個影像。
 
    <table> 
     <thead> 
@@ -511,7 +509,7 @@ t_adding_a_banner_using_adobe_scene7.xml
       <tr> 
       <td colname="col1"> <p> PostScript選項 </p> <p>Illustrator選項 </p> </td> 
       <td colname="col02"> <p> 色域 </p> </td> 
-      <td colname="col2"> <p>可讓您為Illustrator檔案選擇色域。 RGB色域最適合線上檢視。 </p> <p>您可以從下列色域選項中選擇： </p> 
+      <td colname="col2"> <p>可讓您選擇Illustrator檔案的色域。 RGB色域最適合線上檢視。 </p> <p>您可以從下列色域選項中選擇： </p> 
         <ul id="ul_0E83E2762A574480B243F963A7FB2ACD"> 
         <li id="li_B9FEC7D220D04CCABACD30839051DAE4"> <span class="uicontrol"> 自動偵測  </span> <p> 保留PDF檔案的色域。 </p> </li> 
         <li id="li_ED0EB3B12BCF41C7AFC435447010B6FF"> <span class="uicontrol"> 強制為RGB  </span> <p> 轉換為RGB色域。 </p> </li> 
@@ -547,11 +545,11 @@ t_adding_a_banner_using_adobe_scene7.xml
       <tr> 
       <td colname="col1"> <p>Photoshop選項 </p> </td> 
       <td colname="col02"> <p> 圖層命名 </p> </td> 
-      <td colname="col2"> <p>PSD檔案中的圖層會上傳為個別影像。 您可以從下列選項中選擇，以決定要在Scene7 Publishing System中為這些影像命名的方式： </p> 
+      <td colname="col2"> <p>PSD檔案中的圖層會上傳為個別影像。 您可從下列選項中選擇，以決定要在Scene7出版系統中為這些影像命名的方式： </p> 
         <ul id="ul_C2A25177A07740CA90B32C638304D39F"> 
-        <li id="li_477D5BFF7238454BBF0E04B22DE378F7"> <span class="uicontrol"> 從PSD檔案使用圖層名稱  </span> <p>在PSD檔案中，將影像命名為圖層名稱之後。 例如，原始PSD檔案中名為<span class="codeph">價格標籤</span>的圖層會變成名為<span class="codeph">價格標籤</span>的影像。 但是，如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱（背景、圖層1、圖層2等），則影像會以其PSD檔案中的圖層編號命名，而非預設圖層名稱。 </p> </li> 
-        <li id="li_EB4173B884FC41328CFBDE27DA6D43AA"> <span class="uicontrol"> 使用PSD檔案名稱和附加編號  </span> <p>在PSD檔案中將影像命名為圖層編號之後，忽略原始圖層名稱。 影像會以Photoshop檔案名稱和附加的圖層編號命名。 例如，名為<span class="codeph"> Spring Ad.psd </span>的檔案的第二層名為<span class="codeph"> Spring Ad_2 </span>，即使它在Photoshop中具有非預設名稱亦然。 </p> </li> 
-        <li id="li_10B2D2DE2FD24BD08DB56D1D95ABA53D"> <span class="uicontrol"> 使用PSD檔案名稱和圖層名稱或編號  </span> <p>在PSD檔案後面加上圖層名稱或圖層編號的影像名稱。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則會使用圖層編號。 例如，在名為<span class="codeph"> SpringAd </span>的PSD檔案中，名為<span class="codeph"> Price Tag </span>的圖層名為<span class="codeph"> Spring Ad_Price Tag </span>。 預設名稱為<span class="codeph">第2層</span>的層名為<span class="codeph"> Spring Ad_2 </span>。 </p> </li> 
+        <li id="li_477D5BFF7238454BBF0E04B22DE378F7"> <span class="uicontrol"> 從PSD檔案使用圖層名稱  </span> <p>在PSD檔案中，將影像命名為圖層名稱之後。 例如，原始PSD檔案中名為<span class="codeph">價格標籤</span>的圖層會變成名為<span class="codeph">價格標籤</span>的影像。 但是，如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱（背景、第1層、第2層等），則影像會以PSD檔案中的圖層編號命名，而非預設圖層名稱。 </p> </li> 
+        <li id="li_EB4173B884FC41328CFBDE27DA6D43AA"> <span class="uicontrol"> 使用PSD檔案名稱和附加編號  </span> <p>在PSD檔案中將影像命名為圖層編號之後，忽略原始圖層名稱。 影像會以Photoshop檔名和附加的圖層編號命名。 例如，名為<span class="codeph"> Spring Ad.psd </span>的檔案的第二層名為<span class="codeph"> Spring Ad_2 </span>，即使它在Photoshop具有非預設名稱。 </p> </li> 
+        <li id="li_10B2D2DE2FD24BD08DB56D1D95ABA53D"> <span class="uicontrol"> 使用PSD檔案名稱和圖層名稱或編號  </span> <p>在PSD檔案後面加上圖層名稱或圖層編號的影像名稱。 如果PSD檔案中的圖層名稱是預設的Photoshop圖層名稱，則使用圖層編號。 例如，在名為<span class="codeph"> SpringAd </span>的PSD檔案中，名為<span class="codeph"> Price Tag </span>的圖層名為<span class="codeph"> Spring Ad_Price Tag </span>。 預設名稱為<span class="codeph">第2層</span>的層名為<span class="codeph"> Spring Ad_2 </span>。 </p> </li> 
         <li id="li_5E57AC0719D4484B9C9BD14DB42B4455"> <span class="uicontrol"> 根據PSD檔案名稱建立檔案夾  </span> <p>使用PSD的檔案名稱為圖層影像建立檔案夾。 </p> </li> 
         </ul> </td> 
       </tr> 
@@ -595,7 +593,7 @@ t_adding_a_banner_using_adobe_scene7.xml
     </tbody> 
     </table>
 
-1. 在右窗格中，按一下您想要的影像、範本或Flash檔案。
+1. 在右窗格中，按一下您要的影像、範本或Flash檔案。
 
    出現[!DNL Pick An Asset]彈出窗口。
 1. （選擇性）在[!DNL Pick An Asset]快顯視窗的[!DNL Actions]下拉式清單中，執行下列任一項作業：
@@ -626,9 +624,9 @@ t_adding_a_banner_using_adobe_scene7.xml
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
 
-## 使用Adobe Dynamic Media Classic {#task_C3E782477FBF428ABEA220751781ACA9}編輯橫幅
+## 使用AdobeDynamic Media經典{#task_C3E782477FBF428ABEA220751781ACA9}編輯橫幅
 
-使用[!DNL Edit Banner]變更您使用Adobe Dynamic Media Classic新增之橫幅的屬性和參數。
+使用[!DNL Edit Banner]更改您使用AdobeDynamic Media經典添加的橫幅的屬性和參數。
 
 <!-- 
 
@@ -640,7 +638,7 @@ t_editing_a_banner_using_adobe_scene7.xml
 
 另請參閱[編輯橫幅](../c-about-design-menu/c-about-banners.md#task_D4081083BE7B40F5A003D1A2F1435AEA)。
 
-**若要使用Adobe Dynamic Media Classic編輯橫幅**
+**使用AdobeDynamic Media經典編輯橫幅**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Design]** > **[!UICONTROL Banners]**」。
 1. 在[!DNL Banners]頁面上，按一下橫幅縮圖上方的![](assets/icon_edit_16.gif)，該橫幅縮圖在橫幅視窗的左下角有S7圖示。
