@@ -1,15 +1,13 @@
 ---
 description: 「警報」頁面提供一個集中位置，可檢視和管理與您的帳戶有關的所有警報。
-seo-description: 「警報」頁面提供一個集中位置，可檢視和管理與您的帳戶有關的所有警報。
-seo-title: 關於警報
 solution: Target
 title: 關於警報
-topic: Reports,Site search and merchandising
+topic: 報表、網站搜尋與銷售
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 0%
 
 每個警報具有以下三個級別之一，這些級別由不同的表徵圖表示：
 
-* 資訊層級警報是最常見的警報類型。 它們顯示有幫助或您可能想知道的非關鍵資訊。
+* 資訊層級警報是最常見的警報類型。 它們顯示有幫助或您可能想要知道的非關鍵資訊。
 * 警告層級警報表示您應該處理或監控的狀況。
 * 緊急警報（雖然很少見）會提供您必須立即處理之問題的相關資訊。
 
