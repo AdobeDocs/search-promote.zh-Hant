@@ -1,15 +1,13 @@
 ---
 description: 直接點擊可讓您在客戶搜尋相符詞語時，將客戶重新導向至指定的URL。 這類功能可讓您改善網站搜尋的導覽。
-seo-description: 直接點擊可讓您在客戶搜尋相符詞語時，將客戶重新導向至指定的URL。 這類功能可讓您改善網站搜尋的導覽。
-seo-title: 關於直接點擊
 solution: Target
 title: 關於直接點擊
-topic: Rules,Site search and merchandising
+topic: 規則、網站搜尋與銷售
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
