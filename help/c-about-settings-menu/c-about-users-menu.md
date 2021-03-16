@@ -1,16 +1,14 @@
 ---
 description: 使用「用戶」菜單可以查看和添加用戶、查看和添加角色或更改角色成員資格。 您必須是具有管理員權限的網站搜尋／銷售使用者，才能執行「使用者」功能表上的任何工作。
-seo-description: 使用「用戶」菜單可以查看和添加用戶、查看和添加角色或更改角色成員資格。 您必須是具有管理員權限的網站搜尋／銷售使用者，才能執行「使用者」功能表上的任何工作。
-seo-title: 關於使用者功能表
 solution: Target
 subtopic: Users
 title: 關於使用者功能表
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: 6242b73c-5e8a-44b7-9942-0684530940bc
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -181,7 +179,7 @@ ht-degree: 0%
       <td class="choption"><strong>要向單個角色添加一個或多個用戶</strong></td> 
       <td class="chdesc stentry"> <p>
       <ul id="ul_59E7C36210804EF9B6A2706A5357A892"> 
-      <li id="li_2A8D31C968B543EBA7948DD4EFA350AA"> 在<span class="uicontrol">變更角色</span>下拉式清單中，選取您要新增使用者的角色。 <p>如果您未看到「<span class="uicontrol">變更角色</span>」下拉式清單，請按一下「依群組檢視使用者」。</span><span class="uicontrol"> </span></p> </li> 
+      <li id="li_2A8D31C968B543EBA7948DD4EFA350AA"> 在<span class="uicontrol">變更角色</span>下拉式清單中，選取您要新增使用者的角色。 <p>如果您未看到「<span class="uicontrol">變更角色</span>」下拉式清單，請按一下「依群組檢視使用者」。<span class="uicontrol"></span> </p> </li> 
       <li id="li_3A67F0DDBDBE4883A17300A3F088D71A"> （可選）在表中，選中<span class="uicontrol">僅顯示角色成員</span>，使表僅顯示當前分配給選定角色的帳戶用戶。 </li> 
       <li id="li_4926A22D1ED94AC9972C2619A398A8C7"> 在表的複選框列中，選擇要分配給選定角色的一個或多個帳戶用戶。 <p>取消選擇要從所選角色中刪除的一個或多個帳戶用戶。 </p> </li> 
       </ul> </p> </td> 
