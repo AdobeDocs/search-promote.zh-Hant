@@ -1,16 +1,14 @@
 ---
 description: 您可以設定「自動完成」的各個區域，以控制自動完成啟用的搜尋表單的產生，以及自動完成資料。js檔案，此檔案會包含在自動完成啟用的搜尋表單中。
-seo-description: 您可以設定「自動完成」的各個區域，以控制自動完成啟用的搜尋表單的產生，以及自動完成資料。js檔案，此檔案會包含在自動完成啟用的搜尋表單中。
-seo-title: 關於自動完成
 solution: Target
 subtopic: Auto-Complete
 title: 關於自動完成
-topic: Design,Site search and merchandising
+topic: 設計、網站搜尋與銷售
 uuid: 3dfdd14d-2044-4f01-a5bc-fcb2eb0d5068
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1499'
 ht-degree: 1%
 
 ---
@@ -158,11 +156,11 @@ t_configuring_auto-complete_word_list.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>新增這些字詞和片語 </p> </td> 
-      <td colname="col2"> <p> 自動完成的字詞清單會填入此區域所列的字詞和片語。 </p> <p> 按一下「編輯<span class="uicontrol"></span>」以檢視清單或新增字詞和片語至清單。 完成後，按一下「保存更改<span class="uicontrol">」。</span> </p> </td> 
+      <td colname="col2"> <p> 自動完成的字詞清單會填入此區域所列的字詞和片語。 </p> <p> 按一下「編輯<span class="uicontrol"></span>」以檢視清單或新增字詞和片語至清單。 完成後，按一下「保存更改</span>」。<span class="uicontrol"> </span></p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>移除這些字詞和片語 </p> </td> 
-      <td colname="col2"> <p> 此區域中的項目不會顯示在自動完成的字詞清單中。 </p> <p> 按一下「編輯<span class="uicontrol"></span>」以檢視清單或新增字詞和片語至清單。 完成後，按一下「保存更改<span class="uicontrol">」。</span> </p> <p> 此清單中允許使用規則運算式。 若要在此清單中指定規則運算式，請以<code>regexp</code>開頭一行，後面接著單一空格，後面接著規則運算式。 字詞清單中與規則運算式相符的任何行都會移除。 </p> <p> <b>重要</b>:只有在先前已在其他應用程式中使用規則運算式時，才應使用規則運算式。 </p> <p>請參閱<a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local">規則運算式</a>。 </p> </td> 
+      <td colname="col2"> <p> 此區域中的項目不會顯示在自動完成的字詞清單中。 </p> <p> 按一下「編輯<span class="uicontrol"></span>」以檢視清單或新增字詞和片語至清單。 完成後，按一下「保存更改</span>」。<span class="uicontrol"> </span></p> <p> 此清單中允許使用規則運算式。 若要在此清單中指定規則運算式，請以<code>regexp</code>開頭一行，後面接著單一空格，後面接著規則運算式。 字詞清單中與規則運算式相符的任何行都會移除。 </p> <p> <b>重要</b>:只有在先前已在其他應用程式中使用規則運算式時，才應使用規則運算式。 </p> <p>請參閱<a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local">規則運算式</a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>忽略大小寫 </p> </td> 
