@@ -1,16 +1,14 @@
 ---
 description: Breadcrumbs是您可新增至網站的導覽控制項。 網站導覽路徑標示可提供客戶在搜尋結果集中的意見回應。 此外，它還可協助他們快速返回上一步。
-seo-description: Breadcrumbs是您可新增至網站的導覽控制項。 網站導覽路徑標示可提供客戶在搜尋結果集中的意見回應。 此外，它還可協助他們快速返回上一步。
-seo-title: 關於Breadcrumbs
 solution: Target
 subtopic: Navigation
 title: 關於Breadcrumbs
-topic: Design,Site search and merchandising
+topic: 設計、網站搜尋與銷售
 uuid: 3e630a72-a631-4f4f-8aa5-adf2882cdf1c
 translation-type: tm+mt
-source-git-commit: 7f1b5d94e8002992d62ec1e3dce11f9c5605fde8
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
