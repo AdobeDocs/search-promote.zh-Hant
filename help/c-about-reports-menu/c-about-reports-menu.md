@@ -1,15 +1,13 @@
 ---
 description: 使用「報表」功能表可檢視或重設客戶搜尋查詢的報表。
-seo-description: 使用「報表」功能表可檢視或重設客戶搜尋查詢的報表。
-seo-title: 關於報表功能表
 solution: Target
 title: 關於報表功能表
-topic: Reports,Site search and merchandising
+topic: 報表、網站搜尋與銷售
 uuid: 3ea856d7-dc07-455f-8dc7-c7f7f56355d7
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1245'
 ht-degree: 2%
 
 ---
@@ -97,8 +95,8 @@ ht-degree: 2%
    <td colname="col2"> <p>識別Adobe Analytics報表套裝的名稱。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0" type="task" format="dita" scope="local">新增Adobe Analytics報表套裝</a>。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">編輯報表套裝的Adobe Analytics量度</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>報表類型（Adobe Analytics元素） </p> </td> 
-   <td colname="col2"> <p>用於報表套裝請求的Adobe Analytics元素、分類值或兩者。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">編輯報表套裝的Adobe Analytics量度</a>。 </p> </td> 
+   <td colname="col1"> <p>報表類型(Adobe Analytics元素) </p> </td> 
+   <td colname="col2"> <p>報表套裝請求中使用的「Adobe Analytics元素」、「分類」值或兩者。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">編輯報表套裝的Adobe Analytics量度</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>交叉參考欄位 </p> </td> 
