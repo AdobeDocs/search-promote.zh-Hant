@@ -1,21 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.7.1發行說明(02/23/2012)
+description: Search&amp;Promote 8.7.1發行說明。
 solution: Target
 title: Search&amp;Promote 8.7.1發行說明(02/23/2012)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: 3fabf7b2-4a27-4f0a-862a-52f701a0631d
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 34%
+source-wordcount: '179'
+ht-degree: 32%
 
 ---
 
 
-# Search&amp;Promote 8.7.1發行說明(02/23/2012){#search-promote-release-notes}
+# Search&amp;Promote8.7.1發行說明(02/23/2012){#search-promote-release-notes}
 
 ## 新功能{#section_CF3326C0E4FD4179A8009FB76D514304}
 
@@ -38,6 +36,6 @@ ht-degree: 34%
 * 修正 xlhtml 和 ppthtml 的索引編目問題。
 * 複製規則功能將名稱值顯示為廢棄字元。
 * 保留時間戳記，以免範本快取失效。
-* 當捲軸出現在「動態媒體經典」橫幅對話方塊中時，有些變更參數欄位會被截斷。
-* 您對Dynamic Media Classic橫幅參數所做的任何業務規則變更都可在「測試」區域中運作，但在您推送至即時時未生效。
+* 當捲軸出現在「Dynamic Media經典」橫幅對話方塊中時，有些變更參數欄位會被截斷。
+* 您對「Dynamic Media經典」橫幅參數所做的任何業務規則變更都可在「測試」區域中運作，但在您推送至即時時未生效。
 
