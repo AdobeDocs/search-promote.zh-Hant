@@ -1,21 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 15.3.1發行說明(03/24/2015)
+description: Search&amp;Promote 15.3.1發行說明。
 solution: Target
 title: Search&amp;Promote 15.3.1發行說明(03/24/2015)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: f02da5a4-2207-4603-aa05-5cff7be16dd5
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 2%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
 
-# Search&amp;Promote 15.3.1發行說明(03/24/2015){#search-promote-release-notes}
+# Search&amp;Promote15.3.1發行說明(03/24/2015){#search-promote-release-notes}
 
 ## 新功能和增強功能 {#section_2A10EF6B40FC4F2CB2381FFA9FFA64BD}
 
@@ -29,7 +27,7 @@ ht-degree: 2%
 
 * 動態產生範圍屬性的範圍自動Facet值分組功能。
 
-   Adobe Systems目前要求您提供識別範圍值的內容，以執行此動作。 例如，若價格為10，請產生範圍字串&quot;介於$10和$20&quot;)。 或者，Adobe Systems要求您使用原稿篩選。 新增屬性至中繼資料欄位定義，僅適用於`Type=Number`欄位。 新選項將數字欄位與`Type=Text`欄位關聯，並指定說明如何構建範圍說明的配置資訊。
+   Adobe Systems目前要求您提供識別範圍值的內容來執行此動作。 例如，若價格為10，請產生範圍字串&quot;介於$10和$20&quot;)。 或者，Adobe Systems要求您使用原稿篩選。 新增屬性至中繼資料欄位定義，僅適用於`Type=Number`欄位。 新選項將數字欄位與`Type=Text`欄位關聯，並指定說明如何構建範圍說明的配置資訊。
 
    請參閱[新增中繼標籤欄位](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5)。
 
