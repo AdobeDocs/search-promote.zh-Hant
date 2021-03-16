@@ -1,21 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 15.1.1發行說明(01/15/2015)
+description: Search&amp;Promote 15.1.1發行說明。
 solution: Target
 title: Search&amp;Promote 15.1.1發行說明(01/15/2015)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 17%
+source-wordcount: '241'
+ht-degree: 16%
 
 ---
 
 
-# Search&amp;Promote 15.1.1發行說明(01/15/2015){#search-promote-release-notes}
+# Search&amp;Promote15.1.1發行說明(01/15/2015){#search-promote-release-notes}
 
 ## 新功能 {#section_2A10EF6B40FC4F2CB2381FFA9FFA64BD}
 
