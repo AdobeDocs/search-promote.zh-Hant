@@ -1,15 +1,13 @@
 ---
 description: 您可以覆蓋搜索查詢結果的擴展。
-seo-description: 您可以覆蓋搜索查詢結果的擴展。
-seo-title: 關於查詢擴展覆蓋
 solution: Target
 title: 關於查詢擴展覆蓋
-topic: Linguistics,Site search and merchandising
+topic: 語言學、網站搜尋與商品銷售
 uuid: dfe18004-b8fd-4889-b01c-72a3b0c82b9c
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -25,11 +23,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->依預設，Search&amp;Promote未啟用此功能。 請聯絡技術支援以啟用您使用的功能。 啟用「查詢擴展覆蓋」功能後，您必須在用戶介面中「開啟」它。
+>依預設，此功能未在Search&amp;Promote中啟用。 請聯絡技術支援以啟用您使用的功能。 啟用「查詢擴展覆蓋」功能後，您必須在用戶介面中「開啟」它。
 
 **查詢擴展覆蓋的工作方式**
 
-當在「查詢展開覆寫新增」頁面中指定「文字」和「詞語」值時，程式碼會針對特定配對運作。 當分類類型指定為詞語（例如字典或替代字詞表單）時，「不展開」值不會轉換為指定分類所建立的任何表單。
+當在「查詢展開覆寫新增」頁面中指定「文字」和「詞語」值時，程式碼會針對特定配對運作。 當分類類型指定為詞語(例如字典或替代字詞Forms)時，「不展開」值不會轉換為指定分類所建立的任何表單。
 
 例如，假設您有下列定義：
 
@@ -39,7 +37,7 @@ ht-degree: 0%
 
 `Term = "dogs"`
 
-搜索「dog」時，「dog」的搜索查詢將不包括「dogs」。
+搜索「狗」時，搜索「狗」的查詢不包括「狗」。
 
 但是，如果定義如下：
 
@@ -47,7 +45,7 @@ ht-degree: 0%
 
 `Type = Alternate Word Forms`
 
-查詢不包含&quot;dog&#39;s&quot;或&quot;dogs&quot;（「dog」的替代字詞表格）。
+查詢不包含&quot;dog&#39;s&quot;或&quot;dogs&quot;(「dog」的替代字詞「Forms」)。
 
 您可以指定多個詞語、多個分類或兩者。 不過，如果您選取「全部」作為「類型」，則任何多詞清單都會收合為單一「全部」項目。
 
@@ -59,7 +57,7 @@ ht-degree: 0%
 
 ## 配置查詢擴展覆蓋{#task_A087354A509D4997BA275186C224160E}
 
-在Search&amp;Promote中定義和新增查詢擴增覆蓋。
+在Search&amp;Promote中定義和添加查詢擴展覆蓋。
 
 <!-- 
 
@@ -68,11 +66,11 @@ t_configuring_query_expansion_overrides.xml
  -->
 
 >[!NOTE]
-依預設，Search&amp;Promote未啟用此功能。 請聯絡技術支援以啟用您使用的功能。 啟用「查詢擴展覆蓋」功能後，您必須在用戶介面中「開啟」它。 以下的前幾個步驟概述了如何做到這一點。
+依預設，此功能未在Search&amp;Promote中啟用。 請聯絡技術支援以啟用您使用的功能。 啟用「查詢擴展覆蓋」功能後，您必須在用戶介面中「開啟」它。 以下的前幾個步驟概述了如何做到這一點。
 
 **要配置查詢擴展覆蓋，請執行以下操作：**
 
-1. 在Search&amp;Promote中，按一下「設定&#x200B;**** > **使用者** > **檢視角色**」。
+1. 在Search&amp;Promote中，按一下「設定」**「設定」**>「用戶」>「查看角色」**。******
 1. 在「查看角色」頁的表的「操作」列中，按一下要授予其「語言學」菜單上查詢擴展覆蓋訪問權限的角色右側的&#x200B;**編輯**。
 1. 在「編輯角色」頁面上，展開「語言學」樹。
 1. 選中&#x200B;**查詢擴展覆蓋** ，然後按一下&#x200B;**保存更改**。
