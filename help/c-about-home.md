@@ -1,15 +1,13 @@
 ---
 description: 您可以使用「首頁」來檢視各種報表Widget，以快速概述您的Search&amp;Promote帳戶。
-seo-description: 您可以使用「首頁」來檢視各種報表Widget，以快速概述您的Search&amp;Promote帳戶。
-seo-title: 關於首頁
 solution: Target
 title: 關於首頁
-topic: Home,Site search and merchandising
+topic: 首頁、網站搜尋與銷售
 uuid: 5d4dbf5e-954d-46ae-a822-18a58af60de6
 translation-type: tm+mt
-source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 1%
 
 # 關於Home{#about-home}
 
-您可以使用「首頁」來檢視各種報表Widget，讓您快速概述Search&amp;Promote帳戶。
+您可以使用「首頁」來檢視各種報表Widget，讓您快速概述您的Search&amp;Promote帳戶。
 
 您可以拖放報表Widget來重新排列首頁，而不會影響其他帳戶成員的使用者。 您也可以從首頁刪除報表介面工具集，或使用「新增內容」下拉式清單將它們新增回來。
 
