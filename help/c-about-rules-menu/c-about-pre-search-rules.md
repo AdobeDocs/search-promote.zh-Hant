@@ -1,15 +1,13 @@
 ---
 description: 使用搜尋前規則來分析傳入的查詢，並決定要使用的簡報範本。 「搜尋前規則」會依序執行每個查詢。 若要變更規則的順序，您可以使用拖放。 實際訂單在您儲存之前不會變更。
-seo-description: 使用搜尋前規則來分析傳入的查詢，並決定要使用的簡報範本。 「搜尋前規則」會依序執行每個查詢。 若要變更規則的順序，您可以使用拖放。 實際訂單在您儲存之前不會變更。
-seo-title: 關於搜索前規則
 solution: Target
 title: 關於搜索前規則
-topic: Rules,Site search and merchandising
+topic: 規則、網站搜尋與銷售
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
 translation-type: tm+mt
-source-git-commit: d07cdc2c88f93eed4cecb0ee8818f7fdea06ee9d
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1666'
 ht-degree: 1%
 
 ---
