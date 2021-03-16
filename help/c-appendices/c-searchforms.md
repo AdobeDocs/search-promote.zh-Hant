@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 搜尋表格
+description: 瞭解Search&amp;Promote中的搜尋表單
 solution: Target
 title: 搜尋表格
-topic: Appendices,Site search and merchandising
+topic: 附錄、網站搜尋與銷售
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
-source-git-commit: 4542702e1d2ba04c70d9f6b24bfa32e1f1c6acb5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2921'
+source-wordcount: '2931'
 ht-degree: 0%
 
 ---
@@ -327,7 +325,7 @@ ht-degree: 0%
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;enables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
       &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value=1&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="alike"&gt;&nbsp;Sound-alike&nbsp;matching </code> </p> </td> 
-   <td colname="col4"> <p>可讓客戶啟用或停用類似音效的比對。 相似音效比對允許拼寫錯誤的搜尋查詢，以比對檔案中「相似音效」的字詞。 </p> <p>當<span class="codeph"> sp_w_control </span>參數設為1且<span class="codeph"> sp_w </span>參數設為"alike"時，會選取產生的核取方塊，依預設啟用類似音效的比對。 </p> <p>如果<span class="codeph"> sp_w </span>參數設定為""，則不選中該複選框。 </p> <p>如果您在最近的索引操作中未啟用相似音效匹配，則無法進行相似音效匹配，並且會忽略<span class="codeph"> sp_w </span>參數。 若要啟用相似音效比對，請在產品選單中按一下「語言學<span class="uicontrol"> &gt; </span>字詞與語言<span class="uicontrol"> &gt; </span>相似音效比對<span class="uicontrol">」。</span> </p> <p>您也可以以下列方式指派參數<span class="codeph"> sp_w </span>和<span class="codeph"> sp_w_control </span>: </p> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;disables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
+   <td colname="col4"> <p>可讓客戶啟用或停用類似音效的比對。 相似音效比對允許拼寫錯誤的搜尋查詢，以比對檔案中「相似音效」的字詞。 </p> <p>當<span class="codeph"> sp_w_control </span>參數設為1且<span class="codeph"> sp_w </span>參數設為"alike"時，會選取產生的核取方塊，依預設啟用類似音效的比對。 </p> <p>如果<span class="codeph"> sp_w </span>參數設定為""，則不選中該複選框。 </p> <p>如果您在最近的索引操作中未啟用相似音效匹配，則無法進行相似音效匹配，並且會忽略<span class="codeph"> sp_w </span>參數。 若要啟用相似音效比對，請在產品選單中按一下「語言學</span> &gt; <span class="uicontrol">字詞與語言</span> &gt; <span class="uicontrol">相似音效比對</span>」。<span class="uicontrol"> </span></p> <p>您也可以以下列方式指派參數<span class="codeph"> sp_w </span>和<span class="codeph"> sp_w_control </span>: </p> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;disables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
       &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value=0&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="exact"&gt; 
       No&nbsp;sound-alike&nbsp;matching </code> </p> <p>在此情況下，當<span class="codeph"> sp_w_control </span>參數設為0且<span class="codeph"> sp_w </span>參數設為"exact"時，預設會停用類似音效的比對。 如果<span class="codeph"> sp_w </span>參數設為""，則會啟用類似音效比對。 </p> </td> 
@@ -393,7 +391,7 @@ ht-degree: 0%
       &lt;option&nbsp;value="target"&gt;Target&lt;/option&gt; 
       &lt;option&nbsp;value="date"&gt;Date&lt;/option&gt;* 
       &lt;/select&gt; </code> </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> sp_x </span>清單方塊可讓客戶指定要在其中搜尋查詢字串的欄位。 </p> <p>客戶可以選擇所有欄位、標題、檔案說明、檔案關鍵字、內文、替代文字、檔案的URL、日期或目標關鍵字。 </p> <p>當使用<span class="codeph"> sp_x </span>參數時，客戶不需要在搜尋查詢字串中指定「title:」、「desc:」、「keys:」、「body:」、「alt:」、「url:」和「target:」。 </p> <p>如果省略<span class="codeph"> sp_x </span>參數，或者將其設為""或"any"，則客戶仍可使用欄位指定字串。 如果<span class="codeph"> sp_x </span>參數設為特定欄位，則忽略所有其他欄位指定符字串。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local">關於搜尋</a>。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> sp_x </span>清單方塊可讓客戶指定要在其中搜尋查詢字串的欄位。 </p> <p>客戶可以選擇所有欄位、標題、檔案說明、檔案關鍵字、內文、替代文字、檔案的URL、日期或目標關鍵字。 </p> <p>使用<span class="codeph"> sp_x </span>參數時，客戶不需要在搜尋查詢字串中指定「title:」、「desc:」、「keys:」、「body:」、「alt:」、「url:」和「target:」。 </p> <p>如果省略<span class="codeph"> sp_x </span>參數，或者將其設為""或"any"，則客戶仍可使用欄位指定字串。 如果<span class="codeph"> sp_x </span>參數設為特定欄位，則忽略所有其他欄位指定符字串。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local">關於搜尋</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>顯示結果計數 </p> </td> 
