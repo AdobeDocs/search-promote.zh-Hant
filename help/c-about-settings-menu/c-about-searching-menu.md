@@ -1,16 +1,14 @@
 ---
 description: 使用「搜尋」功能表可設定排除的字詞、系列、限制、預覽和框架。
-seo-description: 使用「搜尋」功能表可設定排除的字詞、系列、限制、預覽和框架。
-seo-title: 關於「搜索」菜單
 solution: Target
 subtopic: Searching
 title: 關於「搜索」菜單
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '11182'
+source-wordcount: '11170'
 ht-degree: 1%
 
 ---
@@ -215,7 +213,7 @@ t_adding_a_new_definition.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>帳戶 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為來源時，此選項才可用。 </p> <p>可讓您選取您要搜尋的網站搜尋／銷售帳戶。 通常，搜尋會在您目前使用的帳戶中搜尋。 不過，您的簡報範本可以對任何其他帳戶使用後端搜尋。 </p> </td> 
+      <td colname="col2"> <p>此選項僅在選擇<span class="uicontrol">Search&amp;Promote</span>作為源時可用。 </p> <p>可讓您選取您要搜尋的網站搜尋／銷售帳戶。 通常，搜尋會在您目前使用的帳戶中搜尋。 不過，您的簡報範本可以對任何其他帳戶使用後端搜尋。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>伺服器名稱/IP </p> </td> 
@@ -243,7 +241,7 @@ t_adding_a_new_definition.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>搜索類型 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為來源時，此選項才可用。 </p> <p>可讓您從下列三種搜尋類型中選擇。 </p> <p> 
+      <td colname="col2"> <p>此選項僅在選擇<span class="uicontrol">Search&amp;Promote</span>作為源時可用。 </p> <p>可讓您從下列三種搜尋類型中選擇。 </p> <p> 
         <ul id="ul_2F6FA9EFD8DB49EEAB866C3D070E2644"> 
           <li id="li_ECFEBEDD86FF4DE2BB768423B3B91B5E"> <span class="uicontrol"> 全部 </span> <p>搜尋包含查詢字串中所有字詞的檔案。 </p> <p>在停用搜尋字詞並忽略這些字元之前，請使用「+」和「-」。 </p> </li> 
           <li id="li_62EB215BDDE74DF0BF76B3BD5B96776F"> <span class="uicontrol"> 任何 </span> <p>允許使用"+"和"-"字首。 </p> </li> 
@@ -252,19 +250,19 @@ t_adding_a_new_definition.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>集合 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為來源時，此選項才可用。 </p> <p>識別索引中您要搜尋的系列。 </p> </td> 
+      <td colname="col2"> <p>此選項僅在選擇<span class="uicontrol">Search&amp;Promote</span>作為源時可用。 </p> <p>識別索引中您要搜尋的系列。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>促銷活動 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為來源時，此選項才可用。 </p> <p>可讓您根據您指定的<span class="uicontrol">結果數</span>，從搜尋結果中使用隨機選擇。 </p> <p>促銷活動是舊有的概念。 因此，我們建議您在網站搜尋／銷售中使用新的橫幅管理系統。 </p> <p>請參閱<a href="../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA" type="concept" format="dita" scope="local">關於橫幅廣告</a>。 </p> </td> 
+      <td colname="col2"> <p>此選項僅在選擇<span class="uicontrol">Search&amp;Promote</span>作為源時可用。 </p> <p>可讓您根據您指定的<span class="uicontrol">結果數</span>，從搜尋結果中使用隨機選擇。 </p> <p>促銷活動是舊有的概念。 因此，我們建議您在網站搜尋／銷售中使用新的橫幅管理系統。 </p> <p>請參閱<a href="../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA" type="concept" format="dita" scope="local">關於橫幅廣告</a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>套用Facet參數 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為源，並且選擇了<span class="uicontrol"> Promosearch </span>時，此選項才可用。 </p> <p>指定促銷搜尋會使用選取的刻面來縮小促銷範圍。 大多數促銷搜尋帳戶都不使用此選項。 </p> </td> 
+      <td colname="col2"> <p>只有在選擇<span class="uicontrol">Search&amp;Promote</span>作為源，並選擇<span class="uicontrol">促銷搜索</span>時，此選項才可用。 </p> <p>指定促銷搜尋會使用選取的刻面來縮小促銷範圍。 大多數促銷搜尋帳戶都不使用此選項。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>如果沒有匹配的促銷，請提供預設促銷 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為源，並且選擇了<span class="uicontrol"> Promosearch </span>時，此選項才可用。 </p> <p>指定如果促銷的初始搜索未找到任何內容，則會執行另一個促銷搜索。 促銷的第二次搜尋會捨棄關鍵字。 相反地，它會尋找任何將「is_default」中繼資料欄位設為「yes」的促銷。 </p> </td> 
+      <td colname="col2"> <p>只有在選擇<span class="uicontrol">Search&amp;Promote</span>作為源，並選擇<span class="uicontrol">促銷搜索</span>時，此選項才可用。 </p> <p>指定如果促銷的初始搜索未找到任何內容，則會執行另一個促銷搜索。 促銷的第二次搜尋會捨棄關鍵字。 相反地，它會尋找任何將「is_default」中繼資料欄位設為「yes」的促銷。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>反白顯示搜尋 </p> </td> 
@@ -348,7 +346,7 @@ t_editing_a_search_definition.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>帳戶 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為來源時，此選項才可用。 </p> <p>可讓您選取您要搜尋的網站搜尋／銷售帳戶。 通常，搜尋會在您目前使用的帳戶中搜尋。 不過，您的簡報範本可以對任何其他帳戶使用後端搜尋。 </p> </td> 
+      <td colname="col2"> <p>此選項僅在選擇<span class="uicontrol">Search&amp;Promote</span>作為源時可用。 </p> <p>可讓您選取您要搜尋的網站搜尋／銷售帳戶。 通常，搜尋會在您目前使用的帳戶中搜尋。 不過，您的簡報範本可以對任何其他帳戶使用後端搜尋。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>伺服器名稱/IP </p> </td> 
@@ -376,7 +374,7 @@ t_editing_a_search_definition.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>搜索類型 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為來源時，此選項才可用。 </p> <p>可讓您從下列三種搜尋類型中選擇。 </p> <p> 
+      <td colname="col2"> <p>此選項僅在選擇<span class="uicontrol">Search&amp;Promote</span>作為源時可用。 </p> <p>可讓您從下列三種搜尋類型中選擇。 </p> <p> 
         <ul id="ul_E1D8B3DE9DB24DE4813D53F6298A03A6"> 
           <li id="li_C3DD7AA7699B477A9EE0731CFC012630"> <span class="uicontrol"> 全部 </span> <p>搜尋包含查詢字串中所有字詞的檔案。 </p> <p>在停用搜尋字詞並忽略這些字元之前，請使用「+」和「-」。 </p> </li> 
           <li id="li_4C66B9EFEFA042908A4D3730F9F54EB0"> <span class="uicontrol"> 任何 </span> <p>允許使用"+"和"-"字首。 </p> </li> 
@@ -385,19 +383,19 @@ t_editing_a_search_definition.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>集合 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為來源時，此選項才可用。 </p> <p>識別索引中您要搜尋的系列。 </p> </td> 
+      <td colname="col2"> <p>此選項僅在選擇<span class="uicontrol">Search&amp;Promote</span>作為源時可用。 </p> <p>識別索引中您要搜尋的系列。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>促銷活動 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為來源時，此選項才可用。 </p> <p>可讓您根據您指定的<span class="uicontrol">結果數</span>，從搜尋結果中使用隨機選擇。 </p> <p>促銷活動是舊有的概念。 因此，我們建議您在網站搜尋／銷售中使用新的橫幅管理系統。 </p> <p>請參閱<a href="../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA" type="concept" format="dita" scope="local">關於橫幅廣告</a>。 </p> </td> 
+      <td colname="col2"> <p>此選項僅在選擇<span class="uicontrol">Search&amp;Promote</span>作為源時可用。 </p> <p>可讓您根據您指定的<span class="uicontrol">結果數</span>，從搜尋結果中使用隨機選擇。 </p> <p>促銷活動是舊有的概念。 因此，我們建議您在網站搜尋／銷售中使用新的橫幅管理系統。 </p> <p>請參閱<a href="../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA" type="concept" format="dita" scope="local">關於橫幅廣告</a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>套用Facet參數 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為源，並且選擇了<span class="uicontrol"> Promosearch </span>時，此選項才可用。 </p> <p>指定促銷搜尋會使用選取的刻面來縮小促銷範圍。 大多數促銷搜尋帳戶都不使用此選項。 </p> </td> 
+      <td colname="col2"> <p>只有在選擇<span class="uicontrol">Search&amp;Promote</span>作為源，並選擇<span class="uicontrol">促銷搜索</span>時，此選項才可用。 </p> <p>指定促銷搜尋會使用選取的刻面來縮小促銷範圍。 大多數促銷搜尋帳戶都不使用此選項。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>如果沒有匹配的促銷，請提供預設促銷 </p> </td> 
-      <td colname="col2"> <p>只有在您選擇<span class="uicontrol"> Search&amp;Promote </span>作為源，並且選擇了<span class="uicontrol"> Promosearch </span>時，此選項才可用。 </p> <p>指定如果促銷的初始搜索未找到任何內容，則會執行另一個促銷搜索。 促銷的第二次搜尋會捨棄關鍵字。 相反地，它會尋找任何將「is_default」中繼資料欄位設為「yes」的促銷。 </p> </td> 
+      <td colname="col2"> <p>只有在選擇<span class="uicontrol">Search&amp;Promote</span>作為源，並選擇<span class="uicontrol">促銷搜索</span>時，此選項才可用。 </p> <p>指定如果促銷的初始搜索未找到任何內容，則會執行另一個促銷搜索。 促銷的第二次搜尋會捨棄關鍵字。 相反地，它會尋找任何將「is_default」中繼資料欄位設為「yes」的促銷。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>反白顯示搜尋 </p> </td> 
@@ -735,7 +733,7 @@ c_about_collections.xml
 
 在「系列」設定的效果對客戶可見之前，請先重建您的網站索引。
 
-您可以在選用的&#x200B;**[!UICONTROL Test Collections]**&#x200B;欄位中輸入您的網站URL，然後按一下&#x200B;**[!UICONTROL Test]**，以測試您的系列。 指定頁面所屬的系列會傳回。
+您可以在選用的&#x200B;**[!UICONTROL Test Collections]**&#x200B;欄位中輸入您的其中一個網站URL，然後按一下&#x200B;**[!UICONTROL Test]**&#x200B;來測試您的系列。 指定頁面所屬的系列會傳回。
 
 每個系列都會在具有名稱和URL遮色片的單一行上指定。 URL遮色片可包含下列項目：
 
@@ -989,7 +987,7 @@ c_about_feeds.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Recommendations </p> </td> 
-   <td colname="col2"> <p>Recommendations 動態消息提供Adobe Recommendations的資料匯集功能。 </p> </td> 
+   <td colname="col2"> <p>Recommendations 動態消息與Adobe Recommendations提供資料匯集功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>一般動態消息 </p> </td> 
@@ -1012,7 +1010,7 @@ c_about_feeds.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Google網站地圖 </p> </td> 
-   <td colname="col2"> <p>Google網站地圖可讓您影響Google搜尋您網站的方式。 匯集資料饋送（在此例中為網站地圖）會定期提交至Google網站地圖。 網站地圖包含可存取網際網路的URL，以及可與每個URL關聯的特定資訊，例如上次修改日期或頁面優先順序。 向谷歌提供此類資訊，可以增加搜索和索引特定頁面的頻率和機率。 在某些情況下，網站地圖會用來通告其爬蟲在正常情況下無法存取的連結清單。 </p> <p>如果您想要使用我們的動態消息功能建立Google網站地圖，請聯絡您的客戶代表。 Google已將其Google網站地圖服務公開給大眾，並在其Google網站管理員工具頁面提供檔案。 </p> <p> <b>建立Google網站地圖摘要的需求</b> </p> <p>若要建立Google網站地圖摘要，請確定您已設定Google網站地圖的Google網站主要工具帳戶。 如需設定Google網站地圖，請參閱Google網站管理員工具檔案。 </p> <p>您也需要決定如何傳送網站地圖檔案。 一般而言，網站地圖檔案來自您的網域，尤其是您網站的根目錄。 簡單的模型是讓檔案透過FTP傳送至您的伺服器。 另一個解決方案是將網站地圖檔案的要求重新導向至網站搜尋／銷售內容網路。 請洽詢您的諮詢代表，以協調和設定網站地圖饋送的傳送。 </p> </td> 
+   <td colname="col2"> <p>Google網站地圖可讓您影響Google搜尋您網站的方式。 匯集資料饋送（在此例中為網站地圖）會定期提交至Google網站地圖。 網站地圖包含可存取網際網路的URL，以及可與每個URL關聯的特定資訊，例如上次修改日期或頁面優先順序。 向谷歌提供此類資訊，可以增加搜索和索引特定頁面的頻率和機率。 在某些情況下，網站地圖會用來通告其爬蟲在正常情況下無法存取的連結清單。 </p> <p>如果您想要使用我們的動態消息功能建立Google網站地圖，請聯絡您的客戶代表。 Google已將其Google網站地圖服務公開給大眾，並在其Google網站管理員工具頁面提供檔案。 </p> <p> <b>建立Google網站地圖摘要的需求</b> </p> <p>若要建立Google網站地圖摘要，請確定您已設定Google網站地圖的Google網站主控工具帳戶。 如需設定Google網站地圖，請參閱Google網站管理員工具檔案。 </p> <p>您也需要決定如何傳送網站地圖檔案。 一般而言，網站地圖檔案來自您的網域，尤其是您網站的根目錄。 簡單的模型是讓檔案透過FTP傳送至您的伺服器。 另一個解決方案是將網站地圖檔案的要求重新導向至網站搜尋／銷售內容網路。 請洽詢您的諮詢代表，以協調和設定網站地圖饋送的傳送。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1078,7 +1076,7 @@ t_creating_a_feed.xml
       <tr> 
       <td colname="col1"> <p>2 </p> </td> 
       <td colname="col2"> <p>欄位地圖 </p> </td> 
-      <td colname="col3"> <p>可讓您將廠商特定的饋送欄位對應至網站搜尋／銷售中繼資料欄位。 精靈中的此對應步驟很重要，因為它可讓動態消息將索引中欄位與動態消息資料欄位之間的資訊建立關聯。 在大多數情況下，除<span class="wintitle">一般饋送</span>外，關聯會儲存在動態產生的搜尋範本中。 </p> <p><span class="wintitle">欄位映射</span>表中的每一行都表示欄位映射。 在表格的「添加／刪除」列中，按一下<span class="uicontrol"> + </span>添加新欄位映射行；按一下<span class="uicontrol"> - </span>從表中刪除當前選定的欄位映射行。 若要將動態消息欄位與網站搜尋／銷售中繼資料欄位建立關聯，請使用個別的下拉式清單來選擇所要的欄位。 </p> <p> <b>Adobe Recommendations的欄位對應</b> </p> <p>建議資料饋送是CSV檔案，資料欄以逗號分隔。 「欄位對應」表格上每個對應的外觀順序很重要，因為它們會決定CSV饋送檔案中欄的順序。 按照以下順序建立映射行——每行是必需的： </p> <p> 
+      <td colname="col3"> <p>可讓您將廠商特定的饋送欄位對應至網站搜尋／銷售中繼資料欄位。 精靈中的此對應步驟很重要，因為它可讓動態消息將索引中欄位與動態消息資料欄位之間的資訊建立關聯。 在大多數情況下，除<span class="wintitle">一般饋送</span>外，關聯會儲存在動態產生的搜尋範本中。 </p> <p><span class="wintitle">欄位映射</span>表中的每一行都表示欄位映射。 在表格的「添加／刪除」列中，按一下<span class="uicontrol"> + </span>添加新欄位映射行；按一下<span class="uicontrol"> - </span>從表中刪除當前選定的欄位映射行。 若要將動態消息欄位與網站搜尋／銷售中繼資料欄位建立關聯，請使用個別的下拉式清單來選擇所要的欄位。 </p> <p> <b>Adobe Recommendations的欄位映射</b> </p> <p>建議資料饋送是CSV檔案，資料欄以逗號分隔。 「欄位對應」表格上每個對應的外觀順序很重要，因為它們會決定CSV饋送檔案中欄的順序。 按照以下順序建立映射行——每行是必需的： </p> <p> 
         <ol id="ol_49C739D04DD340168DC6C1F794544C35"> 
           <li id="li_A95D9C5A353746A3A0D38F200AC2EEA2"> id </li> 
           <li id="li_044763D4C7054CEB948C94590735D74F"> name </li> 
@@ -1143,7 +1141,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>摘要名稱 </p> </td> 
       <td colname="col3"> <p>指定動態消息的名稱。 </p> </td> 
       </tr> 
@@ -1159,7 +1157,7 @@ t_creating_a_feed.xml
         </ul> <p>一般饋送需要指定特殊的CGI參數。 若要系結與此饋送關聯的特殊範本，請定義<span class="codeph"> sp_t </span>參數。 將<span class="codeph"> sp_t </span>的值設定為傳輸模板檔案的名稱。 例如，如果您新增了名為<span class="codeph"> super_feed.tpl </span>的傳輸範本檔案，您會建立自訂CGI搜尋參數為<span class="codeph"> sp_t=super_feed </span>。 在從<span class="wintitle">元欄位</span>下拉清單中選擇<span class="uicontrol">自由格式</span>之前，輸入<span class="codeph"> sp_t </span>的文本框不會出現。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>檔案提交 </p> </td> 
       <td colname="col3"> <p>可讓您設定提交動態消息檔案的排程，並設定您要用來上傳檔案的方法。 </p> 
         <ul id="ul_30E830C41F6A4526822AF1FD3083075A"> 
@@ -1211,7 +1209,7 @@ t_creating_a_feed.xml
       <td colname="col3"> <p>可讓您將廠商特定的饋送欄位對應至網站搜尋／銷售中繼資料欄位。 精靈中的此對應步驟很重要，因為它可讓動態消息將索引中欄位與動態消息資料欄位之間的資訊建立關聯。 在大多數情況下，除<span class="wintitle">一般饋送</span>外，關聯會儲存在動態產生的搜尋範本中。 </p> <p>「欄位映射」表中的每一行都表示欄位映射。 在表格的<span class="wintitle"> 「新增／移除</span>」欄中，按一下「<span class="uicontrol"> + </span>」以新增欄位對應列；按一下<span class="uicontrol"> - </span>從表中刪除當前選定的欄位映射行。 若要將動態消息欄位與網站搜尋／銷售中繼資料欄位建立關聯，請使用個別的下拉式清單來選擇所要的欄位。 </p> <p> <b>進階使用</b> </p> <p>您可以建立自己的自訂欄位。 在「<span class="wintitle">饋送欄位</span>」下拉式清單中，按一下「自訂</span>」。 <span class="uicontrol">在關聯的文字欄位中，輸入該欄位的自訂標籤名稱。 如果動態消息需要特定於供應商的特殊欄位，此自訂選項很實用。 </span></p> <p>您也可以建立自訂中繼資料欄位。 在<span class="wintitle">中繼資料欄位</span>下拉式清單中，按一下<span class="uicontrol">自訂</span>。 在關聯的文字欄位中，輸入自訂中繼資料欄位值。 值會插入預先產生的範本中，也可用來插入自訂搜尋範本標籤。 </p> <p>請參閱<a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local">搜尋範本標籤</a>。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>搜尋標準 </p> </td> 
       <td colname="col3"> <p>產生饋送檔案時，會使用搜尋查詢來篩選資料。 您可以在此面板中定義用於搜尋查詢的篩選器。 </p> 
         <ul id="ul_8179321A58BB4C72B0CDB2B2BEC58FE4"> 
@@ -1266,7 +1264,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>摘要名稱 </p> </td> 
       <td colname="col3"> <p>指定動態消息的名稱。 </p> </td> 
       </tr> 
@@ -1276,7 +1274,7 @@ t_creating_a_feed.xml
       <td colname="col3"> <p>可讓您將廠商特定的饋送欄位對應至網站搜尋／銷售中繼資料欄位。 精靈中的此對應步驟很重要，因為它可讓動態消息將索引中欄位與動態消息資料欄位之間的資訊建立關聯。 在大多數情況下，除<span class="wintitle">一般饋送</span>外，關聯會儲存在動態產生的搜尋範本中。 </p> <p>「欄位映射」表中的每一行都表示欄位映射。 在表格的「添加／刪除」列中，按一下<span class="uicontrol"> + </span>添加新欄位映射行；按一下<span class="uicontrol"> - </span>從表中刪除當前選定的欄位映射行。 若要將動態消息欄位與中繼資料欄位建立關聯，請使用個別的下拉式清單來選擇所要的欄位。 </p> <p> <b>進階使用</b> </p> <p>您可以建立自己的自訂欄位。 在「<span class="wintitle">饋送欄位</span>」下拉式清單中，按一下「自訂</span>」。 <span class="uicontrol">在關聯的文字欄位中，輸入該欄位的自訂標籤名稱。 如果動態消息需要特定於供應商的特殊欄位，此自訂選項很實用。 </span></p> <p>您也可以建立自訂中繼資料欄位。 在<span class="wintitle">中繼資料欄位</span>下拉式清單中，按一下<span class="uicontrol">自訂</span>。 在關聯的文字欄位中，輸入自訂中繼資料欄位值。 值會插入預先產生的範本中，也可用來插入自訂搜尋範本標籤。 </p> <p>請參閱<a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local">搜尋範本標籤</a>。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>搜尋標準 </p> </td> 
       <td colname="col3"> <p>產生饋送檔案時，會使用搜尋查詢來篩選資料。 您可以在此面板中定義用於搜尋查詢的篩選器。 </p> 
         <ul id="ul_994585E89A044BD3A89A99D30F277432"> 
