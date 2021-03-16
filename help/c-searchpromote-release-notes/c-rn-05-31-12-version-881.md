@@ -1,21 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.8.1發行說明(05/31/2012)
+description: Search&amp;Promote 8.8.1發行說明。
 solution: Target
 title: Search&amp;Promote 8.8.1發行說明(05/31/2012)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: d2d3b02a-57a6-4dcd-9808-b0bf890ba4d3
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 69%
+source-wordcount: '122'
+ht-degree: 65%
 
 ---
 
 
-# Search&amp;Promote 8.8.1發行說明(05/31/2012){#search-promote-release-notes}
+# Search&amp;Promote8.8.1發行說明(05/31/2012){#search-promote-release-notes}
 
 **修正和增強功能**
 
