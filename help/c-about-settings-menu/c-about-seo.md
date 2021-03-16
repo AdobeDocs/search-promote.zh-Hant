@@ -1,16 +1,14 @@
 ---
 description: 您可以使用搜尋引擎最佳化(SEO)中繼標籤，協助您量身打造頁面的特定元素，進而改善搜尋引擎的位置。
-seo-description: 您可以使用搜尋引擎最佳化(SEO)中繼標籤，協助您量身打造頁面的特定元素，進而改善搜尋引擎的位置。
-seo-title: 關於SEO
 solution: Target
 subtopic: SEO
 title: 關於SEO
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: 5c5d64f5-fe79-4489-85c6-399d1437f2c4
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -217,7 +215,7 @@ SEO欄位的`<search-include>`標籤`file`屬性的9個可能值如下：
 
 ## 預覽您設定的{#task_3F97949E193C4F92A104AD117FE49621} SEO中繼標籤
 
-您可以預覽您設定的SEO欄位的產生值，以查看您使用這些欄位的插入內容。
+您可以預覽您設定的SEO欄位的產生值，以查看在何處插入的項目。
 
 SEO欄位可包含欄位值，因此搜尋結果可能取決於您指定的搜尋查詢。
 
