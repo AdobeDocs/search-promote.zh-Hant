@@ -1,16 +1,14 @@
 ---
 description: 您可以使用「完整索引」為分段或即時網站的所有頁面建立索引。 索引功能可協助您的客戶在執行搜尋時，更輕鬆地找到他們所尋找的項目或所需項目。
-seo-description: 您可以使用「完整索引」為分段或即時網站的所有頁面建立索引。 索引功能可協助您的客戶在執行搜尋時，更輕鬆地找到他們所尋找的項目或所需項目。
-seo-title: 關於完整索引
 solution: Target
 subtopic: Full Index
 title: 關於完整索引
-topic: Index,Site search and merchandising
+topic: 索引、網站搜尋與銷售
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
