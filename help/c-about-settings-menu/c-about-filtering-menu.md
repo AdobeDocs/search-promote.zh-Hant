@@ -1,16 +1,14 @@
 ---
 description: 使用「篩選」菜單，可以使用在編製索引之前更改Web文檔內容的指令碼。
-seo-description: 使用「篩選」菜單，可以使用在編製索引之前更改Web文檔內容的指令碼。
-seo-title: 關於篩選功能表
 solution: Target
 subtopic: Filtering
 title: 關於篩選功能表
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: ebb08fa8-4e17-417d-868b-11fc2af9f284
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4026'
+source-wordcount: '4008'
 ht-degree: 1%
 
 ---
@@ -164,7 +162,7 @@ if ($main::ws_content_type =~ /^text\/html/) {
 
 ## 添加篩選指令碼{#task_0AB84FD1133F47F9AA069A79BEA13A22}
 
-過濾指令碼是一個Perl指令碼，用於從您的網站下載的每個文檔。
+過濾指令碼是Perl指令碼，用於從您的網站下載的每個文檔。
 
 您可將篩選指令碼與初始化指令碼、終止指令碼和URL遮色片指令碼搭配使用。
 
@@ -690,7 +688,7 @@ exclude *
 
 * PDF檔案
 * 文字檔案
-* Adobe Flash影片
+* AdobeFlash電影
 * Microsoft Word檔案
 * Microsoft Office檔案(OpenXML)
 * Microsoft Excel檔案
