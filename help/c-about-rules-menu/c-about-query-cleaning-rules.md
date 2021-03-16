@@ -1,15 +1,13 @@
 ---
 description: 使用查詢清除規則來分析和修改傳入查詢。
-seo-description: 使用查詢清除規則來分析和修改傳入查詢。
-seo-title: 關於查詢清除規則
 solution: Target
 title: 關於查詢清除規則
-topic: Rules,Site search and merchandising
+topic: 規則、網站搜尋與銷售
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 translation-type: tm+mt
-source-git-commit: d07cdc2c88f93eed4cecb0ee8818f7fdea06ee9d
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1601'
 ht-degree: 1%
 
 ---
