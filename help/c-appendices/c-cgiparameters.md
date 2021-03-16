@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: CGI參數
+description: 瞭解如何使用各種CGI參數。
 solution: Target
 title: CGI參數
-topic: Appendices,Site search and merchandising
+topic: 附錄、網站搜尋與銷售
 uuid: a5f43547-bc15-44aa-ba23-6b8b573e09d2
 translation-type: tm+mt
-source-git-commit: 930ceebc6c35006c6b8bc96bc799b3242b6818e1
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1943'
 ht-degree: 1%
 
 ---
