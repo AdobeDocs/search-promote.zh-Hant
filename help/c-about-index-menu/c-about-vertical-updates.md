@@ -1,16 +1,14 @@
 ---
 description: 您可以使用「垂直更新」快速更新索引的部分，而不需要處理大量資料。
-seo-description: 您可以使用「垂直更新」快速更新索引的部分，而不需要處理大量資料。
-seo-title: 關於垂直更新
 solution: Target
 subtopic: Vertical Update
 title: 關於垂直更新
-topic: Index,Site search and merchandising
+topic: 索引、網站搜尋與銷售
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -24,7 +22,7 @@ ht-degree: 0%
 
 垂直索引只需數秒即可執行，對於大容量電子商務網站非常有用，因為這些網站需要數小時才能完整或逐步建立索引。
 
-當生成垂直索引時，會顯示狀態資訊，如索引過程中的開始時間、用時和錯誤。
+當生成垂直索引時，會顯示狀態資訊，如索引過程中的開始時間、佔用時間和錯誤。
 
 您可以隨時停止或重新啟動垂直索引程式。
 
