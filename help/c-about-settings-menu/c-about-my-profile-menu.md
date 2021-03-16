@@ -1,16 +1,14 @@
 ---
 description: 使用「我的配置檔案」菜單可以設定個人資訊、首選項、登錄密碼和查看訪問權限。
-seo-description: 使用「我的配置檔案」菜單可以設定個人資訊、首選項、登錄密碼和查看訪問權限。
-seo-title: 關於我的個人檔案功能表
 solution: Target
 subtopic: My Profile
 title: 關於我的個人檔案功能表
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: 6a0a4e57-59fa-48fb-b712-eb16a9f47c3a
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -107,7 +105,7 @@ ht-degree: 0%
 
 ## 取消登錄{#task_D57701BB726243B08CEA14EEC86C3087}
 
-您可以選擇取消您的Adobe登入。 如果您取消登入，則無法透過顯示的登入電子郵件存取此帳戶或任何其他Adobe帳戶。
+您可以選擇取消Adobe登入。 如果您取消登入，則無法使用顯示的登入電子郵件存取此帳戶或任何其他Adobe帳戶。
 
 身為帳戶擁有者，在您取消登入前，請將帳戶擁有權轉讓給其他有效帳戶使用者。 當此動作完成時，您可以像其他帳戶使用者一樣取消登入。
 
