@@ -1,15 +1,13 @@
 ---
 description: 您可以設定「您的意思是」，讓客戶在嘗試失敗的搜尋時獲得有效搜尋詞的建議。 建議是透過尋找拼字並輸入導致有效搜尋之搜尋詞的修正來形成。
-seo-description: 您可以設定「您的意思是」，讓客戶在嘗試失敗的搜尋時獲得有效搜尋詞的建議。 建議是透過尋找拼字並輸入導致有效搜尋之搜尋詞的修正來形成。
-seo-title: 你是說
 solution: Target
 title: 你是說
-topic: Linguistics,Site search and merchandising
+topic: 語言學、網站搜尋與商品銷售
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
