@@ -1,16 +1,14 @@
 ---
 description: 使用「帳戶選項」功能表來更新您的帳戶設定、設定銷售偏好設定，或移除您自己的Search&amp;Promote帳戶。
-seo-description: 使用「帳戶選項」功能表來更新您的帳戶設定、設定銷售偏好設定，或移除您自己的Search&amp;Promote帳戶。
-seo-title: 關於帳戶選項功能表
 solution: Target
 subtopic: Account Options
 title: 關於帳戶選項功能表
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: 0f830033-de9e-4197-8d76-906c818662eb
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1662'
 ht-degree: 2%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 2%
 
 # 關於「帳戶選項」菜單{#about-the-account-options-menu}
 
-使用「帳戶選項」功能表可更新您的帳戶設定、設定銷售偏好設定或移除您自己的Search&amp;Promote帳戶。
+使用「帳戶選項」功能表來更新您的帳戶設定、設定銷售偏好設定或移除您自己的Search&amp;Promote帳戶。
 
 ## 設定您的帳戶設定{#task_80A38D0C8E4F453395BD67B81E4B45D9}
 
@@ -70,7 +68,7 @@ ht-degree: 2%
 
 1. 按一下 **[!UICONTROL Save Changes]**.
 
-## 設定與Adobe CQ5 {#task_EA2FC2C24960498DAE01A1AB769D2F14}的整合
+## 配置與Adobe CQ5 {#task_EA2FC2C24960498DAE01A1AB769D2F14}的整合
 
 您可以設定網站搜尋／銷售與Adobe CQ5的整合。
 
@@ -83,7 +81,7 @@ ht-degree: 2%
 
       例如，若您帳戶的URL路徑為`https://searchandpromote.mycompany.com/px/home/?sp_id=00123a4b-sp1234a5b6`，成員ID應為`00123a4b`，而帳戶ID為`sp1234a5b6`。
 
-1. 在Adobe CQ5中，使用「雲端服務」標籤來建立您的網站搜尋／銷售設定。
+1. 在Adobe CQ5中，使用「Cloud Services」標籤來建立網站搜尋／銷售設定。
 
    對各個設定使用複製的成員ID和帳戶ID。
 
@@ -133,15 +131,15 @@ ht-degree: 2%
 
 1. 按一下 **[!UICONTROL Save Changes]**.
 
-## 設定對Adobe Dynamic Media Classic帳戶的存取權{#task_CEFF88C2033D41D0B2FE86C435EDAC6D}
+## 配置對AdobeDynamic Media經典帳戶的訪問{#task_CEFF88C2033D41D0B2FE86C435EDAC6D}
 
-將您的網站搜尋／銷售帳戶連結至Adobe Dynamic Media Classic，如此您就可以使用從Adobe Scene7上傳的數位資產，輕鬆將橫幅廣告新增至網站。
+將您的網站搜尋／銷售帳戶連結至AdobeDynamic Media經典網站，如此您就可以使用從Adobe Scene7上傳的數位資產，輕鬆將橫幅廣告加入網站。
 
 請參閱[關於橫幅廣告](../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA)。
 
-請參閱[使用Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)新增橫幅。
+請參閱[使用AdobeDynamic Media經典添加橫幅。](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)
 
-**若要設定對Adobe Dynamic Media Classic帳戶的存取權**
+**配置對AdobeDynamic Media經典帳戶的訪問**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Scene7 Configuration]**」。
 1. 在[!DNL Scene7 Configuration]頁面上，設定您想要的選項。
@@ -156,39 +154,39 @@ ht-degree: 2%
     <tbody> 
       <tr> 
       <td colname="col1"> <p>地區 </p> </td> 
-      <td colname="col2"> <p>必要。識別您的Dynamic Media Classic帳戶存取各種Dynamic Media Classic伺服器的世界範圍。 </p> </td> 
+      <td colname="col2"> <p>必要。識別您的Dynamic Media經典帳戶存取各種Dynamic Media經典伺服器的世界地區。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>預設公司 </p> </td> 
-      <td colname="col2"> <p>識別與您的Dynamic Media Classic帳戶關聯的公司名稱。 </p> </td> 
+      <td colname="col2"> <p>識別與您的Dynamic Media經典帳戶關聯的公司名稱。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> 「電子郵件」 </p> </td> 
-      <td colname="col2"> <p>必要。識別用於Dynamic Media Classic登入和通訊的電子郵件地址。 </p> </td> 
+      <td colname="col2"> <p>必要。識別您用於Dynamic MediaClassic登入和通訊的電子郵件地址。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>密碼 </p> </td> 
-      <td colname="col2"> <p>必要。您的Dynamic Media Classic登入密碼。 </p> </td> 
+      <td colname="col2"> <p>必要。您的Dynamic Media經典登入密碼。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>已啟用 </p> </td> 
-      <td colname="col2"> <p>啟用網站搜尋／銷售中的所有Dynamic Media Classic控制項。 </p> </td> 
+      <td colname="col2"> <p>啟用網站搜尋／銷售中的所有Dynamic Media經典控制項。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>測試 </p> </td> 
-      <td colname="col2"> <p>驗證您的Dynamic Media Classic地區名稱、電子郵件地址和密碼詳細資訊是否正確。 </p> </td> 
+      <td colname="col2"> <p>驗證您的Dynamic Media經典地區名稱、電子郵件地址和密碼詳細資訊是否正確。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. （可選）按一下&#x200B;**[!UICONTROL Test]**&#x200B;以確認您的Dynamic Media Classic地區名稱、電子郵件地址和密碼詳細資訊是否正確。
+1. （可選）按一下&#x200B;**[!UICONTROL Test]**&#x200B;以確認您的Dynamic Media傳統地區名稱、電子郵件地址和密碼詳細資訊是否正確。
 1. 按一下 **[!UICONTROL Save Changes]**.
 
-## 設定Adobe Analytics重新導向程式{#task_2C9DE333FD7246E4A460FC0F55204160}
+## 配置Adobe Analytics重定向器{#task_2C9DE333FD7246E4A460FC0F55204160}
 
 如果您使用[!DNL Adobe Analytics]來追蹤網站訪客，則可在網站搜尋／銷售中使用[!DNL Adobe Analytics Redirector]來追蹤所有具有[!DNL Adobe Analytics]的HTTP重新導向。
 
-**若要設定Adobe Analytics重新導向程式**
+**配置Adobe Analytics重定向器**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Adobe Analytics Redirector]**」。
 1. 在[!DNL Adobe Analytics Redirector]頁面上，設定您想要的選項。
@@ -203,13 +201,13 @@ ht-degree: 2%
     <tbody> 
       <tr> 
       <td colname="col1"> <p>開啟Adobe Analytics重新導向程式功能 </p> </td> 
-      <td colname="col2"> <p>開啟使用Adobe Analytics追蹤HTTP重新導向。 </p> </td> 
+      <td colname="col2"> <p>啟用Adobe Analytics追蹤HTTP重新導向。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>追蹤伺服器 </p> </td> 
       <td colname="col2"> <p> 識別您的Adobe Analytics追蹤伺服器名稱。 </p> <p>若要找出追蹤伺服器名稱， </p> <p> 
       <ol id="ol_D17B77E81F8D40D0948415CD60839BE3"> 
-      <li id="li_BE58DBA104D44F0DB6C64AD3F12CEA97"> 在Adobe Analytics中，按一下「<span class="uicontrol">管理員</span> &gt; <span class="uicontrol">管理控制台</span> &gt; <span class="uicontrol">代碼管理員</span>」。 </li> 
+      <li id="li_BE58DBA104D44F0DB6C64AD3F12CEA97"> 在Adobe Analytics，按一下「<span class="uicontrol">管理</span> &gt; <span class="uicontrol">Admin Console</span> &gt; <span class="uicontrol">代碼管理器</span>」。 </li> 
       <li id="li_67A93D17C3A14874928C6DC4FF2D4784"> 在<span class="wintitle">選項</span>群組方塊中，從個別的下拉式清單中選取報表套裝。 </li> 
       <li id="li_5AAB004AC58441DBB0F813BDE30EFFD4"> 按一下「<span class="uicontrol">產生程式碼</span>」。 </li> 
       <li id="li_E80368993F4D4DD69E37509FF4348B36"> 在<span class="wintitle">代碼管理器</span>頁面上，按一下<span class="uicontrol">核心Javascript檔案頁籤</span>。 </li> 
@@ -220,7 +218,7 @@ ht-degree: 2%
       <td colname="col1"> <p>報表套裝 ID </p> </td> 
       <td colname="col2"> <p> 識別您的報表套裝ID。 </p> <p>若要瞭解您的報表套裝ID, </p> <p> 
       <ol id="ol_4FD7B2459358486DBDB130426131D16A"> 
-      <li id="li_9AF624CEB128453C808892EEE385D5D1"> 在Adobe Analytics中，按一下「<span class="uicontrol">管理</span> &gt; <span class="uicontrol">管理控制台</span> &gt; <span class="uicontrol">報表套裝</span>」。 </li> 
+      <li id="li_9AF624CEB128453C808892EEE385D5D1"> 在Adobe Analytics，按一下「<span class="uicontrol">管理</span> &gt; <span class="uicontrol">Admin Console</span> &gt; <span class="uicontrol">報表套裝</span>」。 </li> 
       <li id="li_AAC47EAA04144A67BDCB5C7B8D8098E9"> 查看表格中的<span class="wintitle">報表套裝Id </span>欄，以尋找ID。 </li> 
       </ol> </p> </td> 
       </tr> 
@@ -230,7 +228,7 @@ ht-degree: 2%
       </tr> 
       <tr> 
       <td colname="col1"> <p>將所有自訂值的大小寫設為 </p> </td> 
-      <td colname="col2"> <p>可讓您標準化用於上述任何自訂參數值的外殼。 Adobe Analytics會區分大小寫，因此有理由統一值的大小寫。 </p> </td> 
+      <td colname="col2"> <p>可讓您標準化用於上述任何自訂參數值的外殼。 Adobe Analytics區分大小寫，因此有理由統一價值觀。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
