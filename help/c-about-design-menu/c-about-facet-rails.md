@@ -1,16 +1,14 @@
 ---
 description: 使用Facet邊欄可重新排序網頁上的Facet群組。
-seo-description: 使用Facet邊欄可重新排序網頁上的Facet群組。
-seo-title: 關於Facet邊欄
 solution: Target
 subtopic: Navigation
 title: 關於Facet邊欄
-topic: Design,Site search and merchandising
+topic: 設計、網站搜尋與銷售
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
 translation-type: tm+mt
-source-git-commit: 6b3aa733b0dfaace956f0ffc25f433fefd21e15f
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
