@@ -1,16 +1,14 @@
 ---
 description: 使用「編目」功能表設定日期和URL遮色片、密碼、內容類型、連線、表單定義和URL登入點。
-seo-description: 使用「編目」功能表設定日期和URL遮色片、密碼、內容類型、連線、表單定義和URL登入點。
-seo-title: 關於編目功能表
 solution: Target
 subtopic: Crawling
 title: 關於編目功能表
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '11033'
+source-wordcount: '11016'
 ht-degree: 0%
 
 ---
@@ -229,7 +227,7 @@ exclude https://www.mydomain.com/photos/fall/
 include https://www.mydomain.com/photos/fall/redleaves4.html
 ```
 
-然後，即使蒙版指定包含`/photos/fall/redleaves4.html`，也不會包含&lt;a0/>。
+然後，即使蒙版指定包含`/photos/fall/redleaves4.html`，也不會包含。
 
 首先出現的URL遮色片一律優先於稍後出現在遮色片設定中的URL遮色片。 此外，如果搜尋自動機遇到與包含URL遮色片和排除URL遮色片相符的頁面，則列在第一位的遮色片一律優先。
 
@@ -453,7 +451,7 @@ exclude-days 90 https://www.mydomain.com/archive/fall/
 include-days 0 https://www.mydomain.com/archive/fall/index.html 
 ```
 
-然後，即使蒙版指定應包含`/archive/fall/index.html`，也不會包含&lt;a0/>。 首先出現的日期遮色片一律優先於稍後可能出現在遮色片設定中的日期遮色片。 此外，如果搜尋自動機遇到同時符合包含日期遮色片和排除日期遮色片的頁面，則先列出的遮色片一律優先。
+然後，即使蒙版指定應包含`/archive/fall/index.html`，也不會包含。 首先出現的日期遮色片一律優先於稍後可能出現在遮色片設定中的日期遮色片。 此外，如果搜尋自動機遇到同時符合包含日期遮色片和排除日期遮色片的頁面，則先列出的遮色片一律優先。
 
 請參閱[設定分段網站的遞增索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
 
@@ -639,7 +637,7 @@ https://www.mysite.com/path6 name6 password6
 
 您可以使用[!DNL Content Types]來選擇要為此帳戶編目和索引的檔案類型。
 
-您可選擇編目和建立索引的內容類型包括PDF檔案、文字檔案、Adobe Flash影片、Microsoft Office應用程式（例如Word、Excel和Powerpoint）的檔案，以及MP3檔案中的文字。 在選取的內容類型中找到的文字會連同您網站上所有其他文字一起搜尋。
+您可選擇編目和索引的內容類型包括PDF檔案、文字檔案、AdobeFlash影片、Microsoft Office應用程式（例如Word、Excel和Powerpoint）的檔案，以及MP3檔案中的文字。 在選取的內容類型中找到的文字會連同您網站上所有其他文字一起搜尋。
 
 在客戶看到「內容類型」設定的效果之前，您必須重建網站索引。
 
@@ -682,7 +680,7 @@ MP3檔案的MIME類型為&quot;audio/mpeg&quot;。
 
 您可以使用[!DNL Content Types]來選擇要為此帳戶編目和索引的檔案類型。
 
-您可選擇編目和建立索引的內容類型包括PDF檔案、文字檔案、Adobe Flash影片、Microsoft Office應用程式（例如Word、Excel和Powerpoint）的檔案，以及MP3檔案中的文字。 在選取的內容類型中找到的文字會連同您網站上所有其他文字一起搜尋。
+您可選擇編目和索引的內容類型包括PDF檔案、文字檔案、AdobeFlash影片、Microsoft Office應用程式（例如Word、Excel和Powerpoint）的檔案，以及MP3檔案中的文字。 在選取的內容類型中找到的文字會連同您網站上所有其他文字一起搜尋。
 
 在客戶看到「內容類型」設定的效果之前，您必須重建網站索引。
 
@@ -897,7 +895,7 @@ MP3檔案的MIME類型為&quot;audio/mpeg&quot;。
       </code>標籤可用來判斷資料是使用GET方法還是POST方法傳送至您的伺服器。 </p> <p>如果 
       <code>
         &lt;form&gt; 
-      </code>標籤不包含方法屬性，表單是使用GET方法提交的。 </p> </td> 
+      </code>標籤不包含方法屬性，表單會使用GET方法提交。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -1103,11 +1101,11 @@ index:<indexconnector_configuration_name>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>文字 </p> </td> 
-   <td colname="col2"> <p>先試用制表符，再垂直列(<span class="codeph"> | </span>)，最後加上逗號(<span class="codeph">、</span>)。 如果您在按一下「設定對應<span class="uicontrol">」之前已指定分隔字元值，則會改用該值。</span> </p> <p>最佳配合方案會在Map欄位中填入適當的Tag和Field值的猜測。 另外，顯示所解析資料的採樣。 如果您知道檔案包含標題列，請務必在第一行</span>中選取<span class="uicontrol">標題。 設定函式使用此資訊更好地標識生成的映射條目。 </span></p> </td> 
+   <td colname="col2"> <p>先試用制表符，再垂直列(<span class="codeph"> | </span>)，最後加上逗號(<span class="codeph">、</span>)。 如果您在按一下「設定對應</span>」之前已指定分隔字元值，則會改用該值。<span class="uicontrol"> </span></p> <p>最佳配合方案會在Map欄位中填入適當的Tag和Field值的猜測。 另外，顯示所解析資料的採樣。 如果您知道檔案包含標題列，請務必在第一行</span>中選取<span class="uicontrol">標題。 設定函式使用此資訊更好地標識生成的映射條目。 </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資訊源 </p> </td> 
-   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也會顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有用，因為它描述XML資料並識別Itemtag值。 </p> <p> <p>注意： 「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
+   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有用，因為它描述XML資料並識別Itemtag值。 </p> <p> <p>注意： 「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>XML </p> </td> 
@@ -1231,7 +1229,7 @@ index:<indexconnector_configuration_name>
       <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
       <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> 欄 </span> <p> 指定列號，第一列為1(1)。 要為每個列添加新的映射行，請在<span class="wintitle">操作</span>下按一下<span class="uicontrol"> + </span>。 </p> <p>您不需要參考資料來源中的每一欄。 您可以選擇跳過值。 </p> </li> 
       <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> 欄位 </span> <p>定義用於每個生成的&lt;meta&gt;標籤的名稱屬性值。 </p> </li> 
-      <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> 中繼資料? </span> <p>使<span class="uicontrol">欄位</span>成為下拉式清單，您可從中為目前帳戶選取已定義的中繼資料欄位。 </p> <p>如果需要，<span class="uicontrol">欄位</span>值可以是未定義的中繼資料欄位。 未定義的中繼資料欄位有時對建立<span class="wintitle">篩選指令碼</span>所使用的內容很有用。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local">關於篩選指令碼</a>。 </p> <p>當「索引連接器」在任何地圖欄位上處理具有多次點擊的XML檔案時，會將多個值串連在產生的快取檔案中的單一值中。 依預設，這些值會使用逗號分隔字元來組合。 但是，假設對應的<span class="wintitle">欄位</span>值是已定義的中繼資料欄位。 此外，該欄位還設定了「允許清單<span class="wintitle">」屬性。 </span>在這種情況下，欄位的「清單分隔符」值（定義的第一個分隔符）將用於級聯。 </p> </li> 
+      <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> 中繼資料? </span> <p>使<span class="uicontrol">欄位</span>成為下拉式清單，您可從中為目前帳戶選取已定義的中繼資料欄位。 </p> <p>如果需要，<span class="uicontrol">欄位</span>值可以是未定義的中繼資料欄位。 未定義的中繼資料欄位有時對建立<span class="wintitle">篩選指令碼</span>所使用的內容很有用。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local">關於篩選指令碼</a>。 </p> <p>當「索引連接器」在任何地圖欄位上處理具有多次點擊的XML檔案時，會將多個值串連在產生的快取檔案中的單一值中。 依預設，這些值會使用逗號分隔字元來組合。 但是，假設對應的<span class="wintitle">欄位</span>值是已定義的中繼資料欄位。 此外，該欄位還設定了「允許清單</span>」屬性。 <span class="wintitle">在這種情況下，欄位的「清單分隔符」值（定義的第一個分隔符）將用於級聯。 </span></p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> 主鍵？  </span> <p>只有一個映射定義被標識為主鍵。 此欄位將成為將此文檔添加到索引時顯示的唯一引用。 此值會用於「索引」中檔案的URL中。 </p> <p><span class="uicontrol">主鍵</span>值在「索引連接器」配置表示的所有文檔中都必須是唯一的——所有遇到的重複項都將被忽略。 如果源文檔不包含用作<span class="uicontrol">主鍵</span>的單個唯一值，但將兩個或多個欄位組合在一起<i>可以</i>形成唯一標識符，則可以通過組合多個<span class="uicontrol">列</span>值和垂直條("|")來定義<span class="uicontrol">主鍵</span>值。 </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892D96"> <span class="uicontrol"> 刪除HTML?  </span> <p>勾選此選項時，會移除在此欄位資料中找到的任何HTML標籤。 </p> </li> 
       <li id="li_359D2902859B4C5BADB0BA26F0BA4DC0"> <span class="uicontrol"> 動作 </span> <p>可讓您新增列至地圖或從地圖移除列。 列的順序不重要。 </p> </li> 
@@ -1278,7 +1276,7 @@ index:<indexconnector_configuration_name>
       </tr> 
       <tr> 
       <td colname="col1"> <p>Itemtag </p> </td> 
-      <td colname="col2"> <p>標識可用於標識指定資料源檔案中各個XML行的XML元素。 </p> <p>例如，在Adobe XML檔案的下列Feed片段中，Itemtag值是<span class="codeph">記錄</span>: </p> <p> <code> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
+      <td colname="col2"> <p>標識可用於標識指定資料源檔案中各個XML行的XML元素。 </p> <p>例如，在AdobeXML文檔的以下Feed片段中，Itemtag值為<span class="codeph">記錄</span>: </p> <p> <code> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
         &lt;!DOCTYPE&nbsp;gsafeed&nbsp;PUBLIC&nbsp;"-//Google//DTD&nbsp;GSA&nbsp;Feeds//EN"&nbsp;""&gt; &lt;gsafeed&gt; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;datasource&gt;marketplace&lt;/datasource&gt; 
@@ -1319,15 +1317,15 @@ index:<indexconnector_configuration_name>
       <td colname="col1"> <p>地圖 </p> </td> 
       <td colname="col2"> <p>可讓您使用XPath運算式指定XML元素對中繼資料的映射。 </p> <p> 
       <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
-      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> 標記 </span> <p>指定已解析XML資料的XPath表示法。 使用上述Adobe XML檔案範例，在選項Itemtag下，可使用下列語法來對應它： </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> 標記 </span> <p>指定已解析XML資料的XPath表示法。 使用上述範例AdobeXML檔案，在選項Itemtag下，可使用下列語法來對應它： </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
       /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
       /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
       /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>上述語法的轉譯如下： </p> <p> 
       <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
       <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p><span class="codeph">顯示<span class="codeph">記錄</span>元素的</span>屬性映射至中繼資料欄位<span class="codeph"> page-url </span>。 </p> </li> 
-      <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>包含在<span class="codeph">中繼資料</span>元素內、包含在<span class="codeph">記錄</span>元素內、名稱屬性為<span class="codeph">標題</span>的<span class="codeph">元素的</span>內容&lt;a1/&gt;屬性，對應至中繼資料欄位<span class="codeph">標題</span>。<span class="codeph"></span> </p> </li> 
-      <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>包含在<span class="codeph">記錄</span>元素（其名稱屬性為<span class="codeph">說明</span>）內的<span class="codeph">中繼</span>元素中的<span class="codeph">內容</span>屬性，映射至元資料欄位<span class="codeph"> desc &lt;a111/&gt;。<span class="codeph"></span></span> </p> </li> 
-      <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>包含在<span class="codeph">記錄</span>元素中的&lt;a6/&gt;元資料</span>元素中的<span class="codeph">元素的</span>內容&lt;a1/&gt;屬性，其名稱屬性為<span class="codeph">說明</span>，映射到元資料欄位<span class="codeph">正文</span>。<span class="codeph"><span class="codeph"></span> </span></p> </li> 
+      <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>包含在<span class="codeph">中繼資料</span>元素內、位於<span class="codeph">記錄</span>元素內、名稱屬性為<span class="codeph">標題</span>的</span>元素中的<span class="codeph">內容<span class="codeph">屬性，對應至中繼資料欄位<span class="codeph">標題</span>。</span> </span></p> </li> 
+      <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>包含在<span class="codeph">記錄</span>元素（其名稱屬性為<span class="codeph">說明</span>）內的<span class="codeph">中繼</span>元素中的<span class="codeph">內容</span>屬性，映射至元資料欄位<span class="codeph"> desc <span class="codeph">。</span></span> </p> </li> 
+      <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>包含在<span class="codeph">記錄</span>元素中的</span>元資料</span>元素中的<span class="codeph">元素的</span>內容<span class="codeph">屬性，其名稱屬性為<span class="codeph">說明</span>，映射到元資料欄位<span class="codeph">正文</span>。<span class="codeph"> </span></span></p> </li> 
       </ul> </p> <p>XPath是一個相對複雜的符號。 如需詳細資訊，請造訪下列位置： </p> <p>請參閱<a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> 欄位 </span> <p>定義用於每個生成的<span class="codeph"> &lt;meta&gt; </span>標籤的名稱屬性值。 </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> 中繼資料? </span> <p>使<span class="uicontrol">欄位</span>成為下拉式清單，您可從中為目前帳戶選取已定義的中繼資料欄位。 </p> <p>如果需要，<span class="uicontrol">欄位</span>值可以是未定義的中繼資料欄位。 未定義的中繼資料欄位有時對建立<span class="wintitle">篩選指令碼</span>所使用的內容很有用。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local">關於篩選指令碼</a>。 </p> <p>當「索引連接器」在任何地圖欄位上處理具有多次點擊的XML檔案時，會將多個值串連在產生的快取檔案中的單一值中。 依預設，這些值會使用逗號分隔字元來組合。 但是，假設對應的<span class="wintitle">欄位</span>值是已定義的中繼資料欄位。 此外，該欄位還設定了「允許清單</span>」屬性。 <span class="wintitle">在這種情況下，欄位的「清單分隔符」值（定義的第一個分隔符）將用於級聯。 </span></p> </li> 
@@ -1375,15 +1373,15 @@ index:<indexconnector_configuration_name>
       <td colname="col1"> <p>地圖 </p> </td> 
       <td colname="col2"> <p>可讓您使用欄數指定欄對中繼資料的對應。 </p> <p> 
       <ul id="ul_06F50CBA0AA64C7CB1AFAE076E629A64"> 
-      <li id="li_0FA2502869BA40DC93D790B79E15A9D2"> <span class="uicontrol"> 標記 </span> <p>指定已解析XML資料的XPath表示法。 使用上述Adobe XML檔案範例，在「項目標籤」選項下，您可使用下列語法來對應它： </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0FA2502869BA40DC93D790B79E15A9D2"> <span class="uicontrol"> 標記 </span> <p>指定已解析XML資料的XPath表示法。 使用上述AdobeXML文檔示例，在選項Itemtag下，可以使用以下語法映射它： </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>上述語法的轉譯如下： </p> <p> 
       <ul id="ul_F8C536E6E54546D9AA5B22B879C0AF39"> 
       <li id="li_78A35DFFF1B4496CAC6EDC7B1E991F29"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p><span class="codeph">顯示<span class="codeph">記錄</span>元素的</span>屬性映射至中繼資料欄位<span class="codeph"> page-url </span>。 </p> </li> 
-      <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>包含在<span class="codeph">中繼資料</span>元素內、包含在<span class="codeph">記錄</span>元素內、名稱屬性為<span class="codeph">標題</span>的<span class="codeph">元素的</span>內容&lt;a1/&gt;屬性，對應至中繼資料欄位<span class="codeph">標題</span>。<span class="codeph"></span> </p> </li> 
-      <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>包含在<span class="codeph">記錄</span>元素（其名稱屬性為<span class="codeph">說明</span>）內的<span class="codeph">中繼</span>元素中的<span class="codeph">內容</span>屬性，映射至元資料欄位<span class="codeph"> desc &lt;a111/&gt;。<span class="codeph"></span></span> </p> </li> 
-      <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>包含在<span class="codeph">記錄</span>元素中的&lt;a6/&gt;元資料</span>元素中的<span class="codeph">元素的</span>內容&lt;a1/&gt;屬性，其名稱屬性為<span class="codeph">說明</span>，映射到元資料欄位<span class="codeph">正文</span>。<span class="codeph"><span class="codeph"></span> </span></p> </li> 
+      <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>包含在<span class="codeph">中繼資料</span>元素內、位於<span class="codeph">記錄</span>元素內、名稱屬性為<span class="codeph">標題</span>的</span>元素中的<span class="codeph">內容<span class="codeph">屬性，對應至中繼資料欄位<span class="codeph">標題</span>。</span> </span></p> </li> 
+      <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>包含在<span class="codeph">記錄</span>元素（其名稱屬性為<span class="codeph">說明</span>）內的<span class="codeph">中繼</span>元素中的<span class="codeph">內容</span>屬性，映射至元資料欄位<span class="codeph"> desc <span class="codeph">。</span></span> </p> </li> 
+      <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>包含在<span class="codeph">記錄</span>元素中的</span>元資料</span>元素中的<span class="codeph">元素的</span>內容<span class="codeph">屬性，其名稱屬性為<span class="codeph">說明</span>，映射到元資料欄位<span class="codeph">正文</span>。<span class="codeph"> </span></span></p> </li> 
       </ul> </p> <p>XPath是一個相對複雜的符號。 如需詳細資訊，請造訪下列位置： </p> <p>請參閱<a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_84999D07E0AE4265BC7928BBB49957B9"> <span class="uicontrol"> 欄位 </span> <p>定義用於每個生成的&lt;meta&gt;標籤的名稱屬性值。 </p> </li> 
       <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> 中繼資料? </span> <p>使<span class="uicontrol">欄位</span>成為下拉式清單，您可從中為目前帳戶選取已定義的中繼資料欄位。 </p> <p>如果需要，<span class="uicontrol">欄位</span>值可以是未定義的中繼資料欄位。 未定義的中繼資料欄位有時對建立<span class="wintitle">篩選指令碼</span>所使用的內容很有用。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local">關於篩選指令碼</a>。 </p> <p>當「索引連接器」在任何地圖欄位上處理具有多次點擊的XML檔案時，會將多個值串連在產生的快取檔案中的單一值中。 依預設，這些值會使用逗號分隔字元來組合。 但是，假設對應的<span class="wintitle">欄位</span>值是已定義的中繼資料欄位。 此外，該欄位還設定了「允許清單</span>」屬性。 <span class="wintitle">在這種情況下，欄位的「清單分隔符」值（定義的第一個分隔符）將用於級聯。 </span></p> </li> 
