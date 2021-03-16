@@ -1,16 +1,14 @@
 ---
 description: 使用指令碼式索引，您可以編寫、更新和維護增量索引選項，而無需登錄。 搜索自動機從伺服器上托管的文本檔案中讀取說明。
-seo-description: 使用指令碼式索引，您可以編寫、更新和維護增量索引選項，而無需登錄。 搜索自動機從伺服器上托管的文本檔案中讀取說明。
-seo-title: 關於指令碼式索引
 solution: Target
 subtopic: Scripted Index
 title: 關於指令碼式索引
-topic: Index,Site search and merchandising
+topic: 索引、網站搜尋與銷售
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -34,7 +32,7 @@ ht-degree: 0%
 
 文本檔案以塊的形式組織，這些塊描述了搜索自動機在執行指令碼式增量索引時所使用的資訊。
 
-區塊依日期排序，文字檔上方有最舊的區塊，下方有最新的區塊。 每個區塊都以單行date-command和date-specifier命令開始，並以空行分隔符號結束，如下列區塊範例所示（介於數個命令之間）:
+區塊依日期排序，文字檔上方有最舊的區塊，下方有最新的區塊。 每個塊以單行date-command和date-specifier命令開始，並以空行分隔符結束，如以下塊示例中所示（在之間是幾個命令）:
 
 使用HTTP 1.1樣式時，低於10th的所有序數日期都需要前導零。 例如，11月6日是11月6日，而非11月6日。
 
@@ -59,7 +57,7 @@ ht-degree: 0%
    <td colname="col2"> <p><span class="codeph"> date-specifier </span>命令通常記錄將塊資訊添加到檔案中的順序日期和時間（date命令）或時間秒（秒命令）。 例如: </p> <p> <code> date&nbsp;Sun,&nbsp;06&nbsp;Nov&nbsp;1994&nbsp;08:49:37&nbsp;GMT&nbsp;(HTTP&nbsp;1.1&nbsp;style) 
       date&nbsp;Sunday,&nbsp;06-Nov-94&nbsp;08:49:37&nbsp;GMT&nbsp;(HTTP&nbsp;1.0&nbsp;style) 
       date&nbsp;Sun&nbsp;Nov&nbsp;6&nbsp;08:49:37&nbsp;1994&nbsp;(Unix&nbsp;asctime()&nbsp;date&nbsp;style) 
-      seconds&nbsp;784111777&nbsp;(Unix&nbsp;epoch-seconds&nbsp;style) </code> </p> <p>使用HTTP 1.1樣式時，低於10th的所有序數日期都需要前導零。 例如，11月6日是11月6日，而非11月6日。 </p> <p>搜尋自動機會「記住」最近處理過的區塊的日期指定字元，並僅索引其認為「較新」的資訊。 (即時對搜索機器人並不重要。 相反，與先前處理的時間相比的時間才是重要的。) </p> <p>例如，搜索自動機讀取日期指定符為10:00 p.m的塊後，它不會讀取記錄時間在10:00 p.m.之前的任何塊，而不管索引操作何時運行。 在最壞的情況下，您可能會在日期指定字元中錯誤地輸入"2040"，而非"2004"。 在這種情況下，搜索機器人在下次索引操作期間對2040塊進行索引，然後拒絕讀取任何其他資訊塊（除非有一個2040年後日期）。 如果發生此情況，請移除文字檔案中所有先前處理過的區塊，按一下「清除日期<span class="uicontrol">」，然後即時推送。</span> </p> </td> 
+      seconds&nbsp;784111777&nbsp;(Unix&nbsp;epoch-seconds&nbsp;style) </code> </p> <p>使用HTTP 1.1樣式時，低於10th的所有序數日期都需要前導零。 例如，11月6日是11月6日，而非11月6日。 </p> <p>搜尋自動機會「記住」最近處理過的區塊的日期指定字元，並僅索引其認為「較新」的資訊。 (即時對搜索機器人並不重要。 相反，與先前處理的時間相比的時間才是重要的。) </p> <p>例如，搜索自動機讀取日期指定符為10:00 p.m的塊後，它不會讀取記錄時間在10:00 p.m.之前的任何塊，而不管索引操作何時運行。 在最壞的情況下，您可能會在日期指定字元中錯誤地輸入"2040"，而非"2004"。 在這種情況下，搜索機器人在下次索引操作期間對2040塊進行索引，然後拒絕讀取任何其他資訊塊（除非有一個2040年後日期）。 如果發生此情況，請移除文字檔案中所有先前處理過的區塊，按一下「清除日期</span>」，然後即時推送。<span class="uicontrol"> </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>留言行 </p> </td> 
