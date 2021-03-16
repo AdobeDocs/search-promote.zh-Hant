@@ -1,21 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.10.1發行說明(07/18/2013)
+description: Search&amp;Promote 8.10.1發行說明。
 solution: Target
 title: Search&amp;Promote 8.10.1發行說明(07/18/2013)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: 161d678a-6393-4adb-a47a-e28e108acc31
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 7%
+source-wordcount: '184'
+ht-degree: 6%
 
 ---
 
 
-# Search&amp;Promote 8.10.1發行說明(07/18/2013){#search-promote-release-notes}
+# Search&amp;Promote8.10.1發行說明(07/18/2013){#search-promote-release-notes}
 
 <table> 
  <thead> 
@@ -27,7 +25,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>動態 Facet </p> </td> 
-   <td colname="col2"> <p> 動態Facet是一種新的增強功能，可讓核心搜尋從動態Facet欄位集中傳回特定搜尋的N個最相關動態Facet欄位集。 </p> <p> 如果您對此新增功能感興趣，請聯絡諮詢服務。 他們將執行評估，以瞭解您是否可運用其優點。 </p> </td> 
+   <td colname="col2"> <p> 動態Facet是一種新的增強功能，可讓核心搜尋從動態Facet欄位庫中傳回特定搜尋的N個最相關的動態Facet欄位集。 </p> <p> 如果您對此新增功能感興趣，請聯絡諮詢服務。 他們將執行評估，以瞭解您是否可以利用其優勢。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>德文解壓縮器 </p> </td> 
