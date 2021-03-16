@@ -1,16 +1,14 @@
 ---
 description: 「最近搜尋」是以Cookie為基礎的系統，可讓您使用簡報範本來顯示客戶最近的搜尋記錄。
-seo-description: 「最近搜尋」是以Cookie為基礎的系統，可讓您使用簡報範本來顯示客戶最近的搜尋記錄。
-seo-title: 設定最近搜尋
 solution: Target
 subtopic: Navigation
 title: 設定最近搜尋
-topic: Design,Site search and merchandising
+topic: 設計、網站搜尋與銷售
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '186'
 ht-degree: 2%
 
 ---
