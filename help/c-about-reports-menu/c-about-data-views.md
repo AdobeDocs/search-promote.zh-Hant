@@ -1,15 +1,13 @@
 ---
 description: 「資料檢視」會顯示含有中繼欄位的搜尋結果。 每一欄都是中繼欄位，而每一列都是搜尋查詢的結果。 選擇並重新排列欄，以自訂資料檢視。 資料檢視也可以有自訂標題和說明。
-seo-description: 「資料檢視」會顯示含有中繼欄位的搜尋結果。 每一欄都是中繼欄位，而每一列都是搜尋查詢的結果。 選擇並重新排列欄，以自訂資料檢視。 資料檢視也可以有自訂標題和說明。
-seo-title: 關於資料視圖
 solution: Target
 title: 關於資料視圖
-topic: Reports,Site search and merchandising
+topic: 報表、網站搜尋與銷售
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
