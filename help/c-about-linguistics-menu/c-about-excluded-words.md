@@ -1,15 +1,13 @@
 ---
 description: 您可以使用「排除的字詞」來指定您要排除在搜尋結果外的常用片語和常用字詞，例如"a"和"the"。
-seo-description: 您可以使用「排除的字詞」來指定您要排除在搜尋結果外的常用片語和常用字詞，例如"a"和"the"。
-seo-title: 關於排除的字詞
 solution: Target
 title: 關於排除的字詞
-topic: Linguistics,Site search and merchandising
+topic: 語言學、網站搜尋與商品銷售
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
 translation-type: tm+mt
-source-git-commit: 46cdbdf94ba8f92dba7d03ce80b25a2ae73b228a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
