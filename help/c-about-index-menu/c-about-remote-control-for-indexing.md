@@ -1,15 +1,13 @@
 ---
 description: 每當您的網站變更時，您都可以執行指令碼或程式，要求搜尋自動機使用遠端控制來執行索引。
-seo-description: 每當您的網站變更時，您都可以執行指令碼或程式，要求搜尋自動機使用遠端控制來執行索引。
-seo-title: 關於為索引進行遠程控制
 solution: Target
 title: 關於為索引進行遠程控制
-topic: Index,Site search and merchandising
+topic: 索引、網站搜尋與銷售
 uuid: 20e230c6-5c1a-4bf4-bff3-b8236d14ab21
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1042'
 ht-degree: 1%
 
 ---
@@ -77,11 +75,11 @@ ht-degree: 1%
       <li id="li_EFC76E31D47E473F9A56B2EBA8A97CA1"> <span class="codeph"> full_index  </span> <p>搜尋機器人會執行您網站的完整索引。 </p> </li> 
       <li id="li_A9ACE21718804A21B3DA7B84AB6729D3"> <span class="codeph"> 增量索引  </span> <p>搜索自動機使用在<span class="uicontrol"><b>Index</b> </span> &gt; <span class="uicontrol"><b>Incremental Index</b> </span> &gt; <span class="uicontrol">Configuration</b></span>下設定的配置來運行增量索引。<b> </b></p> </li> 
       <li id="li_722FE409AE454AD48ACE95C4CDC7A00B"> <span class="codeph"> 垂直索引  </span> <p>搜索自動機使用在<span class="uicontrol"><b>Index</b> </span> &gt; <span class="uicontrol"> <b></span> &gt; <span class="uicontrol"><b>Configuration</b></span>下設定的配置運行垂直更新。</b> </span></p> <p>請參閱<a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local">關於垂直更新</a>。 </p> </li> 
-      <li id="li_A40B513CE17043A4925CE3D4DE0B48A4"> <span class="codeph"> script_index  </span> <p>搜索自動機使用在<span class="uicontrol"><b>索引</b> </span> &gt; <span class="uicontrol"><b>指令碼化索引</b> </span> &gt; <span class="uicontrol">配置</b></span>下指定的文本檔案運行增量索引。<b> </b></p> </li> 
+      <li id="li_A40B513CE17043A4925CE3D4DE0B48A4"> <span class="codeph"> script_index  </span> <p>搜索自動機使用在<span class="uicontrol"><b>Index</b> </span> &gt; <span class="uicontrol"> <b>指令碼化索引</b> </span> &gt; <span class="uicontrol">Configuration</b></span>下指定的文本檔案運行增量索引。<b> </b></p> </li> 
       <li id="li_A0BC7F1373B14393997BAB7690FD3EF7"> <span class="codeph"> full_staged_index  </span> <p>搜尋自動機會執行您網站的完整分段索引。 </p> </li> 
       <li id="li_47753E358457443A95B384A278FACA83"> <span class="codeph"> incremental_staged_index  </span> <p>搜索自動機使用在<span class="uicontrol"><b>Index</b> </span> &gt; <span class="uicontrol"><b>Incremental Index</b> </span> &gt; <span class="uicontrol">Configuration</b></span>下設定的配置來運行增量分段索引。<b> </b></p> </li> 
       <li id="li_C8B5F8F1208E438ABEFDF9129A6B14A3"> <span class="codeph"> 垂直_staged_index  </span> <p>搜索自動機使用在<span class="uicontrol"><b>Index</b> </span> &gt; <span class="uicontrol"> <b></span> <span class="uicontrol"><b>Configuration</b></span>下設定的配置運行垂直分段更新。</b> </span></p> </li> 
-     </ul> </p> <p>注意： 若要使用「垂直更新」，您可能需要由Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。 </p> <p>請參閱<a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local">關於垂直更新</a>。 </p> <p>您可以將<span class="codeph"> _saved </span>附加到上述任何<span class="codeph"> sp_operation </span>值，使搜索自動機嘗試使用保存的內容。 例如，您可以指定下列項目： </p> <p> <code class="syntax html"> sp_operation=full_index_saved </code> </p> <p>或  </p> <p> <code class="syntax html"> sp_operation=full_staged_index_saved </code> </p> <p>或者，您可將<span class="codeph"> _status </span>附加至上述任何<span class="codeph"> sp_operation </span>值，以請求目前或最近的操作的狀態報告。 例如，您可以指定下列項目： </p> <p> <code class="syntax html"> sp_operation=full_index_status </code> </p> <p>或  </p> <p> <code class="syntax html"> sp_operation=full_staged_index_status </code> </p> <p>結果會以JSON物件傳回。 包括<span class="codeph"> sp_lines=N </span>以包括關聯日誌檔案的N行。 如果N為負數，則會包含最後N行。 </p> </td> 
+     </ul> </p> <p>注意： 若要使用「垂直更新」，您可能需要由Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。 </p> <p>請參閱<a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local">關於垂直更新</a>。 </p> <p>您可以將<span class="codeph"> _saved </span>附加到上述任何<span class="codeph"> sp_operation </span>值，使搜索自動機嘗試使用保存的內容。 例如，您可以指定下列項目： </p> <p> <code class="syntax html"> sp_operation=full_index_saved </code> </p> <p>或  </p> <p> <code class="syntax html"> sp_operation=full_staged_index_saved </code> </p> <p>或者，您可以將<span class="codeph"> _status </span>附加到上述任何<span class="codeph"> sp_operation </span>值，以請求當前或最新操作的狀態報告。 例如，您可以指定下列項目： </p> <p> <code class="syntax html"> sp_operation=full_index_status </code> </p> <p>或  </p> <p> <code class="syntax html"> sp_operation=full_staged_index_status </code> </p> <p>結果會以JSON物件傳回。 包括<span class="codeph"> sp_lines=N </span>以包括關聯日誌檔案的N行。 如果N為負數，則會包含最後N行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sp_operation= pushlive  </span> </p> </td> 
