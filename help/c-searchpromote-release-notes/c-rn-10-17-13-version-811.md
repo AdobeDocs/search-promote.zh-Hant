@@ -1,21 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.11.0發行說明(10/29/2013)
+description: Search&amp;Promote 8.11.0發行說明。
 solution: Target
 title: Search&amp;Promote 8.11.0發行說明(10/29/2013)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: 973f9608-a5c7-4571-ae2b-6f1fa05bc862
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 58%
+source-wordcount: '301'
+ht-degree: 57%
 
 ---
 
 
-# Search&amp;Promote 8.11.0發行說明(10/29/2013){#search-promote-release-notes}
+# Search&amp;Promote8.11.0發行說明(10/29/2013){#search-promote-release-notes}
 
 <table> 
  <thead> 
@@ -27,7 +25,7 @@ ht-degree: 58%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 丹麥文分解器 </p> </td> 
-   <td colname="col2"> <p> 現在提供一種機制，讓<span class="keyword"> Adobe Search&amp;Promote</span>存取Adobe提供的語言（丹麥文）偵測、反編譯、詞乾產生和分段服務。 </p> </td> 
+   <td colname="col2"> <p> 現在提供了允許<span class="keyword">AdobeSearch&amp;Promote</span>訪問由Adobe提供的語言（丹麥文）檢測、分解、詞乾和分段服務的機制。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
