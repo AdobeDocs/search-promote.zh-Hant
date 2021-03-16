@@ -1,16 +1,14 @@
 ---
 description: 使用「設計」功能表來建構您的「搜尋結果」頁面的簡報。
-seo-description: 使用「設計」功能表來建構您的「搜尋結果」頁面的簡報。
-seo-title: 設計您的搜尋結果頁面
 solution: Target
 title: 設計您的搜尋結果頁面
-topic: Design,Site search and merchandising
+topic: 設計、網站搜尋與銷售
 uuid: 61cb3ead-705e-45b7-a365-2c694d160d0a
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 4%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
