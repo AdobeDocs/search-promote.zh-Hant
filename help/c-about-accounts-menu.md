@@ -1,15 +1,13 @@
 ---
 description: 使用產品選單上的「帳戶」來選擇您要存取和使用的帳戶。
-seo-description: 使用產品選單上的「帳戶」來選擇您要存取和使用的帳戶。
-seo-title: 關於帳戶功能表
 solution: Target
 title: 關於帳戶功能表
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
