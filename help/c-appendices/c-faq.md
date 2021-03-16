@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 常見問題
+description: 閱讀有關Search&amp;Promote的常見問題
 solution: Target
 title: 常見問題
-topic: Appendices,Site search and merchandising
+topic: 附錄、網站搜尋與銷售
 uuid: 4ce454a4-e770-4587-91a0-a25491818ac6
 translation-type: tm+mt
-source-git-commit: 4270ea66ba645ad0f71c9c8b5c2a1fcc6eb02ad2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '8639'
+source-wordcount: '8648'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 # 常見問題{#frequently-asked-questions}
 
-## Adobe Flash {#reference_4A25BBDE32214AF5A1A454F38FD51243}
+## AdobeFlash{#reference_4A25BBDE32214AF5A1A454F38FD51243}
 
 常見問題頁面，討論在網站上建立SWF檔案索引和搜尋的支援。
 
@@ -52,7 +50,7 @@ ht-degree: 0%
 
 若要搜尋和索引SWF檔案，請選取內容類型&#x200B;**[!UICONTROL Adobe Flash Movies]**(**[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**)。
 
-只要Flash檔案是從HTML檔案的`<embed>`標籤或`<object>`標籤參考，就會建立文字索引，並編目檔案中所列的所有URL。
+只要Flash檔案是從HTML文檔中的`<embed>`標籤或`<object>`標籤引用的，就會對文本編製索引，並搜索檔案中列出的所有URL。
 
 如果您的檔案未從`<embed>`標籤或`<object>`標籤引用，您可以在HTML檔案的`<a href=...>`標籤中列出SWF檔案，或列為URL入口點。
 
@@ -109,7 +107,7 @@ SWF檔案中包含的文字會建立索引，就像在封閉的HTML頁面中是`
 
 ## 我為何無法在我的網站上搜尋中文、日文或韓文SWF檔案？{#section_EE1A3A705AE74148BD195A0CE513A5C4}
 
-網站搜尋／銷售從使用Adobe Flash建立的SWF檔案取得UTF-8。 UTF-8不包含語言指示。 如果您選擇了內容類型&#x200B;**[!UICONTROL Adobe Flash Movies]**(**[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**)，則必須使用中繼資料插入來指定SWF檔案使用的語言。
+網站搜尋／銷售從使用AdobeFlash建立的SWF檔案取得UTF-8。 UTF-8不包含語言指示。 如果您選擇了內容類型&#x200B;**[!UICONTROL Adobe Flash Movies]**(**[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**)，則必須使用中繼資料插入來指定SWF檔案使用的語言。
 
 請參閱[添加欄位插入定義](../c-about-settings-menu/c-about-metadata-menu.md#task_E86566FA1FF74CF68115C0ADA05172AE)。
 
@@ -132,12 +130,12 @@ SWF檔案中包含的文字會建立索引，就像在封閉的HTML頁面中是`
 
 * [我可以自訂網站的搜尋結果嗎？](#section_A64B3A621B794DF78D35ED06D9C43D0B)
 * [我可以看看客戶在我的……](#section_73709E1B0E82478DA7B4D15B6C845F33)
-* [我要如何控制哪些內容類型（PDF、文字、Flash、MP3和Microsoft Office）已建立索引並加以搜尋？](#section_0AB8CB4B6BFA4286AA082055FEBFBE1C)
+* [我要如何控制哪些內容類型(PDF、文字、Flash、MP3和Microsoft Office)已建立索引並加以搜尋？](#section_0AB8CB4B6BFA4286AA082055FEBFBE1C)
 * [是否支援以ASP、JSP、PHP、CFM或Perl為基礎的內容，以動態方式產生網頁？](#section_E279F004F1C542A2B9773B832E7B013F)
 * [如何使用同義字來改善搜尋結果……](#section_E6E36E12514F4D7BAB01F8D1AB61D57B)
 * [我是否控制搜尋結果的順序……](#section_C6361048502745779D9749A842C4C370)
 * [我是否可變更搜尋結果頁面的語言……](#section_6EE41DA8241247D48BBEB061A50599C5)
-* [我是否可在Adobe上擁有多個網站……](#section_AFA8825182094660A71EEC84B8329D6D)
+* [我的Adobe上能有不止一個網站嗎……](#section_AFA8825182094660A71EEC84B8329D6D)
 * [我可以搜尋多個網域嗎？](#section_BFBB0E9861D942F095B56CF0A8F16596)
 * [我是否可將網站細分為不同的區段，如此……](#section_52153A9DE9F9493B967A70583848B2A4)
 * [如何排除我網站的部分內容……](#section_D452EDE153654EF398F4A87780C6D43B)
@@ -174,7 +172,7 @@ SWF檔案中包含的文字會建立索引，就像在封閉的HTML頁面中是`
 
 ## 我客戶資訊的隱私權如何？{#section_8FB493F15E51454BA92A0C83E14C0CC7}
 
-Adobe致力於尊重其客戶和訪客的隱私權。 請參閱Adobe [隱私權中心](https://www.adobe.com/privacy.html)。
+Adobe致力於尊重其客戶和訪客的隱私權。 請參閱Adobe[隱私中心](https://www.adobe.com/privacy.html)。
 
 ## 我可以在搜尋結果頁面上顯示自己的橫幅廣告嗎？{#section_611EB8B32C16418386CB7DC7FB6954B8}
 
@@ -186,15 +184,15 @@ Adobe致力於尊重其客戶和訪客的隱私權。 請參閱Adobe [隱私權�
 
 請參閱[搜尋範本標籤](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4)。
 
-您的伺服器和網站搜尋／銷售伺服器之間的轉換完全順暢且對客戶不可見。 如果您不知道HTML，或您沒有時間建立自訂範本，則可從Adobe專業網頁開發人員內部團隊所建立的各種吸引人、現成可用的範本中選擇。
+您的伺服器和網站搜尋／銷售伺服器之間的轉換完全順暢且對客戶不可見。 如果您不知道HTML，或您沒有時間建立自訂範本，則可從Adobe內部專業網頁開發人員團隊所建立的各種吸引人、現成可用的範本中選擇。
 
 ## 我可以在我的網站上看到客戶正在搜尋哪些內容嗎？{#section_73709E1B0E82478DA7B4D15B6C845F33}
 
 是.我們會持續提供搜尋統計資料，以瞭解過去兩個月來訪客在您網站上進行的搜尋。 您可以隨時在產品功能表的報表下檢視這些統計資料。 搜尋報表會提供您有關訪客在您網站上尋找哪些內容的重要資訊。 您可使用此資訊來改善設計或調整網站搜尋／銷售引擎，以更好地為訪客服務。
 
-## 我要如何控制哪些內容類型（PDF、文字、Flash、MP3和Microsoft Office）已建立索引並加以搜尋？{#section_0AB8CB4B6BFA4286AA082055FEBFBE1C}
+## 我要如何控制哪些內容類型(PDF、文字、Flash、MP3和Microsoft Office)已建立索引並加以搜尋？{#section_0AB8CB4B6BFA4286AA082055FEBFBE1C}
 
-您可輕鬆設定帳戶，以啟用或停用在PDF檔案、純文字檔案、Flash影片、MP3檔案或Microsoft Office檔案中尋找文字的索引和搜尋功能。
+您可以輕鬆設定帳戶，以啟用或停用在PDF檔案、純文字檔案、Flash影片、MP3檔案或Microsoft Office檔案中找到的文字索引和搜尋功能。
 
 這些設定會在[!DNL Staged Content Types]頁面上控制。
 
@@ -238,9 +236,9 @@ Adobe致力於尊重其客戶和訪客的隱私權。 請參閱Adobe [隱私權�
 
 請參閱[編輯演示或傳輸模板](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3)。
 
-## 我的Adobe客戶登入是否可擁有多個網站？{#section_AFA8825182094660A71EEC84B8329D6D}
+## 我可以在我的Adobe客戶登入中擁有多個網站嗎？{#section_AFA8825182094660A71EEC84B8329D6D}
 
-是.只要單次Adobe客戶登入，您就可以管理許多不同網站的不同搜尋引擎。 在「帳戶」下選擇並管理帳戶。
+是.只需單一Adobe客戶登入，您就可以管理許多不同網站的不同搜尋引擎。 在「帳戶」下選擇並管理帳戶。
 
 請參閱[選擇要使用的不同帳戶](../c-about-accounts-menu.md#task_03C0FE918E2D44529CDC3B8DB75D1B26)。
 
@@ -520,9 +518,9 @@ Disallow: /
 
 ## 我為何無法在我的網站上搜尋中文、日文或韓文SWF檔案？{#section_9C0849528AFF4C10AA97A2C912992638}
 
-網站搜尋／銷售從使用Adobe Flash建立的Adobe Flash影片檔案取得UTF-8，而不需顯示語言。 如果您選擇了內容類型&#x200B;**[!UICONTROL Adobe Flash Movies]**(**[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**)，則必須使用中繼資料插入來指定SWF檔案中使用的語言。
+網站搜尋／銷售從AdobeFlash影片檔取得UTF-8，這些影片檔案是使用AdobeFlash建立，沒有語言指示。 如果您選擇了內容類型&#x200B;**[!UICONTROL Adobe Flash Movies]**(**[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**)，則必須使用中繼資料插入來指定SWF檔案中使用的語言。
 
-對於Flash 4或更舊版本的SWF檔案，不會指定檔案中字元的字元集。 如果您選擇了內容類型&#x200B;**[!UICONTROL Adobe Flash Movies]**(**[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**)，則必須使用中繼資料插入來指定SWF檔案中使用的字元集。
+對於Flash版本4或更舊版本的SWF檔案，不指定檔案中字元的字元集。 如果您選擇了內容類型&#x200B;**[!UICONTROL Adobe Flash Movies]**(**[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**)，則必須使用中繼資料插入來指定SWF檔案中使用的字元集。
 
 請參閱[添加欄位插入定義](../c-about-settings-menu/c-about-metadata-menu.md#task_E86566FA1FF74CF68115C0ADA05172AE)。
 
@@ -987,7 +985,7 @@ PDF圖示可協助您的客戶知道搜尋結果連結至可能非常大的PDF�
 
 >[!NOTE]
 >
->若要使用此功能，客戶必須使用最新版的Adobe Acrobat或Adobe Acrobat Reader，其中必須包含反白顯示外掛程式和外部視窗處理常式(EWH)外掛程式。 此外，其網頁瀏覽器必須使用Adobe Acrobat外掛程式for Netscape Navigator（您可以使用任何接受此Netscape Navigator外掛程式的瀏覽器）或Acrobat ActiveX控制項for Internet Explorer 4.0及更新版本。
+>若要使用此功能，客戶必須使用最新版的Adobe AcrobatReader(或Adobe Acrobat)，其中必須包含反白顯示外掛程式和外部視窗處理程式(EWH)外掛程式。 此外，其Web瀏覽器必須使用Netscape Navigator的Adobe Acrobat插件（您可以使用任何接受此Netscape Navigator插件的瀏覽器）或Internet Explorer 4.0及更新版本的AcrobatActiveX控制項。
 
 請參閱[搜尋範本標籤](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4)。
 
@@ -1062,7 +1060,7 @@ CGI程式使用URL參數，這些參數有時會導致索引器編目多個「�
 
 `exclude regexp ^.*\?.*$`
 
-建立遮色片後，請確定您已重新建立網站的索引。
+建立遮色片後，請確定您已重新索引網站。
 
 請參閱[執行即時或分段網站的完整索引……](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)。
 
