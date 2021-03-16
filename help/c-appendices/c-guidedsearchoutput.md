@@ -1,15 +1,13 @@
 ---
-description: 您可以自訂任何文字格式的輸出，包括XML或JSON。
-seo-description: 您可以自訂任何文字格式的輸出，包括XML或JSON。
-seo-title: 引導式搜尋輸出
+description: 瞭解如何自訂任何文字格式的輸出，包括XML或JSON。
 solution: Target
 title: 引導式搜尋輸出
-topic: Appendices,Site search and merchandising
+topic: 附錄、網站搜尋與銷售
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '6298'
+source-wordcount: '6289'
 ht-degree: 2%
 
 ---
@@ -126,7 +124,7 @@ ht-degree: 2%
        <li id="li_E9A7CE43E2734F4D9522A1283CA111FB">按一下「<span class="uicontrol">添加新欄位</span>」。 </li> 
        <li id="li_9D2434A321924FBD874569CA9AD2EEF7">按一下<span class="uicontrol">編輯</span>以查看特定欄位名。 </li> 
       </ul> </li> 
-     <li id="li_90D5E3F4AC0A4A6189934A5589F69903">在<span class="wintitle">排序</span>下拉式清單中，按一下「遞增<span class="uicontrol">」或「遞減</span>」。<span class="uicontrol"></span> </span><p>此參數映射至<span class="codeph"> sp_s </span>後端搜尋參數。 </p> </li> 
+     <li id="li_90D5E3F4AC0A4A6189934A5589F69903">在<span class="wintitle">排序</span>下拉式清單中，按一下「遞增<span class="uicontrol">」或「遞減</span>」。</span><span class="uicontrol"> </span><p>此參數映射至<span class="codeph"> sp_s </span>後端搜尋參數。 </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -138,7 +136,7 @@ ht-degree: 2%
 
 * 與搜尋伺服器通訊。
 
-   您可以使用http GET請求與[!DNL Adobe Search&Promote]網頁伺服器通訊。 您的伺服器會產生這些要求，或在用戶端執行Ajax要求。
+   您可以使用httpGET請求與[!DNL Adobe Search&Promote] Web伺服器通信。 您的伺服器會產生這些要求，或在用戶端執行Ajax要求。
 * 儲存搜尋歷史記錄。
 
 [!DNL Adobe Search&Promote] 是無狀態，其中整個狀態在http請求中傳遞。
@@ -1513,9 +1511,9 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  </tbody> 
 </table>
 
-## Adobe Experience Manager {#reference_DBE13C606C3A4BB185DE53F88D0D3048}的引導式搜尋XML輸出
+## 針對Adobe Experience Manager的引導式搜尋XML輸出{#reference_DBE13C606C3A4BB185DE53F88D0D3048}
 
-說明AEM(Adobe Experience Manager)標準XML回應輸出的表格。
+說明(Adobe Experience Manager)標準XML回應輸出AEM的表格。
 
 另請參閱 . [引導式搜尋XML輸出](../c-appendices/c-guidedsearchoutput.md#reference_D93E859A277643068B10AE7A61C973EA)
 
@@ -1817,7 +1815,7 @@ Facet區塊範例：
   <tr> 
    <td colname="col1"> <p>還原連結 </p> </td> 
    <td colname="col2"> <p>fact </p> </td> 
-   <td colname="col3"> <p> 僅在選取Facet時顯示。 還原連結會還原整個Facet。 例如，當它是多選Facet時，它會取消選取該Facet的所有選取選項。 </p> </td> 
+   <td colname="col3"> <p> 僅在選取Facet時顯示。 還原連結會還原整個Facet。 例如，當它是多選Facet時，它會取消選取Facet的所有選取選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>facet-value </p> </td> 
@@ -1961,7 +1959,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>項目 </p> </td> 
    <td colname="col2"> <p>功能表 </p> </td> 
-   <td colname="col3"> <p>定義功能表中的每個項目。 如果目前選取了指定的功能表項目，則選取的選用屬性會設為true。 </p> </td> 
+   <td colname="col3"> <p>定義功能表中的每個項目。 如果當前選擇了給定菜單項，則選定的可選屬性將設定為true。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>標籤 </p> </td> 
@@ -2468,14 +2466,14 @@ xml version="1.0" encoding="utf-8" standalone="yes"
 
 ## 範例 {#reference_64B7D8D228AF4B8D90EDF4DE507B0F84}
 
-在虛構網站（稱為Geometrixx）上*搜尋的範例輸出，以及用來產生範例輸出的範例簡報範本。
+*搜尋在虛構網站(稱為Geometrixx)上的範例輸出，以及用來產生範例輸出的範例簡報範本。
 
 * [輸出範例](../c-appendices/c-guidedsearchoutput.md#section_515C000A18B847D59097D0A9CCC02636)
 * [範例簡報範本](../c-appendices/c-guidedsearchoutput.md#section_AD42571DFB88491AA7F0FDF0929EBE97)
 
 ## 輸出示例{#section_515C000A18B847D59097D0A9CCC02636}
 
-在虛構網站Geometrixx上*搜尋的輸出範例。
+虛構網站(稱為Geometrixx)上*搜尋的輸出範例。
 
 ```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
