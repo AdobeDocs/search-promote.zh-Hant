@@ -1,16 +1,14 @@
 ---
 description: 使用「重寫規則」功能表來設定編目和搜尋URL和標題規則。
-seo-description: 使用「重寫規則」功能表來設定編目和搜尋URL和標題規則。
-seo-title: 關於重寫規則菜單
 solution: Target
 subtopic: Rewrite Rules
 title: 關於重寫規則菜單
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '10216'
+source-wordcount: '10202'
 ht-degree: 0%
 
 ---
@@ -1194,7 +1192,7 @@ RewriteRule Pattern Substitution [Flags]
   </tr> 
   <tr> 
    <td colname="col1"> <p> 'env|E=VAR:VAL' </p> </td> 
-   <td colname="col2"> <p>設定環境變數。 </p> <p> 此標幟會建立設為值VAL的環境變數"VAR"，其中VAL可包含規則運算式回參考，$N和%N，將會展開。 您可多次使用此標幟來設定多個變數。 變數稍後可透過%{VAR}在下列RewriteCond模式中參考。 使用此標幟可移除並記住標題中的資訊。 </p> </td> 
+   <td colname="col2"> <p>設定環境變數。 </p> <p> 此標幟會建立設為值VAL的環境變數"VAR"，其中VAL可包含規則運算式回參考，$N和%N，將加以擴充。 您可多次使用此標幟來設定多個變數。 變數稍後可透過%{VAR}在下列RewriteCond模式中參考。 使用此標幟可移除並記住標題中的資訊。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
