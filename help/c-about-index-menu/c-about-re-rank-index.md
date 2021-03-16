@@ -1,16 +1,14 @@
 ---
 description: 您可以使用「重新排名索引」來更新網站的排名資訊，而不需重新整理網站。
-seo-description: 您可以使用「重新排名索引」來更新網站的排名資訊，而不需重新整理網站。
-seo-title: 關於重新排名索引
 solution: Target
 subtopic: Re-Rank Index
 title: 關於重新排名索引
-topic: Index,Site search and merchandising
+topic: 索引、網站搜尋與銷售
 uuid: 5c2a4c12-5e06-4fcc-897c-c12fcc5d7aa8
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
