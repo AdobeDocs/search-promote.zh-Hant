@@ -1,16 +1,14 @@
 ---
-description: 使用「動態刻面」，在搜尋時自動建立新的範圍選取。 您可以選擇將每個動態Facet欄位與Adobe Search&amp;Promote帳戶中最多一個表格名稱建立關聯。 您可在搜尋時，針對搜尋中涉及的任何動態Facet欄位套用這些表格關係。
-seo-description: 使用「動態刻面」，在搜尋時自動建立新的範圍選取。 您可以選擇將每個動態Facet欄位與Adobe Search&amp;Promote帳戶中最多一個表格名稱建立關聯。 您可在搜尋時，針對搜尋中涉及的任何動態Facet欄位套用這些表格關係。
-seo-title: 關於動態Facet
+description: 使用「動態刻面」，在搜尋時自動建立新的範圍選取。 您可以選擇將每個動態Facet欄位與Search&amp;PromoteAdobe帳戶中最多一個表格名稱建立關聯。 您可在搜尋時，針對搜尋中涉及的任何動態Facet欄位套用這些表格關係。
 solution: Target
 subtopic: Navigation
 title: 關於動態Facet
-topic: Design,Site search and merchandising
+topic: 設計、網站搜尋與銷售
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 # 關於動態面{#about-dynamic-facets}
 
-使用「動態刻面」，在搜尋時自動建立新的範圍選取。 您可以選擇將每個動態Facet欄位與Adobe Search&amp;Promote帳戶中最多一個表格名稱建立關聯。 您可在搜尋時，針對搜尋中涉及的任何動態Facet欄位套用這些表格關係。
+使用「動態刻面」，在搜尋時自動建立新的範圍選取。 您可以選擇將每個動態Facet欄位與AdobeSearch&amp;Promote帳戶中最多一個表格名稱建立關聯。 您可在搜尋時，針對搜尋中涉及的任何動態Facet欄位套用這些表格關係。
 
 ## 使用動態面{#concept_E65A70C9C2E04804BF24FBE1B3CAD899}
 
@@ -38,7 +36,7 @@ ht-degree: 0%
 
 ## 刻面與meta標籤欄位{#section_2869E5FCDA8B431A87BC6E5573F2B0A0}的關係
 
-Facet建立在meta標籤欄位之上。 中繼標籤欄位是[!DNL Adobe Search&Promote]的低階核心搜尋層功能。 另一方面，Facet則屬於GS（引導式搜尋）的一部分，即Adobe Search&amp;Promote的高階表現層。 但是，Facet擁有meta標籤欄位，meta標籤欄位對Facet一無所知。 設定動態Facet時，您會先新增Facet，然後新增中繼標籤欄位，並選取「動態Facet」選項，將識別的Facet設定為動態。
+Facet建立在meta標籤欄位之上。 中繼標籤欄位是[!DNL Adobe Search&Promote]的低階核心搜尋層功能。 另一方面，刻面是GS(Guided Search)的一部分，即高階的AdobeSearch&amp;Promote表現層。 但是，Facet擁有meta標籤欄位，meta標籤欄位對Facet一無所知。 設定動態Facet時，您會先新增Facet，然後新增中繼標籤欄位，並選取「動態Facet」選項，將識別的Facet設定為動態。
 
 >[!NOTE]
 >
@@ -72,7 +70,7 @@ t_configuring_dynamic_facets.xml
 
 >[!NOTE]
 >
->依預設，Adobe Search&amp;Promote未啟用此功能。 請聯絡技術支援以啟用您使用的功能。
+>預設情況下，此功能未在AdobeSearch&amp;Promote中啟用。 請聯絡技術支援以啟用您使用的功能。
 
 在您的動態Facet效果對客戶可見之前，您必須重建網站索引。
 
