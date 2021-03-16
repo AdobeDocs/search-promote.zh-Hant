@@ -1,15 +1,13 @@
 ---
 description: 您可以定義您網站上使用的常見片語，如此當客戶輸入搜尋查詢時，就不需要在您定義的片語周圍輸入引號。
-seo-description: 您可以定義您網站上使用的常見片語，如此當客戶輸入搜尋查詢時，就不需要在您定義的片語周圍輸入引號。
-seo-title: 關於常見片語
 solution: Target
 title: 關於常見片語
-topic: Linguistics,Site search and merchandising
+topic: 語言學、網站搜尋與商品銷售
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
 translation-type: tm+mt
-source-git-commit: 8efa90ac2927b263b7d48ccbf25d4b0e917dac79
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
