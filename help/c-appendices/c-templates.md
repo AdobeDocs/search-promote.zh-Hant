@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 範本
+description: 瞭解如何在Search&amp;Promote中使用簡報和範本標籤。
 solution: Target
 title: 範本
-topic: Appendices,Site search and merchandising
+topic: 附錄、網站搜尋與銷售
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
 translation-type: tm+mt
-source-git-commit: ca4156f80d7dbb85d2d56b6caf7c0f560299d86e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '15139'
+source-wordcount: '15153'
 ht-degree: 2%
 
 ---
@@ -82,7 +80,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--In search-eng 1/31/13--> <span class="codeph"> &lt;guided-results&gt;&lt;/guided-results&gt; </span> </p> </td> 
    <td colname="col2"> <p>引導結果標籤定義結果循環的邊界。 通過指定<span class="codeph"> gsname </span>屬性，可以訪問任何結果集。 如果未提供<span class="codeph"> gsname </span>，則顯示預設搜索結果。 </p> </td> 
@@ -257,11 +255,11 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--NEW 02/27/2014--> <span class="codeph"> &lt;guided-dynamic-facets&gt;&lt;/guided-dynamic-facets&gt; </span> </p> </td> 
    <td colname="col2"> 
-    <!--NEW 2/2/2014--> <p>特定搜尋之任何動態Facet的循環內容。 </p> <p>編輯<span class="codeph"> &lt;guided-facet&gt; </span>簡報範本標籤，讓<span class="codeph"> &lt;guided-dynamic-facets&gt; </span>循環內容自動提供gsname屬性。 </p> </td> 
+    <!--NEW 2/2/2014--> <p>特定搜尋的任何動態Facet的循環內容。 </p> <p>編輯<span class="codeph"> &lt;guided-facet&gt; </span>簡報範本標籤，讓<span class="codeph"> &lt;guided-dynamic-facets&gt; </span>循環內容自動提供gsname屬性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
@@ -560,7 +558,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>29 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-facet-value-undo-link&gt;&lt;/guided-facet-value-undo-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>顯示指定選取之Facet值的還原連結。 使用它可在選取的Facet值旁顯示還原連結。 由於此還原連結只會解除該特定選取的值，因此與<span class="codeph"> &lt;guided-facet-undo-link&gt; </span>不同，&lt;a1/&gt;會取消選取所有選取的值。 </p> <p> <p>注意： 如果Facet沒有多選行為，則兩個還原連結有相同的行為。 也就是說，Facet只能有一個選取的值。 </p> </p> <p>如果Facet目前未選取，則連結是目前路徑。 僅在<span class="codeph"> guided-facet-values </span>循環中使用此標籤。 </p> </td> 
+   <td colname="col2"> <p>顯示指定選取之Facet值的還原連結。 使用它可在選取的Facet值旁顯示還原連結。 由於此還原連結只會解除該特定選取的值，因此與<span class="codeph"> &lt;guided-facet-undo-link&gt; </span>不同，會取消選取所有選取的值。 </p> <p> <p>注意： 如果Facet沒有多選行為，則兩個還原連結有相同的行為。 也就是說，Facet只能有一個選取的值。 </p> </p> <p>如果Facet目前未選取，則連結是目前路徑。 僅在<span class="codeph"> guided-facet-values </span>循環中使用此標籤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>30 </p> </td> 
@@ -607,7 +605,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-breadcrumb&gt; breadcrumbname  </span>"&gt;&lt;/guided-breadcrumb&gt; </span><span class="varname"> </span></p> </td> 
    <td colname="col2"> <p>階層連結的循環標籤。 對於當前狀態的每個查詢編號，會迭代在開始和結束標籤之間的任何內容。 </p> <p>如果省略<span class="codeph"> <span class="varname"> gsname </span> </span>，則使用名為"default"的導覽路徑標示。 </p> </td> 
   </tr> 
@@ -622,7 +620,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
       &lt;/guided-breadcrumb&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-breadcrumb-value /&gt; </span> </p> </td> 
    <td colname="col2"> <p>值標籤會列出目前階層連結小版本的轉換值。 它僅用於<span class="codeph">引導式導覽路徑標示</span>區塊的內容。 </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
@@ -678,7 +676,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu gsname="menuname"&gt;&lt;/guided-menu&gt; </span> </p> </td> 
    <td colname="col2"> <p>這是功能表值循環迭代器標籤。 使用<span class="codeph"> gsname </span>屬性來識別顯示哪組菜單項。 </p> </td> 
@@ -690,7 +688,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
    <td colname="col2"> <p>提供URL，以調整目前功能表項目的搜尋。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-menu-item-option&gt; </span> </p> </td> 
    <td colname="col2"> <p>通常，選單會顯示在範本的選取控制項中。 此標籤可讓建立選取控制項變得更簡單，因為它會產生HTML，以產生選取控制項的選項。 </p> <p>例如，下列程式碼區塊： </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sort"&nbsp;onchange="gcGo(this);"&gt; 
@@ -747,7 +745,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-pages&gt;&lt;/guided-pages&gt; </span> </p> </td> 
    <td colname="col2"> <p>頁面導覽的循環標籤。 每個頁面都會重複開始和結束標籤之間的任何內容。 </p> </td> 
@@ -759,7 +757,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
    <td colname="col2"> <p>在頁面導覽中建立連結。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-page-link gsname="first|prev|next|last|viewall|viewpages"&gt;&lt;/guided-page-link&gt; </span> </p> </td> 
    <td colname="col2"> <p>建立第一個、上一個、下一個或最後一頁的連結。 它也可以建立連結，以檢視單一頁面上的所有頁面。 </p> </td> 
@@ -1052,7 +1050,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
    <td colname="col2"> <p>在簡報範本的標題中使用，並由自動完成的適當CSS指令碼所取代。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-ac-form-content /&gt; </span> </p> </td> 
    <td colname="col2"> <p>用於演示模板的搜索表單（在<span class="codeph"> &lt;form&gt; </span>和<span class="codeph"> &lt;/form&gt; </span>標籤之間），而不是硬編碼表單中的自動完成標籤。 標籤會以自動完成作業所需的適當HTML取代。 </p> </td> 
   </tr> 
@@ -1078,7 +1076,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-store /&gt; </span> </p> </td> 
    <td colname="col2"> <p>輸出當前儲存。 </p> </td> 
   </tr> 
@@ -1107,7 +1105,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-zone gsname="zone area"&gt; </span> </p> </td> 
    <td colname="col2"> <p>您可以包覆區域標籤中的任何內容，以建立區域。 這可讓您使用業務規則來視需要顯示區域。 預設情況下，始終顯示區域。 您可以使用可選的搜尋和刻面參數來指出與區域關聯的搜尋或刻面。 這類功能可讓軟體在隱藏區域時略過搜尋或刻面，以改善搜尋時的效能。 高度和寬度屬性是可選的，用來設定移除區域時，預留位置顯示器在視覺化規則產生器中的顯示方式。 </p> <p> 使用<span class="codeph"> guided-if-facet[-not]-visible </span>標籤，而不是盡可能使用區域。 它可簡化簡報範本。 </p> </td> 
   </tr> 
@@ -1139,7 +1137,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 2/1/2013--> <code> &lt;guided-if[-not]-first&gt;&lt;guided-else[-not]-first&gt; 
       &lt;/guided-if[-not]-first&gt; </code> </p> </td> 
@@ -1210,7 +1208,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;guided-current-path&gt; </span> </p> </td> 
    <td colname="col2"> <p>提供您目前使用的路徑。 通常，它用於建立新增參數至現有搜尋的連結。 依預設，路徑為URL逸出。 您可以指定要通過轉義參數使用的轉義模式。 </p> <p>範例:   </p> <p> <code class="syntax html"> &lt;a&nbsp;href="&lt;guided-current-path&nbsp;/&gt;&amp;lang=fr"&gt; 
@@ -1373,7 +1371,7 @@ Facet是導覽元件，可讓您深入探索搜尋結果。 您可以使用Facet
   <tr> 
    <td colname="col01"> <p>26 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-tnt-business-rules&gt; &lt;guided-else-tnt-business-rules&gt; &lt;/guided-if-tnt-business-rules&gt; </span> </p> </td> 
-   <td colname="col2"> <p>可讓您偵測是否有參考<span class="keyword"> Adobe Target </span>促銷活動的業務規則。 它通常用作與<span class="keyword"> Adobe Target </span>整合的一部分，以防止在不需要時點擊<span class="keyword"> Target </span>伺服器。 </p> </td> 
+   <td colname="col2"> <p>可讓您偵測是否有參考<span class="keyword">Adobe Target</span>促銷活動的業務規則。 它通常用作與<span class="keyword">Adobe Target</span>整合的一部分，以防止在不需要時點擊<span class="keyword">目標</span>伺服器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>27 </p> </td> 
@@ -1588,7 +1586,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-index&gt; </span> </p> </td> 
    <td colname="col2"> <p>返回當前結果的數值索引。 </p> </td> 
   </tr> 
@@ -1598,7 +1596,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p>傳回目前結果的頁面標題。 選用的length屬性可用來限制顯示的字串長度，預設值為80個字元。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-bodytext length="XX" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
    <td colname="col2"> <p>傳回從頁面頂端開始的內文文字。 相關詞語以粗體顯示。 選用的length屬性可用來限制顯示的字串長度，預設值為80個字元。 編碼屬性是選用的，可以使用HTML編碼（預設值）、Javascript編碼、Perl編碼或無來編碼輸出字元。 </p> </td> 
   </tr> 
@@ -1707,7 +1705,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-title&gt; ...  &lt;/search-if-title&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-title&gt; ...  &lt;/search-if-not-title&gt; </span> </p> </td> 
    <td colname="col2"> <p>如果下次呼叫<span class="codeph"> &lt;search-title&gt; </span>會傳回（或不傳回）檔案標題的文字，這些標籤會包含它們之間的HTML。 </p> </td> 
   </tr> 
@@ -1760,15 +1758,15 @@ r_search_template_tags.xml
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-link target="frame-name" hbx-enable="yes/no" hbx-linkid-name="field-name" hbx-linkid-none="text" hbx-linkid-length="XX"&gt; ...  &lt;/search-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>這對標籤會在它們之間的HTML周圍建立錨點連結。 點按連結時，會顯示結果頁面。 選用的target屬性會指定可畫格瀏覽器應顯示結果頁面的指定視窗。 </p> <p>將hbx-enable屬性設為"yes"，以運用HBX提供的分析。 將hbx-linkid-name設為您要追蹤的中繼資料欄位名稱。 例如，若要依SKU編號追蹤搜尋結果，請將hbx-linkid-name設為包含SKU資訊的中繼資料欄位名稱。 </p> <p>目前不支援日期類型欄位。 hbx-linkid-name的值會附加至產生之錨點的連結ID。 每當命名的Meta-data欄位空白時，hbx-linkid-none屬性的值會附加至連結ID。 hbx-linkid-length的值會限制從Meta標籤擷取和顯示的字元數。 預設字元數為12。 </p> </td> 
+   <td colname="col2"> <p>這對標籤會在它們之間的HTML周圍建立錨點連結。 點按連結時，會顯示結果頁面。 可選的target屬性指定可畫格瀏覽器應顯示結果頁面的命名視窗。 </p> <p>將hbx-enable屬性設為"yes"，以運用透過提供的分析HBX。 將hbx-linkid-name設為您要追蹤的中繼資料欄位名稱。 例如，若要依SKU編號追蹤搜尋結果，請將hbx-linkid-name設為包含SKU資訊的中繼資料欄位名稱。 </p> <p>目前不支援日期類型欄位。 hbx-linkid-name的值會附加至產生之錨點的連結ID。 每當命名的Meta-data欄位空白時，hbx-linkid-none屬性的值會附加至連結ID。 hbx-linkid-length的值會限制從Meta標籤擷取和顯示的字元數。 預設字元數為12。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-smart-link target="frame-name" hbx-enable="yes/no" hbx-linkid-name="field-name" hbx-linkid-none="text" hbx-linkid-length="XX"&gt; ...  &lt;/search-smart-link&gt; </span> </p> </td> 
-   <td colname="col2"> <p>這對標籤類似於<span class="codeph"> &lt;search-link&gt; ...&lt;/search-link&gt; </span>標籤。 按一下產生的錨點連結時，會顯示結果頁面，但頁面會捲動至結果前的最接近錨點標籤。 對於PDF連結，Acrobat檢視器會顯示包含結果的頁面。 選用的target屬性會指定可畫格瀏覽器應顯示結果頁面的指定視窗。 </p> <p>將hbx-enable屬性設為"yes"，以運用HBX提供的分析。 將hbx-linkid-name設為您要追蹤的中繼資料欄位名稱。 例如，若要依SKU編號追蹤搜尋結果，請將hbx-linkid-name設為包含SKU資訊的中繼資料欄位名稱。 </p> <p>目前不支援日期類型欄位。 hbx-linkid-name的值會附加至產生之錨點的連結ID。 每當命名的Meta-data欄位空白時，hbx-linkid-none屬性的值會附加至連結ID。 hbx-linkid-length的值會限制從Meta標籤擷取和顯示的字元數。 預設字元數為12。 </p> </td> 
+   <td colname="col2"> <p>這對標籤類似於<span class="codeph"> &lt;search-link&gt; ...&lt;/search-link&gt; </span>標籤。 按一下產生的錨點連結時，會顯示結果頁面，但頁面會捲動至結果前的最接近錨點標籤。 對於PDF連結，Acrobat檢視器會顯示包含結果的頁面。 可選的target屬性指定可畫格瀏覽器應顯示結果頁面的命名視窗。 </p> <p>將hbx-enable屬性設為"yes"，以運用透過提供的分析HBX。 將hbx-linkid-name設為您要追蹤的中繼資料欄位名稱。 例如，若要依SKU編號追蹤搜尋結果，請將hbx-linkid-name設為包含SKU資訊的中繼資料欄位名稱。 </p> <p>目前不支援日期類型欄位。 hbx-linkid-name的值會附加至產生之錨點的連結ID。 每當命名的Meta-data欄位空白時，hbx-linkid-none屬性的值會附加至連結ID。 hbx-linkid-length的值會限制從Meta標籤擷取和顯示的字元數。 預設字元數為12。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-link-extension&gt; ...  &lt;/search-if-link-extension&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-link-extension&gt; ...  &lt;/search-if-not-link-extension&gt; </span> </p> </td> 
    <td colname="col2"> <p>如果值屬性指定與結果的URL結尾相符的副檔名，這些標籤會包含它們之間的HTML。 此標籤對於根據連結副檔名將圖形加入搜尋結果中非常有用。 value屬性是一個或多個副檔名（分隔空格）的清單，如下所示：VALUE="。pdf"或VALUE="。html .htm"。 </p> </td> 
   </tr> 
@@ -1791,7 +1789,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-first&gt; ...  &lt;/search-if-first&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-first&gt; ...  &lt;/search-if-not-first&gt; </span> </p> </td> 
    <td colname="col2"> <p>如果目前的結果是（或不是）頁面上的第一個結果（在<span class="codeph"> &lt;search-results&gt; </span>內使用時）或第一個欄位值（在<span class="codeph"> &lt;search-field-values&gt; </span>內使用時），這些標籤會包含它們之間的文字。 </p> </td> 
   </tr> 
@@ -1805,7 +1803,7 @@ r_search_template_tags.xml
       &lt;/search-results&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-inner&gt; ...  &lt;/search-if-inner&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-inner&gt; ...  &lt;/search-if-not-inner&gt; </span> </p> </td> 
    <td colname="col2"> <p>如果目前的結果不是頁面上的第一個或最後一個結果（在<span class="codeph"> &lt;search-results&gt; </span>內使用時），或不是第一個或最後一個欄位值（在<span class="codeph"> &lt;search-field-values&gt; </span>內使用時），這些標籤會包含它們之間的文字。 標籤的not版本會測試結果是第一個還是最後一個。 </p> </td> 
   </tr> 
@@ -1839,7 +1837,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>第一個結果 </p> </td> 
    <td colname="col3"> <p>無 </p> </td> 
    <td colname="col4"> <p>無 </p> </td> 
@@ -1968,7 +1966,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-values name="field-name" sortby="none/values/counts/results" max-items="XX"&gt; ...  &lt;/search-field-values&gt; </span> </p> </td> 
    <td colname="col2"> <p>此標籤會建立一個循環，用於枚舉整個結果集中特定欄位的欄位值和相關資料。 請勿將此標籤巢狀內嵌在其他<span class="codeph"> &lt;search-field-values&gt; </span>標籤中。 "name"屬性指定包含要枚舉的值的欄位的名稱。 可選的"sortby"屬性控制枚舉順序：「無」意指無特定順序，「值」意指依欄位值排序（依欄位的「排序」屬性以遞增或遞減順序排序）,sortby="counts"意指依欄位值計數的遞減順序排序，而sortby="results"意指依包含每個值之結果數的遞減順序排序。 </p> <p>請注意，sortby="counts"和sortby="results"對於非清單類型欄位是等效的。. 可選的「最大項目」屬性將迭代次數限制為給定值。 「最大項目」的預設值為-1，這表示「枚舉所有值」。 </p> </td> 
   </tr> 
@@ -2084,7 +2082,7 @@ Sempless提供方便使用的「您是指？」 服務，以建議替代搜尋�
    <td colname="col2"> <p>在「範本」連結下的「基本外觀」區段中設定的「搜尋結果標題」HTML。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-cdata&gt; ...  &lt;/search-cdata&gt; </span> </p> </td> 
    <td colname="col2"> <p>search-cdata標籤將替換為其XML等效標籤：<span class="codeph"> &lt;search-cdata&gt; </span>已更換為<span class="codeph"> &lt;![CDATA["和&lt;/search-cdata&gt; </span>標籤被" <span class="codeph"> ]]&gt; </span>"替換。 XML剖析器不會剖析開啟與關閉標籤之間的任何資訊。 </p> </td> 
   </tr> 
@@ -2233,7 +2231,7 @@ Sempless提供方便使用的「您是指？」 服務，以建議替代搜尋�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-results&gt; ...  &lt;/search-if-results&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-results&gt; ...&lt;/search-if-not-results&gt; </span> </p> </td> 
    <td colname="col2"> <p>如果目前頁面包含任何（或無）搜尋結果，這些標籤會包含HTML。 </p> </td> 
   </tr> 
@@ -2243,7 +2241,7 @@ Sempless提供方便使用的「您是指？」 服務，以建議替代搜尋�
    <td colname="col2"> <p>如果上一頁或下一頁有任何（或無）與其關聯的結果，這些標籤會包含HTML。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-sort-by-score&gt; ...  &lt;/search-if-sort-by-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-sort-by-score&gt; ...  &lt;/search-if-not-sort-by-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-sort-by-date&gt; ...  &lt;/search-if-sort-by-date&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-sort-by-date&gt; ...  &lt;/search-if-not-sort-by-date&gt; </span> </p> </td> 
    <td colname="col2"> <p>如果目前頁面是或不是，這些標籤會包含HTML，請依相關性或日期排序。 </p> </td> 
   </tr> 
@@ -2301,7 +2299,7 @@ Sempless提供方便使用的「您是指？」 服務，以建議替代搜尋�
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-select&gt; ...  &lt;/search-select&gt; </span> </p> <p> <span class="codeph"> &lt;search-option&gt; ...  &lt;/search-option&gt; </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> &lt;form&gt; </span>標籤中的下拉清單框以<span class="codeph"> &lt;select&gt; </span>標籤啟動，並以<span class="codeph"> &lt;/select&gt; </span>標籤結束。 關聯的CGI參數的<span class="codeph">名稱</span>列在<span class="codeph"> &lt;select&gt; </span>標籤內。 <span class="codeph"> &lt;select&gt; </span>標籤後面是<span class="codeph"> &lt;option&gt; </span>標籤的清單，這些標籤指定要在清單框中顯示的值。 </p> <p><span class="codeph"> &lt;search-select&gt; </span>、<span class="codeph"> &lt;/search-select&gt; </span>、<span class="codeph"> &lt;search-option&gt; </span>和<span class="codeph"> &lt;/search-option&gt; </span>標籤提供與<span class="codeph"> &lt;search-input&gt; </span>標籤類似的功能。 即，如果<span class="codeph"> &lt;search-select&gt; </span>標籤中的<span class="codeph">名稱</span>列為CGI參數，且該CGI的<span class="codeph">值</span>值&lt;a9/&gt;被列為CGI參數，則在傳送至瀏覽器的<span class="codeph"> &lt;option&gt; </span>標籤的末尾自動添加選定的<span class="codeph">參數會列為特定<span class="codeph"> &lt;search-option&gt; </span>標籤中的<span class="codeph">值</span>。 </span>這樣，您就可以自動讓搜尋結果中的預設清單方塊選擇與目前查詢相同。 </p> <p>例如，典型清單框如下所示： </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
+   <td colname="col2"> <p><span class="codeph"> &lt;form&gt; </span>標籤中的下拉清單框以<span class="codeph"> &lt;select&gt; </span>標籤啟動，並以<span class="codeph"> &lt;/select&gt; </span>標籤結束。 關聯的CGI參數的<span class="codeph">名稱</span>列在<span class="codeph"> &lt;select&gt; </span>標籤內。 <span class="codeph"> &lt;select&gt; </span>標籤後面是<span class="codeph"> &lt;option&gt; </span>標籤的清單，這些標籤指定要在清單框中顯示的值。 </p> <p><span class="codeph"> &lt;search-select&gt; </span>、<span class="codeph"> &lt;/search-select&gt; </span>、<span class="codeph"> &lt;search-option&gt; </span>和<span class="codeph"> &lt;/search-option&gt; </span>標籤提供與<span class="codeph"> &lt;search-input&gt; </span>標籤類似的功能。 即，如果<span class="codeph"> &lt;search-select&gt; </span>標籤中的<span class="codeph">名稱</span>列為CGI參數，且該CGI的<span class="codeph">值</span>值</span>被列為CGI參數，則在傳送至瀏覽器的<span class="codeph"> &lt;option&gt; </span>標籤的末尾自動添加選定的<span class="codeph">參數會列為特定<span class="codeph"> &lt;search-option&gt; </span>標籤中的<span class="codeph">值</span>。 這樣，您就可以自動讓搜尋結果中的預設清單方塊選擇與目前查詢相同。 </span></p> <p>例如，典型清單框如下所示： </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
       &lt;option&nbsp;value="any"&nbsp;selected&gt;Anywhere&lt;/option&gt; 
       &lt;option&nbsp;value="title"&gt;Title&lt;/option&gt; 
       &lt;option&nbsp;value="desc"&gt;Description&lt;/option&gt; 
@@ -2322,7 +2320,7 @@ Sempless提供方便使用的「您是指？」 服務，以建議替代搜尋�
       &lt;/search-select&gt; </code> </p> <p>如果要將清單框添加到搜索模板的<span class="codeph"> &lt;form&gt; </span>中，請使用<span class="codeph"> &lt;search-select...&gt; </span>代替<span class="codeph"> &lt;select...&gt; </span> 、 <span class="codeph"> &lt;/search-select&gt; </span> <span class="codeph"> &lt;/select&gt; </span>、<span class="codeph"> &lt;search-option...&gt; </span>取代<span class="codeph"> &lt;option...&gt; </span>和<span class="codeph"> &lt;/search-option&gt; </span>取代<span class="codeph"> &lt;/option&gt; </span>... </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-sort-by-field name="field-name" count="XX"&gt; ...  &lt;/search-sort-by-field&gt; </span> </p> </td> 
    <td colname="col2"> <p>這些進階標籤會在它們之間的HTML周圍建立錨點連結。 按一下此錨點時，會顯示在指定欄位上排序結果的頁面。 可選的<span class="codeph">計數</span>屬性指定要在結果頁上顯示的結果數。 如果省略<span class="codeph">計數</span>，則會使用目前頁面上使用的計數。 </p> </td> 
   </tr> 
