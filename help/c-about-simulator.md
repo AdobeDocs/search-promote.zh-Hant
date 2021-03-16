@@ -1,15 +1,13 @@
 ---
 description: 使用模擬器，查看如果您要推送目前已上傳的所有內容，搜尋結果會是什麼樣。
-seo-description: 使用模擬器，查看如果您要推送目前已上傳的所有內容，搜尋結果會是什麼樣。
-seo-title: 關於模擬器
 solution: Target
 title: 關於模擬器
-topic: Simulator,Site search and merchandising
+topic: 模擬器、網站搜尋與銷售
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
-source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
