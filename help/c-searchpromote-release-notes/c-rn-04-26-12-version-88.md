@@ -1,33 +1,31 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.8發行說明(04/26/2012)
+description: Search&amp;Promote 8.8發行說明。
 solution: Target
 title: Search&amp;Promote 8.8發行說明(04/26/2012)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: ddb9f1af-92a4-4f85-be8f-a36f34d31add
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 70%
+source-wordcount: '328'
+ht-degree: 68%
 
 ---
 
 
-# Search&amp;Promote 8.8發行說明(04/26/2012){#search-promote-release-notes}
+# Search&amp;Promote8.8發行說明(04/26/2012){#search-promote-release-notes}
 
 **新功能**
 
 * 動態 Facet
 
    對於每頁網站內容 (可能依索引而變動，如新增屬性、移除或重新命名舊屬性) 相關的屬性創意集，可以進行動態 Facet。動態 Facet 會自動對應槽 Facet 和真實 Facet。「搜尋指南」圖層可以透過業務規則加速此功能。
-* Adobe Search&amp;Promote e使用者介面
+* AdobeSearch&amp;Promote用戶介面
 
-   在所有Adobe Search&amp;Promote網頁上實作Adobe使用者介面。
-* 與Adobe登入入口網站更緊密整合
+   在所有AdobeSearch&amp;Promote網頁上實作Adobe使用者介面。
+* 與Adobe的登入入口網站更緊密整合
 
-   Adobe Search&amp;Promote客戶可獨家使用Adobe登入入口網站。 目前的[!DNL Adobe Publish]、Adobe SiteSearch和Atomz客戶將繼續使用舊版登入。
+   AdobeSearch&amp;Promote客戶可以獨家使用Adobe登入入口網站。 目前的[!DNL Adobe Publish]、Adobe SiteSearch和Atomz客戶將繼續使用舊版登入。
 * 新形態分析，支援中文和日文
 
    索引和搜尋時間套用了形態分析，以便支援中文和日文。
@@ -40,7 +38,7 @@ ht-degree: 70%
 
 **修正和增強功能**
 
-* 已修正使用「舞台管理員」即時推送橫幅的問題，此問題導致即時推送的Dynamic Media Classic相關功能中斷。
+* 已修正使用Stage Manager即時推送橫幅，導致即時推送與Dynamic Media經典相關的功能中斷。
 * 修正編輯具備「查詢參數不存在」觸發的規則時，會被錯誤翻譯為「關鍵字包含」的問題。
 * 修正第二次無法編輯參數的問題。
 * 修正 Index Connector 的問題，此問題造成兩個以上對應定義無法指向同一個中繼資料/欄位值。
