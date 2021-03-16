@@ -1,23 +1,21 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.9.3發行說明(11/01/2012)
+description: Search&amp;Promote 8.9.3發行說明。
 solution: Target
 title: Search&amp;Promote 8.9.3發行說明(11/01/2012)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: 7bc7bcb6-f47f-4e05-94e5-a22a13a187b7
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 81%
+source-wordcount: '289'
+ht-degree: 79%
 
 ---
 
 
-# Search&amp;Promote 8.9.3發行說明(11/01/2012){#search-promote-release-notes}
+# Search&amp;Promote8.9.3發行說明(11/01/2012){#search-promote-release-notes}
 
-## Search&amp;Promote 8.9.3發行說明(11/01/2012){#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
+## Search&amp;Promote8.9.3發行說明(11/01/2012){#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
 
 <table> 
  <thead> 
