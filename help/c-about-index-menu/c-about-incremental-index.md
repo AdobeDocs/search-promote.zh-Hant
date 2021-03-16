@@ -1,16 +1,14 @@
 ---
 description: 您可以使用「增量索引」來為即時或分段網站的「片段」建立索引，例如經常變更的頁面集合。
-seo-description: 您可以使用「增量索引」來為即時或分段網站的「片段」建立索引，例如經常變更的頁面集合。
-seo-title: 關於增量索引
 solution: Target
 subtopic: Incremental Index
 title: 關於增量索引
-topic: Index,Site search and merchandising
+topic: 索引、網站搜尋與銷售
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -24,7 +22,7 @@ ht-degree: 0%
 
 增量索引只需數秒即可執行，對於需要數小時才能完成索引的大型網站非常有用。
 
-當生成增量索引時，會顯示狀態資訊，如索引過程中的開始時間、佔用時間和錯誤。 此外，還會顯示有關上一個索引狀態的資訊。
+當生成增量索引時，會顯示狀態資訊，例如索引過程中的開始時間、佔用時間和錯誤。 此外，還會顯示有關上一個索引狀態的資訊。
 
 您可以隨時停止或重新啟動增量索引過程。
 
@@ -49,7 +47,7 @@ ht-degree: 0%
     <tbody> 
       <tr> 
       <td colname="col1"> <p>新增或更新URL </p> </td> 
-      <td colname="col2"> <p>指定URL。 </p> <p>搜索自動機僅對自上次編製索引以來已更改的指定文檔進行索引。 </p> <p>此外，搜索自動機會跟蹤包含在指定文檔中的連結，並僅對已更改的文檔進行索引。 </p> <p>此欄位必須僅包含檔案URL，而非遮色片，如下列範例所示： </p> <p> 
+      <td colname="col2"> <p>指定URL。 </p> <p>搜索自動機僅對自上次編製索引以來已更改的指定文檔進行索引。 </p> <p>此外，搜索自動機會跟蹤包含在指定文檔中的連結，並僅對已更改的文檔進行索引。 </p> <p>此欄位只能包含檔案URL，而不能像下列範例那樣包含遮色片： </p> <p> 
         <code>
           https://www.mydomain.com/products/new.html 
         </code> </p> <p>您可搭配URL使用下列關鍵字： </p> <p> 
@@ -217,7 +215,7 @@ Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計�
 **若要設定即時網站的遞增索引排程**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Schedule]**」。
-1. 在&#x200B;**[!UICONTROL Incremental Index Schedule]**&#x200B;頁面的&#x200B;**[!UICONTROL Incrementally Index]**&#x200B;下拉式清單中，選取以小時或分鐘為單位的索引頻率。
+1. 在&#x200B;**[!UICONTROL Incremental Index Schedule]**&#x200B;頁面的&#x200B;**[!UICONTROL Incrementally Index]**&#x200B;下拉式清單中，選取索引頻率（以小時或分鐘為單位）。
 1. 在&#x200B;**[!UICONTROL Base Time]**&#x200B;下拉式清單中，選取要重新產生新增索引的開始時間。
 1. 按一下 **[!UICONTROL Save Changes]**.
 
