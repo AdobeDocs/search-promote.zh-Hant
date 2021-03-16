@@ -1,16 +1,14 @@
 ---
 description: 您可以使用Facet來自訂您的表現層，並為您的使用者提供引導式搜尋功能，讓他們深入探究其搜尋結果。
-seo-description: 您可以使用Facet來自訂您的表現層，並為您的使用者提供引導式搜尋功能，讓他們深入探究其搜尋結果。
-seo-title: 關於Facet
 solution: Target
 subtopic: Navigation
 title: 關於Facet
-topic: Design,Site search and merchandising
+topic: 設計、網站搜尋與銷售
 uuid: 28bc4d4d-a84c-4a77-befb-b0fb3bbdb966
 translation-type: tm+mt
-source-git-commit: 52c8d7985e7cb0aa35be1deabeb7cb92a55f07c2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3855'
+source-wordcount: '3832'
 ht-degree: 1%
 
 ---
@@ -273,7 +271,7 @@ t_adding_a_new_facet.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>Facet的別名 </p> </td> 
-      <td colname="col2"> <p>若要支援您在野外可能擁有的現有搜尋URL，您可以使用Facet別名，將舊有參數名稱對應至已修改的Facet，或只建立具有不同名稱的Facet。 別名僅套用至傳入的請求，不用來建立Facet連結。 </p> </td> 
+      <td colname="col2"> <p>若要支援您在野外可能擁有的現有搜尋URL，您可以使用Facet別名，將舊有參數名稱對應至已修改的Facet，或僅建立具有不同名稱的Facet。 別名僅套用至傳入的請求，不用來建立Facet連結。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Facet邊欄名稱 </p> </td> 
