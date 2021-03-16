@@ -1,15 +1,13 @@
 ---
 description: 您可以定義當日期格式解析任何具有「日期」資料類型的欄位並索引時所使用的日期格式。
-seo-description: 您可以定義當日期格式解析任何具有「日期」資料類型的欄位並索引時所使用的日期格式。
-seo-title: 日期格式
 solution: Target
 title: 日期格式
-topic: Appendices,Site search and merchandising
+topic: 附錄、網站搜尋與銷售
 uuid: 148914b5-33ef-41db-8404-67c03f6f0832
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '749'
 ht-degree: 3%
 
 ---
