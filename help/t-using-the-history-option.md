@@ -1,15 +1,13 @@
 ---
 description: 您可以使用「步驟記錄」來檢視對實作功能（例如Facet、階層連結、橫幅或範本）所做的所有修訂的清單。
-seo-description: 您可以使用「步驟記錄」來檢視對實作功能（例如Facet、階層連結、橫幅或範本）所做的所有修訂的清單。
-seo-title: 使用歷史記錄選項
 solution: Target
 title: 使用歷史記錄選項
-topic: Using History,Site search and merchandising
+topic: 使用歷史、網站搜尋和銷售
 uuid: 48b9ee9d-cd61-41e7-b8c3-5f1665b9a9cb
 translation-type: tm+mt
-source-git-commit: 52c8d7985e7cb0aa35be1deabeb7cb92a55f07c2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
