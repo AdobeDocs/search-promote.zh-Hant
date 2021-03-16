@@ -1,15 +1,13 @@
 ---
 description: 測試功能可讓您測試和預覽對設定和設定所做的變更，而不會影響即時索引。
-seo-description: 測試功能可讓您測試和預覽對設定和設定所做的變更，而不會影響即時索引。
-seo-title: 關於測試
 solution: Target
 title: 關於測試
-topic: Staging,Site search and merchandising
+topic: 測試、網站搜尋和銷售
 uuid: 2e5889a6-2e9c-4ac7-9d6e-d35e7cafda5b
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
