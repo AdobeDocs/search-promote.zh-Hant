@@ -1,15 +1,13 @@
 ---
 description: 您可以使用字典來管理字典的集合，以及其相關的同義字和同義字。
-seo-description: 您可以使用字典來管理字典的集合，以及其相關的同義字和同義字。
-seo-title: 關於字典
 solution: Target
 title: 關於字典
-topic: Linguistics,Site search and merchandising
+topic: 語言學、網站搜尋與商品銷售
 uuid: d4463896-30fe-4385-a283-c930c8264a02
 translation-type: tm+mt
-source-git-commit: 4531970404c189ffa1d4359d1431c97df893ba35
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2462'
 ht-degree: 1%
 
 ---
@@ -64,7 +62,7 @@ ht-degree: 1%
 
 ## 關於將字典配置為詞乾字典{#section_B859E2E957674F558AC6F8D05A0ED190}
 
-詞乾功能是指搜尋可以有多個結尾的字詞根的能力，它可以在三種模式之一運作：網域字典、預設替代字詞表單和無。
+詞乾功能是指搜尋可以有多個結尾的字詞根的能力，它可以在三種模式之一運作：網域字典、預設替代字詞Forms和無。
 
 請參閱[關於字詞和語言](../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79)。
 
