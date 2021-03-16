@@ -1,16 +1,14 @@
 ---
 description: 使用「中繼資料」功能表可自訂搜尋定義和索引插入。
-seo-description: 使用「中繼資料」功能表可自訂搜尋定義和索引插入。
-seo-title: 關於中繼資料選單
 solution: Target
 subtopic: Metadata
 title: 關於中繼資料選單
-topic: Settings,Site search and merchandising
+topic: 設定、網站搜尋與銷售
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '8039'
+source-wordcount: '8029'
 ht-degree: 1%
 
 ---
@@ -120,7 +118,7 @@ ht-degree: 1%
       <tr> 
       <td colname="col1"> <p> 動態Facet </p> </td> 
       <td colname="col2"> <p> 
-        <!--NEW 2/2/2014--> <p>附註: 此功能預設不會啟用。請聯絡技術支援以啟動供您使用。 啟動後，它會出現在使用者介面中。 </p> </p> <p>將已識別的Facet設為動態。 </p> <p>Facet建立在meta標籤欄位之上。 中繼標籤欄位是Adobe Search&amp;Promote的低階核心搜尋層。 另一方面，Facet則屬於GS（引導式搜尋）的一部分，即Adobe Search&amp;Promote的高階表現層。 但是，Facet擁有meta標籤欄位，meta標籤欄位對Facet一無所知。 </p> <p>請參閱<a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local">關於動態面</a>。 </p> </td> 
+        <!--NEW 2/2/2014--> <p>附註: 此功能預設不會啟用。請聯絡技術支援以啟動供您使用。 啟動後，它會出現在使用者介面中。 </p> </p> <p>將已識別的Facet設為動態。 </p> <p>Facet建立在meta標籤欄位之上。 中繼標籤欄位是低階核心搜尋層的AdobeSearch&amp;Promote。 另一方面，刻面是GS(Guided Search)的一部分，即高階的AdobeSearch&amp;Promote表現層。 但是，Facet擁有meta標籤欄位，meta標籤欄位對Facet一無所知。 </p> <p>請參閱<a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local">關於動態面</a>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>允許重複資料消除 </p> </td> 
@@ -182,7 +180,7 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>最重要的排名值 </p> </td> 
-      <td colname="col2"> <p>僅當選擇資料類型<span class="uicontrol">秩</span>時才可用。 </p> <p>控制代表任何檔案之最高排名的排名值。 </p> <p>如果您的檔案排名從最低排名的0到最高排名的10，則您將此值設為10。 </p> <p>如果您的檔案排名從最高排名的1到最低排名的10，則將此值設為1。 </p> </td> 
+      <td colname="col2"> <p>僅當選擇資料類型<span class="uicontrol">秩</span>時才可用。 </p> <p>控制代表任何檔案之最高排名的排名值。 </p> <p>如果您的檔案排名從最低排名的0到最高排名的10之間，則將此值設為10。 </p> <p>如果您的檔案排名從最高排名的1到最低排名的10，則將此值設為1。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>預設單位 </p> </td> 
@@ -228,7 +226,7 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>中間格式 </p> </td> 
-      <td colname="col2"> <p>僅當選中「建立範圍說明<span class="uicontrol">」並選中「<span class="uicontrol">範圍欄位</span>」項目時才可用。</span> </p> <p>此範本用於指定值的範圍說明，該值介於<span class="uicontrol">範圍值</span>中找到的最小值和最大值之間。 對於給定範圍，低範圍值將使用數字預留位置標籤<span class="uicontrol"> ~L~ </span>表示，而高範圍值將使用標籤<span class="uicontrol"> ~H~ </span>表示。 例如: </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>或: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>或: </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>通常，值的格式為"as-is" —— 即，對於<span class="uicontrol">範圍值</span>定義"5 10 20"和提供的值8，生成的範圍說明將只是"Between 5 and 10"。 如果您希望它為"5到9.99"，而較高的值已向下調整<i></i>，請將<span class="uicontrol"> Precision </span>設為<span class="uicontrol"> 2 </span>並使用下列格式： </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>同樣地，<span class="uicontrol"> ~L~</span>可以被<span class="uicontrol"> ~l~</span>取代，使低值被調節<i>向上</i>，也根據<span class="uicontrol">精度</span>設定。 這表示定義如下： </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p><span class="uicontrol">精度</span>值<span class="uicontrol"> 2 </span>將建立"5.01到10"。 </p> <p>小寫<span class="uicontrol"> ~l~</span>將根據<span class="uicontrol">精度</span>設定使小寫<i>向上</i>四捨五入，小寫<span class="uicontrol"> ~h~</span>將使大小寫<i>向下四捨五入</i>。 </p> <p>注意：若要依原樣在範圍說明中加入任何數值預留位置，請使用反斜線(\)首碼指定——例如。<span class="uicontrol"> \~L~ </span>或<span class="uicontrol"> \~h~ </span>。 若要包含反斜線字元，請使用另一個反斜線來指定該字元，例如<span class="uicontrol"> \\ </span>。 </p> </td> 
+      <td colname="col2"> <p>僅當選中「建立範圍說明<span class="uicontrol">」並選中「<span class="uicontrol">範圍欄位</span>」項目時才可用。</span> </p> <p>此範本用於指定值的範圍說明，該值介於<span class="uicontrol">範圍值</span>中找到的最小值和最大值之間。 對於給定範圍，低範圍值將使用數字預留位置標籤<span class="uicontrol"> ~L~ </span>表示，而高範圍值將使用標籤<span class="uicontrol"> ~H~ </span>表示。 例如: </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>或: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>或: </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>通常，值的格式為"as-is" —— 即，對於<span class="uicontrol">範圍值</span>定義"5 10 20"和提供的值8，生成的範圍說明將只是"Between 5 and 10"。 如果您希望它為"5到9.99"，且值較高時向下<i>調整</i>，請將<span class="uicontrol"> Precision </span>設為<span class="uicontrol"> 2 </span>並使用下列格式： </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>同樣地，<span class="uicontrol"> ~L~</span>可以被<span class="uicontrol"> ~l~</span>取代，使低值被調節<i>向上</i>，也根據<span class="uicontrol">精度</span>設定。 這表示定義如下： </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p><span class="uicontrol">精度</span>值<span class="uicontrol"> 2 </span>將建立"5.01到10"。 </p> <p>小寫<span class="uicontrol"> ~l~</span>將根據<span class="uicontrol">精度</span>設定使小寫<i>向上</i>四捨五入，小寫<span class="uicontrol"> ~h~</span>將使大小寫<i>向下四捨五入</i>。 </p> <p>注意：若要依原樣在範圍說明中加入任何數值預留位置，請使用反斜線(\)首碼指定——例如。<span class="uicontrol"> \~L~ </span>或<span class="uicontrol"> \~h~ </span>。 若要包含反斜線字元，請使用另一個反斜線來指定該字元，例如<span class="uicontrol"> \\ </span>。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>「大於」格式 </p> </td> 
@@ -426,7 +424,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       <li id="li_FD0B1CD9E6304B18B9D7F57E61015107"> <span class="codeph"> 目標  </span> </li> 
       <li id="li_400D7E3F3E9B47EFB2FF5C0D278DB573"> <span class="codeph"> 標題 </span> </li> 
       <li id="li_449BCBEE4F64424BB69F780C10F5956C"> <span class="codeph"> url </span> </li> 
-     </ul> </p> <p>每個欄位名稱都與您網站頁面上的元素相對應。 例如，如果您指定欄位名稱<span class="codeph"> desc </span>，則可以將插入定義值新增至與您網站頁面上的「中繼」標籤說明對應的欄位。 </p> <p>如果頁面上沒有描述Meta標籤，則定義的內容會為您建立標籤。 在<span class="codeph"> desc </span>注入中指定的內容會像硬式編碼元描述內容一樣顯示在結果頁面上。 </p> <p>您也可以使用相同的欄位名稱建立多個定義。 例如，假設您有下列注射： </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>上述範例中的所有網站頁面都會收到一個插入標題「歡迎使用我的網站」。 「/company/」資料夾中的頁面會插入新標題「我的網站：聯絡我們」，以取代上一個。 </p> <p>請注意，注射會按照注射在<span class="wintitle"> 「現場注射定義」(Field Injection Definitions)</span>文本框中的顯示順序進行應用。 如果相同欄位（本範例中的「標題」）在相同位置的頁面上定義多次，則較晚的定義優先。 </p> <p> <span class="codeph"> [regexp]  </span> -可選。如果您選擇使用<span class="codeph"> regexp </span>選項，則定義的URL會被視為規則運算式。 </p> <p>請參閱<a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local">規則運算式</a>。 </p> <p>以下定義： </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> 「重要資訊」會插入與規則運算式<span class="codeph"> ^相符之所有頁面的「目標」欄位。*/products/.*\.html$ </span>. </p> <p>因此，您有下列功能： </p> <p> <code> https://www.mydomain.com/products/page1.html 
+     </ul> </p> <p>每個欄位名稱都與您網站頁面上的元素相對應。 例如，如果您指定欄位名稱<span class="codeph"> desc </span>，則可以將插入定義值新增至與您網站頁面上的「中繼」標籤說明對應的欄位。 </p> <p>如果頁面上沒有描述Meta標籤，則定義的內容會為您建立標籤。 在<span class="codeph"> desc </span>注入中指定的內容會像硬式編碼元描述內容一樣顯示在結果頁面上。 </p> <p>您也可以使用相同的欄位名稱建立多個定義。 例如，假設您有下列注射： </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>上述範例中的所有網站頁面都會收到一個插入標題「歡迎使用我的網站」。 「/company/」資料夾中的頁面會插入新標題「我的網站：聯絡我們」，以取代上一個。 </p> <p>請注意，注射會按照注射在<span class="wintitle"> 「現場注射定義」(Field Injection Definitions)</span>文本框中的顯示順序來應用。 如果相同欄位（本範例中的「標題」）在相同位置的頁面上定義多次，則較晚的定義優先。 </p> <p> <span class="codeph"> [regexp]  </span> -可選。如果您選擇使用<span class="codeph"> regexp </span>選項，則定義的URL會被視為規則運算式。 </p> <p>請參閱<a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local">規則運算式</a>。 </p> <p>以下定義： </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> 「重要資訊」會插入與規則運算式<span class="codeph"> ^相符之所有頁面的「目標」欄位。*/products/.*\.html$ </span>. </p> <p>因此，您有下列功能： </p> <p> <code> https://www.mydomain.com/products/page1.html 
       &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p> <code> https://www.mydomain.com/product/oldstuff.html 
       &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;not&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p>在下列範例中： </p> <p> <code> append&amp;nbsp;title&amp;nbsp;regexp&amp;nbsp;^.*\.pdf$&amp;nbsp;Millennium&amp;nbsp;Science </code> </p> <p>此注入會附加"Millennium Science"至所有以"。pdf"副檔名結尾之頁面的"title"內容。 </p> </td> 
   </tr> 
@@ -480,7 +478,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->若要使用「屬性載入器」，您可能需要由Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
+>若要使用「屬性載入器」，您可能需要由您的Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
 
 您可以使用資料饋送輸入來源來存取儲存在與網站上通常發現的格式不同的表單中的內容。 您可使用其中一種可用的編目方法來完成此作業。 然後，這些來源的資料可以注入到已編目內容的資料中。
 
@@ -565,7 +563,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
   </tr> 
   <tr> 
    <td colname="col1"> <p>資訊源 </p> </td> 
-   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也會顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有幫助，因為它描述了XML資料並標識了Itemtag。 </p> <p> <p>注意： 「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
+   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有幫助，因為它描述了XML資料並標識了Itemtag。 </p> <p> <p>注意： 「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -590,7 +588,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->若要使用「屬性載入器」，您可能需要由Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
+>若要使用「屬性載入器」，您可能需要由您的Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
 
 在新定義和已啟用定義的效果顯現給客戶之前，請重建您的網站索引。
 
@@ -712,7 +710,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       </tr> 
       <tr> 
       <td colname="col1"> <p>Itemtag </p> </td> 
-      <td colname="col2"> <p>標識可用於標識指定資料源檔案中各個XML行的XML元素。 </p> <p>例如，在Adobe XML檔案的下列Feed片段中，Itemtag值是<span class="codeph">記錄</span>: </p> <p> <code class="syntax xml"> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
+      <td colname="col2"> <p>標識可用於標識指定資料源檔案中各個XML行的XML元素。 </p> <p>例如，在AdobeXML文檔的以下Feed片段中，Itemtag值為<span class="codeph">記錄</span>: </p> <p> <code class="syntax xml"> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
         &lt;!DOCTYPE&nbsp;gsafeed&nbsp;PUBLIC&nbsp;"-//Google//DTD&nbsp;GSA&nbsp;Feeds//EN"&nbsp;""&gt; 
         &lt;gsafeed&gt; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt; 
@@ -763,15 +761,15 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       <td colname="col1"> <p>地圖 </p> </td> 
       <td colname="col2"> <p>可讓您使用XPath運算式指定XML元素對中繼資料的映射。 </p> <p> 
       <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
-      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> 標記 </span> <p>指定已解析XML資料的XPath表示法。 使用上述Adobe XML檔案範例，在選項Itemtag下，可使用下列語法來對應它： </p> <p> <code class="syntax xml"> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> 標記 </span> <p>指定已解析XML資料的XPath表示法。 使用上述範例AdobeXML檔案，在選項Itemtag下，可使用下列語法來對應它： </p> <p> <code class="syntax xml"> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>上述語法的轉譯如下： </p> <p> 
         <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
         <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code class="syntax xml"> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p><span class="codeph">顯示<span class="codeph">記錄</span>元素的</span>屬性映射至中繼資料欄位<span class="codeph"> page-url </span>。 </p> </li> 
-        <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>包含在<span class="codeph">中繼資料</span>元素內、包含在<span class="codeph">記錄</span>元素內、名稱屬性為<span class="codeph">標題</span>的<span class="codeph">元素的</span>內容&lt;a1/&gt;屬性，對應至中繼資料欄位<span class="codeph">標題</span>。<span class="codeph"></span> </p> </li> 
-        <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>包含在<span class="codeph">記錄</span>元素（其名稱屬性為<span class="codeph">說明</span>）內的<span class="codeph">中繼</span>元素中的<span class="codeph">內容</span>屬性，映射至元資料欄位<span class="codeph"> desc &lt;a111/&gt;。<span class="codeph"></span></span> </p> </li> 
-        <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>包含在<span class="codeph">記錄</span>元素中的&lt;a6/&gt;元資料</span>元素中的<span class="codeph">元素的</span>內容&lt;a1/&gt;屬性，其名稱屬性為<span class="codeph">說明</span>，映射到元資料欄位<span class="codeph">正文</span>。<span class="codeph"><span class="codeph"></span> </span></p> </li> 
+        <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>包含在<span class="codeph">中繼資料</span>元素內、位於<span class="codeph">記錄</span>元素內、名稱屬性為<span class="codeph">標題</span>的</span>元素中的<span class="codeph">內容<span class="codeph">屬性，對應至中繼資料欄位<span class="codeph">標題</span>。</span> </span></p> </li> 
+        <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>包含在<span class="codeph">記錄</span>元素（其名稱屬性為<span class="codeph">說明</span>）內的<span class="codeph">中繼</span>元素中的<span class="codeph">內容</span>屬性，映射至元資料欄位<span class="codeph"> desc <span class="codeph">。</span></span> </p> </li> 
+        <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>包含在<span class="codeph">記錄</span>元素中的</span>元資料</span>元素中的<span class="codeph">元素的</span>內容<span class="codeph">屬性，其名稱屬性為<span class="codeph">說明</span>，映射到元資料欄位<span class="codeph">正文</span>。<span class="codeph"> </span></span></p> </li> 
         </ul> </p> <p>XPath是一個相對複雜的符號。 如需詳細資訊，請造訪下列位置： </p> <p>請參閱<a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> 欄位 </span> <p>定義用於每個生成的<span class="codeph"> &lt;meta&gt; </span>標籤的名稱屬性值。 </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> 中繼資料? </span> <p>使<span class="uicontrol">欄位</span>成為下拉式清單，您可從中為目前帳戶選取已定義的中繼資料欄位。 </p> <p>如果需要，<span class="uicontrol">欄位</span>值可以是未定義的中繼資料欄位。 未定義的中繼資料欄位有時對建立<span class="wintitle">篩選指令碼</span>所使用的內容很有用。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local">關於篩選指令碼</a>。 </p> <p>當屬性載入器在任何地圖欄位上處理具有多次點擊的XML檔案時，會將多個值串連在產生的快取檔案中的單一值中。 依預設，這些值會使用逗號分隔字元來組合。 但是，假設對應的<span class="wintitle">欄位</span>值是已定義的中繼資料欄位。 此外，該欄位還設定了「允許清單</span>」屬性。 <span class="wintitle">在這種情況下，欄位的「清單分隔符」值（定義的第一個分隔符）將用於級聯。 </span></p> </li> 
@@ -806,7 +804,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->若要使用「屬性載入器」，您可能需要由Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
+>若要使用「屬性載入器」，您可能需要由您的Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
 
 並非所有的「屬性載入器」選項都可供您變更，例如[!DNL Type]下拉式清單中的「屬性載入器名稱」或「類型」。
 
@@ -839,7 +837,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->若要使用「屬性載入器」，您可能需要由Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
+>若要使用「屬性載入器」，您可能需要由您的Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
 
 複製「屬性載入器」定義時，預設會停用複製的定義。 若要啟用或「開啟」定義，您必須從[!DNL Attribute Loader Edit]頁面加以編輯，然後選取&#x200B;**[!UICONTROL Enable]**。
 
@@ -871,9 +869,9 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->若要使用「屬性載入器」，您可能需要由Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
+>若要使用「屬性載入器」，您可能需要由您的Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
 
-**要更名屬性載入器定義**
+**要更名屬性載入器定義，請執行以下操作：**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Attribute Loader]**」。
 1. 在[!DNL Attribute Loader]頁面的[!DNL Actions]欄標題下，按一下&#x200B;**[!UICONTROL Rename]**&#x200B;以取得您要變更的屬性載入器定義名稱。
@@ -968,7 +966,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->若要使用「屬性載入器」，您可能需要由Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
+>若要使用「屬性載入器」，您可能需要由您的Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
 
 **查看屬性載入器定義的設定**
 
@@ -994,7 +992,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->若要使用「屬性載入器」，您可能需要由Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
+>若要使用「屬性載入器」，您可能需要由您的Adobe帳戶代表或Adobe支援在您的帳戶中啟用它。
 
 **刪除屬性載入器定義**
 
