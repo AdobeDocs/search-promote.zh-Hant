@@ -1,21 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.13.0發行說明(04/16/2014)
+description: Search&amp;Promote 8.13.0發行說明。
 solution: Target
 title: Search&amp;Promote 8.13.0發行說明(04/16/2014)
-topic: Release Notes,Site search and merchandising
+topic: 發行說明、網站搜尋與銷售
 uuid: b3524992-ff00-4a7c-a404-078242456734
 translation-type: tm+mt
-source-git-commit: 9d5ac055d665b39d09b28063179d74a389d7f830
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 57%
+source-wordcount: '330'
+ht-degree: 56%
 
 ---
 
 
-# Search&amp;Promote 8.13.0發行說明(04/16/2014){#search-promote-release-notes}
+# Search&amp;Promote8.13.0發行說明(04/16/2014){#search-promote-release-notes}
 
 | 新功能和增強功能 | 說明 |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,7 +45,7 @@ ht-degree: 57%
 
 * 如果定義了大量動態Facet欄位，使用者會經歷緩慢的核心搜尋回應時間。
 * 發生偽範圍索引錯誤。
-* 非北美洲資料中心的Dynamic Media Classic存取中斷。
+* Dynamic Media公司在非北美資料中心的經典訪問中斷。
 * SPIN XPath 驗證功能傳回誤判錯誤。
 
 * 在 SPIN 啟用/停用作業之後，系統將使用者重導至成員中心登入畫面。
