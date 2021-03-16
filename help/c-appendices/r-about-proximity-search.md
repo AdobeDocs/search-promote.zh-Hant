@@ -1,15 +1,13 @@
 ---
 description: 「鄰近搜尋」可讓您將唯一位置與網站上的任何頁面建立關聯，然後依離指定位置的鄰近（距離）搜尋並排序結果。
-seo-description: 「鄰近搜尋」可讓您將唯一位置與網站上的任何頁面建立關聯，然後依離指定位置的鄰近（距離）搜尋並排序結果。
-seo-title: 關於鄰近搜尋
 solution: Target
 title: 關於鄰近搜尋
-topic: Appendices,Site search and merchandising
+topic: 附錄、網站搜尋與銷售
 uuid: 24fc9265-3400-46a7-b6e0-4de5b049a39a
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
