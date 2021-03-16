@@ -1,15 +1,13 @@
 ---
 description: 您可以使用範本來管理您的簡報範本和傳輸範本。
-seo-description: 您可以使用範本來管理您的簡報範本和傳輸範本。
-seo-title: 關於範本
 solution: Target
 title: 關於範本
-topic: Design,Site search and merchandising
+topic: 設計、網站搜尋與銷售
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
 translation-type: tm+mt
-source-git-commit: 60cedaac1846e384a37699a42bf7fda33828e1c0
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2652'
 ht-degree: 1%
 
 ---
@@ -407,7 +405,7 @@ t_editing_a_template.xml
 1. 在[!DNL Templates]頁面上，按一下簡報或傳輸範本檔案名稱。
 1. 在[!DNL Template Editor]頁面上，對標籤和編碼進行變更。
 
-   請留意您在[!DNL Template Editor]中所做的變更；沒有「還原」功能。 如果您進行了不想要的更改，並想要返回到檔案的先前版本，可按一下&#x200B;**[!UICONTROL Cancel]**&#x200B;返回模板表（假定您到目前為止未保存任何更改）。 如果您已儲存變更，則可在編輯器中使用&#x200B;**[!UICONTROL History]**&#x200B;來回復這些變更。
+   請留意您在[!DNL Template Editor]中所做的變更；沒有「還原」功能。 如果您進行不想要的變更，而且想要返回檔案的舊版，可以按一下&#x200B;**[!UICONTROL Cancel]**&#x200B;返回範本表格（假設您到目前為止未儲存任何變更）。 如果您已儲存變更，則可在編輯器中使用&#x200B;**[!UICONTROL History]**&#x200B;來回復這些變更。
 1. （可選）按一下&#x200B;**[!UICONTROL Insert Symbol]**，輸入美國英文鍵盤上沒有對應鍵的特殊字元和符號。
 1. 按一下 **[!UICONTROL Save Changes]**.
 1. （可選）執行下列任一項作業：
