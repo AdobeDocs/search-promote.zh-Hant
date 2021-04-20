@@ -2,7 +2,7 @@
 description: 使用模擬器，查看如果您要推送目前已上傳的所有內容，搜尋結果會是什麼樣。
 solution: Target
 title: 關於模擬器
-topic: 模擬器、網站搜尋與銷售
+topic: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

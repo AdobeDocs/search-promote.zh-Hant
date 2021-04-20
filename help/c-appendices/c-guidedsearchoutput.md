@@ -2,7 +2,7 @@
 description: 瞭解如何自訂任何文字格式的輸出，包括XML或JSON。
 solution: Target
 title: 引導式搜尋輸出
-topic: 附錄、網站搜尋與銷售
+topic: Appendices,Site search and merchandising
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

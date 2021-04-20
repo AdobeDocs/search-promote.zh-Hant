@@ -3,7 +3,7 @@ description: 您可以使用搜尋引擎最佳化(SEO)中繼標籤，協助您�
 solution: Target
 subtopic: SEO
 title: 關於SEO
-topic: 設定、網站搜尋與銷售
+topic: Settings,Site search and merchandising
 uuid: 5c5d64f5-fe79-4489-85c6-399d1437f2c4
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

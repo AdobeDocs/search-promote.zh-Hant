@@ -2,7 +2,7 @@
 description: 您可以使用「業務規則」來商品化您的搜尋。
 solution: Target
 title: 關於業務規則
-topic: 規則、網站搜尋與銷售
+topic: Rules,Site search and merchandising
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

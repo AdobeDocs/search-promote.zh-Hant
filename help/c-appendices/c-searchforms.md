@@ -2,7 +2,7 @@
 description: 瞭解Search&amp;Promote中的搜尋表單
 solution: Target
 title: 搜尋表格
-topic: 附錄、網站搜尋與銷售
+topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

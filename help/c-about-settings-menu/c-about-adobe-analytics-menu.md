@@ -3,7 +3,7 @@ description: 使用Adobe Analytics功能表來設定Adobe Analytics量度驗證�
 solution: Target
 subtopic: Adobe Analytics
 title: 關於Adobe Analytics菜單
-topic: 設定、網站搜尋與銷售
+topic: Settings,Site search and merchandising
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

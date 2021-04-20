@@ -2,7 +2,7 @@
 description: Search&amp;Promote 8.9.2發行說明。
 solution: Target
 title: Search&amp;Promote 8.9.2發行說明(09/13/2012)
-topic: 發行說明、網站搜尋與銷售
+topic: Release Notes,Site search and merchandising
 uuid: 8b7a1ea5-e30f-4ce2-b3dc-a5f5966ca354
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

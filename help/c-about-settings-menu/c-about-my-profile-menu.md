@@ -3,7 +3,7 @@ description: 使用「我的配置檔案」菜單可以設定個人資訊、首�
 solution: Target
 subtopic: My Profile
 title: 關於我的個人檔案功能表
-topic: 設定、網站搜尋與銷售
+topic: Settings,Site search and merchandising
 uuid: 6a0a4e57-59fa-48fb-b712-eb16a9f47c3a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

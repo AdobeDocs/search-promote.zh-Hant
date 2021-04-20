@@ -3,7 +3,7 @@ description: 「最近搜尋」是以Cookie為基礎的系統，可讓您使用�
 solution: Target
 subtopic: Navigation
 title: 設定最近搜尋
-topic: 設計、網站搜尋與銷售
+topic: Design,Site search and merchandising
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

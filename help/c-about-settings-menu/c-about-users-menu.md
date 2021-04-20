@@ -3,7 +3,7 @@ description: 使用「用戶」菜單可以查看和添加用戶、查看和添�
 solution: Target
 subtopic: Users
 title: 關於使用者功能表
-topic: 設定、網站搜尋與銷售
+topic: Settings,Site search and merchandising
 uuid: 6242b73c-5e8a-44b7-9942-0684530940bc
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

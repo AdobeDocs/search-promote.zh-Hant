@@ -2,7 +2,7 @@
 description: 使用「報表」功能表可檢視或重設客戶搜尋查詢的報表。
 solution: Target
 title: 關於報表功能表
-topic: 報表、網站搜尋與銷售
+topic: Reports,Site search and merchandising
 uuid: 3ea856d7-dc07-455f-8dc7-c7f7f56355d7
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

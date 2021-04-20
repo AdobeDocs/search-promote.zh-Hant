@@ -2,7 +2,7 @@
 description: 您可以使用「步驟記錄」來檢視對實作功能（例如Facet、階層連結、橫幅或範本）所做的所有修訂的清單。
 solution: Target
 title: 使用歷史記錄選項
-topic: 使用歷史、網站搜尋和銷售
+topic: Using History,Site search and merchandising
 uuid: 48b9ee9d-cd61-41e7-b8c3-5f1665b9a9cb
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: 使用「設計」功能表來建構您的「搜尋結果」頁面的簡報。
 solution: Target
 title: 設計您的搜尋結果頁面
-topic: 設計、網站搜尋與銷售
+topic: Design,Site search and merchandising
 uuid: 61cb3ead-705e-45b7-a365-2c694d160d0a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

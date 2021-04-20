@@ -3,7 +3,7 @@ description: 您可以使用回滾來備份和歸檔已生成的網站索引。 
 solution: Target
 subtopic: Rollback
 title: 關於索引的回滾
-topic: 索引、網站搜尋與銷售
+topic: Index,Site search and merchandising
 uuid: abed878a-71b3-4122-9822-7410f4427a9a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

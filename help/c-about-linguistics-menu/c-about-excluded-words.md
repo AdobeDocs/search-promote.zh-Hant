@@ -2,7 +2,7 @@
 description: 您可以使用「排除的字詞」來指定您要排除在搜尋結果外的常用片語和常用字詞，例如"a"和"the"。
 solution: Target
 title: 關於排除的字詞
-topic: 語言學、網站搜尋與商品銷售
+topic: Linguistics,Site search and merchandising
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

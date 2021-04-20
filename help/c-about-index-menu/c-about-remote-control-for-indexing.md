@@ -2,7 +2,7 @@
 description: 每當您的網站變更時，您都可以執行指令碼或程式，要求搜尋自動機使用遠端控制來執行索引。
 solution: Target
 title: 關於為索引進行遠程控制
-topic: 索引、網站搜尋與銷售
+topic: Index,Site search and merchandising
 uuid: 20e230c6-5c1a-4bf4-bff3-b8236d14ab21
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

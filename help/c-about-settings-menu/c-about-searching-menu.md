@@ -3,7 +3,7 @@ description: 使用「搜尋」功能表可設定排除的字詞、系列、限�
 solution: Target
 subtopic: Searching
 title: 關於「搜索」菜單
-topic: 設定、網站搜尋與銷售
+topic: Settings,Site search and merchandising
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

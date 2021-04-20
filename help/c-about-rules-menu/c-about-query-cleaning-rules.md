@@ -2,7 +2,7 @@
 description: 使用查詢清除規則來分析和修改傳入查詢。
 solution: Target
 title: 關於查詢清除規則
-topic: 規則、網站搜尋與銷售
+topic: Rules,Site search and merchandising
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

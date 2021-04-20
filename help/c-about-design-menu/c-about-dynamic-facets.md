@@ -3,7 +3,7 @@ description: 使用「動態刻面」，在搜尋時自動建立新的範圍選�
 solution: Target
 subtopic: Navigation
 title: 關於動態Facet
-topic: 設計、網站搜尋與銷售
+topic: Design,Site search and merchandising
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: Search&amp;Promote 8.17.0發行說明。
 solution: Target
 title: Search&amp;Promote 8.17.0發行說明(10/30/2014)
-topic: 發行說明、網站搜尋與銷售
+topic: Release Notes,Site search and merchandising
 uuid: ea1725df-778c-4875-a269-f33d0c367126
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

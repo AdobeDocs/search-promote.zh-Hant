@@ -2,7 +2,7 @@
 description: 「鄰近搜尋」可讓您將唯一位置與網站上的任何頁面建立關聯，然後依離指定位置的鄰近（距離）搜尋並排序結果。
 solution: Target
 title: 關於鄰近搜尋
-topic: 附錄、網站搜尋與銷售
+topic: Appendices,Site search and merchandising
 uuid: 24fc9265-3400-46a7-b6e0-4de5b049a39a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

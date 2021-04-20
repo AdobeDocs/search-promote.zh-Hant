@@ -2,7 +2,7 @@
 description: 您可以定義您網站上使用的常見片語，如此當客戶輸入搜尋查詢時，就不需要在您定義的片語周圍輸入引號。
 solution: Target
 title: 關於常見片語
-topic: 語言學、網站搜尋與商品銷售
+topic: Linguistics,Site search and merchandising
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: 使用搜尋前規則來分析傳入的查詢，並決定要使用的簡報範本。 「搜尋前規則」會依序執行每個查詢。 若要變更規則的順序，您可以使用拖放。 實際訂單在您儲存之前不會變更。
 solution: Target
 title: 關於搜索前規則
-topic: 規則、網站搜尋與銷售
+topic: Rules,Site search and merchandising
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

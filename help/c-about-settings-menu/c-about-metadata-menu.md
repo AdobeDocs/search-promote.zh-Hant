@@ -3,7 +3,7 @@ description: 使用「中繼資料」功能表可自訂搜尋定義和索引插�
 solution: Target
 subtopic: Metadata
 title: 關於中繼資料選單
-topic: 設定、網站搜尋與銷售
+topic: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

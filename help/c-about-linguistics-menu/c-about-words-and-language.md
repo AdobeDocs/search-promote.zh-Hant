@@ -2,7 +2,7 @@
 description: 您可以使用「字詞和語言」來判斷搜尋詞與網頁內容的匹配方式。
 solution: Target
 title: 關於字詞和語言
-topic: 語言學、網站搜尋與商品銷售
+topic: Linguistics,Site search and merchandising
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

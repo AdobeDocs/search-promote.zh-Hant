@@ -3,7 +3,7 @@ description: 您可以設定「自動完成」的各個區域，以控制自動�
 solution: Target
 subtopic: Auto-Complete
 title: 關於自動完成
-topic: 設計、網站搜尋與銷售
+topic: Design,Site search and merchandising
 uuid: 3dfdd14d-2044-4f01-a5bc-fcb2eb0d5068
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

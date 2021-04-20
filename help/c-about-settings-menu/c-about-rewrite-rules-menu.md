@@ -3,7 +3,7 @@ description: 使用「重寫規則」功能表來設定編目和搜尋URL和標�
 solution: Target
 subtopic: Rewrite Rules
 title: 關於重寫規則菜單
-topic: 設定、網站搜尋與銷售
+topic: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: 您可以使用範本來管理您的簡報範本和傳輸範本。
 solution: Target
 title: 關於範本
-topic: 設計、網站搜尋與銷售
+topic: Design,Site search and merchandising
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

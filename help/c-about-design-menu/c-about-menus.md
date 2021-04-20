@@ -3,7 +3,7 @@ description: 您可以使用功能表來自訂您的表現層。
 solution: Target
 subtopic: Navigation
 title: 關於功能表
-topic: 設計、網站搜尋與銷售
+topic: Design,Site search and merchandising
 uuid: 011050cd-21b6-4150-9503-18fa3f771626
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

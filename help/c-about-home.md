@@ -2,7 +2,7 @@
 description: 您可以使用「首頁」來檢視各種報表Widget，以快速概述您的Search&amp;Promote帳戶。
 solution: Target
 title: 關於首頁
-topic: 首頁、網站搜尋與銷售
+topic: Home,Site search and merchandising
 uuid: 5d4dbf5e-954d-46ae-a822-18a58af60de6
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

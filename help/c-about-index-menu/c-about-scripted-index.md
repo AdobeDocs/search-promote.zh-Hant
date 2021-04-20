@@ -3,7 +3,7 @@ description: 使用指令碼式索引，您可以編寫、更新和維護增量�
 solution: Target
 subtopic: Scripted Index
 title: 關於指令碼式索引
-topic: 索引、網站搜尋與銷售
+topic: Index,Site search and merchandising
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

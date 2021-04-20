@@ -2,7 +2,7 @@
 description: 您可以使用字典來管理字典的集合，以及其相關的同義字和同義字。
 solution: Target
 title: 關於字典
-topic: 語言學、網站搜尋與商品銷售
+topic: Linguistics,Site search and merchandising
 uuid: d4463896-30fe-4385-a283-c930c8264a02
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

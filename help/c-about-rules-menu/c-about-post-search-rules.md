@@ -2,7 +2,7 @@
 description: 您可以使用「搜尋後規則」來檢查搜尋結果，並判斷搜尋對顯示內容有何影響。
 solution: Target
 title: 關於搜尋後規則
-topic: 規則、網站搜尋與銷售
+topic: Rules,Site search and merchandising
 uuid: 312d1e4a-f5b6-4629-8645-17e6f6c09fc4
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

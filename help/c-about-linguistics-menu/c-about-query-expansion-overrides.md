@@ -2,7 +2,7 @@
 description: 您可以覆蓋搜索查詢結果的擴展。
 solution: Target
 title: 關於查詢擴展覆蓋
-topic: 語言學、網站搜尋與商品銷售
+topic: Linguistics,Site search and merchandising
 uuid: dfe18004-b8fd-4889-b01c-72a3b0c82b9c
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

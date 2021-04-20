@@ -2,7 +2,7 @@
 description: 您可以使用橫幅來管理您網站上的橫幅廣告。
 solution: Target
 title: 關於橫幅
-topic: 設計、網站搜尋與銷售
+topic: Design,Site search and merchandising
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

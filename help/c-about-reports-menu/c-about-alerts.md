@@ -2,7 +2,7 @@
 description: 「警報」頁面提供一個集中位置，可檢視和管理與您的帳戶有關的所有警報。
 solution: Target
 title: 關於警報
-topic: 報表、網站搜尋與銷售
+topic: Reports,Site search and merchandising
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

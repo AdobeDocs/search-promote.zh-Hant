@@ -3,7 +3,7 @@ description: 使用「篩選」菜單，可以使用在編製索引之前更改W
 solution: Target
 subtopic: Filtering
 title: 關於篩選功能表
-topic: 設定、網站搜尋與銷售
+topic: Settings,Site search and merchandising
 uuid: ebb08fa8-4e17-417d-868b-11fc2af9f284
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

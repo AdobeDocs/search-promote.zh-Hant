@@ -3,7 +3,7 @@ description: 您可以使用「重新產生索引」來更新網站的索引，�
 solution: Target
 subtopic: Regenerate Index
 title: 關於重新生成索引
-topic: 索引、網站搜尋與銷售
+topic: Index,Site search and merchandising
 uuid: 9d1f1d88-0453-4422-a625-a348febbf224
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

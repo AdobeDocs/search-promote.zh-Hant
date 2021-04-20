@@ -3,7 +3,7 @@ description: 您可以使用「增量索引」來為即時或分段網站的「�
 solution: Target
 subtopic: Incremental Index
 title: 關於增量索引
-topic: 索引、網站搜尋與銷售
+topic: Index,Site search and merchandising
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

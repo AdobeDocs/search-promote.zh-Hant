@@ -3,7 +3,7 @@ description: 使用Facet邊欄可重新排序網頁上的Facet群組。
 solution: Target
 subtopic: Navigation
 title: 關於Facet邊欄
-topic: 設計、網站搜尋與銷售
+topic: Design,Site search and merchandising
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

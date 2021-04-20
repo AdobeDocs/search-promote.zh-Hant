@@ -2,7 +2,7 @@
 title: AdobeSearch&Promote服務終止公告
 description: 進一步瞭解AdobeSearch&Promote的服務終止公告。
 feature: null
-role: 管理員，商業從業人員，資料工程師，開發人員
+role: Administrator,Business Practitioner,Data Engineer,Developer
 hide: true
 hidefromtoc: true
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: 直接點擊可讓您在客戶搜尋相符詞語時，將客戶重新導向至指定的URL。 這類功能可讓您改善網站搜尋的導覽。
 solution: Target
 title: 關於直接點擊
-topic: 規則、網站搜尋與銷售
+topic: Rules,Site search and merchandising
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

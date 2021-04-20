@@ -3,7 +3,7 @@ description: 您可以使用排名規則，根據包含的中繼標籤內容和�
 solution: Target
 subtopic: Ranking Rules
 title: 關於排名規則
-topic: 規則、網站搜尋與銷售
+topic: Rules,Site search and merchandising
 uuid: 21962f9a-1d9c-442f-a6c4-5f452436c640
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

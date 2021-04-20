@@ -3,7 +3,7 @@ description: 您可以使用「重新排名索引」來更新網站的排名資�
 solution: Target
 subtopic: Re-Rank Index
 title: 關於重新排名索引
-topic: 索引、網站搜尋與銷售
+topic: Index,Site search and merchandising
 uuid: 5c2a4c12-5e06-4fcc-897c-c12fcc5d7aa8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
