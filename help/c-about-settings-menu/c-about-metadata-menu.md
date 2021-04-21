@@ -3,16 +3,16 @@ description: 使用「中繼資料」功能表可自訂搜尋定義和索引插�
 solution: Target
 subtopic: Metadata
 title: 關於中繼資料選單
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
+exl-id: 53d62da9-c5bd-4c4a-bb89-743704f66f7f
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '8029'
+source-wordcount: '8024'
 ht-degree: 1%
 
 ---
-
 
 # 關於中繼資料功能表{#about-the-metadata-menu}
 
@@ -563,7 +563,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
   </tr> 
   <tr> 
    <td colname="col1"> <p>資訊源 </p> </td> 
-   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有幫助，因為它描述了XML資料並標識了Itemtag。 </p> <p> <p>注意： 「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
+   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也會顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有幫助，因為它描述了XML資料並標識了Itemtag。 </p> <p> <p>注意： 「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
