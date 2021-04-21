@@ -2,16 +2,16 @@
 description: 「資料檢視」會顯示含有中繼欄位的搜尋結果。 每一欄都是中繼欄位，而每一列都是搜尋查詢的結果。 選擇並重新排列欄，以自訂資料檢視。 資料檢視也可以有自訂標題和說明。
 solution: Target
 title: 關於資料視圖
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
+exl-id: 9ef5eaef-85d6-41e9-af44-b4775755e5bf
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
-
 
 # 關於資料視圖{#about-data-views}
 
@@ -185,4 +185,3 @@ ht-degree: 1%
    * 在[!DNL Data Views]頁面的表的[!DNL Title]列中，按一下要開啟的資料視圖的名稱。
 
    * 在[!DNL Data Views]頁面上，在表格的[!DNL Actions]欄中，按一下您要開啟之資料檢視的列中的&#x200B;**[!UICONTROL View]**。
-
