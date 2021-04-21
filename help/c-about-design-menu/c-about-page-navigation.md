@@ -3,16 +3,16 @@ description: 您可以使用「頁面導覽」來自訂搜尋表現層的頁面�
 solution: Target
 subtopic: Navigation
 title: 關於頁面導覽
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: fb17a99e-d7b4-415e-ba1b-ca194fe41a5d
+exl-id: ed1ba6a8-1bab-4616-a447-50cfe319dac8
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '400'
 ht-degree: 2%
 
 ---
-
 
 # 關於頁面導覽{#about-page-navigation}
 
@@ -129,4 +129,3 @@ t_editing_web_page_navigation.xml
    * 按一下 **[!UICONTROL Push Live]**.
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
-
