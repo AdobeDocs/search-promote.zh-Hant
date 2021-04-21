@@ -2,16 +2,16 @@
 description: 您可以使用「排除的字詞」來指定您要排除在搜尋結果外的常用片語和常用字詞，例如"a"和"the"。
 solution: Target
 title: 關於排除的字詞
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
+exl-id: d553b776-907a-4f4a-8481-b36dc0cb75c9
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
-
 
 # 關於排除的字詞{#about-excluded-words}
 
@@ -73,4 +73,3 @@ ht-degree: 0%
    * 按一下 **[!UICONTROL Push Live]**.
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
-
