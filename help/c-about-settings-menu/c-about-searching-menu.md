@@ -3,16 +3,16 @@ description: 使用「搜尋」功能表可設定排除的字詞、系列、限�
 solution: Target
 subtopic: Searching
 title: 關於「搜索」菜單
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
+exl-id: 4cb70240-051b-4bf3-ae2a-b151acc7cba1
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '11170'
+source-wordcount: '11165'
 ht-degree: 1%
 
 ---
-
 
 # 關於「搜索」菜單{#about-the-searching-menu}
 
@@ -1157,7 +1157,7 @@ t_creating_a_feed.xml
         </ul> <p>一般饋送需要指定特殊的CGI參數。 若要系結與此饋送關聯的特殊範本，請定義<span class="codeph"> sp_t </span>參數。 將<span class="codeph"> sp_t </span>的值設定為傳輸模板檔案的名稱。 例如，如果您新增了名為<span class="codeph"> super_feed.tpl </span>的傳輸範本檔案，您會建立自訂CGI搜尋參數為<span class="codeph"> sp_t=super_feed </span>。 在從<span class="wintitle">元欄位</span>下拉清單中選擇<span class="uicontrol">自由格式</span>之前，輸入<span class="codeph"> sp_t </span>的文本框不會出現。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>檔案提交 </p> </td> 
       <td colname="col3"> <p>可讓您設定提交動態消息檔案的排程，並設定您要用來上傳檔案的方法。 </p> 
         <ul id="ul_30E830C41F6A4526822AF1FD3083075A"> 
@@ -1209,7 +1209,7 @@ t_creating_a_feed.xml
       <td colname="col3"> <p>可讓您將廠商特定的饋送欄位對應至網站搜尋／銷售中繼資料欄位。 精靈中的此對應步驟很重要，因為它可讓動態消息將索引中欄位與動態消息資料欄位之間的資訊建立關聯。 在大多數情況下，除<span class="wintitle">一般饋送</span>外，關聯會儲存在動態產生的搜尋範本中。 </p> <p>「欄位映射」表中的每一行都表示欄位映射。 在表格的<span class="wintitle"> 「新增／移除</span>」欄中，按一下「<span class="uicontrol"> + </span>」以新增欄位對應列；按一下<span class="uicontrol"> - </span>從表中刪除當前選定的欄位映射行。 若要將動態消息欄位與網站搜尋／銷售中繼資料欄位建立關聯，請使用個別的下拉式清單來選擇所要的欄位。 </p> <p> <b>進階使用</b> </p> <p>您可以建立自己的自訂欄位。 在「<span class="wintitle">饋送欄位</span>」下拉式清單中，按一下「自訂</span>」。 <span class="uicontrol">在關聯的文字欄位中，輸入該欄位的自訂標籤名稱。 如果動態消息需要特定於供應商的特殊欄位，此自訂選項很實用。 </span></p> <p>您也可以建立自訂中繼資料欄位。 在<span class="wintitle">中繼資料欄位</span>下拉式清單中，按一下<span class="uicontrol">自訂</span>。 在關聯的文字欄位中，輸入自訂中繼資料欄位值。 值會插入預先產生的範本中，也可用來插入自訂搜尋範本標籤。 </p> <p>請參閱<a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local">搜尋範本標籤</a>。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>搜尋標準 </p> </td> 
       <td colname="col3"> <p>產生饋送檔案時，會使用搜尋查詢來篩選資料。 您可以在此面板中定義用於搜尋查詢的篩選器。 </p> 
         <ul id="ul_8179321A58BB4C72B0CDB2B2BEC58FE4"> 
@@ -1264,7 +1264,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>摘要名稱 </p> </td> 
       <td colname="col3"> <p>指定動態消息的名稱。 </p> </td> 
       </tr> 
@@ -1274,7 +1274,7 @@ t_creating_a_feed.xml
       <td colname="col3"> <p>可讓您將廠商特定的饋送欄位對應至網站搜尋／銷售中繼資料欄位。 精靈中的此對應步驟很重要，因為它可讓動態消息將索引中欄位與動態消息資料欄位之間的資訊建立關聯。 在大多數情況下，除<span class="wintitle">一般饋送</span>外，關聯會儲存在動態產生的搜尋範本中。 </p> <p>「欄位映射」表中的每一行都表示欄位映射。 在表格的「添加／刪除」列中，按一下<span class="uicontrol"> + </span>添加新欄位映射行；按一下<span class="uicontrol"> - </span>從表中刪除當前選定的欄位映射行。 若要將動態消息欄位與中繼資料欄位建立關聯，請使用個別的下拉式清單來選擇所要的欄位。 </p> <p> <b>進階使用</b> </p> <p>您可以建立自己的自訂欄位。 在「<span class="wintitle">饋送欄位</span>」下拉式清單中，按一下「自訂</span>」。 <span class="uicontrol">在關聯的文字欄位中，輸入該欄位的自訂標籤名稱。 如果動態消息需要特定於供應商的特殊欄位，此自訂選項很實用。 </span></p> <p>您也可以建立自訂中繼資料欄位。 在<span class="wintitle">中繼資料欄位</span>下拉式清單中，按一下<span class="uicontrol">自訂</span>。 在關聯的文字欄位中，輸入自訂中繼資料欄位值。 值會插入預先產生的範本中，也可用來插入自訂搜尋範本標籤。 </p> <p>請參閱<a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local">搜尋範本標籤</a>。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>搜尋標準 </p> </td> 
       <td colname="col3"> <p>產生饋送檔案時，會使用搜尋查詢來篩選資料。 您可以在此面板中定義用於搜尋查詢的篩選器。 </p> 
         <ul id="ul_994585E89A044BD3A89A99D30F277432"> 
