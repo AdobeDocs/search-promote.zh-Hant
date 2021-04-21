@@ -3,16 +3,16 @@ description: 使用「重寫規則」功能表來設定編目和搜尋URL和標�
 solution: Target
 subtopic: Rewrite Rules
 title: 關於重寫規則菜單
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
+exl-id: cff17ead-6997-4ff6-a995-7ca020b06d50
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '10202'
+source-wordcount: '10197'
 ht-degree: 0%
 
 ---
-
 
 # 關於重寫規則菜單{#about-the-rewrite-rules-menu}
 
@@ -1333,4 +1333,3 @@ t_adding_search_title_rules.xml
    * 按一下 **[!UICONTROL Push Live]**.
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
-
