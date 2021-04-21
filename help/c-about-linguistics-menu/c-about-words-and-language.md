@@ -2,16 +2,16 @@
 description: 您可以使用「字詞和語言」來判斷搜尋詞與網頁內容的匹配方式。
 solution: Target
 title: 關於字詞和語言
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
+exl-id: bfc84879-1fd1-4c86-beab-353469014c64
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
-
 
 # 關於字詞和語言{#about-words-language}
 
@@ -109,4 +109,3 @@ t_configuring_how_search_terms_matched_to_your_web_content.xml
    * 按一下 **[!UICONTROL Push Live]**.
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
-
