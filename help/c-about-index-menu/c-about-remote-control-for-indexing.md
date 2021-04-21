@@ -2,16 +2,16 @@
 description: 每當您的網站變更時，您都可以執行指令碼或程式，要求搜尋自動機使用遠端控制來執行索引。
 solution: Target
 title: 關於為索引進行遠程控制
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 20e230c6-5c1a-4bf4-bff3-b8236d14ab21
+exl-id: 1a7689f9-1e3f-48c8-a5f1-abe0efdb7768
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1037'
 ht-degree: 1%
 
 ---
-
 
 # 關於索引的遠程控制{#about-remote-control-for-indexing}
 
