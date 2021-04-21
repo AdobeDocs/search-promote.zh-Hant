@@ -3,16 +3,16 @@ description: 您可以使用「垂直更新」快速更新索引的部分，而�
 solution: Target
 subtopic: Vertical Update
 title: 關於垂直更新
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
+exl-id: 8d6a48c0-377d-4a15-bddc-c67e28037bfc
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
-
 
 # 關於垂直更新{#about-vertical-update}
 
@@ -134,4 +134,3 @@ ht-degree: 0%
    * 使用導覽選項&#x200B;**[!UICONTROL First]**、**[!UICONTROL Prev]**、**[!UICONTROL Next]**、**[!UICONTROL Last]**&#x200B;或&#x200B;**[!UICONTROL Go to line]**&#x200B;在日誌中移動。
 
    * 使用顯示選項&#x200B;**[!UICONTROL Errors only]**、**[!UICONTROL Wrap line]**&#x200B;或&#x200B;**[!UICONTROL Show]**&#x200B;來調整您所看到的內容。
-
