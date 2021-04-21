@@ -2,16 +2,16 @@
 description: 直接點擊可讓您在客戶搜尋相符詞語時，將客戶重新導向至指定的URL。 這類功能可讓您改善網站搜尋的導覽。
 solution: Target
 title: 關於直接點擊
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
+exl-id: 251dfa47-f55a-469c-8fca-e187877b7759
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
-
 
 # 關於直接點擊{#about-direct-hits}
 
@@ -95,4 +95,3 @@ t_testing_direct_hits.xml
    * 按一下 **[!UICONTROL Push Live]**.
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
-
