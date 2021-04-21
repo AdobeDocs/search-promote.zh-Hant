@@ -3,16 +3,16 @@ description: 使用「編目」功能表設定日期和URL遮色片、密碼、�
 solution: Target
 subtopic: Crawling
 title: 關於編目功能表
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
+exl-id: 22dbbc30-bf1c-4d51-8fb0-708115ba844b
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '11016'
+source-wordcount: '11011'
 ht-degree: 0%
 
 ---
-
 
 # 關於編目功能表{#about-the-crawling-menu}
 
@@ -1105,7 +1105,7 @@ index:<indexconnector_configuration_name>
   </tr> 
   <tr> 
    <td colname="col1"> <p>資訊源 </p> </td> 
-   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有用，因為它描述XML資料並識別Itemtag值。 </p> <p> <p>注意： 「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
+   <td colname="col2"> <p>下載資料來源並執行簡單的XML剖析。 </p> <p>產生的XPath識別碼會顯示在Map表格的Tag列中，而欄位中也會顯示類似的值。 這些行僅標識可用資料，不生成更複雜的XPath定義。 但是，它仍然很有用，因為它描述XML資料並識別Itemtag值。 </p> <p> <p>注意： 「設定對應」功能會下載整個XML來源以執行其分析。 如果檔案很大，此操作可能超時。 </p> </p> <p>成功後，此函式將標識所有可能的XPath項，其中許多項不適合使用。 請務必檢查產生的地圖定義，並移除您不需要或想要的地圖定義。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>XML </p> </td> 
