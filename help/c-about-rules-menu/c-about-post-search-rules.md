@@ -2,16 +2,16 @@
 description: 您可以使用「搜尋後規則」來檢查搜尋結果，並判斷搜尋對顯示內容有何影響。
 solution: Target
 title: 關於搜尋後規則
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: 312d1e4a-f5b6-4629-8645-17e6f6c09fc4
+exl-id: 021aaf99-050e-4d3a-a1da-45f0edfd7c35
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 0%
+source-wordcount: '2097'
+ht-degree: 1%
 
 ---
-
 
 # 關於搜尋後規則{#about-post-search-rules}
 
@@ -87,7 +87,7 @@ Perform the following actions:
 * 如果您是上次通過模組時，結果仍然較差，則可以切換到「無結果」模板。
 * 您應根據可能具有其他參數的搜尋結果來變更簡報範本。 如果您只想選取僅以傳入查詢為基礎的範本，則搜尋前規則會更有效率。
 * 在查詢清理模組中對查詢進行資料挖掘。 您可以在搜尋後處理中參考自訂變數。
-* 當您進行重新導向時，請務必檢查客戶是否未選取任何面。 原因是當客戶鑽研至Facet，突然從搜尋結果中移除時，不方便。 當客戶發現單一結果不想要尋找時，可能會想要取消選取Facet。
+* 當您進行重新導向時，請務必檢查客戶是否未選取任何面。 原因在於，當客戶鑽研至Facet，突然從搜尋結果中移除時，會不方便。 當客戶發現單一結果不想要尋找時，可能會想要取消選取Facet。
 
 ## 新增搜尋後規則{#task_52F6F9AAD65B45B5ACA1FF245DFFADD9}
 
