@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.7.1發行說明。
 solution: Target
 title: Search&amp;Promote 8.7.1發行說明(02/23/2012)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 3fabf7b2-4a27-4f0a-862a-52f701a0631d
+exl-id: b10f0081-ed69-4c6b-86c9-816326b647f0
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 32%
+source-wordcount: '173'
+ht-degree: 33%
 
 ---
-
 
 # Search&amp;Promote8.7.1發行說明(02/23/2012){#search-promote-release-notes}
 
@@ -38,4 +38,3 @@ ht-degree: 32%
 * 保留時間戳記，以免範本快取失效。
 * 當捲軸出現在「Dynamic Media經典」橫幅對話方塊中時，有些變更參數欄位會被截斷。
 * 您對「Dynamic Media經典」橫幅參數所做的任何業務規則變更都可在「測試」區域中運作，但在您推送至即時時未生效。
-
