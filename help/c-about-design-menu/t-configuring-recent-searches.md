@@ -3,16 +3,16 @@ description: 「最近搜尋」是以Cookie為基礎的系統，可讓您使用�
 solution: Target
 subtopic: Navigation
 title: 設定最近搜尋
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
+exl-id: bc6285fa-eaaf-4afb-8ef3-6f1e66cd7090
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
-
 
 # 配置最近搜索{#configuring-recent-searches}
 
@@ -71,4 +71,3 @@ ht-degree: 2%
    * 按一下 **[!UICONTROL Push Live]**.
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
-
