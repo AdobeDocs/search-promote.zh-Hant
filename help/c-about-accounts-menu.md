@@ -2,16 +2,16 @@
 description: 使用產品選單上的「帳戶」來選擇您要存取和使用的帳戶。
 solution: Target
 title: 關於帳戶功能表
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
+exl-id: f3f43b71-cbcb-4325-88de-72db1c049700
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '167'
 ht-degree: 2%
 
 ---
-
 
 # 關於帳戶菜單{#about-the-accounts-menu}
 
@@ -40,4 +40,3 @@ t_selecting_a_different_account_to_use.xml
 
    * 在表格的[!DNL Name]欄標題下，按一下您要開始使用和管理的帳戶名稱。
    * 在表格的[!DNL Number]欄標題下，按一下您要開始使用和管理的帳戶號碼。
-
