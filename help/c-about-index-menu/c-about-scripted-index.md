@@ -3,16 +3,16 @@ description: 使用指令碼式索引，您可以編寫、更新和維護增量�
 solution: Target
 subtopic: Scripted Index
 title: 關於指令碼式索引
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
+exl-id: e1d14cd5-4885-4e3a-bc5f-fe0b6a4df15e
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1725'
 ht-degree: 0%
 
 ---
-
 
 # 關於指令碼式索引{#about-scripted-index}
 
@@ -284,4 +284,3 @@ Web伺服器通常會安排在半夜停工進行維護。 如果伺服器在計�
    * 使用導覽選項&#x200B;**[!UICONTROL First]**、**[!UICONTROL Prev]**、**[!UICONTROL Next]**、**[!UICONTROL Last]**&#x200B;或&#x200B;**[!UICONTROL Go to line]**&#x200B;在日誌中移動。
 
    * 使用顯示選項&#x200B;**[!UICONTROL Errors only]**、**[!UICONTROL Wrap line]**&#x200B;或&#x200B;**[!UICONTROL Show]**&#x200B;來調整您所看到的內容。
-
