@@ -2,16 +2,16 @@
 description: 您可以定義您網站上使用的常見片語，如此當客戶輸入搜尋查詢時，就不需要在您定義的片語周圍輸入引號。
 solution: Target
 title: 關於常見片語
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
+exl-id: 72305fcd-8f9a-4ce2-b416-aa1b58486312
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
-
 
 # 關於常見片語{#about-common-phrases}
 
@@ -211,4 +211,3 @@ ht-degree: 1%
    * 按一下 **[!UICONTROL Push Live]**.
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
-
