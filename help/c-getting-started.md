@@ -2,16 +2,16 @@
 description: 如果您是新手Search&Promote和動態導覽，請從這裡開始，開始使用您的帳戶。 您將學習如何為網站建立索引，並自訂搜尋結果的外觀和感覺。
 solution: Target
 title: 快速入門
-topic: Getting Started,Site search and merchandising
+topic-legacy: Getting Started,Site search and merchandising
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
+exl-id: f2772d7a-b558-403e-9e77-8c87302e2b02
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
-
 
 # 快速入門{#getting-started}
 
@@ -142,4 +142,3 @@ ht-degree: 0%
 * 設定字典，讓您指定相關字詞群組（例如，購買、購買和採購）。 即使客戶的搜尋查詢與您網頁上使用的術語不完全相符，這些相關字詞仍有助於傳回相關結果。 在上述範例中使用的同義詞中，客戶的「購買」搜尋查詢會傳回包含「購買」字詞的頁面。
 
    請參閱[關於字典](c-about-linguistics-menu/c-about-dictionaries.md#concept_B8028B71EC8144669614C64578EDB034)。
-
