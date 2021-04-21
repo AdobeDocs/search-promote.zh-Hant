@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.11.0發行說明。
 solution: Target
 title: Search&amp;Promote 8.11.0發行說明(10/29/2013)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 973f9608-a5c7-4571-ae2b-6f1fa05bc862
+exl-id: b417b275-7b04-4855-9e2a-9de0faa262cc
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 57%
+source-wordcount: '295'
+ht-degree: 58%
 
 ---
-
 
 # Search&amp;Promote8.11.0發行說明(10/29/2013){#search-promote-release-notes}
 
@@ -69,4 +69,3 @@ ht-degree: 57%
    請參閱[關於字詞和語言](../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79)。
 
 * 自動完成文字清單使用者介面現在適用於大量刻面。
-
