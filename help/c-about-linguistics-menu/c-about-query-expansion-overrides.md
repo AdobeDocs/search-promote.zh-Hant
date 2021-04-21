@@ -2,16 +2,16 @@
 description: 您可以覆蓋搜索查詢結果的擴展。
 solution: Target
 title: 關於查詢擴展覆蓋
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: dfe18004-b8fd-4889-b01c-72a3b0c82b9c
+exl-id: 6157ffcb-e696-419a-acb5-2076c12a6763
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
-
 
 # 關於查詢擴展覆蓋{#about-query-expansion-overrides}
 
@@ -124,4 +124,3 @@ t_configuring_query_expansion_overrides.xml
    * 按一下「推送即時」。****
 
       請參閱[即時推送階段設定](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)
-
