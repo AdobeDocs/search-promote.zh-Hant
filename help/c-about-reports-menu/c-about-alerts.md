@@ -2,16 +2,16 @@
 description: 「警報」頁面提供一個集中位置，可檢視和管理與您的帳戶有關的所有警報。
 solution: Target
 title: 關於警報
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
+exl-id: b6d637c9-2a2c-49b3-828b-3ae272bf28aa
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
-
 
 # 關於警報{#about-alerts}
 
@@ -50,4 +50,3 @@ ht-degree: 0%
    * 要選擇所有顯示的警報，請選擇左列頂部的複選框。
 
       如果要選擇所有匹配的警報，而不是它們的單頁，請在右側的下拉清單中選擇&#x200B;**[!UICONTROL All Alerts]** ，然後選擇列頂部的複選框。
-
