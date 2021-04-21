@@ -2,16 +2,16 @@
 description: Search&amp;Promote 15.1.1發行說明。
 solution: Target
 title: Search&amp;Promote 15.1.1發行說明(01/15/2015)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
+exl-id: 6176ce1e-aafe-4a46-a564-57c3ac4632ef
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 16%
+source-wordcount: '235'
+ht-degree: 17%
 
 ---
-
 
 # Search&amp;Promote15.1.1發行說明(01/15/2015){#search-promote-release-notes}
 
@@ -34,4 +34,3 @@ ht-degree: 16%
 * 具有非零`sp_i`值的查詢不再通過[!DNL Adobe Analytics]重定向器運行。
 
    請參閱[後端搜尋CGI參數](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)表格中的第15行。
-
