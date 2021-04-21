@@ -2,16 +2,16 @@
 description: 使用搜尋前規則來分析傳入的查詢，並決定要使用的簡報範本。 「搜尋前規則」會依序執行每個查詢。 若要變更規則的順序，您可以使用拖放。 實際訂單在您儲存之前不會變更。
 solution: Target
 title: 關於搜索前規則
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
+exl-id: 23e7feda-956a-48ce-8c61-fe0498c1bbda
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1661'
 ht-degree: 1%
 
 ---
-
 
 # 關於預搜索規則{#about-pre-search-rules}
 
@@ -234,4 +234,3 @@ ht-degree: 1%
    * 按一下 **[!UICONTROL Push Live]**.
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
-
