@@ -2,16 +2,16 @@
 description: 您可以使用字典來管理字典的集合，以及其相關的同義字和同義字。
 solution: Target
 title: 關於字典
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: d4463896-30fe-4385-a283-c930c8264a02
+exl-id: c8e83422-bc96-48f8-b4f1-58a25cade1ef
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2457'
 ht-degree: 1%
 
 ---
-
 
 # 關於字典{#about-dictionaries}
 
@@ -385,7 +385,7 @@ t_deleting_a_dictionary.xml
 
  -->
 
-如果您刪除即時的字典，則會暫存以刪除。 如果刪除已存放的字典，該字典會立即刪除。
+如果您刪除即時的字典，則會暫存以刪除。 如果您刪除已存放的字典，該字典會立即刪除。
 
 請確定您正在刪除您知道更需要的字典；沒有歷史記錄功能可用來還原刪除。
 
@@ -403,4 +403,3 @@ t_deleting_a_dictionary.xml
    * 按一下 **[!UICONTROL Push Live]**.
 
       請參閱[推送舞台設定live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
-
