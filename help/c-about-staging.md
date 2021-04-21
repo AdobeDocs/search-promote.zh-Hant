@@ -2,16 +2,16 @@
 description: 測試功能可讓您測試和預覽對設定和設定所做的變更，而不會影響即時索引。
 solution: Target
 title: 關於測試
-topic: Staging,Site search and merchandising
+topic-legacy: Staging,Site search and merchandising
 uuid: 2e5889a6-2e9c-4ac7-9d6e-d35e7cafda5b
+exl-id: 61f254b7-4dc1-4a5e-a22e-94763f140c50
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
-
 
 # 關於測試{#about-staging}
 
