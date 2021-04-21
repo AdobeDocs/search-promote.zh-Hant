@@ -2,16 +2,16 @@
 description: 使用模擬器，查看如果您要推送目前已上傳的所有內容，搜尋結果會是什麼樣。
 solution: Target
 title: 關於模擬器
-topic: Simulator,Site search and merchandising
+topic-legacy: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
+exl-id: ee8dcf37-7692-438a-8869-6703ef61e498
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
-
 
 # 關於模擬器{#about-simulator}
 
