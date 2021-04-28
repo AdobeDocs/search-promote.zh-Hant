@@ -5,14 +5,14 @@ feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
 hide: true
 hidefromtoc: true
+exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 translation-type: tm+mt
-source-git-commit: 681e3e6768f214759598482526ce7ffba27e860e
+source-git-commit: 1562d46d096206f21228cb8ca9cbd8cec406e8dc
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
-
 
 # AdobeSearch&amp;Promote服務終止公告
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ### **_Search&amp;Promote何時停止運作？_**
 
-服務終止計畫於2022年8月1日Search&amp;Promote。 屆時，Search&amp;Promote管理使用者介面將不再可供存取，而對Search&amp;PromoteAPI的要求也將不再提供結果。 在此日期前，服務將可完整使用並正常運作。
+Search&amp;Promote服務終止計畫於2022年9月1日&#x200B;****&#x200B;舉行。 屆時，Search&amp;Promote管理使用者介面將不再可供存取，而對Search&amp;PromoteAPI的要求也將不再提供結果。 在此日期前，服務將可完整使用並正常運作。
 
 ### **_如果對Search&amp;Promote提出搜尋或其他API要求，會發生什麼情況？_**
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ### **_我是否仍可在適用的Search&amp;Promote授權終止之前續約？_**
 
-是.與您的Adobe代表合作，在合約終止日期不超過2022年8月1日時續約您的授權。
+是.與您的Adobe代表合作，在合約結束日期不晚於&#x200B;**2022年9月1日**&#x200B;時續約您的授權。
