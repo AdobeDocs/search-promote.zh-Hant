@@ -7,9 +7,9 @@ topic-legacy: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 exl-id: cff17ead-6997-4ff6-a995-7ca020b06d50
 translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: aa095add9eb656913792b3f14001dda66cdd7d67
 workflow-type: tm+mt
-source-wordcount: '10197'
+source-wordcount: '10178'
 ht-degree: 0%
 
 ---
@@ -281,14 +281,14 @@ t_adding_a_crawl_list_store_url_rule.xml
 
  -->
 
-**若要新增編目清單儲存URL規則**
+**若要新增編目清單儲存URL規則：**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Store URL Rules]**」。
 1. 在[!DNL Crawl List Store URL Rules]欄位中，輸入您想要的規則。
 
    允許以「#」（雜湊）字元開頭的空白行和註解行。
-1. （可選）在[!DNL Crawl List Store URL Rules]頁面的[!DNL Test Crawl List Store URL Rules]欄位中，輸入您要測試其編目規則的測試URL，然後按一下&#x200B;**Test**。
-1. 按一下&#x200B;**「儲存變更」**。
+1. （可選）在[!DNL Crawl List Store URL Rules]頁面的[!DNL Test Crawl List Store URL Rules]欄位中，輸入您要測試其編目規則的測試URL，然後按一下&#x200B;**[!UICONTROL Test]**。
+1. 按一下 **[!UICONTROL Save Changes]**.
 1. （可選）如果要預覽結果，請重建分段網站索引。
 
    請參閱[設定分段網站的遞增索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
@@ -566,14 +566,14 @@ t_adding_crawl_list_retrieve_url_rules.xml
 
  -->
 
-**若要新增編目清單擷取URL規則**
+**要添加搜索清單檢索URL規則：**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Retrieve URL Rules]**」。
 1. 在[!DNL Crawl List Retrieve URL Rules]欄位中，輸入您想要的規則。
 
    允許以「#」（雜湊）字元開頭的空白行和註解行。
-1. （可選）在[!DNL Crawl List Retrieve URL Rules]頁面的[!DNL Test Crawl List Retrieve URL Rules]欄位中，輸入您要測試其編目規則的測試URL，然後按一下&#x200B;**Test**。
-1. 按一下&#x200B;**「儲存變更」**。
+1. （可選）在[!DNL Crawl List Retrieve URL Rules]頁面的[!DNL Test Crawl List Retrieve URL Rules]欄位中，輸入您要測試其編目規則的測試URL，然後按一下&#x200B;**[!UICONTROL Test]**。
+1. 按一下 **[!UICONTROL Save Changes]**.
 1. （可選）如果要預覽結果，請重建分段網站索引。
 
    請參閱[設定分段網站的遞增索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
@@ -637,22 +637,21 @@ RewriteRule Pattern Substitution [Flags]
 
 請參閱[規則運算式](../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A)。
 
-您可以使用&quot;not&quot;字元(&#39;!&#39;) 來為模式加上首碼。 「not」字元可讓您否定模式，即只有在目前標題不符合模式時，才使其為true。 當比對負面模式或作為最終預設規則時，可使用&quot;not&quot;字元。 注意：不能在模式中同時使用&quot;not&quot;字元和分組的萬用字元。 此外，當替代字串包含$N時，您無法使用否定的模式。
+您可以使用&quot;not&quot;字元(&#39;!&#39;) 來為模式加上首碼。 「not」字元可讓您否定模式，即只有在目前標題不符合模式時，才使其為true。 當比對負面模式或作為最終預設規則時，可使用&quot;not&quot;字元。 注意：不能在模式中同時使用&quot;not&quot;字元和分組的萬用字元。 此外，當替代字串包含`$N`時，您無法使用否定的模式。
 
 可以使用括弧建立可由「替代」(Substitution)和「CondPattern」(CondPattern)引用的反向參照。
 
-**替** 代標題由替代字串替換。字串可包含下列項目：
+替代——替代字串替代標題。 字串可包含下列項目：
 
 純文字檔案——通過未更改的文本。
 
 背向參照提供對「陣列」或「條件陣列」的分組部分（內括弧）的訪問。 以下是兩種類型的回溯參照：
 
-* RewriteRule回參考
+* RewriteRule Backreferences —— 這些匹配對應RewriteRule模式中的反向引用，格式為$N(0 &lt;= N &lt;= 9)。
 
-   這些匹配返回對應RewriteRule模式中的引用，格式為$N(0 &lt;= N &lt;= 9)。 例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
-* RewriteCond回參考
+   例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
-   這些匹配返回上次匹配的RewriteCondCondPattern中的引用，格式為%N(0 &lt;= N &lt;= 9)。
+* RewriteCond回溯參考——這些符合上次符合的RewriteCond CondPattern中的回溯參考，格式為%N(0 &lt;= N &lt;= 9)。
 
 變數這些為%{NAME_OF_VARIABLE}格式的變數，其中NAME_OF_VARIABLE可以是定義變數名稱的字串。 有關設定環境變數的詳細資訊，請參閱`[E]`標籤。
 
@@ -720,8 +719,11 @@ RewriteCond TestString CondPattern [Flags]
 
 背向參照提供對「陣列」或「條件陣列」的分組部分（內括弧）的訪問。 有兩種類型的反向參照：
 
-* RewriteRule Backreferences這些匹配RewriteRule模式中的反向引用，格式為$N(0 &lt;= N &lt;= 9)。 例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
-* RewriteCond回溯參考這些符合的回溯參考位於上個相符的RewriteCondCondPattern中，格式為%N(0 &lt;= N &lt;= 9)。
+* RewriteRule Backreferences —— 這些匹配對應RewriteRule模式中的反向引用，格式為$N(0 &lt;= N &lt;= 9)。
+
+   例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond回溯參考——這些符合上次符合的RewriteCond CondPattern中的回溯參考，格式為%N(0 &lt;= N &lt;= 9)。
 
 變數這些為%{NAME_OF_VARIABLE}格式的變數，其中NAME_OF_VARIABLE可以是定義變數名稱的字串。 有關設定環境變數的詳細資訊，請參閱`[E]`標籤。
 
@@ -797,7 +799,15 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>}
 ```
 
-規則的模式`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`包含與&quot;My Company-&quot;後面的標題內容相符的回參考`(.*)`。 請記住，帶有括弧()的陣列的部分周圍會建立可由替代引用的反向引用。 在此範例中，替代(${toupper:**$1**})使用toupper函式重寫該回參考(**$1**)。
+規則的模式
+
+`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`
+
+包含與&quot;My Company-&quot;後面的標題內容相符的回參考`(.*)`。 請記住，帶有括弧()的陣列的部分周圍會建立可由替代引用的反向引用。 在此示例中，替代
+
+`(${toupper:**$1**})`
+
+使用toupper函式重寫該回參考(`**$1**`)。
 
 因此，&quot;My Company - Welcome&quot;表單的標題被改寫為&quot;WELCOME&quot;。
 
@@ -815,14 +825,14 @@ t_adding_crawl_title_rules.xml
 
  -->
 
-**若要新增編目標題規則**
+**若要新增編目標題規則：**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl Title Rules]**」。
 1. 在[!DNL Crawl Title Rules]欄位中，輸入您想要的規則。
 
    允許以「#」（雜湊）字元開頭的空白行和註解行。
-1. （可選）在[!DNL Crawl Title Rules]頁面的[!DNL Test Crawl Title Rules]欄位中，輸入您要測試其搜尋規則的測試URL，然後按一下&#x200B;**Test**。
-1. 按一下&#x200B;**「儲存變更」**。
+1. （可選）在[!DNL Crawl Title Rules]頁面的[!DNL Test Crawl Title Rules]欄位中，輸入您要測試其搜尋規則的測試URL，然後按一下&#x200B;**[!UICONTROL Test]**。
+1. 按一下 **[!UICONTROL Save Changes]**.
 1. （可選）如果要預覽結果，請重建分段網站索引。
 
    請參閱[設定分段網站的遞增索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
@@ -983,15 +993,17 @@ RewriteCond
 
 背向參照提供對「陣列」或「條件陣列」的分組部分（內括弧）的訪問。 有兩種類型的反向參照：
 
-* ** RewriteRule Backreferences**這些與對應的RewriteRule模式中的反向參照相匹配，格式為$N(0 &lt;= N &lt;= 9)。 例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences —— 這些匹配對應RewriteRule模式中的反向引用，格式為$N(0 &lt;= N &lt;= 9)。
 
-* **RewriteCond回** 溯參考這些符合上次相符RewriteCondCondPattern中的回溯參考，格式為%N(0)  &lt;>
+   例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond回溯參考——這些符合上次符合的RewriteCond CondPattern中的回溯參考，格式為%N(0 &lt;= N &lt;= 9)。
 
 變數這些為%{NAME_OF_VARIABLE}格式的變數，其中NAME_OF_VARIABLE可以是定義變數名稱的字串。 如需設定變數的詳細資訊，請參閱RewriteRule *`[E]`*&#x200B;標幟。
 
 >[!NOTE]
 >
->重寫規則通常使用變數。 來自目前URL的所有CGI參數都會自動設為變數。 例如，搜尋URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"`會自動提供四個變數，可在重寫規則中參考。 在此範例中，一個變數稱為「session」，其值為「1234」，而另一個變數稱為「id」，其值為「5678」。 （其他兩個變數為`sp_a`和`sp_q`。） 您應從網頁的搜尋表單中，將所有必要的變數傳遞為隱藏欄位。 在此範例中，您應傳遞「session」和「id」值，以識別執行搜尋的網站使用者。 若要在搜尋表單上傳遞隱藏欄位，請使用`<input type=hidden name="session" value="1234">`之類的標籤。
+>重寫規則通常使用變數。 來自目前URL的所有CGI參數都會自動設為變數。 例如，搜尋URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"`會自動提供4個變數，可在重寫規則中參考。 在此範例中，一個變數稱為「session」，其值為「1234」，而另一個變數稱為「id」，其值為「5678」。 （其他兩個變數為`sp_a`和`sp_q`。） 您應從網頁的搜尋表單中，將所有必要的變數傳遞為隱藏欄位。 在此範例中，您應傳遞「session」和「id」值，以識別執行搜尋的網站使用者。 若要在搜尋表單上傳遞隱藏欄位，請使用`<input type=hidden name="session" value="1234">`之類的標籤。
 
 函式這些函式的格式為${NAME_OF_FUNCTION:key}，其中NAME_OF_FUNCTION為：
 
@@ -1070,14 +1082,15 @@ t_adding_search_url_rules.xml
 
  -->
 
-**若要新增搜尋URL規則**
+**若要新增搜尋URL規則：**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Search URL Rules]**」。
 1. 在[!DNL Search URL Rules]欄位中，輸入您想要的規則。
 
    允許以「#」（雜湊）字元開頭的空白行和註解行。
-1. （可選）在[!DNL Search URL Rules]頁面的[!DNL Test Search URL Rules]欄位中，輸入您要測試其編目規則的測試URL，然後按一下&#x200B;**Test**。
-1. 按一下&#x200B;**「儲存變更」**。
+
+1. （可選）在[!DNL Search URL Rules]頁面的[!DNL Test Search URL Rules]欄位中，輸入您要測試其編目規則的測試URL，然後按一下&#x200B;**[!UICONTROL Test]**。
+1. 按一下 **[!UICONTROL Save Changes]**.
 1. （可選）如果要預覽結果，請重建分段網站索引。
 
    請參閱[設定分段網站的遞增索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
@@ -1143,9 +1156,11 @@ RewriteRule Pattern Substitution [Flags]
 
 純文字檔案——通過未更改的文本。
 
-**背** 向參照提供對「陣列」(Pattern)或「條件陣列」(CondPattern)的分組部分（內括弧）的訪問。以下是兩種類型的回溯參照：
+* 背向參照——提供對「陣列」(Pattern)或「條件陣列」(CondPattern)的分組部分（內括弧）的訪問。 以下是兩種類型的回溯參照：
 
-* **RewriteRule** Backreferences這些匹配對應RewriteRule模式中的回參考，格式為$N(0)  &lt;>例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences —— 這些匹配對應RewriteRule模式中的反向引用，格式為$N(0 &lt;= N &lt;= 9)。
+
+   例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
 * ** RewriteCond Backreferences**這些匹配的RewriteCondCattern中的反向引用採用%N格式(0 &lt;= N &lt;= 9)。
 
@@ -1213,9 +1228,11 @@ RewriteCond TestString CondPattern [Flags]
 
 背向參照提供對「陣列」或「條件陣列」的分組部分（內括弧）的訪問。 有兩種類型的反向參照：
 
-* **RewriteRule** Backreferences這些匹配對應RewriteRule模式中的回參考，格式為$N(0)  &lt;>例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences —— 這些匹配對應RewriteRule模式中的反向引用，格式為$N(0 &lt;= N &lt;= 9)。
 
-* **RewriteCond回** 溯參考這些符合上次相符RewriteCondCondPattern中的回溯參考，格式為%N(0)  &lt;>
+   例如, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond回溯參考——這些符合上次符合的RewriteCond CondPattern中的回溯參考，格式為%N(0 &lt;= N &lt;= 9)。
 
 **變** 數這些為%{NAME_OF_VARIABLE}格式的變數，其中NAME_OF_VARIABLE可以是定義變數名稱的字串。有關設定環境變數的詳細資訊，請參閱`[E]`標籤。 變數也可在產生搜尋結果的搜尋表單中定義。
 
@@ -1291,7 +1308,11 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>} 
 ```
 
-規則的模式`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`包含與&quot;My Company-&quot;後面的標題內容相符的回參考&#x200B;**`(.*)`**。 請記住，帶有括弧()的陣列的部分周圍會建立可由替代引用的反向引用。 在此範例中，替代(${toupper:**$1**})使用toupper函式重寫該回參考(**$1**)。
+規則的模式`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`包含與&quot;My Company-&quot;後面的標題內容相符的回參考&#x200B;**`(.*)`**。 請記住，帶有括弧()的陣列的部分周圍會建立可由替代引用的反向引用。 在此示例中，替代
+
+`(${toupper:**$1**})`
+
+使用Toupper函式重寫該反向參考(**$1**)。
 
 因此，&quot;My Company - Welcome&quot;表單的標題被改寫為&quot;WELCOME&quot;。
 
@@ -1309,14 +1330,14 @@ t_adding_search_title_rules.xml
 
  -->
 
-**若要新增搜尋標題規則**
+**若要新增搜尋標題規則：**
 
 1. 在產品功能表上，按一下「**[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Search Title Rules]**」。
 1. 在[!DNL Search Title Rules]欄位中，輸入您想要的規則。
 
    允許以「#」（雜湊）字元開頭的空白行和註解行。
-1. （可選）在[!DNL Search Title Rules]頁面的[!DNL Test Search Title Rules]欄位中輸入測試標題，然後按一下&#x200B;**Test**。
-1. 按一下&#x200B;**「儲存變更」**。
+1. （可選）在[!DNL Search Title Rules]頁面的[!DNL Test Search Title Rules]欄位中，輸入測試標題，然後按一下&#x200B;**[!UICONTROL Test]**。
+1. 按一下 **[!UICONTROL Save Changes]**.
 1. （可選）如果要預覽結果，請重建分段網站索引。
 
    請參閱[設定分段網站的遞增索引](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)。
