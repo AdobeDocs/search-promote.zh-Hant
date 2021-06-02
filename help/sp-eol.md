@@ -4,7 +4,7 @@ description: 進一步了解AdobeSearch&Promote的服務終止公告。
 feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
-source-git-commit: 27dca9caf3e59d5ed20fdea3d5ef279bd5aac097
+source-git-commit: cffbd6a62e1ffe1f5fe1f2f6123e8bc5199b55dc
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -39,4 +39,4 @@ AdobeSearch&amp;Promote服務終止計畫於2022年9月1日&#x200B;****&#x200B;�
 
 ### **_我仍可以在適用的Search&amp;Promote授權服務終止前續約嗎？_**
 
-是.與您的Adobe代表合作，以不遲於&#x200B;**2022年9月1日**&#x200B;的合約結束日期續約您的授權。
+是.與您的Adobe代表合作，以不遲於&#x200B;**2022年8月31日**&#x200B;的合約結束日期續約您的授權。
