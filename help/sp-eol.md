@@ -4,9 +4,9 @@ description: 進一步了解AdobeSearch&Promote的服務終止公告。
 feature: null
 role: Admin,User,Data Engineer,Developer
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
-source-git-commit: dd301b1be029f8f9e4e0a0738d61c19f0e6ba2be
+source-git-commit: 2465f73573d96f96be3cc39d0ba9962af8c2b990
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ AdobeSearch&amp;Promote服務終止計畫於2022年9月1日&#x200B;****&#x200B;�
 
 是.對於產品和商務搜尋，[來自Magento Commerce的即時搜尋](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html)是Adobe的搜尋應用程式，將來會如此。 來自Magento Commerce的即時搜尋目標定於2021年上半年啟動。
 
-### **_Adobe是否可建議任何提供類似Search&amp;Promote功能的架構或平台？_**
+<!-- ### **_Can Adobe recommend any frameworks or platforms that offer features similar to Search&Promote?_**
 
-是.如果Search&amp;Promote功能對您的行銷策略至關重要，請考慮現有的許多開放原始碼架構來支援搜尋，包括[Apache Solr](https://solr.apache.org/)和[Elastic Free and Open](https://www.elastic.co/about/free-and-open)。
+  Yes. If the Search&Promote feature is critical to your marketing strategy, consider the many open-source frameworks that exist to power search, including [Apache Solr](https://solr.apache.org/) and [Elastic Free and Open](https://www.elastic.co/about/free-and-open).  
 
-此外，[AWS](https://aws.amazon.com/cloudsearch/)和[Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/)都在各自的雲平台上提供雲本地搜索功能。 您可以將這兩個選項整合至Adobe Experience Manager Sites，以支援網站搜尋等。
+  Also, both [AWS](https://aws.amazon.com/cloudsearch/) and [Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/) provide cloud-native search capabilities on their respective cloud platforms. You can integrate both options into Adobe Experience Manager Sites to power site search and more. -->
 
 ### **_我可以聯絡誰以進一步了解？_**
 
