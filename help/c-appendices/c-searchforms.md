@@ -1,32 +1,31 @@
 ---
-description: 瞭解Search&amp;Promote中的搜尋表單
+description: 了解Search&amp;Promote中的搜尋表單
 solution: Target
-title: 搜尋表格
+title: 搜尋表單
 topic-legacy: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 exl-id: 9771a19d-86a8-41db-9c80-d734fbd10ab7
-translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: 95bf92df17d7832df72e8d883a22f9063e53a18d
 workflow-type: tm+mt
-source-wordcount: '2926'
+source-wordcount: '2899'
 ht-degree: 0%
 
 ---
 
-# 搜索表單{#search-forms}
+# 搜尋表單{#search-forms}
 
-## 在搜尋表單中使用系列{#reference_5A079AEEEFB84457892EF0870D0605C3}
+## 在搜尋表單中使用集合 {#reference_5A079AEEEFB84457892EF0870D0605C3}
 
-系列可讓客戶搜尋您網站的特定區域。 視您實作下拉式清單或核取方塊清單而定，您可以讓客戶搜尋單一系列或多個系列。
+集合可讓客戶搜尋您網站的特定區域。 視您實作的下拉式清單或核取方塊清單而定，您可以讓客戶搜尋單一系列或多個系列。
 
-另請參閱[關於系列](../c-about-settings-menu/c-about-searching-menu.md#concept_62E42ACE53D54EEE9273433B86259127)。
+另請參閱[關於集合](../c-about-settings-menu/c-about-searching-menu.md#concept_62E42ACE53D54EEE9273433B86259127)。
 
-下列範例顯示四個不同的系列名稱及其所涵蓋之網站的相關區域：
+下列範例顯示四個不同的系列名稱及其所涵蓋的網站的相關區域：
 
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>系列名稱 </p> </th> 
+   <th colname="col1" class="entry"> <p>集合名稱 </p> </th> 
    <th colname="col2" class="entry"> <p> </p> </th> 
   </tr> 
  </thead>
@@ -71,11 +70,11 @@ ht-degree: 0%
 </select>
 ```
 
-或者，您也可以在搜尋表單中使用一組核取方塊，讓訪客可以選取多個系列：
+或者，您也可以在搜尋表單中使用一組核取方塊，讓訪客可以選取多個集合：
 
 ![](assets/checkboxes.png)
 
-核取方塊搜尋表格會以下列HTML程式碼產生：
+核取方塊搜尋表單會以下列HTML程式碼產生：
 
 ```
 <input type="checkbox" name="sp_k" value="">All of Adobe<br> 
@@ -85,9 +84,9 @@ ht-degree: 0%
 <input type="checkbox" name="sp_k" value="About Adobe">About Adobe<br>
 ```
 
-## 搜尋結果{#section_BBDD5B44E2B349BC88D937F44583D350}
+## 搜尋結果 {#section_BBDD5B44E2B349BC88D937F44583D350}
 
-搜尋範本標籤`<search-input-collections>`會在搜尋結果中產生系列清單方塊HTML，並自動選取搜尋中指定的系列。 如果您想要產生核取方塊，請改用`<search-input>`標籤，而非`<input>`標籤，如下所示：
+搜索模板標籤`<search-input-collections>`在搜索結果中生成集合清單框HTML，並自動選擇搜索中指定的集合。 如果要生成複選框，請使用`<search-input>`標籤，而不是`<input>`標籤，如下所示：
 
 ```
 <search-input type="checkbox" name="sp_k" value="">All of Adobe<br> 
@@ -97,24 +96,24 @@ ht-degree: 0%
 <search-input type="checkbox" name="sp_k" value="About Adobe">About Adobe<br>
 ```
 
-`<search-input>`標籤會輸出`<input>`標籤，並包含`checked`屬性（若搜尋中已指定系列）。
+如果在搜尋中指定集合，`<search-input>`標籤會輸出`<input>`標籤，並包含`checked`屬性。
 
-## 使用具有{#reference_82CDDDA1E37042E4849EBF7EA05407C5}表單的框架
+## 使用框架和表單 {#reference_82CDDDA1E37042E4849EBF7EA05407C5}
 
-您可以設定您的框架集，以搭配網站搜尋／銷售運作。
+您可以設定您的框架集以搭配網站搜尋/銷售運作。
 
-若要進一步瞭解HTML影格和HTML影格集元素，請參閱下列URL:
+<!-- 404 DEAD LINK To learn more about HTML frames and the HTML frameset element, see the following URL:
 
-[https://www.w3schools.com/html/html_frames.asp](https://www.w3schools.com/html/html_frames.asp)
+[https://www.w3schools.com/html/html_frames.asp](https://www.w3schools.com/html/html_frames.asp) -->
 
-如果您的網站使用框架，您可以為搜尋結果連結指定目標框架。 預設目標為_self，可在目前影格或瀏覽器視窗中開啟連結。 您可以改為指定網站特定或瀏覽器保留的目標：
+如果您的網站使用框架，則可以為搜索結果連結指定目標框架。 預設目標為_self，可在當前框架或瀏覽器窗口中開啟連結。 您可以改為指定網站特定或瀏覽器保留的目標：
 
-* _top（瀏覽器保留）結果會在目前的瀏覽器視窗中開啟，並取代所有目前的影格。
-* _blank（瀏覽器保留）結果會在新的瀏覽器視窗中開啟。
-* _parent（瀏覽器保留）結果會在目前影格的父影格中開啟。
-* frame2（網站特定）結果會在名為&quot;frame2&quot;的影格中開啟。 您可以指定任何影格的名稱為值（例如主要或內容）。
+* _top（保留瀏覽器）結果在當前瀏覽器窗口中開啟並替換所有當前幀。
+* _blank（瀏覽器保留）結果在新的瀏覽器窗口中開啟(_B)。
+* _parent（瀏覽器保留）結果在當前幀的父幀中開啟。
+* frame2（特定網站）結果會在名為「frame2」的框架中開啟。 您可以將任何框架的名稱指定為值（例如主要或內容）。
 
-如果您的網站不使用框架，您最可能不想變更預設目標名稱。
+如果您的網站不使用框架，則您很可能不想變更預設目標名稱。
 
 如果您為網站建立自訂搜尋結果範本，則可使用`<search-link>`標籤的`target`屬性來覆寫指定的設定。
 
@@ -124,44 +123,44 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>處理步驟 </p> </th> 
-   <th colname="col02" class="entry"> <p>流程說明 </p> </th> 
+   <th colname="col02" class="entry"> <p>程式說明 </p> </th> 
    <th colname="col2" class="entry"> <p>連結 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col02"> <p>將表單新增至您網頁中所要的影格。 </p> </td> 
-   <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> 將搜尋表單程式碼新增至您……  </a> </p> </td> 
+   <td colname="col02"> <p>將表單新增至網頁中的所需框架。 </p> </td> 
+   <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> 正在將搜索表單代碼添加到您的框架中……  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col02"> <p>設定搜尋結果頁面的目標影格。 </p> </td> 
+   <td colname="col02"> <p>為搜索結果頁設定目標框架。 </p> </td> 
    <td colname="col2"> <p> <a scope="local" href="#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> 為搜索結果頁設定目標框架  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col02"> <p>為從搜尋結果頁面建立的連結設定目標。 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> 設定從搜尋結果建立之連結的目標……  </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> 正在設定從搜索結果建立的連結的目標……  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
-   <td colname="col02"> <p>編輯導覽影格頁面，防止其建立索引。 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> 編輯導覽影格頁面，以防止它們……  </a> </p> </td> 
+   <td colname="col02"> <p>編輯導航框架頁以防止對它們編製索引。 </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> 正在編輯導航框架頁以防止它們……  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col02"> <p>測試搜尋表格。 </p> </td> 
+   <td colname="col02"> <p>測試搜尋表單。 </p> </td> 
    <td colname="col2"> <p> <a scope="local" href="#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> 測試搜尋表單  </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 將搜尋表單程式碼新增至網頁{#section_BAA8A502BB2243F8B5FF9783CDF2BFFD}中的影格
+## 將搜索表單代碼添加到網頁中的框架 {#section_BAA8A502BB2243F8B5FF9783CDF2BFFD}
 
-1. 在產品功能表上，按一下「**[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Form Source]**」。
+1. 在產品功能表中，按一下「**[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Form Source]**」。
 
-   HTML搜尋表單程式碼的外觀類似下列：
+   HTML搜尋表單程式碼看起來類似下列：
 
    ```
    <!-- Adobe Target HTML for [your customer name] --> 
@@ -172,79 +171,79 @@ ht-degree: 0%
    </form>
    ```
 
-1. 在[!DNL Standard Form Source]頁面上，選擇並複製顯示在文字欄位中的HTML搜尋表單程式碼。
-1. 將搜尋表單程式碼貼入您要在框架集中的框架中。
+1. 在[!DNL Standard Form Source]頁面上，選取並複製文字欄位中顯示的HTML搜尋表單程式碼。
+1. 將搜尋表單程式碼貼入您要在架構集中的架構中。
 
-   在下列範例中，搜尋表單程式碼會貼入導覽影格——畫面左側的窄垂直影格。
+   在以下示例中，搜索表單代碼會貼上到導航框架中 — 螢幕左側的窄垂直框架。
 
    ![](assets/frames1.gif)
 
-## 為搜索結果頁設定目標框架{#section_532CACB90888467093D95EACB64FDFA1}
+## 為搜索結果頁設定目標框架 {#section_532CACB90888467093D95EACB64FDFA1}
 
-如果您將搜尋表單程式碼如上所述置入垂直導覽影格中，則可在較大的主影格中顯示搜尋結果。 在此範例中，您將主影格稱為&quot;body&quot;，並將其設為目標影格。
+如果您將搜索表單代碼放入垂直導航框架中，則可以在較大的主框架中顯示搜索結果。 在此範例中，您呼叫主框架&quot;body&quot;，並將其設為目標框架。
 
 ![](assets/frames2.gif)
 
-1. 若要指定結果頁面的目標框架，請在搜尋表單程式碼中變更下列行，將目標和值新增至表單：
+1. 要為結果頁指定目標框架，請將搜索表單代碼中的以下行從以下行更改為表單添加目標和值：
 
    `<form method="get" action="https://search.atomz.com/search/">`
 
-   至下列項目：
+   變更為：
 
    `<form target="body" method="get" action="https://search.atomz.com/search/">`
 
    請務必在表單目標值周圍加上引號。
 
-當客戶對您的網站進行搜尋時，搜尋結果會出現在網頁的「內文」畫格中。
+當客戶執行網站搜尋時，搜尋結果會顯示在網頁的「內文」框架中。
 
-## 設定從搜尋結果頁面{#section_523248C5AC424D878321C21A23A5CD66}建立之連結的目標
+## 設定從搜尋結果頁面建立之連結的目標 {#section_523248C5AC424D878321C21A23A5CD66}
 
-您可以直接編輯範本來設定目標影格。
+您可以直接編輯範本來設定目標框架。
 
-如果您的搜尋結果出現在「body」影格中，您可能也想要在「body」影格中開啟連結。 因為這是相同的幀，即預設設定的目標值`"_self"`，所以您不需要進行任何更改。
+如果您的搜尋結果出現在「body」框架中，您可能也希望連結在「body」框架中開啟。 因為這是同一幀，預設設定為目標值`"_self"` ，因此您無需進行任何更改。
 
-您也可以為結果連結設定目標影格。 以下是您可以做的幾個範例：
+您也可以為結果連結設定目標框架。 以下是您可以執行的幾個範例：
 
-* 為搜尋結果及其連結指定不同的影格，如此當每個點按的結果在個別影格中開啟時，搜尋結果在其自己的影格中仍保持作用中。
-* 指定搜尋結果會開啟至新的空白視窗，讓舊視窗在其原始內容中仍保持作用中，同時保留搜尋結果。
+* 為搜索結果及其連結指定不同的幀，使搜索結果在各自的幀中保持活動狀態，而每次按一下的結果在單獨的幀中開啟。
+* 指定搜索結果將開啟到新的空白窗口中，以便舊窗口在其原始內容中保持活動狀態，同時保留搜索結果。
 
-目標名稱可以是在HTML中指定的框架名稱，也可以是下列數個HTML預設值之一：
+目標名稱可以是在HTML中指定的框架的名稱，也可以是以下幾個HTML預設值之一：
 
 * `target="_blank"` 在新的空白未命名視窗中開啟連結。
 
-* `target="_self"` 預設值. 在搜尋結果所在的相同視窗中開啟連結。 此時，將顯示原始搜索結果窗口。 使用此選項可覆蓋全局分配的基本目標。
+* `target="_self"` 預設值. 在搜尋結果所在的相同視窗中開啟連結。 在這種情況下，將顯示原始搜索結果窗口。 使用此選項可覆蓋全局分配的基本目標。
 
-* `target="_parent"` 在連結頁面的父框架集中開啟連結。如果文檔沒有父項，則預設情況下，此功能類似於`"_self"`。
+* `target="_parent"` 在連結頁面的上層架構集中開啟連結。如果文檔沒有父級，則預設情況下，此函式類似於`"_self"`。
 
-* `target="_top"` 在完整視窗中開啟連結。如果文檔已位於頂部，則預設情況下，此功能類似於`"_self"`。 使用此選項可突破任意深度的框架嵌套。
+* `target="_top"` 在完整視窗中開啟連結。如果文檔已位於頂部，則預設情況下此函式類似於`"_self"`。 使用此選項可突出任意深度的框架嵌套。
 
-例如，要設定`_blank`目標目標框架，可以使用以下方式編輯模板：
+例如，要設定`_blank`目標目標幀，可以按以下方式編輯模板：
 
-1. 在產品功能表上，按一下「**[!UICONTROL Design]** > **[!UICONTROL Templates]**」。
+1. 在產品功能表中，按一下「**[!UICONTROL Design]** > **[!UICONTROL Templates]**」。
 
-1. 在[!DNL Staged Templates]頁面的表格中，按一下目標目標影格的範本名稱。
+1. 在[!DNL Staged Templates]頁面的表格中，按一下目標目標框架的範本名稱。
 1. 找到`<search-link>`標籤。 您的預設`<search-link>`標籤看起來應類似下列：
 
    `<search-link><search-title length=100></search-link>`
 
-1. 將影格目標新增至`<search-link>`標籤。 在上述範例中，輸入`target="_blank"`。 請務必在目標值周圍加上底線和引號。
+1. 將幀目標添加到`<search-link>`標籤。 在上例中，輸入`target="_blank"`。 請務必在目標值周圍加上底線和引號。
 
-   `<search-link>`標籤現在會如下所示：
+   `<search-link>`標籤現在的顯示方式如下：
 
    `<search-link target="_blank"><search-title length=100></search-link>`
 
-當網站訪客選擇搜尋結果連結時，連結的頁面現在會開啟新的空白視窗。
+當網站訪客選擇搜尋結果連結時，連結的頁面現在會開啟一個新的空白視窗。
 
-## 編輯導覽影格頁面，防止它們建立索引{#section_C62E5F0EE1294D5EBD97E123E54433FC}
+## 編輯導航框架頁以防止對它們編製索引 {#section_C62E5F0EE1294D5EBD97E123E54433FC}
 
-通常，您希望排除導覽框架，使其不能與搜索結果建立索引。 若要完成此功能，您可將`noindex`中繼標籤新增至這些頁面。
+通常，您希望排除導航幀，使其不與搜索結果建立索引。 若要完成此功能，您可以將`noindex`中繼標籤新增至這些頁面。
 
-1. 開啟導覽影格的HTML頁面來源。
-1. 在HTML的`<head>`區段內新增下列meta標籤：
+1. 開啟導航框架的HTML頁面源。
+1. 在HTML的`<head>`區段內新增下列中繼標籤：
 
    `<meta name="robots" content="noindex">`
 
-   例如:
+   例如：
 
    ```
    <html> 
@@ -255,34 +254,34 @@ ht-degree: 0%
    </head>
    ```
 
-## 測試搜索表單{#section_43D8D4A7BF524DC480DFE5442F6A2E3C}
+## 測試搜尋表單 {#section_43D8D4A7BF524DC480DFE5442F6A2E3C}
 
 1. 前往您的網站並導覽至表單。
-1. 在搜尋欄位中，輸入幾個搜尋詞，然後按一下&#x200B;**[!UICONTROL Search]**。
+1. 在搜尋欄位中輸入幾個搜尋詞，然後按一下&#x200B;**[!UICONTROL Search]**。
 
-   以下是正確的：
+   以下是true:
 
-   * 搜尋結果頁面會顯示在指定的目標影格中。
-   * 搜尋結果的連結位於指定的目標影格中。
-   * 導覽影格結果不會出現。
+   * 搜索結果頁將顯示在指定的目標框架中。
+   * 搜索結果中的連結位於指定的目標框架中。
+   * 導航框結果不顯示。
 
    如果您在測試搜尋表單後遇到框架問題，請聯絡客戶支援。
 
-## 進階搜尋表單{#reference_82E1051918744EBA88A01E9E6AE42C4A}範例
+## 進階搜尋表單範例 {#reference_82E1051918744EBA88A01E9E6AE42C4A}
 
-您可以編輯進階表單程式碼，以符合您的設計和內容需求，或新增或移除其他搜尋參數。
+您可以編輯進階表單程式碼以符合您的設計和內容需求，或新增或移除其他搜尋參數。
 
-您的首頁是插入進階搜尋表單的好地方，因為許多客戶都希望在此找到搜尋功能。 您也可以建立包含搜尋表單和其他實用資訊的HTML頁面，然後連結至整個網站的該頁面。
+您的首頁是插入高級搜索表單的好地方，因為許多客戶希望在那裡找到搜索功能。 您也可以建立HTML頁面，其中包含搜尋表單和其他實用資訊，然後在您的整個網站中連結至該頁面。
 
-如果您正在為安全內容編製索引，則可以從安全搜索Web伺服器獲得搜索結果。 將搜尋表單動作屬性中的URL變更為：action=&quot;https://search.atomz.com/search/&quot;來執行此動作。
+如果您正在為安全內容編製索引，則可以從安全的搜索Web伺服器提供搜索結果。 將搜尋表單動作屬性中的URL變更為：action=&quot;https://search.atomz.com/search/&quot;來執行此操作。
 
 >[!NOTE]
 >
->有些HTML編輯器無法從其他應用程式貼上HTML程式碼。 如果HTML程式碼以文字形式出現在您的網頁上，請將搜尋程式碼複製並貼入簡易的文字編輯器中，例如Windows上的記事本或Mac上的簡單文字，然後再從簡易文字編輯器複製並貼入HTML編輯器。
+>有些HTML編輯器無法從其他應用程式貼上HTML程式碼。 如果HTML代碼以文本形式顯示在網頁上，請將搜索代碼複製並貼上到簡單的文本編輯器中（如Windows上的記事本或Mac上的簡單文本），然後從簡單文本編輯器再次複製並貼上到HTML編輯器中。
 
-進階搜尋表單程式碼中會使用搜尋參數來建立選項按鈕、核取方塊和清單方塊，讓客戶可用來自訂個別搜尋。 例如，客戶可以指定顯示的搜尋結果數目，或日期範圍，或是透過顯示在進階搜尋表單上的選項，以搜尋結果顯示摘要。
+搜尋參數用於進階搜尋表單程式碼，以建立選項按鈕、核取方塊和清單方塊，供客戶用來自訂個別搜尋。 例如，客戶可以指定顯示的搜索結果數，或日期範圍，或是通過高級搜索表單上顯示的選項，指定摘要是否與搜索結果一起顯示。
 
-使用下列範例進階搜尋表單，本主題的其餘部分會顯示如何使用搜尋參數建立表單上的每個選項。
+使用下列範例進階搜尋表單，本主題的其餘部分會示範如何使用搜尋參數建立表單上的每個選項。
 
 ![](assets/advancedsearchform.png)
 
@@ -297,7 +296,7 @@ ht-degree: 0%
 <table> 
  <thead> 
   <tr> 
-   <th colname="col2" class="entry"> <p>表單位置 </p> </th> 
+   <th colname="col2" class="entry"> <p>表單上的位置 </p> </th> 
    <th colname="col1" class="entry"> <p>參數 </p> </th> 
    <th colname="col3" class="entry"> <p>HTML程式碼 </p> </th> 
    <th colname="col4" class="entry"> <p>說明 </p> </th> 
@@ -305,30 +304,30 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p>啟用進階搜尋表單選項（隱藏欄位） </p> </td> 
+   <td colname="col2"> <p>啟用高級搜索表單選項（隱藏欄位） </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> sp_advanced  </span> </p> </td> 
    <td colname="col3"> <p> <span class="syntax html codeph"> &lt;input type="hidden" name="sp_advanced" value="1"&gt; </span> </p> </td> 
-   <td colname="col4"> <p>啟用或禁用高級搜索選項。 例如，您可以在首頁上放置標準搜尋表單，其中包含第二頁的連結包含進階表單。 在這種情況下，您會將標準表單的副本放在<span class="codeph"> &lt;search-if-not-advanced&gt;...&lt;/search-if-not-advanced&gt; </span>範本標籤。 </p> <p>從標準表單執行搜尋的客戶在顯示搜尋結果時會看到標準搜尋表單。 在進階搜尋表單畫面上，您會加入<span class="codeph"> &lt;input type=hidden name="sp_advanced" value=1&gt; </span>標籤以及其他進階表單選項。 </p> <p>您也可以在&lt;search-if-advanced&gt;中包含進階搜尋表單的副本……&lt;/search-if-advanced&gt;範本標籤。 從高級搜索表單執行搜索的客戶在顯示搜索結果時看到高級搜索表單。 </p> </td> 
+   <td colname="col4"> <p>啟用或禁用高級搜索選項。 例如，您可以將標準搜尋表單放在首頁上，其中含有第二頁（包含進階表單）的連結。 在此情況下，您會將標準表單的副本放入<span class="codeph"> &lt;search-if-not-advanced&gt;...&lt;/search-if-not-advanced&gt; </span>範本標籤。 </p> <p>從標準表單執行搜尋的客戶在顯示搜尋結果時，會看到標準搜尋表單。 在高級搜索表單螢幕上，您將<span class="codeph"> &lt;input type=hidden name="sp_advanced" value=1&gt; </span>標籤與其他高級表單選項一起包含。 </p> <p>您也可以在&lt;search-if-advanced&gt;... &lt;/search-if-advanced&gt;範本標籤中包含進階搜尋表單的副本。 從您的高級搜索表單執行搜索的客戶在顯示搜索結果時看到高級搜索表單。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> 比對任何、全部或片語 </p> </td> 
+   <td colname="col2"> <p> 匹配任何、全部或片語 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> sp_p  </span> </p> <p> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;Allow&nbsp;"any,"&nbsp;"all,"&nbsp;or&nbsp;"phrase"&nbsp;--&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_p"&nbsp;value="any"&gt;Any&nbsp;word 
       &lt;input&nbsp;type=radio&nbsp;name="sp_p"&nbsp;value="all"&nbsp;checked&gt;All&nbsp;words 
       &lt;input&nbsp;type=radio&nbsp;name="sp_p"&nbsp;value="phrase"&gt;Exact&nbsp;phrase </code> </p> </td> 
-   <td colname="col4"> <p>允許客戶指定「任何字詞」、「所有字詞」或「確切的片語」必須存在，才能比對檔案。 當指定<span class="codeph"> sp_p </span>參數時，客戶不需要在搜尋查詢中使用"+"、"-"或兩者。 </p> <p> 如果省略<span class="codeph"> sp_p </span>參數，或者將其設為""或"any"，則客戶仍可使用"+"和"-"說明符。 如果<span class="codeph"> sp_p </span>參數設為"all"或"phrase"，則會忽略指定的"+"和"-"。 </p> <p>您可以進一步瞭解在搜尋中使用"+"和"-"。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local">關於搜尋</a>。 </p> </td> 
+   <td colname="col4"> <p>允許客戶指定「任何字詞」、「所有字詞」或「確切的片語」必須存在，檔案才能相符。 指定<span class="codeph"> sp_p </span>參數時，客戶無需在搜尋查詢中使用「+」、「 — 」或兩者。 </p> <p> 如果省略了<span class="codeph"> sp_p </span>參數，或將其設定為""或"any"，則客戶仍可以使用"+"和"-"說明符。 如果<span class="codeph"> sp_p </span>參數設為"all"或"phrase"，則指定的"+"和"-"將被忽略。 </p> <p>您可以進一步了解在搜尋中使用「+」和「 — 」。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local">關於搜尋</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> 相似音效比對 </p> </td> 
+   <td colname="col2"> <p> 相似音符 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> sp_w  </span> </p> <p>和 </p> <p> <span class="codeph"> sp_w_control  </span> </p> <p> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;enables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
       &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value=1&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="alike"&gt;&nbsp;Sound-alike&nbsp;matching </code> </p> </td> 
-   <td colname="col4"> <p>可讓客戶啟用或停用類似音效的比對。 相似音效比對允許拼寫錯誤的搜尋查詢，以比對檔案中「相似音效」的字詞。 </p> <p>當<span class="codeph"> sp_w_control </span>參數設為1且<span class="codeph"> sp_w </span>參數設為"alike"時，會選取產生的核取方塊，依預設啟用類似音效的比對。 </p> <p>如果<span class="codeph"> sp_w </span>參數設定為""，則不選中該複選框。 </p> <p>如果您在最近的索引操作中未啟用相似音效匹配，則無法進行相似音效匹配，並且會忽略<span class="codeph"> sp_w </span>參數。 若要啟用相似音效比對，請在產品選單中按一下「語言學</span> &gt; <span class="uicontrol">字詞與語言</span> &gt; <span class="uicontrol">相似音效比對</span>」。<span class="uicontrol"> </span></p> <p>您也可以以下列方式指派參數<span class="codeph"> sp_w </span>和<span class="codeph"> sp_w_control </span>: </p> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;disables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
+   <td colname="col4"> <p>讓客戶啟用或停用相似音效比對。 相似匹配允許拼寫錯誤的搜索查詢匹配文檔中「相似」的單詞。 </p> <p>當<span class="codeph"> sp_w_control </span>參數設為1且<span class="codeph"> sp_w </span>參數設為「alike」時，將選中生成的複選框，預設情況下啟用相似音匹配。 </p> <p>如果<span class="codeph"> sp_w </span>參數設定為""，則不會選中複選框。 </p> <p>如果您在最近的索引操作中未啟用相似音效匹配，則無法進行相似音效匹配，並忽略<span class="codeph"> sp_w </span>參數。 要啟用相似音匹配，請在產品菜單上按一下「語言學</span> &gt; <span class="uicontrol">單詞和語言</span> &gt; <span class="uicontrol">相似音匹配</span>」。<span class="uicontrol"> </span></p> <p>您也可以以下列方式指派參數<span class="codeph"> sp_w </span>和<span class="codeph"> sp_w_control </span>: </p> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;disables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
       &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value=0&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="exact"&gt; 
-      No&nbsp;sound-alike&nbsp;matching </code> </p> <p>在此情況下，當<span class="codeph"> sp_w_control </span>參數設為0且<span class="codeph"> sp_w </span>參數設為"exact"時，預設會停用類似音效的比對。 如果<span class="codeph"> sp_w </span>參數設為""，則會啟用類似音效比對。 </p> </td> 
+      No&nbsp;sound-alike&nbsp;matching </code> </p> <p>在此情況下，當<span class="codeph"> sp_w_control </span>參數設為0且<span class="codeph"> sp_w </span>參數設為「exact」時，預設會停用相似音效比對。 如果<span class="codeph"> sp_w </span>參數設定為「」，則啟用相似音符匹配。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>日期範圍比對 </p> </td> 
@@ -336,10 +335,10 @@ ht-degree: 0%
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--Specifies&nbsp;type&nbsp;of&nbsp;date&nbsp;range&nbsp;searching&nbsp;to&nbsp;perform.--&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_d"&nbsp;value="custom"&nbsp;checked&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_d"&nbsp;value="specific"&gt; </code> </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> sp_d </span>參數指定要執行的自訂資料範圍比對或要執行的特定日期範圍比對。 </p> <p>在預設的進階搜尋表單中，此選項會以選項按鈕群組的形式呈現，其中包含「自訂」日期範圍的下拉式清單，此清單會以<span class="codeph"> sp_date_range </span>參數產生。 它還包含一組「特定」開始和結束日期，這些日期由<span class="codeph"> sp_start_day </span>、<span class="codeph"> sp_start_month </span>、<span class="codeph"> sp_start_year </span>、<span class="codeph"> sp_end_day </span>、<span class="codeph"> sp_end_month </span>和<span class="codeph"> sp_end_year </span>參數。 </p> <p>「自訂」日期範圍是要搜尋的指定日期範圍。 例如，「Anytime」、「Today」、「Within the last ign」等。 </p> <p>「特定」日期範圍包含開始日期和結束日期。 例如，從「2009年9月8日到2011年10月18日」。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> sp_d </span>參數指定要執行的自訂資料範圍比對，或指定要執行的特定日期範圍比對。 </p> <p>在預設的進階搜尋表單中，此選項會以選項按鈕群組呈現，其中下拉式清單為「自訂」日期範圍，如同<span class="codeph"> sp_date_range </span>參數所產生。 它還包括一組「特定」的開始日期和結束日期，這些日期是以<span class="codeph"> sp_start_day </span>、<span class="codeph"> sp_start_month </span>、<span class="codeph"> sp_start_year </span>、<span class="codeph"> sp_end_day </span>、<span class="codeph"> sp_end_month </span>和<span class="codeph"> sp_end_year </span>參數產生。 </p> <p>「自訂」日期範圍是要搜尋的已命名日期範圍。 例如「隨時」、「今天」、「去年內」等。 </p> <p>「特定」日期範圍包含開始日期和結束日期。 例如，從「2009年9月8日」到2011年10月18日」。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>日期範圍符合：自訂日期範圍 </p> </td> 
+   <td colname="col2"> <p>日期範圍比對：自訂日期範圍 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> sp_date_range  </span> </p> <p> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--Selection&nbsp;list&nbsp;for&nbsp;custom&nbsp;date&nbsp;range.--&gt; 
       &lt;select&nbsp;name="sp_date_range"&nbsp;size=1&gt; 
@@ -353,31 +352,31 @@ ht-degree: 0%
       &lt;option&nbsp;value=365&gt;Within&nbsp;the&nbsp;last&nbsp;year&lt;/option&gt; 
       &lt;option&nbsp;value=730&gt;Within&nbsp;the&nbsp;last&nbsp;two&nbsp;years&lt;/option&gt; 
       &lt;/select&gt; </code> </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> sp_date_range </span>參數用於建立「自定義」日期範圍。 例如，「Anytime」、「Today」、「Within the last in ay」等。 </p> <p>大於或等於零的值指定今天之前要搜索的天數。 例如，值0指定「今天」，值1指定「今天」和「昨天」，值30指定「最近30天內」，依此類推。 小於零的值會指定自訂範圍，如下所示： </p> <p> 
+   <td colname="col4"> <p><span class="codeph"> sp_date_range </span>參數用於建立「自訂」日期範圍。 例如「隨時」、「今天」、「去年內」等。 </p> <p>大於或等於零的值指定今天之前要搜尋的天數。 例如，值0指定「今天」，值1指定「今天和昨天」，值30指定「過去30天內」，以此類推。 小於零的值指定自訂範圍，如下所示： </p> <p> 
      <ul id="ul_E65DDE33883F441F9730F315E485AD98"> 
-      <li id="li_83E9466AB9D7438A8544001F6B007186"> <p>-1 = "Anytime"，與指定無日期範圍相同。 </p> </li> 
-      <li id="li_38AB8D97179A47F9B860A96EA09119BB"> <p>-2 = "本週"，在當周的週日到週六搜尋。 </p> </li> 
-      <li id="li_F4C3A8658428418A8A06FBAAB4733C68"> <p>-3 = "上週"，在當周前一週的星期日到星期六進行搜尋。 </p> </li> 
+      <li id="li_83E9466AB9D7438A8544001F6B007186"> <p>-1 = "隨時"，與指定日期範圍相同。 </p> </li> 
+      <li id="li_38AB8D97179A47F9B860A96EA09119BB"> <p>-2 = "本週"，在當周的星期日到星期六之間搜尋。 </p> </li> 
+      <li id="li_F4C3A8658428418A8A06FBAAB4733C68"> <p>-3 = "Last week"，在當周前一週的星期日到星期六之間搜索。 </p> </li> 
       <li id="li_DF2D0B043A4E4DE9BE8D82E69A76E793"> <p>-4 = "本月"，搜尋當月日期。 </p> </li> 
-      <li id="li_76BC4C2CED574E2A81448158828BFF1B"> <p>-5 = "上個月"，搜尋當月前一個月的日期。 </p> </li> 
-      <li id="li_17FF849384FB46D58AF6FF1D3BC408C8"> <p>-6 = 「今年」，其搜索日期在當年。 </p> </li> 
-      <li id="li_E2B8B4DFF3914BBDB86D0EB77F52B305"> <p>-7 = "去年"，其搜索日期在當年前一年。 </p> </li> 
+      <li id="li_76BC4C2CED574E2A81448158828BFF1B"> <p>-5 = "上個月"，其搜尋日期在當月前的某月內。 </p> </li> 
+      <li id="li_17FF849384FB46D58AF6FF1D3BC408C8"> <p>-6 =「今年」，其搜尋日期為當年。 </p> </li> 
+      <li id="li_E2B8B4DFF3914BBDB86D0EB77F52B305"> <p>-7 = "Last year"，其搜尋日期在目前年份之前的一年內。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>日期範圍符合：開始日期 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_start_day、sp_start_month、sp_start_year  </span> </p> <p> </p> </td> 
+   <td colname="col2"> <p>日期範圍比對：開始日期 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_start_day, sp_start_month, sp_start_year  </span> </p> <p> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>此三分數值指定要搜尋的特定日期範圍的開始日期。 請確定您指定了這三個值，因為會忽略部分指定的日期。 </p> <p>只指定開始日期、結束日期或開始日期和結束日期都是合法的。 如果只指定了開始日期，則搜索將包括日期在開始日期或之後的匹配文檔。 如果只指定結束日期，搜尋會包含結束日期或結束日期之前的相符檔案。 如果同時指定了開始日期和結束日期，則搜索將包括從開始日期到結束日期的匹配文檔。 </p> <p>所有日期都會相對於格林威治標準時間進行搜尋。 </p> </td> 
+   <td colname="col4"> <p>這三份數值會指定要搜尋的特定日期範圍的開始日期。 請務必指定全部三個值，因為會忽略部分指定的日期。 </p> <p>只指定開始日期、結束日期或開始日期和結束日期都是合法的。 如果僅指定了開始日期，則搜索將包括日期為開始日期或之後的匹配文檔。 如果僅指定了結束日期，則搜索將包括結束日期或結束日期之前的匹配文檔。 如果同時指定了開始日期和結束日期，則搜索將包括從開始日期到結束日期的匹配文檔。 </p> <p>所有日期都會依據格林威治標準時間進行搜尋。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> 日期範圍符合：結束日期 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_end_day、sp_end_month、sp_end_year  </span> </p> <p> </p> </td> 
+   <td colname="col2"> <p> 日期範圍比對：結束日期 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_end_day, sp_end_month, sp_end_year  </span> </p> <p> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>此三分數值指定要搜尋的特定日期範圍的結束日期。 請確定您指定了這三個值，因為會忽略部分指定的日期。 </p> <p>只指定開始日期、結束日期或開始和結束日期都是合法的。 如果只指定了開始日期，則搜索將包括日期在開始日期或之後的匹配文檔。 如果只指定結束日期，搜尋會包含結束日期或結束日期之前的相符檔案。 如果同時指定了開始和結束日期，則搜索將包括從開始日期到結束日期的匹配文檔。 </p> <p>所有日期都會相對於格林威治標準時間進行搜尋。 </p> </td> 
+   <td colname="col4"> <p>這三份數值會指定要搜尋的特定日期範圍的結束日期。 請務必指定全部三個值，因為會忽略部分指定的日期。 </p> <p>只指定開始日期、結束日期或開始日期和結束日期是合法的。 如果僅指定了開始日期，則搜索將包括日期為開始日期或之後的匹配文檔。 如果僅指定了結束日期，則搜索將包括結束日期或結束日期之前的匹配文檔。 如果同時指定了開始日期和結束日期，則搜索將包括從開始日期到結束日期的匹配文檔。 </p> <p>所有日期都會依據格林威治標準時間進行搜尋。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>在搜尋欄位中 </p> </td> 
+   <td colname="col2"> <p>在搜尋欄位內 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> sp_x  </span> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;List&nbsp;box&nbsp;selects&nbsp;the&nbsp;search&nbsp;field&nbsp;--&gt; 
       Within&nbsp;&lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
@@ -391,7 +390,7 @@ ht-degree: 0%
       &lt;option&nbsp;value="target"&gt;Target&lt;/option&gt; 
       &lt;option&nbsp;value="date"&gt;Date&lt;/option&gt;* 
       &lt;/select&gt; </code> </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> sp_x </span>清單方塊可讓客戶指定要在其中搜尋查詢字串的欄位。 </p> <p>客戶可以選擇所有欄位、標題、檔案說明、檔案關鍵字、內文、替代文字、檔案的URL、日期或目標關鍵字。 </p> <p>使用<span class="codeph"> sp_x </span>參數時，客戶不需要在搜尋查詢字串中指定「title:」、「desc:」、「keys:」、「body:」、「alt:」、「url:」和「target:」。 </p> <p>如果省略<span class="codeph"> sp_x </span>參數，或者將其設為""或"any"，則客戶仍可使用欄位指定字串。 如果<span class="codeph"> sp_x </span>參數設為特定欄位，則忽略所有其他欄位指定符字串。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local">關於搜尋</a>。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> sp_x </span>清單方塊可讓您的客戶指定要在其中搜尋查詢字串的欄位。 </p> <p>客戶可以選擇所有欄位、標題、文檔說明、文檔關鍵字、正文、替代文本、文檔的URL、日期或目標關鍵字。 </p> <p>使用<span class="codeph"> sp_x </span>參數時，客戶不需要在搜尋查詢字串中指定「title：」、「desc：」、「keys：」、「body：」、「alt：」、「url：」和「target：」。 </p> <p>如果省略了<span class="codeph"> sp_x </span>參數，或將其設定為""或"any"，則客戶仍可使用欄位說明符字串。 如果將<span class="codeph"> sp_x </span>參數設定為特定欄位，則會忽略所有其他欄位說明符字串。 </p> <p>請參閱<a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local">關於搜尋</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>顯示結果計數 </p> </td> 
@@ -404,7 +403,7 @@ ht-degree: 0%
       &lt;option&nbsp;value=50&gt;50&lt;/option&gt; 
       &lt;option&nbsp;value=100&gt;100&lt;/option&gt; 
       &lt;/select&gt;&nbsp;results </code> </p> </td> 
-   <td colname="col4"> <p>可讓客戶選擇每個搜尋結果頁面上顯示的搜尋結果數目。 </p> <p>表單中可以有您想要的選擇，也可以是最少的。 請確定"value="值與顯示的值相符。 </p> </td> 
+   <td colname="col4"> <p>可讓客戶選擇在每個搜尋結果頁面上顯示的搜尋結果數目。 </p> <p>表單中可以有任意數目或任意數目的選項。 確認「value=」值符合顯示的值。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>顯示或隱藏摘要 </p> </td> 
@@ -414,34 +413,34 @@ ht-degree: 0%
       &lt;option&nbsp;value=1&nbsp;selected&gt;with&lt;/option&gt; 
       &lt;option&nbsp;value=0&gt;without&lt;/option&gt; 
       &lt;/select&gt;&nbsp;summaries&nbsp; </code> </p> </td> 
-   <td colname="col4"> <p>可讓客戶選擇是否針對每個相符項目顯示摘要文字。 </p> <p>如果要顯示摘要，請將值設定為1。 如果要隱藏摘要，請將值設為0。 您也可以搭配一組選項按鈕使用參數，如下列範例所示： </p> <p> <code class="syntax html"> &lt;!--&nbsp;Show&nbsp;or&nbsp;hide&nbsp;summaries&nbsp;in&nbsp;search&nbsp;results&nbsp;--&gt; 
+   <td colname="col4"> <p>讓客戶選擇是否顯示每個相符項目的摘要文字。 </p> <p>如果要顯示摘要，請將值設為1。 如果要隱藏摘要，請將值設定為0。 您也可以搭配一組選項按鈕使用參數，如下列範例所示： </p> <p> <code class="syntax html"> &lt;!--&nbsp;Show&nbsp;or&nbsp;hide&nbsp;summaries&nbsp;in&nbsp;search&nbsp;results&nbsp;--&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_m"&nbsp;value=1&nbsp;selected&gt;Show&nbsp;summaries 
       &lt;input&nbsp;type=radio&nbsp;name="sp_m"&nbsp;value=0&gt;Hide&nbsp;summaries </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>依結果排序 </p> </td> 
+   <td colname="col2"> <p>按結果排序 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> sp_s  </span> </p> </td> 
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;Sort&nbsp;results&nbsp;by&nbsp;relevance&nbsp;or&nbsp;by&nbsp;date&nbsp;--&gt; 
       Sort&nbsp;by&nbsp;&lt;select&nbsp;name="sp_s"&nbsp;size=1&gt; 
       &lt;option&nbsp;value=0&nbsp;selected&gt;relevance&lt;/option&gt; 
       &lt;option&nbsp;value=1&gt;date&lt;/option&gt; 
       &lt;/select&gt; </code> </p> </td> 
-   <td colname="col4"> <p>可讓客戶選擇結果是依相關性或日期排列。 </p> <p>當值設為1時，結果會從最近變更的檔案列出為最近變更的檔案。 當值設為0時，結果會從最相關和最不相關中列出。 您也可以搭配使用此參數與選項按鈕，如下列範例所示： </p> <p> <code class="syntax html"> &lt;!--&nbsp;Sort&nbsp;results&nbsp;by&nbsp;relevance&nbsp;or&nbsp;by&nbsp;date&nbsp;--&gt; 
+   <td colname="col4"> <p>可讓客戶根據關聯性或日期選擇列出結果。 </p> <p>將值設定為1時，結果將從最近更改的文檔列為最近更改的文檔。 當值設為0時，結果會從最相關和最不相關的中列出。 您也可以搭配選項按鈕使用此參數，如下列範例所示： </p> <p> <code class="syntax html"> &lt;!--&nbsp;Sort&nbsp;results&nbsp;by&nbsp;relevance&nbsp;or&nbsp;by&nbsp;date&nbsp;--&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_s"&nbsp;value=0&nbsp;selected&gt;Sort&nbsp;by&nbsp;relevance 
       &lt;input&nbsp;type=radio&nbsp;name="sp_s"&nbsp;value=1&gt;Sort&nbsp;by&nbsp;date </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 進階搜尋表單HTML程式碼{#reference_9AAD4A46B68D4D48865508982CB86DB9}
+## 進階搜尋表單HTML程式碼 {#reference_9AAD4A46B68D4D48865508982CB86DB9}
 
-用於生成高級搜索表單的HTML表單代碼，該表單顯示在「示例高級搜索表單」主題的頂部。
+用於產生進階搜尋表單的HTML表單程式碼，會顯示在「範例進階搜尋表單」主題頂端。
 
 請參閱[範例進階搜尋表單](#reference_82E1051918744EBA88A01E9E6AE42C4A)。
 
-如果您使用此代碼，請記得將`sp_a`值`sp99999999`取代為實際帳戶號碼。
+如果您使用此代碼，請記得將`sp99999999`的`sp_a`值替換為實際帳號。
 
-若要尋找您的帳戶號碼，請在產品功能表上按一下&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Account Settings]**。
+若要尋找您的帳戶號碼，請在產品功能表上按一下「**[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Account Settings]**」。
 
 ```
 <form method="get" action="https://search.atomz.com/search/"> 
@@ -633,13 +632,13 @@ Sound-alike matching
 </form>
 ```
 
-## 進階搜尋表單範本代碼{#reference_D762C22E754E462DBEECD88D2C3FA579}
+## 高級搜索表單模板代碼 {#reference_D762C22E754E462DBEECD88D2C3FA579}
 
 您可以將進階搜尋表單HTML程式碼新增至範本，讓任何參數的預設選項與先前的搜尋相同。
 
-換言之，如果客戶按一下&#x200B;**[!UICONTROL Exact phrase]**&#x200B;選項按鈕，您可以確保在顯示搜尋結果時，會依預設選取選項按鈕。
+換言之，如果客戶按一下&#x200B;**[!UICONTROL Exact phrase]**&#x200B;選項按鈕，您可以確保在顯示搜索結果時預設選擇了單選按鈕。
 
-此功能是透過從標準HTML標籤中移除所有「已勾選」或「選取」的指定符號，然後取代下列HTML標籤來完成：
+若要完成此功能，請從標準HTML標籤中移除所有「已勾選」或「已選取」說明符，然後取代下列HTML標籤：
 
 * `<input>`
 * `<select>`
@@ -647,7 +646,7 @@ Sound-alike matching
 * `</option>`
 * `</select>`
 
-與下列對應的範本標籤：
+以及下列對應的範本標籤：
 
 * `<search-input>`
 * `<search-select>`
@@ -655,7 +654,7 @@ Sound-alike matching
 * `</search-option>`
 * `</search-select>`
 
-若要這麼做，請使用下列程式碼作為搜尋範本上的`<form>`標籤。
+要執行此操作，請使用下列程式碼作為搜尋範本上的`<form>`標籤。
 
 ```
 <!-- Adobe Target results section.--> 
